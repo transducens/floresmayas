@@ -1,11 +1,12 @@
 import json
 import logging
 from datetime import datetime
+from sheets_create import create_translation_spreadsheet
 from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
 from sheets_create import create_revision_sheet
-from constants import Stage, DATETIME_FORMAT, LOGGER_FORMAT
-from util import authenticate, is_ready_packet, is_complete_translation
+from constants import Stage, DATETIME_FORMAT, LOGGER_FORMAT, DATASET, R
+from util import *
 from icecream import ic
 
 logger = logging.getLogger('updat_packets')
@@ -16,17 +17,70 @@ logging.getLogger('updat_packets').addHandler(handler)
 
 if __name__ == "__main__":
 
+    # Authenticate and get credentials object
     creds = authenticate()
+
+    # Try to get config file
     try:
-        with open("../data/packets.json") as f:
-            packets = json.loads(f.read())
-    except Exception:
-        print("No valid packets file found.")
+        with open("../data/config.json") as f:
+            config = json.loads(f.read())
+    except FileNotFoundError:
+        logger.warning("No config file found.")
         exit(1)
 
-    for lang in packets.keys():
+    # Check if there's at least one package in config and create one if not
+    for lang in config.keys():
+        packets = [p for _, p in config[lang]['packets'].items() if p is not None]
+        if not packets:
+            logger.warning(f"Language '{lang}' has no packages ready to work on.")
+            translators = config[lang]['translators']
+            if not translators:
+                logger.warning(f"No translators available for language '{lang}.")
+                continue
+            for translator in translators:
+                revisor = list(config[lang]['revisors'].keys())[0]
+                packet_idx = min(int(idx) for idx in config[lang]['packets'].keys() if config[lang]['packets'][idx] is None)
+                config[lang]['packets'][str(packet_idx)] = create_translation_spreadsheet(
+                    creds=creds,
+                    sents=DATASET[packet_idx],
+                    lang_code=lang,
+                    title=f"{lang}_{packet_idx}",
+                    tra_email=translator,
+                    rev_email=revisor,
+                    packet_idx=packet_idx,
+                )
+                logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
+
+    # Iterate over languages in config file
+    for lang in config.keys():
         logger.info(f"Running update on language: {lang}")
-        for packet in [p for p in packets[lang] if p['stage'] != Stage.TRANSLATION_COMPLETE.name]:
+
+        # Check if all translators of current language are assigned to a packet
+        busy_translators = [
+            packet['translator'] for _, packet in config[lang]['packets'].items() if packet is not None
+            and packet['stage'] != Stage.TRANSLATION_COMPLETE.name
+        ]
+        free_translators = [translator for translator in config[lang]['translators'].keys() if translator not in busy_translators]
+        if free_translators:
+            logger.info(f"Found {len(free_translators)} unassigned translator(s). Assigning them a packet to work on.")
+            revisor = list(config[lang]['revisors'].keys())[0]
+            for translator in free_translators:
+                packet_idx = [int(idx) for idx in config[lang]['packets'].keys() if config[lang]['packets'][idx] is None]
+                packet_idx = min(packet_idx)
+                config[lang]['packets'][str(packet_idx)] = create_translation_spreadsheet(
+                    creds=creds,
+                    sents=DATASET[packet_idx],
+                    lang_code=lang,
+                    title=f"{lang}_{packet_idx}",
+                    tra_email=translator,
+                    rev_email=revisor,
+                    packet_idx=packet_idx,
+                )
+                logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'.""")
+
+        # Iterate over packets checking status
+        packets = [(idx, packet) for idx, packet in config[lang]['packets'].items() if packet is not None]
+        for idx, packet in packets:
             if packet['stage'] == Stage.FIRST_TRANSLATION.name:
 
                 if is_ready_packet(packet['tra_id'], creds):
@@ -34,43 +88,100 @@ if __name__ == "__main__":
                     packet['stage'] = Stage.FIRST_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': First translation complete by user '{packet['translator']}'. Submitting for revision.")
-                    packets = create_revision_spreadsheet(creds, lang, packet['title'], packets)
+                    config[lang]['packets'][idx] = create_revision_spreadsheet(creds, lang, packet['title'], packet)
 
             elif packet['stage'] == Stage.SECOND_TRANSLATION.name:
                 if is_ready_packet(packet['tra_id'], creds):
 
+                    c = get_c(
+                        R=R,
+                        k=config[lang]['spent_additional_revisions'],
+                        n=len(config[lang]['packets']),
+                        t=len([key for key in config[lang]['packets'].keys() if config[lang]['packets'][key] is not None])
+                    )
+                    ic(c)
+                    r_max = get_r_max(c=c, t=len([key for key in config[lang]['packets'].keys() if config[lang]['packets'][key] is not None]))
+                    ic(r_max)
+
                     packet['stage'] = Stage.SECOND_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': Second translation complete by user '{packet['translator']}'. Submitting for second revision.")
-                    packets = create_revision_sheet(creds, lang, packet['title'], packets)
+                    config[lang]['packets'][idx], k = create_revision_sheet(creds, lang, packet['title'], packet, r_max)
+                    config[lang]['spent_additional_revisions'] += k
+
             elif packet['stage'] == Stage.FIRST_REVISION.name:
                 if is_ready_packet(packet['rev_id'], creds):
                     if is_complete_translation(packet['rev_id'], creds):
 
+                        # update config with stage, completed packet, and the sentences translated by
+                        # both the translator and the revisor
                         packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                         packet['stage'] = Stage.TRANSLATION_COMPLETE
+                        config[lang]['packets'][idx] = packet
+                        tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
+                        config[lang]['translators'][packet['translator']][idx] = tra_sents
+                        config[lang]['revisors'][packet['revisor']][idx] = rev_sents
 
                         logger.info(
                             f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. No errors found. Translation complete."
                         )
-                        # logger.info(f'Creating next package')
+                        logger.info(f"""Checking to see next available packet for user '{packet["translator"]}.""")
+
+                        next_packet_idx = min(int(idx) for idx in config[lang]['packets'].keys() if config[lang]['packets'][idx] is None)
+
+                        if not next_packet_idx:
+                            logger.info(f"No new packets available for language '{lang}'")
+                            continue
+
+                        config[lang]['packets'][str(next_packet_idx)] = create_translation_spreadsheet(
+                            creds=creds,
+                            sents=DATASET[next_packet_idx],
+                            lang_code=lang,
+                            title=f"{lang}_{next_packet_idx}",
+                            tra_email=packet['translator'],
+                            rev_email=packet['revisor'],
+                            packet_idx=next_packet_idx,
+                        )
+                        logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
                         continue
 
                     packet['stage'] = Stage.SECOND_TRANSLATION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
-                    logger.info(f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. Submitting for second translation")
-                    packets = create_correction_sheet(creds, lang, packet['title'], packets)
+                    config[lang]['packets'][idx] = create_correction_sheet(creds, lang, packet['title'], packet)
+                    logger.info(f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. Submitting for second translation.")
 
             elif packet['stage'] == Stage.SECOND_REVISION.name:
-                logger.info(f"Packet '{packet['title']}': Second revision complete by user '{packet['revisor']}'. Translation complete.")
-                packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
-                packet['stage'] = Stage.TRANSLATION_COMPLETE
-                # TODO add step to go to next package
-                # TODO lock spreadsheet once it is finished
-                pass
+                if is_ready_packet(packet['rev_id'], creds):
+                    packet['stage'] = Stage.TRANSLATION_COMPLETE
+                    packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
+                    config[lang]['packets'][idx] = packet
+                    tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
+                    config[lang]['translators'][packet['translator']] += tra_sents
+                    config[lang]['revisors'][packet['revisor']] += rev_sents
+
+                    logger.info(f"Packet '{packet['title']}': Second revision complete by user '{packet['revisor']}'. Translation complete.")
+                    logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
+
+                    next_packet_idx = [int(idx) for idx in config[lang]['packets'].keys() if config[lang]['packets'][idx] is None]
+                    if not next_packet_idx:
+                        logger.info(f"No new packets available for language '{lang}'")
+                        continue
+
+                    next_packet_idx = min(next_packet_idx)
+                    config[lang]['packets'][str(next_packet_idx)] = create_translation_spreadsheet(
+                        creds=creds,
+                        sents=DATASET[next_packet_idx],
+                        lang_code=lang,
+                        title=f"{lang}_{next_packet_idx}",
+                        tra_email=packet['translator'],
+                        rev_email=packet['revisor'],
+                        packet_idx=next_packet_idx,
+                    )
+                    logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
+                    continue
 
         logger.info(f"Update on language '{lang}' complete.")
-
-    with open("../data/packets.json", "w") as f:
-        f.write(json.dumps(packets, indent=2))
+    logger.info(f"Saving config to file.")
+    with open("../data/config.json", "w") as g:
+        g.write(json.dumps(config, indent=2))
     logger.info(f"Update complete.")

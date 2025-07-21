@@ -1,12 +1,22 @@
 import os.path
 import json
-from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE
+import pandas as pd
+from math import sqrt, floor
 from Levenshtein import distance
+from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, DATASET
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from icecream import ic
+
+
+def get_c(R, k, n, t):
+    return (R - k) / (2 * (sqrt(n) - sqrt(t)))
+
+
+def get_r_max(c, t):
+    return floor(c / sqrt(t))
 
 
 def authenticate():
@@ -116,6 +126,41 @@ def is_complete_translation(id: str, creds: object) -> bool:
 
     return len([value for value in data if value == "Correcta"]) == len(data)
 
-if __name__ == "__main__":
 
-    print(is_ready_packet("1mBKH7xlPt6F9WvXyTcPyf5JQu5NeEA6wMGBCit9QAFg", authenticate()))
+def get_translation_ids(creds: object, rev_id: str) -> list:
+    service = build("sheets", "v4", credentials=creds)
+    sheets = service.spreadsheets().get(spreadsheetId=rev_id).execute()['sheets']
+    sheet_title = sheets[-1]['properties']['title']
+    values = service.spreadsheets().values().get(spreadsheetId=rev_id, range=f"{sheet_title}!A1:N{PACKET_SIZE + 1}").execute()['values']
+    if len(sheets) == 1:
+        values = [value[0] for value in values[1:]]
+        return values, []
+
+    tra_values = [value for value in values[1:] if len(value) != 14]
+    rev_values = [value for value in values[1:] if len(value) == 14]
+
+    tra_values = [value[0] for value in tra_values]
+    rev_values = [value[0] for value in rev_values]
+
+    return tra_values, rev_values
+
+
+def generate_config(langs: list, n_packets: int) -> dict:
+    config = {
+        lang: {
+            "translators": {},
+            "revisors": {},
+            "packets": {
+                i: None for i in range(n_packets)
+            },
+            "spent_additional_revisions": 0
+        } for lang in langs
+    }
+
+    return config
+
+
+# if __name__ == "__main__":
+#     config = generate_config(langs=['dum', 'cak', 'kek', 'quc', 'mam'], n_packets=len(DATASET))
+#     with open('../data/config.json', 'w') as f:
+#         f.write(json.dumps(config, indent=2))
