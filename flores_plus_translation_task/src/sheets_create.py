@@ -450,43 +450,6 @@ def create_translation_spreadsheet(
         "packet_idx": packet_idx
     }
 
-    # apps_script_service = build("script", "v1", credentials=creds)
-    # results = (
-    #     apps_script_service.projects().create(
-    #         body={
-    #             "title": f"FLORES+ Mayas: {title}",
-    #             "parentId": id
-    #         }
-    #     ).execute()
-    # )
-    # script_id = results['scriptId']
-
-    # with open("apps_script.js") as f, open("appsscript.json") as g:
-    #     apps_script = f.read()
-    #     manifest = g.read()
-
-    # body = {
-    #     "files": [
-    #         {
-    #             "name": "appsscript",
-    #             "type": "JSON",
-    #             "source": manifest
-    #         },
-    #         {
-    #             "name": "script",
-    #             "type": "SERVER_JS",
-    #             "source": apps_script,
-    #         }
-    #     ]
-    # }
-
-    # results = (
-    #     apps_script_service.projects().updateContent(
-    #         scriptId=script_id,
-    #         body=body
-    #     ).execute()
-    # )
-
 
 def create_revision_spreadsheet(creds, lang_code, title, packet):
     tra_id = packet['tra_id']
@@ -1001,36 +964,12 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
         body=body
     ).execute()
 
-    # with open('../data/packets.json') as f:
-    #     packets = json.loads(f.read())
-
     packet['rev_id'] = rev_id
-
-    # with open('../data/packets.json', 'w') as f:
-    #     f.write(json.dumps(packets, indent=2))
 
     return packet
 
 
 def create_correction_sheet(creds, lang_code, title, packet):
-
-    # with open('../data/packets.json') as f:
-    #     packets = json.loads(f.read())
-
-    # if packets.get(lang_code) is None:
-    #     raise Exception("Language has no translation spreadsheet!")
-
-    # packet = [
-    #     packet for packet in packets[lang_code] if packet['title'] == title
-    # ]
-
-    # packet = max(
-    #     packet, key=lambda x: datetime.datetime.strptime(
-    #         x['created'], DATETIME_FORMAT
-    #     )
-    # )
-
-    # packet_idx = packet['packet_idx']
 
     tra_id = packet['tra_id']
     rev_id = packet['rev_id']
@@ -1314,37 +1253,13 @@ def create_correction_sheet(creds, lang_code, title, packet):
         body=body,
     ).execute()
 
-    # with open('../data/packets.json') as f:
-    #     packets = json.loads(f.read())
-
     packet['stage'] = Stage.SECOND_TRANSLATION
     packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
-
-    # with open('../data/packets.json', 'w') as f:
-    #     f.write(json.dumps(packets, indent=2))
 
     return packet
 
 
 def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int):
-
-    # with open('../data/packets.json') as f:
-    #     packets = json.loads(f.read())
-
-    # if packets.get(lang_code) is None:
-    #     raise Exception("Language has no translation spreadsheet!")
-
-    # packet = [
-    #     packet for packet in packets[lang_code] if packet['title'] == title
-    # ]
-
-    # packet = max(
-    #     packet, key=lambda x: datetime.datetime.strptime(
-    #         x['created'], DATETIME_FORMAT
-    #     )
-    # )
-
-    # packet_idx = packets[lang_code].index(packet)
 
     rev_id = packet['rev_id']
     tra_id = packet['tra_id']
@@ -1793,13 +1708,7 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
         body=body,
     ).execute()
 
-    # with open('../data/packets.json') as f:
-    #     packets = json.loads(f.read())
-
     packet['stage'] = Stage.SECOND_REVISION
     packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
 
     return packet, len(rows_to_correct)
-
-    # with open('../data/packets.json', 'w') as f:
-    #     f.write(json.dumps(packets, indent=2))
