@@ -1,6 +1,5 @@
 from icecream import ic
 import os
-import os.path
 import spacy
 import json
 import datetime
@@ -12,7 +11,13 @@ from googleapiclient.errors import HttpError
 
 
 def create_translation_spreadsheet(
-    creds, sents, lang_code, title, tra_email, rev_email
+    creds,
+    sents,
+    lang_code,
+    title,
+    tra_email,
+    rev_email,
+    packet_idx,
 ):
 
     ids = [row.split('\t')[0] for row in sents]
@@ -433,7 +438,7 @@ def create_translation_spreadsheet(
 
     # check if id file exists and create if it not
 
-    packet_dict = {
+    return {
         "tra_id": id,
         "rev_id": None,
         "title": title,
@@ -442,24 +447,8 @@ def create_translation_spreadsheet(
         "translator": tra_email,
         "revisor": rev_email,
         "stage": Stage.FIRST_TRANSLATION,
+        "packet_idx": packet_idx
     }
-
-    if not os.path.exists("../data/packets.json"):
-        packets = {lang_code: [packet_dict]}
-
-        with open('../data/packets.json', 'w') as f:
-            f.write(json.dumps(packets, indent=2))
-    else:
-        with open('../data/packets.json') as f:
-            packets = json.loads(f.read())
-
-        if packets.get(lang_code) is not None:
-            packets[lang_code].append(packet_dict)
-        else:
-            packets[lang_code]: [packet_dict]
-
-        with open('../data/packets.json', 'w') as f:
-            f.write(json.dumps(packets, indent=2))
 
     # apps_script_service = build("script", "v1", credentials=creds)
     # results = (
@@ -499,24 +488,8 @@ def create_translation_spreadsheet(
     # )
 
 
-def create_revision_spreadsheet(creds, lang_code, title, packets):
-
-    if packets.get(lang_code) is None:
-        raise Exception("Language has no translation spreadsheet!")
-
-    packet = [
-        packet for packet in packets[lang_code] if packet['title'] == title
-    ]
-
-    packet = max(
-        packet, key=lambda x: datetime.datetime.strptime(
-            x['created'], DATETIME_FORMAT
-        )
-    )
-    packet_idx = packets[lang_code].index(packet)
-
+def create_revision_spreadsheet(creds, lang_code, title, packet):
     tra_id = packet['tra_id']
-
     sheets_service = build("sheets", "v4", credentials=creds)
 
     # Get protected range id and lock first translation sheet
@@ -1031,34 +1004,33 @@ def create_revision_spreadsheet(creds, lang_code, title, packets):
     # with open('../data/packets.json') as f:
     #     packets = json.loads(f.read())
 
-    packets[lang_code][packet_idx]['rev_id'] = rev_id
-    packets[lang_code][packet_idx]['stage'] = Stage.FIRST_REVISION
-    packets[lang_code][packet_idx]['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
+    packet['rev_id'] = rev_id
 
     # with open('../data/packets.json', 'w') as f:
     #     f.write(json.dumps(packets, indent=2))
 
-    return packets
+    return packet
 
-def create_correction_sheet(creds, lang_code, title, packets):
+
+def create_correction_sheet(creds, lang_code, title, packet):
 
     # with open('../data/packets.json') as f:
     #     packets = json.loads(f.read())
 
-    if packets.get(lang_code) is None:
-        raise Exception("Language has no translation spreadsheet!")
+    # if packets.get(lang_code) is None:
+    #     raise Exception("Language has no translation spreadsheet!")
 
-    packet = [
-        packet for packet in packets[lang_code] if packet['title'] == title
-    ]
+    # packet = [
+    #     packet for packet in packets[lang_code] if packet['title'] == title
+    # ]
 
-    packet = max(
-        packet, key=lambda x: datetime.datetime.strptime(
-            x['created'], DATETIME_FORMAT
-        )
-    )
+    # packet = max(
+    #     packet, key=lambda x: datetime.datetime.strptime(
+    #         x['created'], DATETIME_FORMAT
+    #     )
+    # )
 
-    packet_idx = packets[lang_code].index(packet)
+    # packet_idx = packet['packet_idx']
 
     tra_id = packet['tra_id']
     rev_id = packet['rev_id']
@@ -1345,33 +1317,34 @@ def create_correction_sheet(creds, lang_code, title, packets):
     # with open('../data/packets.json') as f:
     #     packets = json.loads(f.read())
 
-    packets[lang_code][packet_idx]['stage'] = Stage.SECOND_TRANSLATION
-    packets[lang_code][packet_idx]['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
+    packet['stage'] = Stage.SECOND_TRANSLATION
+    packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
 
     # with open('../data/packets.json', 'w') as f:
     #     f.write(json.dumps(packets, indent=2))
 
-    return packets
+    return packet
 
-def create_revision_sheet(creds, lang_code, title, packets):
+
+def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int):
 
     # with open('../data/packets.json') as f:
     #     packets = json.loads(f.read())
 
-    if packets.get(lang_code) is None:
-        raise Exception("Language has no translation spreadsheet!")
+    # if packets.get(lang_code) is None:
+    #     raise Exception("Language has no translation spreadsheet!")
 
-    packet = [
-        packet for packet in packets[lang_code] if packet['title'] == title
-    ]
+    # packet = [
+    #     packet for packet in packets[lang_code] if packet['title'] == title
+    # ]
 
-    packet = max(
-        packet, key=lambda x: datetime.datetime.strptime(
-            x['created'], DATETIME_FORMAT
-        )
-    )
+    # packet = max(
+    #     packet, key=lambda x: datetime.datetime.strptime(
+    #         x['created'], DATETIME_FORMAT
+    #     )
+    # )
 
-    packet_idx = packets[lang_code].index(packet)
+    # packet_idx = packets[lang_code].index(packet)
 
     rev_id = packet['rev_id']
     tra_id = packet['tra_id']
@@ -1449,7 +1422,7 @@ def create_revision_sheet(creds, lang_code, title, packets):
     rows_to_correct = [r for r in rows_to_correct if r[1][6] != 'Correcta']
     rows_to_ignore = []
 
-    if len(rows_to_correct) > R_MAX:
+    if len(rows_to_correct) > r_max:
         rows_to_ignore = [
             row for row in rows_to_correct if row[1][6] == "Error menor"
         ]
@@ -1457,20 +1430,19 @@ def create_revision_sheet(creds, lang_code, title, packets):
             row for row in rows_to_correct if row[1][6] != "Error menor"
         ]
 
-        if len(rows_to_correct) > R_MAX:
+        if len(rows_to_correct) > r_max:
             shuffle(rows_to_correct)
-            rows_to_ignore += rows_to_correct[R_MAX:]
-            rows_to_correct = rows_to_correct[:R_MAX]
+            rows_to_ignore += rows_to_correct[r_max:]
+            rows_to_correct = rows_to_correct[:r_max]
         else:
             shuffle(rows_to_ignore)
-            d = R_MAX - len(rows_to_correct)
+            d = r_max - len(rows_to_correct)
             rows_to_correct += rows_to_ignore[:d]
             rows_to_ignore = rows_to_ignore[d:]
 
     rows_to_correct_validation_st = [f"$O{r[0] + 1}" for r in rows_to_correct]
     rows_to_correct_validation_st = ";".join(rows_to_correct_validation_st)
     rows_to_correct_validation_st = f"AND({rows_to_correct_validation_st})"
-
 
     body = {
         "requests": [
@@ -1824,10 +1796,10 @@ def create_revision_sheet(creds, lang_code, title, packets):
     # with open('../data/packets.json') as f:
     #     packets = json.loads(f.read())
 
-    packets[lang_code][packet_idx]['stage'] = Stage.SECOND_REVISION
-    packets[lang_code][packet_idx]['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
+    packet['stage'] = Stage.SECOND_REVISION
+    packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
 
-    return packets
+    return packet, len(rows_to_correct)
 
     # with open('../data/packets.json', 'w') as f:
     #     f.write(json.dumps(packets, indent=2))
