@@ -3,6 +3,9 @@ import json
 from math import floor
 from enum import Enum
 
+with open("../data/config.json") as f:
+    config = json.loads(f.read())
+
 SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/drive",
@@ -15,7 +18,7 @@ LOGGER_FORMAT = '%(levelname)s : %(asctime)s %(message)s'
 HOME = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 CATEGORY_COLUMN_SPREADSHEET_ID = "1EGhgsdl2MSI2-mQ6ilkTaLFGVtjtmujU7mkCqZwuL6Y"
 
-PACKET_SIZE = 6
+PACKET_SIZE = config['packet_size']
 R = 120
 
 with open("../data/flores.eng-spa.dev") as f:
