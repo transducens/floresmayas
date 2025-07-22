@@ -1,0 +1,5 @@
+google_api_python_client==2.171.0
+google_auth_oauthlib==1.2.2
+protobuf==6.31.1
+python_Levenshtein==0.27.1
+spacy==3.8.5
