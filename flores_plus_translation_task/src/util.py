@@ -1,14 +1,12 @@
 import os.path
 import json
-import pandas as pd
 from math import sqrt, floor
 from Levenshtein import distance
-from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, DATASET
+from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
-from icecream import ic
 
 
 def get_c(R, k, n, t):
@@ -91,8 +89,6 @@ def get_users(users_filename: str) -> dict:
 
 
 def is_ready_packet(id: str, creds: object) -> bool:
-    # if id == '':
-    #     return False
     service = build("sheets", "v4", credentials=creds)
     last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][-1]['properties']['title']
     results = (
@@ -153,14 +149,7 @@ def generate_config(langs: list, n_packets: int) -> dict:
             "packets": {
                 i: None for i in range(n_packets)
             },
-            "spent_additional_revisions": 0
         } for lang in langs
     }
 
     return config
-
-
-# if __name__ == "__main__":
-#     config = generate_config(langs=['dum', 'cak', 'kek', 'quc', 'mam'], n_packets=len(DATASET))
-#     with open('../data/config.json', 'w') as f:
-#         f.write(json.dumps(config, indent=2))
