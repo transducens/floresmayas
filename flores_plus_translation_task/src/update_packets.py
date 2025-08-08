@@ -6,6 +6,7 @@ from sheets_create import create_translation_spreadsheet
 from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
 from sheets_create import create_revision_sheet
+from sheets_create import create_vocab_spreadsheet
 from constants import Stage, DATETIME_FORMAT, LOGGER_FORMAT, DATASET, R
 from util import *
 
@@ -38,7 +39,8 @@ if __name__ == "__main__":
                 },
                 "packets": {
                     str(i): None for i in range(len(DATASET))
-                }
+                },
+                "inactive_translators": {}
             } for lang in config['langs'].keys()
         }
     else:
@@ -47,6 +49,14 @@ if __name__ == "__main__":
 
     # Authenticate and get credentials object
     creds = authenticate()
+
+    # Check if there is a vocabulary spreadsheet for each language in state
+    # and create one if not
+    for lang in state.keys():
+        if state[lang].get('vocab_id') is None:
+            permission_emails = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys())
+            state[lang]['vocab_id'] = create_vocab_spreadsheet(creds, lang, permission_emails)
+
 
     # Check if there's at least one package in state and create one if not
     for lang in state.keys():
@@ -71,6 +81,7 @@ if __name__ == "__main__":
                 )
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
 
+
     # Iterate over languages in state file
     for lang in state.keys():
         logger.info(f"Running update on language: {lang}")
@@ -79,10 +90,10 @@ if __name__ == "__main__":
         inactive_translators = {
             translator: state[lang]['translators'][translator] for translator in state[lang]['translators'].keys() if translator not in config['langs'][lang]['translators']
         }
+        state[lang]['inactive_translators'].update(inactive_translators)
 
         if inactive_translators:
             logger.warning(f"Found {len(inactive_translators)} inactive translator(s).")
-            state[lang]['inactive_translators'] = inactive_translators
             for t in inactive_translators:
                 state[lang]['translators'].pop(t, None)
 

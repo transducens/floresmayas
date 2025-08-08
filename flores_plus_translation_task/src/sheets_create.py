@@ -38,11 +38,12 @@ def create_translation_spreadsheet(
             token for token in tokens if token in VOCAB_FLORES_PLUS.keys()
         ]
         cell_vocab = [
-            token + f": definición de {token}\n\n" for token in cell_vocab
+            token + f": {VOCAB_FLORES_PLUS.get(token)}\n\n" for token in cell_vocab
         ]
         cell_vocab = "".join(cell_vocab)
         vocab.append(cell_vocab)
 
+    # Create translation sheet
     service = build("sheets", "v4", credentials=creds)
     spreadsheet = {
         "properties": {
@@ -64,7 +65,7 @@ def create_translation_spreadsheet(
     )
     id = spreadsheet.get('spreadsheetId')
 
-    # Create permission for translator
+    # Create permissions for translator
     drive_service = build("drive", "v3", credentials=creds)
 
     body = {
@@ -415,6 +416,7 @@ def create_translation_spreadsheet(
         ]
         parent_folder = parent_folder[0].get('id')
 
+    # Move translation spreadsheet into corresponding folder
     try:
         file = service.files().get(
             fileId=id, fields="parents"
@@ -433,7 +435,9 @@ def create_translation_spreadsheet(
         print(f"An error occurred: {error}")
         return None
 
-    # check if id file exists and create if it not
+    except HttpError as error:
+        print(f"An error occurred: {error}")
+        return None
 
     return {
         "tra_id": id,
@@ -1709,3 +1713,195 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
     packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
 
     return packet, len(rows_to_correct)
+
+
+def create_vocab_spreadsheet(creds, lang, permission_emails):
+    # Create vocab spreadsheet file
+    body = {
+        "properties": {
+            "title": f"vocabulario_{lang}"
+        },
+        "sheets": [
+            {
+                "properties": {
+                    "sheetId": 0,
+                    "title": "vocabulario"
+                }
+            }
+        ]
+    }
+
+    service = build("sheets", "v4", credentials=creds)
+    results = (
+        service.spreadsheets().create(
+            body=body,
+            fields="spreadsheetId"
+        ).execute()
+    )
+    vocab_id = results.get("spreadsheetId")
+
+    # Put data in
+    body = {
+        "valueInputOption": "USER_ENTERED",
+        "data": [
+            {
+                "range": "A1:D1",
+                "values": [
+                    [
+                        "Frecuencia",
+                        "Término",
+                        "Traducción",
+                        "Nota"
+                    ]
+                ],
+            },
+            {
+                "range": "A2:B",
+                "values": [
+                    [value, key] for key, value in VOCAB_FLORES_PLUS.items()
+                ]
+            }
+        ]
+    }
+
+    service.spreadsheets().values().batchUpdate(
+        spreadsheetId=vocab_id,
+        body=body
+    ).execute()
+
+    # Format the data
+    body = {
+        "requests": [
+            {
+                "repeatCell": {
+                    "range": {
+                        "startRowIndex": 0,
+                        "endRowIndex": 1
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "textFormat": {
+                                "bold": True
+                            }
+                        }
+                    },
+                    "fields": "userEnteredFormat.textFormat.bold"
+                }
+            },
+            {
+                "updateSheetProperties": {
+                    "properties": {
+                        "gridProperties": {
+                            "frozenRowCount": 1
+                        }
+                    },
+                    "fields": "gridProperties.frozenRowCount"
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "startRowIndex": 1,
+                        "endRowIndex": 1000
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "wrapStrategy": "WRAP"
+                        }
+                    },
+                    "fields": "userEnteredFormat.wrapStrategy",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "startIndex": 1,
+                        "endIndex": len(VOCAB_FLORES_PLUS.keys())
+                    },
+                    "properties": {
+                        "pixelSize": 300,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "insertDimension": {
+                    "range": {
+                        "dimension": "ROWS",
+                        "startIndex": len(VOCAB_FLORES_PLUS.keys()) + 1,
+                        "endIndex": len(VOCAB_FLORES_PLUS.keys()) + 100
+                    },
+                    "inheritFromBefore": True
+                }
+            },
+            {
+                "addProtectedRange": {
+                    "protectedRange": {
+                        "range": {
+                            "sheetId": 0,
+                        },
+                        "description": "Vocabulario",
+                        "unprotectedRanges": [
+                            {
+                                "sheetId": 0,
+                                "startRowIndex": 1,
+                                "endRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 100,
+                                "startColumnIndex": 2,
+                                "endColumnIndex": 4,
+                            },
+                            {
+                                "sheetId": 0,
+                                "startRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 1,
+                                "endRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 100,
+                                "startColumnIndex": 1,
+                                "endColumnIndex": 4,
+                            },
+                        ],
+                        "editors": {
+                            "users": [
+                                "and_lou@gcloud.ua.es",
+                            ]
+                        }
+                    }
+                }
+            },
+        ]
+    }
+
+    service.spreadsheets().batchUpdate(
+        spreadsheetId=vocab_id,
+        body=body
+    ).execute()
+
+    # Move vocabulary spreadsheet into corresponding folder
+    service = build("drive", "v3", credentials=creds)
+    query = f"mimeType = 'application/vnd.google-apps.folder' and '{FOLDER_ID_TAREA_DE_TRADUCCION}' in parents and name = '{lang}'"
+    results = service.files().list(q=query).execute()
+    parent_folder = results['files'][0]['id']
+
+    file = service.files().get(
+        fileId=vocab_id, fields="parents"
+    ).execute()
+    previous_parents = ",".join(file.get("parents"))
+    file = (
+        service.files()
+        .update(
+            fileId=vocab_id,
+            addParents=parent_folder,
+            removeParents=previous_parents,
+            fields="id, parents",
+        )
+    ).execute()
+
+    # Create permissions for translators and revisor
+    for email in permission_emails:
+        body = {
+            "type": "user",
+            "role": "writer",
+            "emailAddress": email
+        }
+
+        service.permissions().create(fileId=vocab_id, body=body).execute()
+
+    return vocab_id
