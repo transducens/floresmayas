@@ -40,7 +40,8 @@ if __name__ == "__main__":
                 "packets": {
                     str(i): None for i in range(len(DATASET))
                 },
-                "inactive_translators": {}
+                "inactive_translators": {},
+                "spent_additional_revisions": 0
             } for lang in config['langs'].keys()
         }
     else:
@@ -113,6 +114,8 @@ if __name__ == "__main__":
             logger.warning(f"Found {len(inactive_translators)} inactive translator(s).")
             for t in inactive_translators:
                 state[lang]['translators'].pop(t, None)
+            removed_translators = remove_permissions(creds, state)
+            logger.info(f"The following translators have been removed from the project: {removed_translators}")
 
         new_translators = [t for t in config['langs'][lang]['translators'] if t not in state[lang]['translators']]
         for t in new_translators:

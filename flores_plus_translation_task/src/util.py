@@ -2,7 +2,7 @@ import os.path
 import json
 from math import sqrt, floor
 from Levenshtein import distance
-from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE
+from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, FOLDER_ID_TAREA_DE_TRADUCCION
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -153,3 +153,74 @@ def generate_config(langs: list, n_packets: int) -> dict:
     }
 
     return config
+
+
+def remove_permissions(creds, state: dict) -> list:
+    doc_ids = []
+    for lang in state:
+        for packet in state[lang]['packets']:
+            for worker in 'tra_id', 'rev_id':
+                if state[lang]['packets'][packet] and state[lang]['packets'][packet][worker]:
+                    doc_ids.append(state[lang]['packets'][packet][worker])
+        if state[lang].get("vocab_id") is not None:
+            doc_ids.append(state[lang].get("vocab_id"))
+
+    workers_to_remove = []
+    for lang in state:
+        for worker in state[lang]['inactive_translators'].keys():
+            workers_to_remove.append(worker)
+
+    service = build("drive", "v3", credentials=creds)
+    for doc_id in doc_ids:
+        results = service.permissions().list(fileId=doc_id, fields="permissions").execute()
+        for permission in results['permissions']:
+            if permission['emailAddress'] in workers_to_remove:
+                service.permissions().delete(
+                    fileId=doc_id,
+                    permissionId=permission['id']
+                ).execute()
+
+    return workers_to_remove
+
+
+def get_lang_folder(creds, lang: str) -> str:
+
+    service = build("drive", "v3", credentials=creds)
+    q = f"mimeType='application/vnd.google-apps.folder' and name = '{lang}' and parents in '{FOLDER_ID_TAREA_DE_TRADUCCION}'"
+    response = service.files().list(q=q).execute()
+    if len(response['files']) == 0:
+        return ""
+    return response['files'][0]['id']
+
+
+def create_lang_folder(creds, lang: str) -> str:
+    service = build("drive", "v3", credentials=creds)
+    folder_metadata = {
+        "name": lang,
+        "mimeType": "application/vnd.google-apps.folder",
+        "parents": [FOLDER_ID_TAREA_DE_TRADUCCION],
+    }
+    parent_folder = (
+        service
+        .files()
+        .create(body=folder_metadata, fields="id")
+        .execute()
+    )
+    parent_folder = parent_folder.get('id')
+
+
+def get_vocab_from_sheet(creds, doc_id: str) -> dict:
+    service = build("sheets", "v4", credentials=creds)
+    vocab = service.spreadsheets().values().get(
+        spreadsheetId=doc_id,
+        range="A2:D"
+    ).execute()
+    vocab = vocab['values']
+    vocab = {
+        row[1]: {
+            'freq': int(row[0]),
+            'def': row[2] if len(row) > 2 else "",
+            'notes': row[3] if len(row) > 3 else ""
+        } for row in vocab
+    }
+    return vocab
