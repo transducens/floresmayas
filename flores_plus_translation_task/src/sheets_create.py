@@ -1,3 +1,4 @@
+import os
 import spacy
 import datetime
 from constants import *
@@ -27,6 +28,9 @@ def create_translation_spreadsheet(
     disabled = ["parser", "ner", "textcat", "custom"]
     pos_tags = ["NOUN", "PROPN", "VERB", "ADJ", "ADV"]
 
+    with open(f"../data/{lang_code}/vocab.json") as f:
+        lang_vocab = json.loads(f.read())
+
     for idx, value in enumerate(spa):
         tokens = [
             token.lemma_ if token.pos_ in pos_tags else token.text
@@ -35,10 +39,10 @@ def create_translation_spreadsheet(
         ]
         spa_tokens.append(tokens)
         cell_vocab = [
-            token for token in tokens if token in VOCAB_FLORES_PLUS.keys()
+            token for token in tokens if token in lang_vocab.keys()
         ]
         cell_vocab = [
-            token + f": {VOCAB_FLORES_PLUS.get(token)}\n\n" for token in cell_vocab
+            token + f": {lang_vocab.get(token).get('def')}\n\n" for token in cell_vocab
         ]
         cell_vocab = "".join(cell_vocab)
         vocab.append(cell_vocab)
@@ -301,7 +305,7 @@ def create_translation_spreadsheet(
                         "startRowIndex": len(spa) + 2,
                         "endRowIndex": len(spa) + 3,
                         "startColumnIndex": 1,
-                        "endColumnIndex": 2,                            
+                        "endColumnIndex": 2,
                     },
                     "cell": {
                         "userEnteredFormat": {
@@ -377,7 +381,7 @@ def create_translation_spreadsheet(
                         "endColumnIndex": 3,
                     },
                     "cell": {
-                        "textFormatRuns": get_text_format_runs(spa[idx], spa_tokens[idx], list(VOCAB_FLORES_PLUS.keys()))
+                        "textFormatRuns": get_text_format_runs(spa[idx], spa_tokens[idx], list(lang_vocab.keys()))
                     },
                     "fields": "textFormatRuns.format.foregroundColorStyle, textFormatRuns.format.bold"
                 }
@@ -1740,6 +1744,17 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
     )
     vocab_id = results.get("spreadsheetId")
 
+    # Check if lang vocab file exists and create one if not
+    if not os.path.isfile(f"../data/{lang}/vocab.json"):
+        vocab = VOCAB_FLORES_PLUS
+        if not os.path.isdir(f"../data/{lang}"):
+            os.makedirs(f"../data/{lang}")
+        with open(f"../data/{lang}/vocab.json", "w") as f:
+            f.write(json.dumps(VOCAB_FLORES_PLUS, indent=2, ensure_ascii=False))
+    else:
+        with open(f"../data/{lang}/vocab.json") as f:
+            vocab = json.loads(f.read())
+
     # Put data in
     body = {
         "valueInputOption": "USER_ENTERED",
@@ -1756,9 +1771,9 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                 ],
             },
             {
-                "range": "A2:B",
+                "range": "A2:D",
                 "values": [
-                    [value, key] for key, value in VOCAB_FLORES_PLUS.items()
+                    [vocab[key]['freq'], key, vocab[key]['def'], vocab[key]['notes']] for key, value in vocab.items()
                 ]
             }
         ]
@@ -1817,7 +1832,7 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                     "range": {
                         "dimension": "COLUMNS",
                         "startIndex": 1,
-                        "endIndex": len(VOCAB_FLORES_PLUS.keys())
+                        "endIndex": len(vocab.keys())
                     },
                     "properties": {
                         "pixelSize": 300,
@@ -1829,8 +1844,8 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                 "insertDimension": {
                     "range": {
                         "dimension": "ROWS",
-                        "startIndex": len(VOCAB_FLORES_PLUS.keys()) + 1,
-                        "endIndex": len(VOCAB_FLORES_PLUS.keys()) + 100
+                        "startIndex": len(vocab.keys()) + 1,
+                        "endIndex": len(vocab.keys()) + 100
                     },
                     "inheritFromBefore": True
                 }
@@ -1846,14 +1861,14 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                             {
                                 "sheetId": 0,
                                 "startRowIndex": 1,
-                                "endRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 100,
+                                "endRowIndex": len(vocab.keys()) + 100,
                                 "startColumnIndex": 2,
                                 "endColumnIndex": 4,
                             },
                             {
                                 "sheetId": 0,
-                                "startRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 1,
-                                "endRowIndex": len(VOCAB_FLORES_PLUS.keys()) + 100,
+                                "startRowIndex": len(vocab.keys()) + 1,
+                                "endRowIndex": len(vocab.keys()) + 100,
                                 "startColumnIndex": 1,
                                 "endColumnIndex": 4,
                             },
