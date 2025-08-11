@@ -50,13 +50,30 @@ if __name__ == "__main__":
     # Authenticate and get credentials object
     creds = authenticate()
 
-    # Check if there is a vocabulary spreadsheet for each language in state
-    # and create one if not
+    # Check if each language has its own folder and create them if not
     for lang in state.keys():
+        if not get_lang_folder(creds, lang):
+            logger.warning(f"No folder associated to language '{lang}'. Creating.")
+            create_lang_folder(creds, lang)
+
+    # Check vocabulary 
+    for lang in state.keys():
+
+        # Check if vocabulary spreadheet is associated with language and create it if not.
         if state[lang].get('vocab_id') is None:
+            logger.warning(f"No vocabulary spreadsheet associated to language '{lang}'. Creating.")
             permission_emails = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys())
             state[lang]['vocab_id'] = create_vocab_spreadsheet(creds, lang, permission_emails)
 
+        # Update local vocab file with contents from spreadsheet
+        logger.info(f"Updating vocabulary for lang '{lang}'.")
+        new_vocab = get_vocab_from_sheet(creds, state[lang]['vocab_id'])
+        with open(f"../data/{lang}/vocab.json") as f:
+            vocab = json.loads(f.read())
+        vocab.update(new_vocab)
+        with open(f"../data/{lang}/vocab.json", "w") as f:
+            f.write(json.dumps(vocab, indent=2, ensure_ascii=False))
+        exit()
 
     # Check if there's at least one package in state and create one if not
     for lang in state.keys():

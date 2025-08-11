@@ -394,33 +394,9 @@ def create_translation_spreadsheet(
         body=body
     ).execute()
 
-    service = build("drive", "v3", credentials=creds)
-
-    # Create folder if no folder exists for language
-    q = f"mimeType='application/vnd.google-apps.folder' and parents in '{FOLDER_ID_TAREA_DE_TRADUCCION}'"
-    response = (service.files().list(q=q).execute())
-    files = response['files']
-    files = [file for file in files if file.get('name') == lang_code]
-    if len(files) == 0:
-        folder_metadata = {
-            "name": lang_code,
-            "mimeType": "application/vnd.google-apps.folder",
-            "parents": ["1cJp6GuDk_LT766aVgZae9ER962VU2GlH"],
-        }
-        parent_folder = (
-            service
-            .files()
-            .create(body=folder_metadata, fields="id")
-            .execute()
-        )
-        parent_folder = parent_folder.get('id')
-    else:
-        parent_folder = [
-            obj for obj in response['files'] if obj['name'] == lang_code
-        ]
-        parent_folder = parent_folder[0].get('id')
 
     # Move translation spreadsheet into corresponding folder
+    service = build("drive", "v3", credentials=creds)
     try:
         file = service.files().get(
             fileId=id, fields="parents"
@@ -430,14 +406,11 @@ def create_translation_spreadsheet(
             service.files()
             .update(
                 fileId=id,
-                addParents=parent_folder,
+                addParents=get_lang_folder(creds, lang_code),
                 removeParents=previous_parents,
                 fields="id, parents",
             )
         ).execute()
-    except HttpError as error:
-        print(f"An error occurred: {error}")
-        return None
 
     except HttpError as error:
         print(f"An error occurred: {error}")
