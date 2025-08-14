@@ -57,7 +57,7 @@ if __name__ == "__main__":
             logger.warning(f"No folder associated to language '{lang}'. Creating.")
             create_lang_folder(creds, lang)
 
-    # Check vocabulary 
+    # Check vocabulary
     for lang in state.keys():
 
         # Check if vocabulary spreadheet is associated with language and create it if not.
@@ -67,14 +67,21 @@ if __name__ == "__main__":
             state[lang]['vocab_id'] = create_vocab_spreadsheet(creds, lang, permission_emails)
 
         # Update local vocab file with contents from spreadsheet
-        logger.info(f"Updating vocabulary for lang '{lang}'.")
+        logger.info(f"Checking vocabulary spreadsheet for updates for lang '{lang}'.")
+
         new_vocab = get_vocab_from_sheet(creds, state[lang]['vocab_id'])
         with open(f"../data/{lang}/vocab.json") as f:
             vocab = json.loads(f.read())
-        vocab.update(new_vocab)
-        with open(f"../data/{lang}/vocab.json", "w") as f:
-            f.write(json.dumps(vocab, indent=2, ensure_ascii=False))
-        exit()
+
+        for key in vocab.keys():
+            if vocab[key]['def'] != new_vocab[key]['def'] or vocab[key]['notes'] != new_vocab[key]['notes']:
+                vocab.update(new_vocab)
+                logger.info(f"Updating vocabulary file for lang '{lang}'.")
+                with open(f"../data/{lang}/vocab.json", "w") as f:
+                    f.write(json.dumps(vocab, indent=2, ensure_ascii=False))
+                logger.info(f"Updating current packets with new vocabulary for language '{lang}'.")
+                update_sheet_vocabulary(creds, state, lang)
+                break
 
     # Check if there's at least one package in state and create one if not
     for lang in state.keys():
@@ -98,7 +105,6 @@ if __name__ == "__main__":
                     packet_idx=packet_idx,
                 )
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
-
 
     # Iterate over languages in state file
     for lang in state.keys():
