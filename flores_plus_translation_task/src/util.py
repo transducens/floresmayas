@@ -1,5 +1,6 @@
 import os.path
 import json
+import spacy
 from math import sqrt, floor
 from Levenshtein import distance
 from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, FOLDER_ID_TAREA_DE_TRADUCCION
@@ -224,3 +225,86 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
         } for row in vocab
     }
     return vocab
+
+
+def get_spacy_vocab_and_tokens(lang: str, lang_vocab: dict, spa: list):
+
+    spa_tokens = []
+
+    vocab = []
+    nlp = spacy.load("es_core_news_sm")
+    disabled = ["parser", "ner", "textcat", "custom"]
+    pos_tags = ["NOUN", "PROPN", "VERB", "ADJ", "ADV"]
+
+    for idx, value in enumerate(spa):
+        tokens = [
+            token.lemma_ if token.pos_ in pos_tags else token.text
+            for doc in nlp.pipe([value], disable=disabled)
+            for token in doc
+        ]
+        spa_tokens.append(tokens)
+        cell_vocab = [
+            token for token in tokens if token in lang_vocab.keys()
+        ]
+        cell_vocab = [
+            token + f": {lang_vocab.get(token).get('def')}\n\n" for token in cell_vocab
+        ]
+        cell_vocab = "".join(cell_vocab)
+        vocab.append(cell_vocab)
+
+    return vocab, spa_tokens
+
+
+def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
+    with open(f"../data/{lang}/vocab.json") as f:
+        lang_vocab = json.loads(f.read())
+
+    service = build("sheets", "v4", credentials=creds)
+    packets = [packet for packet in state[lang]['packets'] if state[lang]['packets'][packet] is not None and state[lang]['packets'][packet]['stage'] != "TRANSLATION_COMPLETE"]
+
+    for packet in packets:
+        fileId = state[lang]['packets'][packet]['tra_id']
+        spa = service.spreadsheets().values().get(
+            spreadsheetId=fileId,
+            range="C2:C"
+        ).execute()
+        spa = [sent[0] for sent in spa['values']]
+        vocab, spa_tokens = get_spacy_vocab_and_tokens(lang, lang_vocab, spa)
+        body = {
+            "valueInputOption": "USER_ENTERED",
+            "data": [
+                {
+                    "range": "D2:D",
+                    "majorDimension": "COLUMNS",
+                    "values": [
+                        vocab
+                    ]
+                }
+            ]
+        }
+
+        service.spreadsheets().values().batchUpdate(
+            spreadsheetId=fileId,
+            body=body
+        ).execute()
+
+        body = {
+            "requests": [
+                {
+                    "repeatCell": {
+                        "range": {
+                            "startRowIndex": idx + 1,
+                            "endRowIndex": idx + 2,
+                            "startColumnIndex": 2,
+                            "endColumnIndex": 3,
+                        },
+                        "cell": {
+                            "textFormatRuns": get_text_format_runs(spa[idx], spa_tokens[idx], list(lang_vocab.keys()))
+                        },
+                        "fields": "textFormatRuns.format.foregroundColorStyle, textFormatRuns.format.bold"
+                    }
+                } for idx, _ in enumerate(spa)
+            ]
+        }
+
+        service.spreadsheets().batchUpdate

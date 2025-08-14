@@ -1,5 +1,4 @@
 import os
-import spacy
 import datetime
 from constants import *
 from util import *
@@ -21,31 +20,11 @@ def create_translation_spreadsheet(
     ids = [row.split('\t')[0] for row in sents]
     eng = [row.split('\t')[1] for row in sents]
     spa = [row.split('\t')[2] for row in sents]
-    spa_tokens = []
-
-    vocab = []
-    nlp = spacy.load("es_core_news_sm")
-    disabled = ["parser", "ner", "textcat", "custom"]
-    pos_tags = ["NOUN", "PROPN", "VERB", "ADJ", "ADV"]
 
     with open(f"../data/{lang_code}/vocab.json") as f:
         lang_vocab = json.loads(f.read())
 
-    for idx, value in enumerate(spa):
-        tokens = [
-            token.lemma_ if token.pos_ in pos_tags else token.text
-            for doc in nlp.pipe([value], disable=disabled)
-            for token in doc
-        ]
-        spa_tokens.append(tokens)
-        cell_vocab = [
-            token for token in tokens if token in lang_vocab.keys()
-        ]
-        cell_vocab = [
-            token + f": {lang_vocab.get(token).get('def')}\n\n" for token in cell_vocab
-        ]
-        cell_vocab = "".join(cell_vocab)
-        vocab.append(cell_vocab)
+    vocab, spa_tokens = get_spacy_vocab_and_tokens(lang_code, lang_vocab, spa)
 
     # Create translation sheet
     service = build("sheets", "v4", credentials=creds)
