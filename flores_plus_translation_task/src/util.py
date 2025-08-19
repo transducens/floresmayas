@@ -11,6 +11,9 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 
 
 def get_c(R, k, n, t):
+    if n == t:
+        return R - k
+
     return (R - k) / (2 * (sqrt(n) - sqrt(t)))
 
 
