@@ -41,7 +41,8 @@ if __name__ == "__main__":
                     str(i): None for i in range(len(DATASET))
                 },
                 "inactive_translators": {},
-                "spent_additional_revisions": 0
+                "spent_additional_revisions": 0,
+                "translation_complete": False
             } for lang in config['langs'].keys()
         }
     else:
@@ -58,7 +59,7 @@ if __name__ == "__main__":
             create_lang_folder(creds, lang)
 
     # Check vocabulary
-    for lang in state.keys():
+    for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
 
         # Check if vocabulary spreadheet is associated with language and create it if not.
         if state[lang].get('vocab_id') is None:
@@ -84,7 +85,7 @@ if __name__ == "__main__":
                 break
 
     # Check if there's at least one package in state and create one if not
-    for lang in state.keys():
+    for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
         packets = [p for _, p in state[lang]['packets'].items() if p is not None]
         if not packets:
             logger.warning(f"Language '{lang}' has no packages ready to work on.")
@@ -107,8 +108,14 @@ if __name__ == "__main__":
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
 
     # Iterate over languages in state file
-    for lang in state.keys():
-        logger.info(f"Running update on language: {lang}")
+    langs = [lang for lang in state.keys() if state[lang]['translation_complete'] is False]
+    for lang in langs:
+
+        # Get translation packets and first check if there are any left to translate
+        packets = [(idx, packet) for idx, packet in state[lang]['packets'].items() if packet is not None]
+        if not packets:
+            logger.info(f"Langage '{lang}' has no unassigned packets.")
+            continue
 
         # Check if translators in config correspond to active translators and update if not
         inactive_translators = {
@@ -134,13 +141,20 @@ if __name__ == "__main__":
             and packet['stage'] != Stage.TRANSLATION_COMPLETE.name
             and packet['translator'] not in state[lang]['inactive_translators']
         ]
+
         free_translators = [translator for translator in state[lang]['translators'].keys() if translator not in busy_translators]
+
         if free_translators:
             logger.info(f"Found {len(free_translators)} unassigned translator(s). Assigning them a packet to work on.")
             revisor = list(state[lang]['revisors'].keys())[0]
             for translator in free_translators:
+
                 packet_idx = [int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None]
+                if not packet_idx:
+                    logger.info(f"No unassigned packets lefts.")
+                    break
                 packet_idx = min(packet_idx)
+
                 state[lang]['packets'][str(packet_idx)] = create_translation_spreadsheet(
                     creds=creds,
                     sents=DATASET[packet_idx],
@@ -153,7 +167,7 @@ if __name__ == "__main__":
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'.""")
 
         # Iterate over packets checking status
-        packets = [(idx, packet) for idx, packet in state[lang]['packets'].items() if packet is not None]
+        logger.info(f"Running update on language: {lang}")
         for idx, packet in packets:
             if packet['stage'] == Stage.FIRST_TRANSLATION.name:
 
@@ -192,19 +206,25 @@ if __name__ == "__main__":
                         packet['stage'] = Stage.TRANSLATION_COMPLETE
                         state[lang]['packets'][idx] = packet
                         tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
-                        state[lang]['translators'][packet['translator']][idx] = tra_sents
-                        state[lang]['revisors'][packet['revisor']][idx] = rev_sents
+                        state[lang]['translators'][packet['translator']] += tra_sents
+                        state[lang]['revisors'][packet['revisor']] += rev_sents
 
                         logger.info(
                             f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. No errors found. Translation complete."
                         )
                         logger.info(f"""Checking to see next available packet for user '{packet["translator"]}.""")
 
-                        next_packet_idx = min(int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None)
+                        next_packet_idx = [int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None] 
 
                         if not next_packet_idx:
-                            logger.info(f"No new packets available for language '{lang}'")
+                            logger.info(f"Langage '{lang}' has no unassigned packets left to translate.")
+                            open_packets = [p for p in state[lang]['packets'] if state[lang]['packets'][p]['stage'] != "TRANSLATION_COMPLETE"]
+                            if not open_packets:
+                                logger.info(f"All packets of language '{lang}' have been translated.")
+                                state[lang]['translation_complete'] = True
                             continue
+
+                        next_packet_idx = min(next_packet_idx)
 
                         state[lang]['packets'][str(next_packet_idx)] = create_translation_spreadsheet(
                             creds=creds,
@@ -236,8 +256,13 @@ if __name__ == "__main__":
                     logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
 
                     next_packet_idx = [int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None]
+
                     if not next_packet_idx:
-                        logger.info(f"No new packets available for language '{lang}'")
+                        logger.info(f"Langage '{lang}' has no unassigned packets left.")
+                        open_packets = [p for p in state[lang]['packets'] if state[lang]['packets'][p]['stage'] != "TRANSLATION_COMPLETE"]
+                        if not open_packets:
+                            logger.info(f"All packets of language '{lang}' have been translated.")
+                            state[lang]['translation_complete'] = True
                         continue
 
                     next_packet_idx = min(next_packet_idx)
