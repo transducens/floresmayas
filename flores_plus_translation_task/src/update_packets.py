@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 update_sheet_vocabulary(creds, state, lang)
                 break
 
-    # Check if there's at least one package in state and create one if not
+    # Check if there's at least one packet in state and create one if not
     for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
         packets = [p for _, p in state[lang]['packets'].items() if p is not None]
         if not packets:
@@ -113,9 +113,6 @@ if __name__ == "__main__":
 
         # Get translation packets and first check if there are any left to translate
         packets = [(idx, packet) for idx, packet in state[lang]['packets'].items() if packet is not None]
-        if not packets:
-            logger.info(f"Langage '{lang}' has no unassigned packets.")
-            continue
 
         # Check if translators in config correspond to active translators and update if not
         inactive_translators = {
