@@ -1872,3 +1872,403 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         service.permissions().create(fileId=vocab_id, body=body).execute()
 
     return vocab_id
+
+
+def flores_sentences(creds: object, state: dict, lang: str) -> list:
+    sentences = []
+    translators = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys()) + list(state[lang]['inactive_translators'].keys())
+    service = build("sheets", "v4", credentials=creds)
+    for idx in [p for p in state[lang]['packets'] if state[lang]['packets'][p].get('stage') == "TRANSLATION_COMPLETE"]:
+        sheets = service.spreadsheets().get(spreadsheetId=state[lang]['packets'][idx]['rev_id']).execute()
+        sheets = sheets['sheets']
+        if len(sheets) > 1:
+            values = service.spreadsheets().values().get(
+                spreadsheetId=state[lang]['packets'][idx]['rev_id'],
+                range=f"2nda revisión!A2:N{PACKET_SIZE}"
+            ).execute()
+            values = values['values']
+        else:
+            values = service.spreadsheets().values().get(
+                spreadsheetId=state[lang]['packets'][idx]['rev_id'],
+                range=f"1ra revisión!A2:H{PACKET_SIZE}"
+            ).execute()
+            values = values['values']
+        sent_packet = state[lang]['packets'][idx]['title']
+        for row in values:
+            if len(row) < 12:
+                i = 4
+            elif len(row) == 12:
+                i = 9
+            elif len(row) > 12:
+                i = 13 
+            sent = row[i]
+            sent_id = row[0]
+            sent_translator = None
+            for translator in state[lang]['translators'].keys():
+                if sent_translator is None and sent_id in state[lang]['translators'][translator]:
+                    sent_translator = translator
+            for translator in state[lang]['revisors'].keys():
+                if sent_translator is None and sent_id in state[lang]['revisors'][translator]:
+                    sent_translator = translator
+            for translator in state[lang]['inactive_translators'].keys():
+                if sent_translator is None and sent_id in state[lang]['inactive_translators'][translator]:
+                    sent_translator = translator
+            sentences.append((sent_id, sent, sent_packet, sent_translator))
+
+    return sentences
+
+
+def create_report_spreadsheet(creds: object, state: dict, lang: str):
+
+    service = build("sheets", "v4", credentials=creds)
+    spreadsheet = {
+        "properties": {
+            "title": f"Reporte ({lang})"
+        },
+        "sheets": [
+            {
+                "properties": {
+                    "sheetId": 0,
+                    "title": "Resumen",
+                }
+            },
+            {
+                "properties": {
+                    "sheetId": 1,
+                    "title": "Paquetitos",
+                }
+            },
+            {
+                "properties": {
+                    "sheetId": 2,
+                    "title": "Frases traducidas",
+                }
+            },
+        ],
+    }
+    spreadsheet = (
+        service.spreadsheets()
+        .create(body=spreadsheet, fields="spreadsheetId")
+        .execute()
+    )
+    n_packets = len([p for p in state[lang]['packets'] if state[lang]['packets'][p] is not None])
+    spreadsheet_id = spreadsheet.get("spreadsheetId")
+
+    body = {
+        "requests": [
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 0,
+                        "startRowIndex": 0,
+                        "endRowIndex": 9,
+                        "startColumnIndex": 0,
+                        "endColumnIndex": 1
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "textFormat": {
+                                "bold": True
+                            }
+                        }
+                    },
+                    "fields": "userEnteredFormat.textFormat.bold"
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 1,
+                        "startRowIndex": 0,
+                        "endRowIndex": 1,
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "textFormat": {
+                                "bold": True
+                            }
+                        }
+                    },
+                    "fields": "userEnteredFormat.textFormat.bold"
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 0,
+                        "startRowIndex": 0,
+                        "endRowIndex": 8,
+                        "startColumnIndex": 0,
+                        "endColumnIndex": 2
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "wrapStrategy": "WRAP"
+                        }
+                    },
+                    "fields": "userEnteredFormat.wrapStrategy",
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 1,
+                        "startRowIndex": 0,
+                        "endRowIndex": n_packets + 1,
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "wrapStrategy": "WRAP"
+                        }
+                    },
+                    "fields": "userEnteredFormat.wrapStrategy",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 0,
+                        "startIndex": 0,
+                        "endIndex": 2,
+                    },
+                    "properties": {
+                        "pixelSize": 300,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 1,
+                        "startIndex": 0,
+                        "endIndex": 10,
+                    },
+                    "properties": {
+                        "pixelSize": 150,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 2,
+                        "startRowIndex": 0,
+                        "endRowIndex": n_packets + 1,
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "wrapStrategy": "WRAP"
+                        }
+                    },
+                    "fields": "userEnteredFormat.wrapStrategy",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 2,
+                        "startIndex": 0,
+                        "endIndex": 1,
+                    },
+                    "properties": {
+                        "pixelSize": 50,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 2,
+                        "startIndex": 1,
+                        "endIndex": 2,
+                    },
+                    "properties": {
+                        "pixelSize": 300,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 2,
+                        "startIndex": 2,
+                        "endIndex": 3,
+                    },
+                    "properties": {
+                        "pixelSize": 50,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "sheetId": 2,
+                        "startIndex": 3,
+                        "endIndex": 4,
+                    },
+                    "properties": {
+                        "pixelSize": 200,
+                    },
+                    "fields": "pixelSize",
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 2,
+                        "startRowIndex": 0,
+                        "endRowIndex": 1,
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "textFormat": {
+                                "bold": True
+                            }
+                        }
+                    },
+                    "fields": "userEnteredFormat.textFormat.bold"
+                }
+            },
+            {
+                "updateSheetProperties": {
+                    "properties": {
+                        "sheetId": 2,
+                        "gridProperties": {
+                            "frozenRowCount": 1
+                        }
+                    },
+                    "fields": "gridProperties.frozenRowCount"
+                }
+            },
+        ]
+    }
+
+    service.spreadsheets().batchUpdate(
+        spreadsheetId=spreadsheet_id,
+        body=body
+    ).execute()
+
+    service = build("drive", "v3", credentials=creds)
+    file = service.files().get(
+        fileId=spreadsheet_id, fields="parents"
+    ).execute()
+
+    previous_parents = ",".join(file.get("parents"))
+    file = (
+        service.files()
+        .update(
+            fileId=spreadsheet_id,
+            addParents=get_lang_folder(creds, lang),
+            removeParents=previous_parents,
+            fields="id, parents",
+        )
+    ).execute()
+
+
+def update_report_spreadsheet(creds: object, state: dict, lang: str):
+    service = build("drive", "v3", credentials=creds)
+    spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
+    spreadsheet_id = spreadsheet_id['files'][0]['id']
+    vocab_url = service.files().get(fileId=state[lang]['vocab_id'], fields="webViewLink").execute()
+    vocab_url = vocab_url['webViewLink']
+
+    tra_urls, rev_urls = [], []
+    for idx in state[lang]['packets'].keys():
+        tra_id = state[lang]['packets'][idx]['tra_id']
+        tra_url = service.files().get(fileId=tra_id, fields="webViewLink").execute()
+        tra_urls.append(tra_url['webViewLink'])
+
+        rev_id = state[lang]['packets'][idx]['rev_id']
+        rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+        rev_urls.append(rev_url['webViewLink'])
+
+    n_packets = len([p for p in state[lang]['packets'] if state[lang]['packets'][p] is not None])
+    service = build("sheets", "v4", credentials=creds)
+
+    body = {
+        "valueInputOption": "user_entered",
+        "data": [
+            {
+                "range": "resumen!a1:b9",
+                "values": [
+                    ["Lengua", lang],
+                    ["Traductores", ", ".join(state[lang]['translators'].keys())],
+                    ["Revisor", ", ".join(state[lang]['revisors'].keys())],
+                    ["No. de paquetes", len(state[lang]['packets'])],
+                    ["No. de paquetes traducidos", len([p for p in state[lang]['packets'] if state[lang]['packets'][p].get('stage') == 'translation_complete'])],
+                    ["Trabajadores inactivos", ", ".join(state[lang]['inactive_translators'].keys())],
+                    ["Revisiones adicionales expendidas", state[lang]['spent_additional_revisions']],
+                    ["Vocabulario", vocab_url],
+                    ["Traducción completada", state[lang]['translation_complete']],
+                ],
+            },
+            {
+                "range": "paquetitos!a1:i1",
+                "values": [
+                    [
+                        "No. de paquetito",
+                        "Hoja de traducción",
+                        "Hoja de revisión",
+                        "Título",
+                        "Fecha de creación",
+                        "Última fecha de cambio de estado",
+                        "Traductor",
+                        "Revisor",
+                        "Etapa"
+                    ],
+                ]
+            },
+            {
+                "range": f"paquetitos!a2:i{n_packets+1}",
+                "values": [
+                    [
+                        state[lang]['packets'][p]['packet_idx'],
+                        tra_urls[int(p)],
+                        rev_urls[int(p)],
+                        state[lang]['packets'][p]['title'],
+                        state[lang]['packets'][p]['created'],
+                        state[lang]['packets'][p]['last_stage_update'],
+                        state[lang]['packets'][p]['translator'],
+                        state[lang]['packets'][p]['revisor'],
+                        state[lang]['packets'][p]['stage'],
+                    ] for p in state[lang]['packets'] if state[lang]['packets'][p] is not None
+                ]
+            },
+            {
+                "range": "frases traducidas!a1:d1",
+                "values": [
+                    ["id", "frase", "paquetito", "traductor"]
+                ]
+            },
+            {
+                "range": "frases traducidas!a2:d",
+                "values": [
+                    [row[0], row[1], row[2], row[3]] for row in flores_sentences(creds, state, lang)
+                ]
+            },
+        ],
+    }
+
+    service.spreadsheets().values().batchUpdate(
+        spreadsheetId=spreadsheet_id,
+        body=body
+    ).execute()
+
+
+if __name__ == "__main__":
+    creds = authenticate()
+    with open("../data/state.json") as f:
+        state = json.loads(f.read())
+    # create_report_spreadsheet(creds, state, "dum")
+    update_report_spreadsheet(creds, state, "dum")
