@@ -1,8 +1,8 @@
 name: test
 
 on:
-  schedule:     
-    - cron: '*/3 * * * *'
+  # schedule:     
+    # - cron: '*/3 * * * *' At least we know it works!
 
   push:
 
