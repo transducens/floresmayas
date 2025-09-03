@@ -1878,19 +1878,19 @@ def flores_sentences(creds: object, state: dict, lang: str) -> list:
     sentences = []
     translators = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys()) + list(state[lang]['inactive_translators'].keys())
     service = build("sheets", "v4", credentials=creds)
-    for idx in [p for p in state[lang]['packets'] if state[lang]['packets'][p].get('stage') == "TRANSLATION_COMPLETE"]:
+    for idx in [p for p in state[lang]['packets'] if state[lang]['packets'][p] is not None and state[lang]['packets'][p].get('stage') == "TRANSLATION_COMPLETE"]:
         sheets = service.spreadsheets().get(spreadsheetId=state[lang]['packets'][idx]['rev_id']).execute()
         sheets = sheets['sheets']
         if len(sheets) > 1:
             values = service.spreadsheets().values().get(
                 spreadsheetId=state[lang]['packets'][idx]['rev_id'],
-                range=f"2nda revisión!A2:N{PACKET_SIZE}"
+                range=f"2nda revisión!A2:N{PACKET_SIZE + 1}"
             ).execute()
             values = values['values']
         else:
             values = service.spreadsheets().values().get(
                 spreadsheetId=state[lang]['packets'][idx]['rev_id'],
-                range=f"1ra revisión!A2:H{PACKET_SIZE}"
+                range=f"1ra revisión!A2:H{PACKET_SIZE + 1}"
             ).execute()
             values = values['values']
         sent_packet = state[lang]['packets'][idx]['title']
@@ -1900,7 +1900,7 @@ def flores_sentences(creds: object, state: dict, lang: str) -> list:
             elif len(row) == 12:
                 i = 9
             elif len(row) > 12:
-                i = 13 
+                i = 13
             sent = row[i]
             sent_id = row[0]
             sent_translator = None
@@ -1918,7 +1918,7 @@ def flores_sentences(creds: object, state: dict, lang: str) -> list:
     return sentences
 
 
-def create_report_spreadsheet(creds: object, state: dict, lang: str):
+def create_report_spreadsheet(creds: object, state: dict, lang: str) -> str:
 
     service = build("sheets", "v4", credentials=creds)
     spreadsheet = {
@@ -2057,7 +2057,7 @@ def create_report_spreadsheet(creds: object, state: dict, lang: str):
                     "range": {
                         "sheetId": 2,
                         "startRowIndex": 0,
-                        "endRowIndex": n_packets + 1,
+                        # "endRowIndex": n_packets + 1,
                     },
                     "cell": {
                         "userEnteredFormat": {
@@ -2175,6 +2175,8 @@ def create_report_spreadsheet(creds: object, state: dict, lang: str):
         )
     ).execute()
 
+    return spreadsheet_id
+
 
 def update_report_spreadsheet(creds: object, state: dict, lang: str):
     service = build("drive", "v3", credentials=creds)
@@ -2184,14 +2186,17 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
     vocab_url = vocab_url['webViewLink']
 
     tra_urls, rev_urls = [], []
-    for idx in state[lang]['packets'].keys():
+    for idx in [p for p in state[lang]['packets'].keys() if state[lang]['packets'][p] is not None]:
         tra_id = state[lang]['packets'][idx]['tra_id']
         tra_url = service.files().get(fileId=tra_id, fields="webViewLink").execute()
         tra_urls.append(tra_url['webViewLink'])
 
         rev_id = state[lang]['packets'][idx]['rev_id']
-        rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
-        rev_urls.append(rev_url['webViewLink'])
+        if rev_id is not None:
+            rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+            rev_urls.append(rev_url['webViewLink'])
+        else:
+            rev_urls.append(None)
 
     n_packets = len([p for p in state[lang]['packets'] if state[lang]['packets'][p] is not None])
     service = build("sheets", "v4", credentials=creds)
@@ -2206,7 +2211,7 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
                     ["Traductores", ", ".join(state[lang]['translators'].keys())],
                     ["Revisor", ", ".join(state[lang]['revisors'].keys())],
                     ["No. de paquetes", len(state[lang]['packets'])],
-                    ["No. de paquetes traducidos", len([p for p in state[lang]['packets'] if state[lang]['packets'][p].get('stage') == 'translation_complete'])],
+                    ["No. de paquetes traducidos", len([p for p in state[lang]['packets'] if state[lang]['packets'][p] is not None and state[lang]['packets'][p].get('stage') == 'TRANSLATION_COMPLETE'])],
                     ["Trabajadores inactivos", ", ".join(state[lang]['inactive_translators'].keys())],
                     ["Revisiones adicionales expendidas", state[lang]['spent_additional_revisions']],
                     ["Vocabulario", vocab_url],

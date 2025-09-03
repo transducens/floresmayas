@@ -1,12 +1,19 @@
 {
     "langs": {
-        "dum": {
+        "sjn": {
             "translators": [
                 "feasinde@gmail.com",
                 "andres.lou@ua.es"
             ],
             "revisor": "and_lou@gcloud.ua.es"
+        },
+        "qya": {
+            "translators": [
+                "lourios.andres@gmail.com",
+                "and_lou@gcloud.ua.es"
+            ],
+            "revisor": "and_lou@ua.es"
         }
     },
-    "packet_size": 6
+    "packet_size": 50
 }

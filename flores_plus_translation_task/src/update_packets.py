@@ -7,6 +7,8 @@ from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
 from sheets_create import create_revision_sheet
 from sheets_create import create_vocab_spreadsheet
+from sheets_create import create_report_spreadsheet
+from sheets_create import update_report_spreadsheet
 from constants import Stage, DATETIME_FORMAT, LOGGER_FORMAT, DATASET, R
 from util import *
 
@@ -106,6 +108,12 @@ if __name__ == "__main__":
                     packet_idx=packet_idx,
                 )
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
+
+    # Check if report spreadsheet exists and create one if  not
+    for lang in state.keys():
+        if state[lang].get('report') is None:
+            logger.info(f"Creating report spreadsheet for lang '{lang}.'")
+            state[lang]['report'] = create_report_spreadsheet(creds, state, lang)
 
     # Iterate over languages in state file
     langs = [lang for lang in state.keys() if state[lang]['translation_complete'] is False]
@@ -275,6 +283,8 @@ if __name__ == "__main__":
                     logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
                     continue
 
+        logger.info(f"Updating report on language '{lang}'.")
+        update_report_spreadsheet(creds, state, lang)
         logger.info(f"Update on language '{lang}' complete.")
     logger.info(f"Saving state to file.")
     with open("../data/state.json", "w") as g:
