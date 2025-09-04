@@ -1,0 +1,118 @@
+{
+  "sjn": {
+    "translators": {
+      "feasinde@gmail.com": [],
+      "andres.lou@ua.es": []
+    },
+    "revisors": {
+      "and_lou@gcloud.ua.es": []
+    },
+    "packets": {
+      "0": {
+        "tra_id": "14zvqd01k1flIy_bdULWfl28Py6l31n8UFbZvDfYiOFs",
+        "rev_id": null,
+        "title": "sjn_0",
+        "created": "Sep 04 2025 02:17PM",
+        "last_stage_update": "Sep 04 2025 02:17PM",
+        "translator": "feasinde@gmail.com",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1jC8MydPNXacimknAKCGBuN6ON7zb-Y-iJRr4yO7oIOs",
+        "rev_id": null,
+        "title": "sjn_1",
+        "created": "Sep 04 2025 02:17PM",
+        "last_stage_update": "Sep 04 2025 02:17PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "vocab_id": "1CeKuB3a2n_mLnXo0zwx1U_kx64B7AMOVcLnYVDTV7e4",
+    "report": "1N9tFCaUu1A99lWAX5hvgWS6c9PJLNBYsXc-nfMMzwSs"
+  },
+  "qya": {
+    "translators": {
+      "lourios.andres@gmail.com": [],
+      "and_lou@gcloud.ua.es": []
+    },
+    "revisors": {
+      "and_lou@ua.es": []
+    },
+    "packets": {
+      "0": {
+        "tra_id": "1iYBQrxm3RVYTrI9B9eIZeLCx9Xheocx4yF4CQurBdt8",
+        "rev_id": null,
+        "title": "qya_0",
+        "created": "Sep 04 2025 02:17PM",
+        "last_stage_update": "Sep 04 2025 02:17PM",
+        "translator": "lourios.andres@gmail.com",
+        "revisor": "and_lou@ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1ApPRc4l9wBEVGKiXTVU6TUKntHKeBfAN8wXY_LmSQDg",
+        "rev_id": null,
+        "title": "qya_1",
+        "created": "Sep 04 2025 02:17PM",
+        "last_stage_update": "Sep 04 2025 02:17PM",
+        "translator": "and_lou@gcloud.ua.es",
+        "revisor": "and_lou@ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "vocab_id": "15m9lNgsiLfi9-dmucyjN1j2YT-mq3qUO6bLMiJzM-zU",
+    "report": "1mkJ_JkpRrMc5EsypUxTPEFbiz4jYXHwONO8LHNN-15s"
+  }
+}
