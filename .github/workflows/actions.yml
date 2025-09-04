@@ -24,6 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt 
 
+      - name: download spacy model
+        run: |
+          pip install setuptools wheel
+          pip install -U spacy 
+          python -m spacy download es_core_news_sm
+
       - name: update packets 
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
