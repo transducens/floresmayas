@@ -173,3 +173,7 @@ cython_debug/
 # Sublime text
 *.sublime-project
 *.sublime-workspace
+
+# In case private token gets accidentally generated during workflow
+credentials.json
+token.json
