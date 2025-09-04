@@ -28,7 +28,7 @@ jobs:
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: |
-          echo $AUTH_TOKEN > ~/flores_plus_translation_task/src/token.json
+          echo $AUTH_TOKEN > /home/runner/flores_plus_translation_task/src/token.json
           python update_packets.py 
 
       - name: commit files
