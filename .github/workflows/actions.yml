@@ -29,20 +29,19 @@ jobs:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           CAKE: ${{ secrets.CAKE }}
         run: |
-          echo $AUTH_TOKEN > flores_plus_translation_task/src/token.json
-          echo $CAKE > cake
-          python wf_test.py
-          #          python update_packets.py 
+          cd flores_plus_translation_task/src
+          echo $AUTH_TOKEN > token.json
+          python update_packets.py 
 
-          #       - name: commit files
-          #         run: |
-          #           git config --local user.email "action@github.com"
-          #           git config --local user.name "GitHub Action"
-          #           git add -A
-          #           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-          # 
-          #       - name: push changes
-          #         uses: ad-m/github-push-action@v0.6.0
-          #         with:
-          #           github_token: ${{ secrets.GITHUB_TOKEN }}
-          #           branch: main 
+      - name: commit files
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add -A
+            git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
