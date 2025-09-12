@@ -1,8 +1,12 @@
 * {
-  font-family: "linux libertine";
+  font-family: "RotisSerif";
 }
 
 .wm-article-link.wm-page-toc-text {
+  font-size: 15px ;
+}
+
+.wm-article-link.wm-toc-text {
   font-size: 15px ;
 }
 

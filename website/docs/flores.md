@@ -2,7 +2,7 @@
 
 ## Qué es un FLORES
 
-Los datasets [FLORES-101](https://arxiv.org/abs/2106.03193) y [FLORES-200](https://arxiv.org/pdf/2207.04672.pdf), (probablemente un acrónimo de *Focus on Low Resources*; en ningún lugar se aclara de manera explícita) son una iniciativa llevada a cabo por el equipo de Inteligencia Artificial de Meta que busca enfocarse en la evaluación de sistemas de TAN multilingüe de lenguas de infrarrepresentadas o de escasos recursos.
+Los datasets [FLORES-101](https://arxiv.org/abs/2106.03193) y [FLORES-200](https://arxiv.org/pdf/2207.04672.pdf) y [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus), (probablemente un acrónimo de *Focus on Low Resources*; en ningún lugar se aclara de manera explícita) son una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa [OLDI](https://oldi.org/) que busca enfocarse en la evaluación de sistemas de TAN multilingüe de lenguas de infrarrepresentadas o de escasos recursos.
 
 <!-- > In this work, we introduce the Flores-101 evaluation benchmark, consisting of 3001 sentences extracted from English Wikipedia and covering a variety of different topics and domains. These sentences have been translated in 101 languages by professional translators through a carefully controlled process. The resulting dataset enables better assessment of model quality on the long tail of low-resource languages, including the evaluation of many-to-many multilingual translation systems, as all translations are fully aligned. -->
 
