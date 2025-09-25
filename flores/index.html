@@ -11,7 +11,7 @@
     
     <link rel="shortcut icon" href="../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>FLORES-Mayas - FLORES+ Mayas</title>
+    <title>Qué es FLORES+ - FLORES+ Mayas</title>
     <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
@@ -33,9 +33,7 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "FLORES-Mayas", url: "#_top", children: [
-              {title: "Qu\u00e9 es un FLORES", url: "#que-es-un-flores" },
-              {title: "En qu\u00e9 consiste un FLORES", url: "#en-que-consiste-un-flores" },
+          {title: "Qu\u00e9 es FLORES+", url: "#_top", children: [
               {title: "C\u00f3mo se construye un FLORES", url: "#como-se-construye-un-flores" },
           ]},
         ];
@@ -56,23 +54,51 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     
+    
+      
+    
 
-    <h1 id="flores-mayas">FLORES-Mayas</h1>
-<h2 id="que-es-un-flores">Qué es un FLORES</h2>
-<p>Los datasets <a href="https://arxiv.org/abs/2106.03193">FLORES-101</a> y <a href="https://arxiv.org/pdf/2207.04672.pdf">FLORES-200</a> y <a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a>, (probablemente un acrónimo de <em>Focus on Low Resources</em>; en ningún lugar se aclara de manera explícita) son una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa <a href="https://oldi.org/">OLDI</a> que busca enfocarse en la evaluación de sistemas de TAN multilingüe de lenguas de infrarrepresentadas o de escasos recursos.</p>
-<!-- > In this work, we introduce the Flores-101 evaluation benchmark, consisting of 3001 sentences extracted from English Wikipedia and covering a variety of different topics and domains. These sentences have been translated in 101 languages by professional translators through a carefully controlled process. The resulting dataset enables better assessment of model quality on the long tail of low-resource languages, including the evaluation of many-to-many multilingual translation systems, as all translations are fully aligned. -->
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-link">
+        Tipología de errores
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Inicio
+      </a>
+    </div>
+    
+  </div>
 
-<p>Nuestros objetivo es construir un dataset para la evaluación de sistemas de TAN de lenguas mayas siguiendo los mismos métodos que se utilizaron para construir los FLORES. A este dataset los llamaremos FLORES-Mayas.</p>
-<h2 id="en-que-consiste-un-flores">En qué consiste un FLORES</h2>
-<p>Los FLORES consisten en una selección de aproximadamente 3 000 oraciones tomadas de Wikipedia en inglés, abarcando varias temáticas, las cuales son traducidas a las distintas lenguas objetivo, con el propósito de crear un corpus paralelo entre estas. El artículo de FLORES-101 entra en más detalle pero, en resumen, el dataset se divide en tres fracciones de aproximadamente 1 000 oraciones cada una, denominadas <code>dev</code>, <code>devtest</code>, <code>test</code>, de las cuales las primeras dos han sido publicadas (<a href="https://github.com/facebookresearch/flores/blob/main/flores200/README.md#flores-101">aquí</a> para FLORES‑101 y <a href="https://github.com/facebookresearch/flores/blob/main/flores200/README.md#download">aquí</a> para FLORES‑200)<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+    
+
+    <h1 id="que-es-flores">Qué es FLORES+</h1>
+<p>FLORES+ es un <strong>corpus paralelo</strong> en más de 200 idiomas del mundo. Consiste en una selección de aproximadamente 2 000 oraciones tomadas del repositorio de <a href="https://www.wikimedia.org/">Wikimedia</a> en inglés, abarcando diversas temáticas como deportes, ciencia, política, historia, etc; cada una de las frases se traduce a cada una de las lenguas incluídas con el propósito de crear un corpus paralelo entre estas. </p>
+<p>El conjunto de datos <a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> pertenece a una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa <a href="https://oldi.org/">OLDI</a>, que busca enfocarse en la evaluación de sistemas de traducción automática  multilingüe de lenguas infrarrepresentadas o de escasos recursos.</p>
+<p>Las frases se dividen en dos conjuntos, denominados <code>dev</code> y <code>devtest</code>.</p>
 <h2 id="como-se-construye-un-flores">Cómo se construye un FLORES</h2>
-<p>La construcción de un FLORES conlleva una serie de pasos con el propósito de asegurar su calidad como recurso de procesamiento de lenguaje natural (PLN). En nuestro caso, este control de calidad (QA) es de especial importancia debido a la escasez de recursos en el campo; FLORES se convertirá en una cota de referencia (una <em>benchmark</em>) que podrá utilizarse para cualquier futuro esfuerzo de TAN de las lenguas mayas por parte de cualquier otro equipo de investigación.</p>
-<h3 id="traduccion-desde-el-espanol">Traducción desde el español</h3>
-<p>Puesto que es improbable que los traductores de lenguas mayas tengan un dominio fluido del inglés (o por lo menos comparable al que tuvieran del español), y para mantenerse en paralelo con los corpora de los FLORES, nuestras tareas de traducción se darán no desde las oraciones en inglés de Wikipedia sino desde sus respectivas traducciones al español. A pesar de estar al tanto del fenómeno del <em>translationese</em><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, creemos que los efectos de este son menos importantes que la posibilidad de trabajar con las lenguas mayas en paralelo con otras lenguas de escasos recursos del mundo. Si eligiéramos trabajar desde los textos originales en inglés, nos expondríamos a tiempos de procesamiento mucho más prolongados y a traducciones de inferior calidad.</p>
-<h3 id="seleccion-de-proveedores-de-servicios-linguisticos">Selección de proveedores de servicios lingüísticos</h3>
-<p>Tanto FLORES-101 como FLORES-200 hablan de los llamados <em>Language Service Providers</em> (LSP) como las entidades encargadas de las traducciones y sus correspondientes controles de calidad. Tomando en cuenta nuestro escenario, es probable que nuestros LSP sean a traductores individuales para cada una de las lenguas en las que nos enfoquemos. Necesitamos un mínimo de dos traductores por lengua, uno para traducir y el otro para QA, aunque idealmente querríamos tres, con tal de seguir más de cerca el método de los FLORES, el cual estipula que dos LSP se encarguen de la traducción y uno del control de calidad.</p>
-<h3 id="las-lenguas-de-la-tarea">Las lenguas de la tarea</h3>
-<p>A pesar que nuestro objetivo sería la inclusión de todas las lenguas mayas reconocidas, como primera fase, comenzaríamos con las cinco lenguas mayas más habladas del páis: qʼeqchiʼ, kʼicheʼ, mam, kaqchikel, y chʼol. Como proyecto piloto, comenzaríamos con kʼicheʼ o qʼeqchiʼ, dependiendo del personal que lográramos contactar.</p>
+<p>La construcción de un FLORES conlleva una serie de pasos con el propósito de asegurar su calidad como recurso de procesamiento de lenguaje natural. En nuestro caso, este control de calidad es de especial importancia debido a la escasez de recursos en el campo; las frases den lenguas mayas incluidas en FLORES+ se convertirán en una cota de referencia (una <em>benchmark</em>) que podrá utilizarse para cualquier futuro esfuerzo en el desarrollo de tecnologías de lenguaje de las lenguas mayas por parte de cualquier otro equipo de investigación.</p>
+<!--
+### Traducción desde el español
+Puesto que es improbable que los traductores de lenguas mayas tengan un dominio fluido del inglés (o por lo menos comparable al que tuvieran del español), y para mantenerse en paralelo con los corpora de los FLORES, nuestras tareas de traducción se darán no desde las oraciones en inglés de Wikipedia sino desde sus respectivas traducciones al español. A pesar de estar al tanto del fenómeno del *translationese*[^2], creemos que los efectos de este son menos importantes que la posibilidad de trabajar con las lenguas mayas en paralelo con otras lenguas de escasos recursos del mundo. Si eligiéramos trabajar desde los textos originales en inglés, nos expondríamos a tiempos de procesamiento mucho más prolongados y a traducciones de inferior calidad.
+
+
+### Selección de proveedores de servicios lingüísticos
+Tanto FLORES-101 como FLORES-200 hablan de los llamados *Language Service Providers* (LSP) como las entidades encargadas de las traducciones y sus correspondientes controles de calidad. Tomando en cuenta nuestro escenario, es probable que nuestros LSP sean a traductores individuales para cada una de las lenguas en las que nos enfoquemos. Necesitamos un mínimo de dos traductores por lengua, uno para traducir y el otro para QA, aunque idealmente querríamos tres, con tal de seguir más de cerca el método de los FLORES, el cual estipula que dos LSP se encarguen de la traducción y uno del control de calidad.
+
+### Las lenguas de la tarea
+A pesar que nuestro objetivo sería la inclusión de todas las lenguas mayas reconocidas, como primera fase, comenzaríamos con las cinco lenguas mayas más habladas del páis: qʼeqchiʼ, kʼicheʼ, mam, kaqchikel, y chʼol. Como proyecto piloto, comenzaríamos con kʼicheʼ o qʼeqchiʼ, dependiendo del personal que lográramos contactar.
+--->
 <!-- #### Nota sobre la ortografía
 Es muy importante notar que el carácter que denota consonantes implosivas en las lenguas mayas, `ʼ`, es el MODIFIER LETTER APOSTROPHE ([pag 2](https://www.unicode.org/charts/PDF/U02B0.pdf)), cuyo código es `U+02BC`, y no el APOSTROPHE, `'`, ni el RIGHT SINGLE QUOTATION MARK, `’`, cuyos códigos son respectivamente `U+0027` y `U+2019`. A pesar de ser tipográficamente muy similares y hasta indistinguibles, la distinción es vital cuando se trata de segmentación a nivel de carácter; en las lenguas mayas, el apóstrofo unido a una consonante es un dígrafo que denota una fonema distinguible, y no una contracción, como ocurre en el caso del inglés (eg *don't*) o una elisión, como ocurre en el francés (eg *l'île*). -->
 
@@ -80,16 +106,40 @@ Es muy importante notar que el carácter que denota consonantes implosivas en la
 <hr />
 <ol>
 <li id="fn:1">
-<p>Del artículo: “The primary motivation for keeping the test set available only through an evaluation server is to guarantee equivalent assessment of models and reduce overfitting to the test set. Further, as the dataset is many-to-many, if the source sentences are released, the target sentences would also be released”.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://aclanthology.org/W19-5208.pdf">es decir</a>: “[C]ompared to original texts, translations tend to be simpler, more standardised, and more explicit and they retain some characteristics that pertain to the source language”.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Probablemente un acrónimo de <em>Focus on Low Resources</em>; en ningún lugar se aclara de manera explícita)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
 
   <br>
     
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-link">
+        Tipología de errores
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Inicio
+      </a>
+    </div>
+    
+  </div>
 
     <br>
 </div>
