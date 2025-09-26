@@ -1,10 +1,8 @@
 name: test
 
 on:
-  # schedule:     
-    # - cron: '*/3 * * * *' At least we know it works!
-
-  push:
+  schedule:     
+    - cron: '* */1 * * *' 
 
 jobs:
   build:
