@@ -31,3 +31,14 @@ INFO : 2025-09-26 13:35:06,282 Updating report on language 'qya'.
 INFO : 2025-09-26 13:35:08,240 Update on language 'qya' complete.
 INFO : 2025-09-26 13:35:08,240 Saving state to file.
 INFO : 2025-09-26 13:35:08,241 Update complete.
+INFO : 2025-09-26 14:01:41,811 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-09-26 14:01:42,999 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-09-26 14:01:43,656 Running update on language: sjn
+INFO : 2025-09-26 14:01:46,052 Packet 'sjn_1': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2025-09-26 14:01:59,141 Updating report on language 'sjn'.
+INFO : 2025-09-26 14:02:01,457 Update on language 'sjn' complete.
+INFO : 2025-09-26 14:02:01,457 Running update on language: qya
+INFO : 2025-09-26 14:02:03,010 Updating report on language 'qya'.
+INFO : 2025-09-26 14:02:04,845 Update on language 'qya' complete.
+INFO : 2025-09-26 14:02:04,846 Saving state to file.
+INFO : 2025-09-26 14:02:04,846 Update complete.

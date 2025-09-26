@@ -21,13 +21,13 @@
       },
       "1": {
         "tra_id": "1bmyXElHSzXc7yjX8gP_VDlfY98qfLQY1wpTKQU3MQkY",
-        "rev_id": null,
+        "rev_id": "1zOvj-PtIFRuVhA8xWxkbj1X9pPYRr3YXMWKGWDiRgOI",
         "title": "sjn_1",
         "created": "Sep 26 2025 01:22PM",
-        "last_stage_update": "Sep 26 2025 01:22PM",
+        "last_stage_update": "Sep 26 2025 02:01PM",
         "translator": "andres.lou@ua.es",
         "revisor": "and_lou@gcloud.ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
