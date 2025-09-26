@@ -1,4 +1,4 @@
-name: test
+name: update_packets
 
 on:
   schedule:     
