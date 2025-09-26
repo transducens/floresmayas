@@ -1,0 +1,23 @@
+WARNING : 2025-09-26 12:54:49,639 No state file found. Generating from config.
+WARNING : 2025-09-26 12:54:50,208 No folder associated to language 'sjn'. Creating.
+WARNING : 2025-09-26 12:54:51,278 No folder associated to language 'qya'. Creating.
+WARNING : 2025-09-26 12:54:51,980 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-09-26 12:55:03,278 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-09-26 12:55:03,876 No vocabulary spreadsheet associated to language 'qya'. Creating.
+INFO : 2025-09-26 12:55:13,162 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-09-26 12:55:13,704 Language 'sjn' has no packages ready to work on.
+INFO : 2025-09-26 12:55:19,280 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'feasinde@gmail.com' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2025-09-26 12:55:27,285 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'and_lou@gcloud.ua.es'
+WARNING : 2025-09-26 12:55:27,285 Language 'qya' has no packages ready to work on.
+INFO : 2025-09-26 12:55:33,619 New packet 'qya_0' created for language 'qya' and assigned to translator 'lourios.andres@gmail.com' and revisor 'and_lou@ua.es'
+INFO : 2025-09-26 12:55:40,180 New packet 'qya_1' created for language 'qya' and assigned to translator 'and_lou@gcloud.ua.es' and revisor 'and_lou@ua.es'
+INFO : 2025-09-26 12:55:40,180 Creating report spreadsheet for lang 'sjn.'
+INFO : 2025-09-26 12:55:44,764 Creating report spreadsheet for lang 'qya.'
+INFO : 2025-09-26 12:55:48,201 Running update on language: sjn
+INFO : 2025-09-26 12:55:49,468 Updating report on language 'sjn'.
+INFO : 2025-09-26 12:55:50,878 Update on language 'sjn' complete.
+INFO : 2025-09-26 12:55:50,878 Running update on language: qya
+INFO : 2025-09-26 12:55:52,261 Updating report on language 'qya'.
+INFO : 2025-09-26 12:55:53,539 Update on language 'qya' complete.
+INFO : 2025-09-26 12:55:53,539 Saving state to file.
+INFO : 2025-09-26 12:55:53,540 Update complete.
