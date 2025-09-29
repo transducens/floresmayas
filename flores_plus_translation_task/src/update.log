@@ -625,3 +625,13 @@ INFO : 2025-09-29 03:16:54,339 Updating report on language 'qya'.
 INFO : 2025-09-29 03:16:55,723 Update on language 'qya' complete.
 INFO : 2025-09-29 03:16:55,723 Saving state to file.
 INFO : 2025-09-29 03:16:55,723 Update complete.
+INFO : 2025-09-29 04:01:55,785 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-09-29 04:01:56,869 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-09-29 04:01:57,802 Running update on language: sjn
+INFO : 2025-09-29 04:01:59,683 Updating report on language 'sjn'.
+INFO : 2025-09-29 04:02:02,975 Update on language 'sjn' complete.
+INFO : 2025-09-29 04:02:02,975 Running update on language: qya
+INFO : 2025-09-29 04:02:04,737 Updating report on language 'qya'.
+INFO : 2025-09-29 04:02:06,151 Update on language 'qya' complete.
+INFO : 2025-09-29 04:02:06,151 Saving state to file.
+INFO : 2025-09-29 04:02:06,152 Update complete.
