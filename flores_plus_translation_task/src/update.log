@@ -1,0 +1,12 @@
+WARNING : 2025-09-29 09:09:39,415 No state file found. Generating from config.
+WARNING : 2025-09-29 09:09:39,930 No folder associated to language 'sjn'. Creating.
+WARNING : 2025-09-29 09:09:40,593 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-09-29 09:09:50,725 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-09-29 09:09:51,257 Language 'sjn' has no packages ready to work on.
+INFO : 2025-09-29 09:09:58,228 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'aaron.galiano@ua.es' and revisor 'cristian.gr@ua.es'
+INFO : 2025-09-29 09:09:58,228 Creating report spreadsheet for lang 'sjn.'
+INFO : 2025-09-29 09:10:01,164 Running update on language: sjn
+INFO : 2025-09-29 09:10:01,936 Updating report on language 'sjn'.
+INFO : 2025-09-29 09:10:03,041 Update on language 'sjn' complete.
+INFO : 2025-09-29 09:10:03,041 Saving state to file.
+INFO : 2025-09-29 09:10:03,041 Update complete.
