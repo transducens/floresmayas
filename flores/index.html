@@ -34,7 +34,6 @@
         
         var pageToc = [
           {title: "Qu\u00e9 es FLORES+", url: "#_top", children: [
-              {title: "C\u00f3mo se construye un FLORES", url: "#como-se-construye-un-flores" },
           ]},
         ];
 
@@ -83,12 +82,13 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="que-es-flores">Qué es FLORES+</h1>
-<p>FLORES+ es un <strong>corpus paralelo</strong> en más de 200 idiomas del mundo. Consiste en una selección de aproximadamente 2 000 oraciones tomadas del repositorio de <a href="https://www.wikimedia.org/">Wikimedia</a> en inglés, abarcando diversas temáticas como deportes, ciencia, política, historia, etc; cada una de las frases se traduce a cada una de las lenguas incluídas con el propósito de crear un corpus paralelo entre estas. </p>
-<p>El conjunto de datos <a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> pertenece a una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa <a href="https://oldi.org/">OLDI</a>, que busca enfocarse en la evaluación de sistemas de traducción automática  multilingüe de lenguas infrarrepresentadas o de escasos recursos.</p>
-<p>Las frases se dividen en dos conjuntos, denominados <code>dev</code> y <code>devtest</code>.</p>
-<h2 id="como-se-construye-un-flores">Cómo se construye un FLORES</h2>
-<p>La construcción de un FLORES conlleva una serie de pasos con el propósito de asegurar su calidad como recurso de procesamiento de lenguaje natural. En nuestro caso, este control de calidad es de especial importancia debido a la escasez de recursos en el campo; las frases den lenguas mayas incluidas en FLORES+ se convertirán en una cota de referencia (una <em>benchmark</em>) que podrá utilizarse para cualquier futuro esfuerzo en el desarrollo de tecnologías de lenguaje de las lenguas mayas por parte de cualquier otro equipo de investigación.</p>
+<p><a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> es un <strong>corpus paralelo</strong> en más de 200 idiomas del mundo. Consiste en una selección de aproximadamente 2 000 oraciones tomadas del repositorio de <a href="https://www.wikimedia.org/">Wikimedia</a> en inglés, abarcando diversas temáticas como deportes, ciencia, política, historia, etc; cada una de las frases se traduce a cada una de las lenguas incluídas con el propósito de crear un corpus paralelo entre estas. </p>
+<p>El conjunto de datos FLORES+ pertenece a una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa <a href="https://oldi.org/">OLDI</a>, que busca enfocarse en la evaluación de sistemas de traducción automática  multilingüe de lenguas infrarrepresentadas o de escasos recursos.</p>
 <!--
+## Cómo se construye un FLORES
+
+La construcción de un FLORES conlleva una serie de pasos con el propósito de asegurar su calidad como recurso de procesamiento de lenguaje natural. En nuestro caso, este control de calidad es de especial importancia debido a la escasez de recursos en el campo; las frases den lenguas mayas incluidas en FLORES+ se convertirán en una cota de referencia (una _benchmark_) que podrá utilizarse para cualquier futuro esfuerzo en el desarrollo de tecnologías de lenguaje de las lenguas mayas por parte de cualquier otro equipo de investigación.
+
 ### Traducción desde el español
 Puesto que es improbable que los traductores de lenguas mayas tengan un dominio fluido del inglés (o por lo menos comparable al que tuvieran del español), y para mantenerse en paralelo con los corpora de los FLORES, nuestras tareas de traducción se darán no desde las oraciones en inglés de Wikipedia sino desde sus respectivas traducciones al español. A pesar de estar al tanto del fenómeno del *translationese*[^2], creemos que los efectos de este son menos importantes que la posibilidad de trabajar con las lenguas mayas en paralelo con otras lenguas de escasos recursos del mundo. Si eligiéramos trabajar desde los textos originales en inglés, nos expondríamos a tiempos de procesamiento mucho más prolongados y a traducciones de inferior calidad.
 
@@ -106,7 +106,7 @@ Es muy importante notar que el carácter que denota consonantes implosivas en la
 <hr />
 <ol>
 <li id="fn:1">
-<p>Probablemente un acrónimo de <em>Focus on Low Resources</em>; en ningún lugar se aclara de manera explícita)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>El nombre se trata probablemente de un acrónimo: <em>Focus on Low Resources</em>. En ningún lugar se aclara de manera explícita.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
