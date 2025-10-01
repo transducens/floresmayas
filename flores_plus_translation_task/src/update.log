@@ -196,3 +196,9 @@ INFO : 2025-10-01 23:49:58,972 Updating report on language 'sjn'.
 INFO : 2025-10-01 23:50:00,589 Update on language 'sjn' complete.
 INFO : 2025-10-01 23:50:00,589 Saving state to file.
 INFO : 2025-10-01 23:50:00,589 Update complete.
+INFO : 2025-10-01 23:58:52,449 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-10-01 23:58:53,282 Running update on language: sjn
+INFO : 2025-10-01 23:58:55,522 Updating report on language 'sjn'.
+INFO : 2025-10-01 23:58:57,285 Update on language 'sjn' complete.
+INFO : 2025-10-01 23:58:57,285 Saving state to file.
+INFO : 2025-10-01 23:58:57,285 Update complete.
