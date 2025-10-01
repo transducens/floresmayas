@@ -2,42 +2,42 @@
   "tener": {
     "freq": 176,
     "def": "",
-    "notes": ""
+    "notes": "q"
   },
   "estar": {
     "freq": 150,
     "def": "",
-    "notes": ""
+    "notes": "w"
   },
   "hacer": {
     "freq": 147,
     "def": "",
-    "notes": ""
+    "notes": "e"
   },
   "país": {
     "freq": 94,
     "def": "",
-    "notes": ""
+    "notes": "r"
   },
   "persona": {
     "freq": 89,
-    "def": "",
-    "notes": ""
+    "def": "Person",
+    "notes": "t"
   },
   "forma": {
     "freq": 85,
     "def": "",
-    "notes": ""
+    "notes": "y"
   },
   "lugar": {
     "freq": 82,
     "def": "",
-    "notes": ""
+    "notes": "u"
   },
   "año": {
     "freq": 82,
     "def": "",
-    "notes": ""
+    "notes": "e"
   },
   "encontrar": {
     "freq": 80,
@@ -7181,7 +7181,7 @@
   },
   "diagnóstico": {
     "freq": 4,
-    "def": "",
+    "def": "prueba",
     "notes": ""
   },
   "detalle": {

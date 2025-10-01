@@ -292,3 +292,12 @@ INFO : 2025-10-01 08:10:39,813 Updating report on language 'sjn'.
 INFO : 2025-10-01 08:10:40,914 Update on language 'sjn' complete.
 INFO : 2025-10-01 08:10:40,914 Saving state to file.
 INFO : 2025-10-01 08:10:40,914 Update complete.
+INFO : 2025-10-01 09:09:06,309 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-10-01 09:09:07,078 Updating vocabulary file for lang 'sjn'.
+INFO : 2025-10-01 09:09:07,092 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2025-10-01 09:09:08,494 Running update on language: sjn
+INFO : 2025-10-01 09:09:09,167 Packet 'sjn_0': First translation complete by user 'aaron.galiano@ua.es'. Submitting for revision.
+INFO : 2025-10-01 09:09:16,632 Updating report on language 'sjn'.
+INFO : 2025-10-01 09:09:18,687 Update on language 'sjn' complete.
+INFO : 2025-10-01 09:09:18,687 Saving state to file.
+INFO : 2025-10-01 09:09:18,687 Update complete.
