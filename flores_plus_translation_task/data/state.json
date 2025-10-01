@@ -1,0 +1,49 @@
+{
+  "sjn": {
+    "translators": {
+      "aaron.galiano@ua.es": []
+    },
+    "revisors": {
+      "cristian.gr@ua.es": []
+    },
+    "packets": {
+      "0": {
+        "tra_id": "16dND-LZDlUQu-vW8iOWBmTRcMnWjuMTLJqqudLW9d4w",
+        "rev_id": null,
+        "title": "sjn_0",
+        "created": "Oct 01 2025 05:48PM",
+        "last_stage_update": "Oct 01 2025 05:48PM",
+        "translator": "aaron.galiano@ua.es",
+        "revisor": "cristian.gr@ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "vocab_id": "1sRVeCJTSnITLRgnsGyGvEot05GBTNaclum9e0qVaM3g",
+    "report": "1CmB2tqN4bEwIPOCPONvZpD8TNLh3OdpRBt1U-iuiLE4"
+  }
+}
