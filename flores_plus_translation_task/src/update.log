@@ -301,3 +301,11 @@ INFO : 2025-10-01 09:09:16,632 Updating report on language 'sjn'.
 INFO : 2025-10-01 09:09:18,687 Update on language 'sjn' complete.
 INFO : 2025-10-01 09:09:18,687 Saving state to file.
 INFO : 2025-10-01 09:09:18,687 Update complete.
+INFO : 2025-10-01 10:08:49,463 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-10-01 10:08:50,522 Updating vocabulary file for lang 'sjn'.
+INFO : 2025-10-01 10:08:50,538 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2025-10-01 10:08:52,342 Running update on language: sjn
+INFO : 2025-10-01 10:08:53,322 Updating report on language 'sjn'.
+INFO : 2025-10-01 10:08:55,211 Update on language 'sjn' complete.
+INFO : 2025-10-01 10:08:55,211 Saving state to file.
+INFO : 2025-10-01 10:08:55,211 Update complete.
