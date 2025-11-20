@@ -1,0 +1,64 @@
+WARNING : 2025-11-20 09:03:50,190 No state file found. Generating from config.
+WARNING : 2025-11-20 09:03:50,783 No folder associated to language 'sjn'. Creating.
+WARNING : 2025-11-20 09:03:51,507 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-11-20 09:03:58,370 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-11-20 09:03:59,029 Language 'sjn' has no packages ready to work on.
+INFO : 2025-11-20 09:04:04,606 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'and_lou@ua.es'
+INFO : 2025-11-20 09:04:04,606 Creating report spreadsheet for lang 'sjn.'
+INFO : 2025-11-20 09:04:08,374 Running update on language: sjn
+INFO : 2025-11-20 09:04:08,989 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:04:10,105 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:04:10,105 Saving state to file.
+INFO : 2025-11-20 09:04:10,106 Update complete.
+INFO : 2025-11-20 09:14:26,451 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:14:27,444 Updating vocabulary file for lang 'sjn'.
+INFO : 2025-11-20 09:14:27,461 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2025-11-20 09:14:29,008 Running update on language: sjn
+INFO : 2025-11-20 09:14:29,740 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:14:31,126 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:14:31,126 Saving state to file.
+INFO : 2025-11-20 09:14:31,127 Update complete.
+INFO : 2025-11-20 09:27:33,374 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:27:34,371 Running update on language: sjn
+INFO : 2025-11-20 09:27:35,602 Packet 'sjn_0': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2025-11-20 09:27:44,772 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:27:46,413 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:27:46,413 Saving state to file.
+INFO : 2025-11-20 09:27:46,414 Update complete.
+INFO : 2025-11-20 09:37:34,861 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:37:35,669 Running update on language: sjn
+INFO : 2025-11-20 09:37:39,764 Packet 'sjn_0': First revision complete by user 'and_lou@ua.es'. Submitting for second translation.
+INFO : 2025-11-20 09:37:39,764 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:37:41,323 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:37:41,323 Saving state to file.
+INFO : 2025-11-20 09:37:41,323 Update complete.
+INFO : 2025-11-20 09:45:39,383 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:45:40,209 Running update on language: sjn
+INFO : 2025-11-20 09:45:40,935 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:45:42,231 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:45:42,232 Saving state to file.
+INFO : 2025-11-20 09:45:42,232 Update complete.
+INFO : 2025-11-20 09:52:46,254 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:52:47,028 Running update on language: sjn
+INFO : 2025-11-20 09:52:47,829 Packet 'sjn_0': Second translation complete by user 'andres.lou@ua.es'. Submitting for second revision.
+INFO : 2025-11-20 09:52:50,990 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:52:52,321 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:52:52,321 Saving state to file.
+INFO : 2025-11-20 09:52:52,321 Update complete.
+INFO : 2025-11-20 09:59:08,935 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 09:59:09,800 Updating vocabulary file for lang 'sjn'.
+INFO : 2025-11-20 09:59:09,817 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2025-11-20 09:59:11,694 Running update on language: sjn
+INFO : 2025-11-20 09:59:13,705 Packet 'sjn_0': Second revision complete by user 'and_lou@ua.es'. Translation complete.
+INFO : 2025-11-20 09:59:13,705 Checking to see next available packet for user 'andres.lou@ua.es
+INFO : 2025-11-20 09:59:20,457 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'and_lou@ua.es'.
+INFO : 2025-11-20 09:59:20,457 Updating report on language 'sjn'.
+INFO : 2025-11-20 09:59:22,913 Update on language 'sjn' complete.
+INFO : 2025-11-20 09:59:22,913 Saving state to file.
+INFO : 2025-11-20 09:59:22,914 Update complete.
+INFO : 2025-11-20 10:10:13,854 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2025-11-20 10:10:14,917 Running update on language: sjn
+INFO : 2025-11-20 10:10:16,054 Updating report on language 'sjn'.
+INFO : 2025-11-20 10:10:18,544 Update on language 'sjn' complete.
+INFO : 2025-11-20 10:10:18,544 Saving state to file.
+INFO : 2025-11-20 10:10:18,545 Update complete.
