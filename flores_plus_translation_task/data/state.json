@@ -9,13 +9,13 @@
     "packets": {
       "0": {
         "tra_id": "1fzFvnFKmVslAZKxX0QEYZNjrhOJ9pZNLYk_KZwhBp_M",
-        "rev_id": null,
+        "rev_id": "15qdfqmemmq72hUlA2lom05iDZ_BzpXxzMGfe0Xfgg80",
         "title": "sjn_0",
         "created": "Nov 20 2025 09:04AM",
-        "last_stage_update": "Nov 20 2025 09:04AM",
+        "last_stage_update": "Nov 20 2025 09:27AM",
         "translator": "andres.lou@ua.es",
         "revisor": "and_lou@ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": null,
