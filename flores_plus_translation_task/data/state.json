@@ -1,10 +1,22 @@
 {
   "sjn": {
     "translators": {
-      "andres.lou@ua.es": []
+      "andres.lou@ua.es": [
+        "1",
+        "2",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
     },
     "revisors": {
-      "and_lou@ua.es": []
+      "and_lou@ua.es": [
+        "3",
+        "4",
+        "5"
+      ]
     },
     "packets": {
       "0": {
@@ -12,13 +24,23 @@
         "rev_id": "15qdfqmemmq72hUlA2lom05iDZ_BzpXxzMGfe0Xfgg80",
         "title": "sjn_0",
         "created": "Nov 20 2025 09:04AM",
-        "last_stage_update": "Nov 20 2025 09:52AM",
+        "last_stage_update": "Nov 20 2025 09:59AM",
         "translator": "andres.lou@ua.es",
         "revisor": "and_lou@ua.es",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
-      "1": null,
+      "1": {
+        "tra_id": "1HTgZOiCc528ts3MjM0g1N_ZcXU3pQNqGPiY53AfcOTw",
+        "rev_id": null,
+        "title": "sjn_1",
+        "created": "Nov 20 2025 09:59AM",
+        "last_stage_update": "Nov 20 2025 09:59AM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "and_lou@ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
