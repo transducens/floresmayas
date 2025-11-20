@@ -2,10 +2,10 @@
     "langs": {
         "sjn": {
             "translators": [
-                "aaron.galiano@ua.es"
+                "andres.lou@ua.es"
             ],
-            "revisor": "cristian.gr@ua.es"
+            "revisor": "and_lou@ua.es"
         }
     },
-    "packet_size": 50
+    "packet_size": 10
 }

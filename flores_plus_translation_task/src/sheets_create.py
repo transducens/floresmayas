@@ -50,14 +50,16 @@ def create_translation_spreadsheet(
 
     # Create permissions for translator
     drive_service = build("drive", "v3", credentials=creds)
-
+    email_message = """
+    Como traductor, has recibido acceso a la hoja de traducción de tu correspondiente lengua maya. Rellena los campos correspondientes sin alterar el contenido de las lenguas originales.
+    """
     body = {
         "type": "user",
         "role": "writer",
         "emailAddress": tra_email
     }
 
-    drive_service.permissions().create(fileId=id, body=body).execute()
+    drive_service.permissions().create(fileId=id, body=body, emailMessage=email_message).execute()
 
     # Put all the data on the sheet
     body = {
@@ -455,10 +457,20 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
         "emailAddress": packet['revisor']
     }
 
+    email_message = """
+    Como revisor, has recibido acceso a la hoja de revisión de tu correspondiente lengua maya. Los campos a tomar en cuenta son:
+
+    - La categoría de error
+    - La severidad del error
+    - El comentario sobre el error
+
+    Recuerda que las traducciones que contengan error deben incluir cada uno de los campos anteriores. Si la traducción no contiene error alguno, no debe marcarse con más que la indicación de «Correcta».
+    """
     results = (
         drive_service.permissions().create(
             fileId=rev_id,
-            body=body
+            body=body,
+            emailMessage=email_message
         ).execute()
     )
 
@@ -1869,7 +1881,10 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
             "emailAddress": email
         }
 
-        service.permissions().create(fileId=vocab_id, body=body).execute()
+        email_message = """
+        Has recibido acceso al vocabulario de tu correspondiente lengua maya. Puedes añadir, editar y anotar las definiciones de los términos incluidos, así como añadir términos adicionales.
+        """
+        service.permissions().create(fileId=vocab_id, body=body, emailMessage=email_message).execute()
 
     return vocab_id
 

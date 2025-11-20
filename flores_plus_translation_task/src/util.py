@@ -250,8 +250,9 @@ def get_spacy_vocab_and_tokens(lang: str, lang_vocab: dict, spa: list):
             token for token in tokens if token in lang_vocab.keys()
         ]
         cell_vocab = [
-            token + f": {lang_vocab.get(token).get('def')}\n\n" for token in cell_vocab
+            token + f": {lang_vocab.get(token).get('def')}\n" for token in cell_vocab
         ]
+        cell_vocab = sorted(list(set(cell_vocab)))
         cell_vocab = "".join(cell_vocab)
         vocab.append(cell_vocab)
 
