@@ -5,6 +5,12 @@
                 "andres.lou@ua.es"
             ],
             "revisor": "and_lou@ua.es"
+        },
+        "qya": {
+            "translators": [
+                "feasinde@gmail.com"
+            ],
+            "revisor": "lourios.andres@gmail.com"
         }
     },
     "packet_size": 10
