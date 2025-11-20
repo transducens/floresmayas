@@ -12,10 +12,10 @@
         "rev_id": "15qdfqmemmq72hUlA2lom05iDZ_BzpXxzMGfe0Xfgg80",
         "title": "sjn_0",
         "created": "Nov 20 2025 09:04AM",
-        "last_stage_update": "Nov 20 2025 09:37AM",
+        "last_stage_update": "Nov 20 2025 09:52AM",
         "translator": "andres.lou@ua.es",
         "revisor": "and_lou@ua.es",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": null,
@@ -129,7 +129,7 @@
       "109": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 6,
     "translation_complete": false,
     "vocab_id": "1qci7hSnnjGqisekw6EzyOLuYGhQhmsuJnJEtBFuTo7g",
     "report": "17ReJ9-1ddRuD4ib0jXS4-KjJ_4qDZXQ6c86L_MJsZb8"
