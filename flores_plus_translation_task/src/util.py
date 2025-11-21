@@ -1,14 +1,18 @@
+import os
 import os.path
 import json
 import spacy
+import smtplib
+import ssl
 from math import sqrt, floor
+from typing import List, Union
+from email.message import EmailMessage
 from Levenshtein import distance
 from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, FOLDER_ID_TAREA_DE_TRADUCCION
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
-
 
 def get_c(R, k, n, t):
     if n == t:
@@ -312,3 +316,25 @@ def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
         }
 
         service.spreadsheets().batchUpdate
+
+def send_email_notification(recipients: Union[List[str], str], message: str, subject: str) -> None:
+    sender_email = os.getenv("EMAIL_ADRESS")
+    email_password = os.getenv("EMAIL_PASSWD")
+    receiver_email = ', '.join(recipients)
+    msg = EmailMessage()
+    msg['Subject'] = subject
+    msg['From'] = f"FLORES+ Mayas <{sender_email}>"
+    msg['To'] = ', '.join(recipients) if type(recipients) == list else recipients
+    msg.set_content(message)
+
+    smtp_server = "smtp.gmail.com"
+    port = 465
+
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+            server.login(sender_email, email_password)
+            server.send_message(msg)
+    except Exception as e:
+        print(f"Error sending email: {e}")
+

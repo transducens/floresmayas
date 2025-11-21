@@ -2,6 +2,7 @@ import json
 import logging
 import os.path
 from datetime import datetime
+from icecream import ic
 from sheets_create import create_translation_spreadsheet
 from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
@@ -50,6 +51,24 @@ if __name__ == "__main__":
     else:
         with open("../data/state.json") as f:
             state = json.loads(f.read())
+
+    # update state file based on config
+    for lang in config['langs']:
+        if state.get(lang) is None:
+            state[lang] = {
+                "translators": {translator: [] for translator in config['langs'][lang]['translators']},
+                "revisors": {config['langs'][lang]['revisor']: []},
+                "packets": {str(i): None for i in range(len(DATASET))},
+                "inactive_translators": {},
+                "spent_additional_revisions": 0,
+                "translation_complete": False
+            }
+        for translator in config['langs'][lang]['translators']:
+            if state[lang]['translators'].get(translator) is None:
+                state[lang]['translators'][translator]: []
+
+        if config['langs'][lang]['revisor'] not in state[lang]['revisors'].keys():
+            state[lang]['revisors'][config['langs'][lang]['revisor']]: []
 
     # Authenticate and get credentials object
     creds = authenticate()
@@ -181,6 +200,10 @@ if __name__ == "__main__":
                     packet['stage'] = Stage.FIRST_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': First translation complete by user '{packet['translator']}'. Submitting for revision.")
+                    message = f"""Este es un mensaje automatizado notificándote que el paquete de traducción '{packet['title']}' ha sido enviado a revisión. A partir de ahora, seguirás teniendo acceso a este pero ya no podrás editarlo hasta nuevo aviso."""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification(packet['translator'], message, subject)
+
                     state[lang]['packets'][idx] = create_revision_spreadsheet(creds, lang, packet['title'], packet)
 
             elif packet['stage'] == Stage.SECOND_TRANSLATION.name:
@@ -198,6 +221,17 @@ if __name__ == "__main__":
                     packet['stage'] = Stage.SECOND_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': Second translation complete by user '{packet['translator']}'. Submitting for second revision.")
+
+                    message = f"""Este es un mensaje automatizado notificándote que el paquete de traducción '{packet['title']}' ha sido enviado a segunda revisión. A partir de ahora, seguirás teniendo acceso a este pero ya no podrás editarlo."""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification(packet['translator'], message, subject)
+
+                    message = f"""Este es un mensaje automatizado notificándote que la segunda traducción del paquete de traducción '{packet['title']}' ha concluido. A partir de ahora, tienes acceso a la segunda hoja de revisión para revisar dicha traducción y, de ser necesario, corregirla y proveer una traducción final.
+
+                    https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification(packet['revisor'], message, subject)
+
                     state[lang]['packets'][idx], k = create_revision_sheet(creds, lang, packet['title'], packet, r_max)
                     state[lang]['spent_additional_revisions'] += k
 
@@ -218,6 +252,10 @@ if __name__ == "__main__":
                             f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. No errors found. Translation complete."
                         )
                         logger.info(f"""Checking to see next available packet for user '{packet["translator"]}.""")
+
+                        message = f"""Este es un mensaje automatizado notificándote que la traducción y la revisión del paquete de traducción '{packet['title']}' han sido aceptadas y este ha sido ingresado al reporte final. A partir de ahora, seguirás teniendo acceso al paquete pero ya no podrás editarlo."""
+                        subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                        send_email_notification([packet['translator'], packet['revisor']], message, subject)
 
                         next_packet_idx = [int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None] 
 
@@ -248,6 +286,12 @@ if __name__ == "__main__":
                     state[lang]['packets'][idx] = create_correction_sheet(creds, lang, packet['title'], packet)
                     logger.info(f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. Submitting for second translation.")
 
+                    message = f"""Este es un mensaje automatizado notificándote que la revisión del paquete de traducción '{packet['title']}' ha concluido. A partir de ahora, tienes acceso a la segunda hoja de traducción para trabajar en las correcciones necesarias, siguiendo las anotaciones y sugerencias del revisor.
+
+                    https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification(packet['translator'], message, subject)
+
             elif packet['stage'] == Stage.SECOND_REVISION.name:
                 if is_ready_packet(packet['rev_id'], creds):
                     packet['stage'] = Stage.TRANSLATION_COMPLETE
@@ -257,7 +301,12 @@ if __name__ == "__main__":
                     state[lang]['translators'][packet['translator']] += tra_sents
                     state[lang]['revisors'][packet['revisor']] += rev_sents
 
+
                     logger.info(f"Packet '{packet['title']}': Second revision complete by user '{packet['revisor']}'. Translation complete.")
+                    message = f"""Este es un mensaje automatizado notificándote que la traducción y la revisión del paquete de traducción '{packet['title']}' han sido aceptadas y este ha sido ingresado al reporte final. A partir de ahora, seguirás teniendo acceso al paquete pero ya no podrás editarlo."""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification([packet['translator'], packet['revisor']], message, subject)
+
                     logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
 
                     next_packet_idx = [int(idx) for idx in state[lang]['packets'].keys() if state[lang]['packets'][idx] is None]
