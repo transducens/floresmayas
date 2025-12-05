@@ -10,24 +10,24 @@
     "packets": {
       "0": {
         "tra_id": "19-1z_VgrwknrX2SeJUCAIqTuvUHYujbTz-XD3bOVvS8",
-        "rev_id": null,
+        "rev_id": "1Jnfmk2qXaLG2WmrL1QE37K44yseLm51atYwjeEcgd9I",
         "title": "qya_0",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 01:07PM",
+        "last_stage_update": "Dec 05 2025 02:01PM",
         "translator": "and_lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
         "tra_id": "1rFgG-RO6b5CGoFfNKeV4dhuUpPicETRnxjja0DnNY0o",
-        "rev_id": null,
+        "rev_id": "1_2U5_LAQlqEQsF9TgnASjNsuIeCEHLLQh7bbeyHEAgc",
         "title": "qya_1",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 01:07PM",
+        "last_stage_update": "Dec 05 2025 02:01PM",
         "translator": "andres.lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
