@@ -10,13 +10,13 @@
     "packets": {
       "0": {
         "tra_id": "1cNIPMJ1d5Z9b3Oj6IxVabdQDiKY8Ezo6c66gFGW_1Bc",
-        "rev_id": null,
+        "rev_id": "1582irA0ZieQNklmvsuZ2p_GF3rNoGmXuU-w_yPwRDBo",
         "title": "qya_0",
         "created": "Dec 05 2025 11:42AM",
-        "last_stage_update": "Dec 05 2025 11:42AM",
+        "last_stage_update": "Dec 05 2025 12:16PM",
         "translator": "and_lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
