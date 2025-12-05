@@ -8,10 +8,17 @@
         "4",
         "5"
       ],
-      "andres.lou@ua.es": []
+      "andres.lou@ua.es": [
+        "7",
+        "8",
+        "9"
+      ]
     },
     "revisors": {
-      "feasinde@gmail.com": []
+      "feasinde@gmail.com": [
+        "6",
+        "10"
+      ]
     },
     "packets": {
       "0": {
@@ -30,10 +37,10 @@
         "rev_id": "1_2U5_LAQlqEQsF9TgnASjNsuIeCEHLLQh7bbeyHEAgc",
         "title": "qya_1",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 02:30PM",
+        "last_stage_update": "Dec 05 2025 02:38PM",
         "translator": "andres.lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 1
       },
       "2": {
@@ -47,7 +54,17 @@
         "stage": "FIRST_REVISION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "1GEY2gglAljBNJayCl5t1_BHaOY5HdWHyKpB_naPP81E",
+        "rev_id": null,
+        "title": "qya_3",
+        "created": "Dec 05 2025 02:38PM",
+        "last_stage_update": "Dec 05 2025 02:38PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "feasinde@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null,
       "6": null,
