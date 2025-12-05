@@ -2,7 +2,6 @@ name: update_packets
 
 on:
   schedule:
-    # - cron: '*/3 * * * *' 
     - push:
 
 jobs:
