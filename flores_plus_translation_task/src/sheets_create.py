@@ -151,6 +151,16 @@ def create_translation_spreadsheet(
                 }
             },
             {
+                "updateSheetProperties": {
+                    "properties": {
+                        "gridProperties": {
+                            "frozenColumnCount": 3
+                        }
+                    },
+                    "fields": "gridProperties.frozenColumnCount"
+                }
+            },
+            {
                 "repeatCell": {
                     "range": {
                         "startRowIndex": 1,
@@ -1775,16 +1785,6 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                         }
                     },
                     "fields": "gridProperties.frozenRowCount"
-                }
-            },
-            {
-                "updateSheetProperties": {
-                    "properties": {
-                        "gridProperties": {
-                            "frozenColumnCount": 3
-                        }
-                    },
-                    "fields": "gridProperties.frozenColumnCount"
                 }
             },
             {
