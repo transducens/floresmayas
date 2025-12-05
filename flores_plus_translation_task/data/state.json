@@ -30,21 +30,21 @@
         "rev_id": "1_2U5_LAQlqEQsF9TgnASjNsuIeCEHLLQh7bbeyHEAgc",
         "title": "qya_1",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 02:14PM",
+        "last_stage_update": "Dec 05 2025 02:30PM",
         "translator": "andres.lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
       "2": {
         "tra_id": "14jY5MBxknV5822p3c51lP3XhrVSFDFuE8CvNN4iHxQE",
-        "rev_id": null,
+        "rev_id": "11hU70JT2IbWKGq0_VQaZVA4tA0HS4jNIW9INYTWV0qM",
         "title": "qya_2",
         "created": "Dec 05 2025 02:14PM",
-        "last_stage_update": "Dec 05 2025 02:14PM",
+        "last_stage_update": "Dec 05 2025 02:30PM",
         "translator": "and_lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 2
       },
       "3": null,
@@ -266,7 +266,7 @@
       "219": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 2,
     "translation_complete": false,
     "vocab_id": "1CfnmBfpN2gkIgp4xeMSO3GL85YSc__lF8w9ro_m3rq4",
     "report": "1YZxMmvHfTru7seKc7TA0mSu4ULB9CVSJp8F0MYknsLQ"
