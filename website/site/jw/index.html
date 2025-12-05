@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>JW Crawler - FLORES+ Mayas</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <link href="../style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "JW Crawler", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+
+    <h1 id="jw-crawler">JW Crawler</h1>
+<p>El sitio web de los Testigos de Jehová es uno de los recursos más valiosos con los que cuenta la comunidad de lenguas de escasos recursos (<a href="https://aclanthology.org/P19-1310.pdf">Agić &amp; Vulić 2019</a>).</p>
+<p>La labor más importante del mes fue el desarrollo y ejecución de <a href="https://github.com/transducens/jw_crawler"><code>jw_crawler</code></a>, un <em>crawler</em> del sitio de los Testigos de Jehová capaz de extraer textos paralelos de cualquier número de lenguas presentes en este a partir de los diferentes mapas de sitio disponibles.</p>
+<!-- Inicialmente utilicé el mapa en español, con lo que obtuve una cantidad de texto en paralelo comparable al del llorado JW300. -->
+
+<table>
+<thead>
+<tr>
+<th>Lengua</th>
+<th>no. de párrafos</th>
+<th>no. de párrafos  <br>no repetidos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cak</td>
+<td>51 089</td>
+<td>48 764</td>
+</tr>
+<tr>
+<td>ctu</td>
+<td>95 104</td>
+<td>91 591</td>
+</tr>
+<tr>
+<td>kek</td>
+<td>81 969</td>
+<td>81 000</td>
+</tr>
+<tr>
+<td>mam</td>
+<td>110 310</td>
+<td>104 241</td>
+</tr>
+<tr>
+<td>poh</td>
+<td>10 136</td>
+<td>10 130</td>
+</tr>
+<tr>
+<td>quc</td>
+<td>76 961</td>
+<td>76 045</td>
+</tr>
+<tr>
+<td>tzh</td>
+<td>100 865</td>
+<td>99 673</td>
+</tr>
+<tr>
+<td>tzo</td>
+<td>167 345</td>
+<td>161 322</td>
+</tr>
+<tr>
+<td>yua</td>
+<td>192 726</td>
+<td>186 111</td>
+</tr>
+</tbody>
+</table>
+<!-- No he pasado ningún tokenizador de oraciones, por lo que el número de estas es mayor para cada lengua. -->
+
+<p>Los textos, como cabe esperarse, no están perfectamente alineados entre sí; optamos por utilizar el alineador <a href="https://github.com/danielvarga/hunalign"><code>hunalign</code></a>.</p>
+<table>
+<thead>
+<tr>
+<th>Lengua</th>
+<th>no. de URLs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>en</td>
+<td>33 245</td>
+</tr>
+<tr>
+<td>es</td>
+<td>27 344</td>
+</tr>
+<tr>
+<td>fr</td>
+<td>22 673</td>
+</tr>
+<tr>
+<td>de</td>
+<td>27 097</td>
+</tr>
+<tr>
+<td>it</td>
+<td>22 638</td>
+</tr>
+</tbody>
+</table>
+<p>Realizamos una <em>crawl</em> completa para inglés y español, y no hay una diferencia significativa entre ambos en cuanto al número de documentos con textos paralelos en lenguas mayas (6 525 para español, 6 544, para inglés).</p>
+
+  <br>
+    
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

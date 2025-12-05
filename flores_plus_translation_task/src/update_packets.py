@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
                     message = f"""Este es un mensaje automatizado notificándote que la segunda traducción del paquete de traducción '{packet['title']}' ha concluido. A partir de ahora, tienes acceso a la segunda hoja de revisión para revisar dicha traducción y, de ser necesario, corregirla y proveer una traducción final.
 
-                    https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
+https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                     subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
                     send_email_notification(packet['revisor'], message, subject)
 
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 
                     message = f"""Este es un mensaje automatizado notificándote que la revisión del paquete de traducción '{packet['title']}' ha concluido. A partir de ahora, tienes acceso a la segunda hoja de traducción para trabajar en las correcciones necesarias, siguiendo las anotaciones y sugerencias del revisor.
 
-                    https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
+https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
                     send_email_notification(packet['translator'], message, subject)
 

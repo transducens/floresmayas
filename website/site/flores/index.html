@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Qué es FLORES+ - FLORES+ Mayas</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <link href="../style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Qu\u00e9 es FLORES+", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-link">
+        Tipología de errores
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Inicio
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="que-es-flores">Qué es FLORES+</h1>
+<p><a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> es un <strong>corpus paralelo</strong> en más de 200 idiomas del mundo. Consiste en una selección de aproximadamente 2 000 oraciones tomadas del repositorio de <a href="https://www.wikimedia.org/">Wikimedia</a> en inglés, abarcando diversas temáticas como deportes, ciencia, política, historia, etc; cada una de las frases se traduce a cada una de las lenguas incluídas con el propósito de crear un corpus paralelo entre estas. </p>
+<p>El conjunto de datos FLORES+ pertenece a una iniciativa llevada a cabo inicialmente por el equipo de Inteligencia Artificial de Meta, y seguidamente por la iniciativa <a href="https://oldi.org/">OLDI</a>, que busca enfocarse en la evaluación de sistemas de traducción automática  multilingüe de lenguas infrarrepresentadas o de escasos recursos.</p>
+<!--
+## Cómo se construye un FLORES
+
+La construcción de un FLORES conlleva una serie de pasos con el propósito de asegurar su calidad como recurso de procesamiento de lenguaje natural. En nuestro caso, este control de calidad es de especial importancia debido a la escasez de recursos en el campo; las frases den lenguas mayas incluidas en FLORES+ se convertirán en una cota de referencia (una _benchmark_) que podrá utilizarse para cualquier futuro esfuerzo en el desarrollo de tecnologías de lenguaje de las lenguas mayas por parte de cualquier otro equipo de investigación.
+
+### Traducción desde el español
+Puesto que es improbable que los traductores de lenguas mayas tengan un dominio fluido del inglés (o por lo menos comparable al que tuvieran del español), y para mantenerse en paralelo con los corpora de los FLORES, nuestras tareas de traducción se darán no desde las oraciones en inglés de Wikipedia sino desde sus respectivas traducciones al español. A pesar de estar al tanto del fenómeno del *translationese*[^2], creemos que los efectos de este son menos importantes que la posibilidad de trabajar con las lenguas mayas en paralelo con otras lenguas de escasos recursos del mundo. Si eligiéramos trabajar desde los textos originales en inglés, nos expondríamos a tiempos de procesamiento mucho más prolongados y a traducciones de inferior calidad.
+
+
+### Selección de proveedores de servicios lingüísticos
+Tanto FLORES-101 como FLORES-200 hablan de los llamados *Language Service Providers* (LSP) como las entidades encargadas de las traducciones y sus correspondientes controles de calidad. Tomando en cuenta nuestro escenario, es probable que nuestros LSP sean a traductores individuales para cada una de las lenguas en las que nos enfoquemos. Necesitamos un mínimo de dos traductores por lengua, uno para traducir y el otro para QA, aunque idealmente querríamos tres, con tal de seguir más de cerca el método de los FLORES, el cual estipula que dos LSP se encarguen de la traducción y uno del control de calidad.
+
+### Las lenguas de la tarea
+A pesar que nuestro objetivo sería la inclusión de todas las lenguas mayas reconocidas, como primera fase, comenzaríamos con las cinco lenguas mayas más habladas del páis: qʼeqchiʼ, kʼicheʼ, mam, kaqchikel, y chʼol. Como proyecto piloto, comenzaríamos con kʼicheʼ o qʼeqchiʼ, dependiendo del personal que lográramos contactar.
+--->
+<!-- #### Nota sobre la ortografía
+Es muy importante notar que el carácter que denota consonantes implosivas en las lenguas mayas, `ʼ`, es el MODIFIER LETTER APOSTROPHE ([pag 2](https://www.unicode.org/charts/PDF/U02B0.pdf)), cuyo código es `U+02BC`, y no el APOSTROPHE, `'`, ni el RIGHT SINGLE QUOTATION MARK, `’`, cuyos códigos son respectivamente `U+0027` y `U+2019`. A pesar de ser tipográficamente muy similares y hasta indistinguibles, la distinción es vital cuando se trata de segmentación a nivel de carácter; en las lenguas mayas, el apóstrofo unido a una consonante es un dígrafo que denota una fonema distinguible, y no una contracción, como ocurre en el caso del inglés (eg *don't*) o una elisión, como ocurre en el francés (eg *l'île*). -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>El nombre se trata probablemente de un acrónimo: <em>Focus on Low Resources</em>. En ningún lugar se aclara de manera explícita.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../directrices/tipologia/" class="btn btn-xs btn-link">
+        Tipología de errores
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Inicio
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

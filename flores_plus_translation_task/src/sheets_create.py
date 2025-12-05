@@ -1778,6 +1778,16 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                 }
             },
             {
+                "updateSheetProperties": {
+                    "properties": {
+                        "gridProperties": {
+                            "frozenColumnCount": 3
+                        }
+                    },
+                    "fields": "gridProperties.frozenColumnCount"
+                }
+            },
+            {
                 "repeatCell": {
                     "range": {
                         "startRowIndex": 1,
@@ -1882,7 +1892,7 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         }
 
         email_message = """
-        Has recibido acceso al vocabulario de tu correspondiente lengua maya. Puedes añadir, editar y anotar las definiciones de los términos incluidos, así como añadir términos adicionales.
+        Has recibido acceso al vocabulario de tu correspondiente lengua maya. Puedes añadir, editar y anotar las traducciones de los términos incluidos, así como añadir términos adicionales.
         """
         service.permissions().create(fileId=vocab_id, body=body, emailMessage=email_message).execute()
 

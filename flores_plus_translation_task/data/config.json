@@ -2,13 +2,15 @@
     "langs": {
         "sjn": {
             "translators": [
-                "andres.lou@ua.es"
+                "andres.lou@ua.es",
+                "and_lou@ua.es"
             ],
-            "revisor": "and_lou@ua.es"
+            "revisor": "lourios.andres@gmail.com"
         },
         "qya": {
             "translators": [
-                "feasinde@gmail.com"
+                "feasinde@gmail.com",
+                "and_lou@gcloud.ua.es"
             ],
             "revisor": "lourios.andres@gmail.com"
         }
