@@ -2,10 +2,10 @@
     "langs": {
         "qya": {
             "translators": [
-                "and_lou@ua.es",
-                "andres.lou@ua.es"
+                "fsanchez@dlsi.ua.es",
+                "japerez@dlsi.ua.es"
             ],
-            "revisor": "feasinde@gmail.com"
+            "revisor": "vmsanchez@dlsi.ua.es"
         }
     },
     "packet_size": 5
