@@ -51,7 +51,7 @@ def create_translation_spreadsheet(
     # Create permissions for translator
     drive_service = build("drive", "v3", credentials=creds)
     email_message = """
-    Como traductor, has recibido acceso a la hoja de traducción de tu correspondiente lengua maya. Rellena los campos correspondientes sin alterar el contenido de las lenguas originales.
+    Como traductor, has recibido acceso a la hoja de traducción de tu correspondiente lengua maya. Rellena las celdas en la columna de **Traducción** con las traducciones correspondientes, sin alterar el contenido de las lenguas originales. Al terminar, no olvides marcar la casilla de **Completado** al final del documento.
     """
     body = {
         "type": "user",
