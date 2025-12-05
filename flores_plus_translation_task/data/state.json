@@ -1,7 +1,13 @@
 {
   "qya": {
     "translators": {
-      "and_lou@ua.es": [],
+      "and_lou@ua.es": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "andres.lou@ua.es": []
     },
     "revisors": {
@@ -13,10 +19,10 @@
         "rev_id": "1Jnfmk2qXaLG2WmrL1QE37K44yseLm51atYwjeEcgd9I",
         "title": "qya_0",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 02:01PM",
+        "last_stage_update": "Dec 05 2025 02:14PM",
         "translator": "and_lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -24,13 +30,23 @@
         "rev_id": "1_2U5_LAQlqEQsF9TgnASjNsuIeCEHLLQh7bbeyHEAgc",
         "title": "qya_1",
         "created": "Dec 05 2025 01:07PM",
-        "last_stage_update": "Dec 05 2025 02:01PM",
+        "last_stage_update": "Dec 05 2025 02:14PM",
         "translator": "andres.lou@ua.es",
         "revisor": "feasinde@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "14jY5MBxknV5822p3c51lP3XhrVSFDFuE8CvNN4iHxQE",
+        "rev_id": null,
+        "title": "qya_2",
+        "created": "Dec 05 2025 02:14PM",
+        "last_stage_update": "Dec 05 2025 02:14PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "feasinde@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null,
