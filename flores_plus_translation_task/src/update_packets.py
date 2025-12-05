@@ -2,7 +2,6 @@ import json
 import logging
 import os.path
 from datetime import datetime
-from icecream import ic
 from sheets_create import create_translation_spreadsheet
 from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
