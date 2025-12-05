@@ -43,3 +43,11 @@ INFO : 2025-12-05 12:21:57,347 Updating report on language 'qya'.
 INFO : 2025-12-05 12:21:58,658 Update on language 'qya' complete.
 INFO : 2025-12-05 12:21:58,658 Saving state to file.
 INFO : 2025-12-05 12:21:58,659 Update complete.
+INFO : 2025-12-05 13:00:31,853 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-12-05 13:00:32,671 Running update on language: qya
+INFO : 2025-12-05 13:00:33,799 Packet 'qya_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2025-12-05 13:00:43,514 Packet 'qya_1': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2025-12-05 13:00:53,922 Updating report on language 'qya'.
+INFO : 2025-12-05 13:00:56,196 Update on language 'qya' complete.
+INFO : 2025-12-05 13:00:56,196 Saving state to file.
+INFO : 2025-12-05 13:00:56,196 Update complete.
