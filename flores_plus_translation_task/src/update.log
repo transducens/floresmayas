@@ -1,0 +1,13 @@
+WARNING : 2025-12-05 13:07:32,878 No state file found. Generating from config.
+WARNING : 2025-12-05 13:07:33,452 No folder associated to language 'qya'. Creating.
+WARNING : 2025-12-05 13:07:34,197 No vocabulary spreadsheet associated to language 'qya'. Creating.
+INFO : 2025-12-05 13:07:44,391 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-05 13:07:44,979 Language 'qya' has no packages ready to work on.
+INFO : 2025-12-05 13:07:51,558 New packet 'qya_0' created for language 'qya' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2025-12-05 13:07:58,078 New packet 'qya_1' created for language 'qya' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2025-12-05 13:07:58,078 Creating report spreadsheet for lang 'qya.'
+INFO : 2025-12-05 13:08:02,358 Running update on language: qya
+INFO : 2025-12-05 13:08:03,516 Updating report on language 'qya'.
+INFO : 2025-12-05 13:08:04,615 Update on language 'qya' complete.
+INFO : 2025-12-05 13:08:04,615 Saving state to file.
+INFO : 2025-12-05 13:08:04,616 Update complete.
