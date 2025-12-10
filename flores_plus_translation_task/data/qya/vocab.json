@@ -1,27 +1,27 @@
 {
   "más": {
     "freq": 251,
-    "def": "",
+    "def": "more",
     "notes": ""
   },
   "tener": {
     "freq": 176,
-    "def": "",
+    "def": "have",
     "notes": ""
   },
   "como": {
     "freq": 173,
-    "def": "",
+    "def": "how / like",
     "notes": ""
   },
   "estar": {
     "freq": 150,
-    "def": "",
+    "def": "be",
     "notes": ""
   },
   "hacer": {
     "freq": 147,
-    "def": "",
+    "def": "make / do",
     "notes": ""
   },
   "país": {
@@ -36,12 +36,12 @@
   },
   "también": {
     "freq": 85,
-    "def": "",
+    "def": "also",
     "notes": ""
   },
   "forma": {
     "freq": 85,
-    "def": "",
+    "def": "shape",
     "notes": ""
   },
   "lugar": {
@@ -56,62 +56,62 @@
   },
   "encontrar": {
     "freq": 80,
-    "def": "",
+    "def": "find",
     "notes": ""
   },
   "parte": {
     "freq": 70,
-    "def": "",
+    "def": "part",
     "notes": ""
   },
   "existir": {
     "freq": 64,
-    "def": "",
+    "def": "exist",
     "notes": ""
   },
   "mayor": {
     "freq": 63,
-    "def": "",
+    "def": "greater",
     "notes": ""
   },
   "dar": {
     "freq": 61,
-    "def": "",
+    "def": "give",
     "notes": ""
   },
   "cuando": {
     "freq": 60,
-    "def": "",
+    "def": "when",
     "notes": ""
   },
   "gran": {
     "freq": 59,
-    "def": "",
+    "def": "great / big",
     "notes": ""
   },
   "pero": {
     "freq": 57,
-    "def": "",
+    "def": "but",
     "notes": ""
   },
   "ciudad": {
     "freq": 56,
-    "def": "",
+    "def": "city",
     "notes": ""
   },
   "nuevo": {
     "freq": 54,
-    "def": "",
+    "def": "new",
     "notes": ""
   },
   "contar con": {
     "freq": 52,
-    "def": "",
+    "def": "count on",
     "notes": ""
   },
   "solo": {
     "freq": 51,
-    "def": "",
+    "def": "alone / only",
     "notes": ""
   },
   "posible": {
@@ -121,7 +121,7 @@
   },
   "tiempo": {
     "freq": 49,
-    "def": "",
+    "def": "time",
     "notes": ""
   },
   "estado": {
@@ -651,7 +651,7 @@
   },
   "científico": {
     "freq": 23,
-    "def": "",
+    "def": "scientific",
     "notes": ""
   },
   "bueno": {
@@ -1761,7 +1761,7 @@
   },
   "aproximadamente": {
     "freq": 13,
-    "def": "",
+    "def": "approx.",
     "notes": ""
   },
   "al menos": {
@@ -3656,7 +3656,7 @@
   },
   "anunciar": {
     "freq": 8,
-    "def": "",
+    "def": "announce",
     "notes": ""
   },
   "anfitrión": {

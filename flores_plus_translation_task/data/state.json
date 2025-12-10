@@ -10,13 +10,13 @@
     "packets": {
       "0": {
         "tra_id": "1Y_1Yf_25-03psPxNXEl3q4DFeVIL9LMXffQEAA7ebR0",
-        "rev_id": null,
+        "rev_id": "13M-fwPp7wWmoAwIL09iCjyUwtUi8bZb5XeLP0R1S_4s",
         "title": "qya_0",
         "created": "Dec 05 2025 05:09PM",
-        "last_stage_update": "Dec 05 2025 05:09PM",
+        "last_stage_update": "Dec 10 2025 11:08AM",
         "translator": "fsanchez@dlsi.ua.es",
         "revisor": "vmsanchez@dlsi.ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
