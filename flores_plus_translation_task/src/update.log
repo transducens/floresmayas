@@ -700,3 +700,10 @@ INFO : 2025-12-10 11:08:11,203 Updating report on language 'qya'.
 INFO : 2025-12-10 11:08:13,192 Update on language 'qya' complete.
 INFO : 2025-12-10 11:08:13,192 Saving state to file.
 INFO : 2025-12-10 11:08:13,193 Update complete.
+INFO : 2025-12-10 12:13:54,630 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-12-10 12:13:55,309 Running update on language: qya
+INFO : 2025-12-10 12:13:56,667 Packet 'qya_1': First translation complete by user 'japerez@dlsi.ua.es'. Submitting for revision.
+INFO : 2025-12-10 12:14:03,871 Updating report on language 'qya'.
+INFO : 2025-12-10 12:14:05,688 Update on language 'qya' complete.
+INFO : 2025-12-10 12:14:05,688 Saving state to file.
+INFO : 2025-12-10 12:14:05,688 Update complete.

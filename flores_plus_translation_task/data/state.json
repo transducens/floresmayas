@@ -21,13 +21,13 @@
       },
       "1": {
         "tra_id": "1mR-aUPP3CeWT485fAPDfLaaYZDiVEPOtaDnEczBz7z0",
-        "rev_id": null,
+        "rev_id": "15FDmcNfVcSE4qDRi-WL7Nsmg2u0LE5kiYlkDwuW-154",
         "title": "qya_1",
         "created": "Dec 05 2025 05:09PM",
-        "last_stage_update": "Dec 05 2025 05:09PM",
+        "last_stage_update": "Dec 10 2025 12:13PM",
         "translator": "japerez@dlsi.ua.es",
         "revisor": "vmsanchez@dlsi.ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
