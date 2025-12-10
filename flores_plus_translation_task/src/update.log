@@ -677,3 +677,11 @@ INFO : 2025-12-10 08:11:03,072 Updating report on language 'qya'.
 INFO : 2025-12-10 08:11:05,675 Update on language 'qya' complete.
 INFO : 2025-12-10 08:11:05,675 Saving state to file.
 INFO : 2025-12-10 08:11:05,676 Update complete.
+INFO : 2025-12-10 09:11:36,340 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-12-10 09:11:37,211 Updating vocabulary file for lang 'qya'.
+INFO : 2025-12-10 09:11:37,228 Updating current packets with new vocabulary for language 'qya'.
+INFO : 2025-12-10 09:11:39,981 Running update on language: qya
+INFO : 2025-12-10 09:11:40,882 Updating report on language 'qya'.
+INFO : 2025-12-10 09:11:42,440 Update on language 'qya' complete.
+INFO : 2025-12-10 09:11:42,440 Saving state to file.
+INFO : 2025-12-10 09:11:42,440 Update complete.
