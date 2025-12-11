@@ -941,3 +941,9 @@ INFO : 2025-12-11 14:37:05,309 Updating report on language 'qya'.
 INFO : 2025-12-11 14:37:07,594 Update on language 'qya' complete.
 INFO : 2025-12-11 14:37:07,594 Saving state to file.
 INFO : 2025-12-11 14:37:07,594 Update complete.
+INFO : 2025-12-11 14:49:45,088 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-12-11 14:49:46,234 Running update on language: qya
+INFO : 2025-12-11 14:49:49,818 Updating report on language 'qya'.
+INFO : 2025-12-11 14:49:52,408 Update on language 'qya' complete.
+INFO : 2025-12-11 14:49:52,408 Saving state to file.
+INFO : 2025-12-11 14:49:52,409 Update complete.
