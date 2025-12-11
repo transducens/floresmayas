@@ -2,7 +2,7 @@ name: update_packets
 
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '*/15 * * * *' 
 #  push:
 
 jobs:
