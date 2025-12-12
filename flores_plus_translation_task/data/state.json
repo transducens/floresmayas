@@ -5,7 +5,7 @@
       "japerez@dlsi.ua.es": []
     },
     "revisors": {
-      "vmsanchez@dlsi.ua.es": []
+      "vm.sanchez@gcloud.ua.es": []
     },
     "packets": {
       "0": {
@@ -15,7 +15,7 @@
         "created": "Dec 05 2025 05:09PM",
         "last_stage_update": "Dec 10 2025 11:08AM",
         "translator": "fsanchez@dlsi.ua.es",
-        "revisor": "vmsanchez@dlsi.ua.es",
+        "revisor": "vm.sanchez@gcloud.ua.es",
         "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
@@ -26,7 +26,7 @@
         "created": "Dec 05 2025 05:09PM",
         "last_stage_update": "Dec 10 2025 12:13PM",
         "translator": "japerez@dlsi.ua.es",
-        "revisor": "vmsanchez@dlsi.ua.es",
+        "revisor": "vm.sanchez@gcloud.ua.es",
         "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
