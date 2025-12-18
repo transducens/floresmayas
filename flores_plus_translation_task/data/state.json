@@ -13,10 +13,10 @@
         "rev_id": "13M-fwPp7wWmoAwIL09iCjyUwtUi8bZb5XeLP0R1S_4s",
         "title": "qya_0",
         "created": "Dec 05 2025 05:09PM",
-        "last_stage_update": "Dec 18 2025 10:04AM",
+        "last_stage_update": "Dec 18 2025 01:15PM",
         "translator": "fsanchez@dlsi.ua.es",
         "revisor": "vm.sanchez@gcloud.ua.es",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -250,7 +250,7 @@
       "219": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 2,
     "translation_complete": false,
     "vocab_id": "1bOF-O_HMK9EG__uFHjFP-xr97FQA8BPzrQKHVbEtYQk",
     "report": "1S5Md9Cmr0udqtrzwIx2Z9CreOkxpALGLzbbS0R92Lsk"
