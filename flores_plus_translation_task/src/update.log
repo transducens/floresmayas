@@ -2255,3 +2255,11 @@ INFO : 2025-12-18 09:07:12,785 Updating report on language 'qya'.
 INFO : 2025-12-18 09:07:15,324 Update on language 'qya' complete.
 INFO : 2025-12-18 09:07:15,324 Saving state to file.
 INFO : 2025-12-18 09:07:15,324 Update complete.
+INFO : 2025-12-18 10:04:52,362 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2025-12-18 10:04:53,125 Running update on language: qya
+INFO : 2025-12-18 10:04:57,792 Packet 'qya_0': First revision complete by user 'vm.sanchez@gcloud.ua.es'. Submitting for second translation.
+INFO : 2025-12-18 10:05:02,582 Packet 'qya_1': First revision complete by user 'vm.sanchez@gcloud.ua.es'. Submitting for second translation.
+INFO : 2025-12-18 10:05:03,530 Updating report on language 'qya'.
+INFO : 2025-12-18 10:05:05,317 Update on language 'qya' complete.
+INFO : 2025-12-18 10:05:05,317 Saving state to file.
+INFO : 2025-12-18 10:05:05,317 Update complete.
