@@ -24,10 +24,10 @@
         "rev_id": "15FDmcNfVcSE4qDRi-WL7Nsmg2u0LE5kiYlkDwuW-154",
         "title": "qya_1",
         "created": "Dec 05 2025 05:09PM",
-        "last_stage_update": "Dec 18 2025 10:05AM",
+        "last_stage_update": "Dec 18 2025 11:05PM",
         "translator": "japerez@dlsi.ua.es",
         "revisor": "vm.sanchez@gcloud.ua.es",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
       "2": null,
@@ -250,7 +250,7 @@
       "219": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 2,
+    "spent_additional_revisions": 4,
     "translation_complete": false,
     "vocab_id": "1bOF-O_HMK9EG__uFHjFP-xr97FQA8BPzrQKHVbEtYQk",
     "report": "1S5Md9Cmr0udqtrzwIx2Z9CreOkxpALGLzbbS0R92Lsk"
