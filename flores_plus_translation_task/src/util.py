@@ -1,7 +1,6 @@
 import os
 import os.path
 import json
-import spacy
 import smtplib
 import ssl
 from math import sqrt, floor
@@ -234,34 +233,56 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
     return vocab
 
 
-def get_spacy_vocab_and_tokens(lang: str, lang_vocab: dict, spa: list):
+# def get_spacy_vocab_and_tokens(lang: str, lang_vocab: dict, spa: list):
 
-    spa_tokens = []
+#     spa_tokens = []
 
-    vocab = []
-    nlp = spacy.load("es_core_news_sm")
-    disabled = ["parser", "ner", "textcat", "custom"]
-    pos_tags = ["NOUN", "PROPN", "VERB", "ADJ", "ADV"]
+#     vocab = []
+#     nlp = spacy.load("es_core_news_sm")
+#     disabled = ["parser", "ner", "textcat", "custom"]
+#     pos_tags = ["NOUN", "PROPN", "VERB", "ADJ", "ADV"]
 
-    for idx, value in enumerate(spa):
-        tokens = [
-            token.lemma_ if token.pos_ in pos_tags else token.text
-            for doc in nlp.pipe([value], disable=disabled)
-            for token in doc
-        ]
-        spa_tokens.append(tokens)
-        cell_vocab = [
-            token for token in tokens if token in lang_vocab.keys()
-        ]
-        cell_vocab = [
-            token + f": {lang_vocab.get(token).get('def')}\n" for token in cell_vocab
-        ]
-        cell_vocab = sorted(list(set(cell_vocab)))
-        cell_vocab = "".join(cell_vocab)
-        vocab.append(cell_vocab)
+#     for idx, value in enumerate(spa):
+#         tokens = [
+#             token.lemma_ if token.pos_ in pos_tags else token.text
+#             for doc in nlp.pipe([value], disable=disabled)
+#             for token in doc
+#         ]
+#         spa_tokens.append(tokens)
+#         cell_vocab = [
+#             token for token in tokens if token in lang_vocab.keys()
+#         ]
+#         cell_vocab = [
+#             token + f": {lang_vocab.get(token).get('def')}\n" for token in cell_vocab
+#         ]
+#         cell_vocab = sorted(list(set(cell_vocab)))
+#         cell_vocab = "".join(cell_vocab)
+#         vocab.append(cell_vocab)
 
+    # vocab : list of strings: Each string goes like word:\nword:\n etc
+    # spa_tokens : list of lists. Each sentence is tokenised
     return vocab, spa_tokens
 
+
+def get_vocab_and_spa_tokens(lang_vocab: dict, packet_idx: int):
+    spa_tokens = []
+    vocab = []
+    for filename in os.listdir(f"../data/tokens/{packet_idx}"):
+        with open(f"../data/tokens/{packet_idx}/{filename}") as f:
+            spa_tokens.append(f.readlines())
+
+    for idx, line in enumerate(spa_tokens):
+        line = [token.strip() for token in line]
+        line = [token for token in line if lang_vocab.get(token) and
+                lang_vocab[token]['def']]
+        line_vocab = list(set(line))
+        line_vocab = [token for token in line_vocab if lang_vocab.get(token)
+                      and lang_vocab.get(token).get('def')]
+        line_vocab = [f"{token}: {lang_vocab[token]['def']} \n" for token in line_vocab]
+        line_vocab = "".join(line_vocab)
+        vocab.append(line_vocab)
+        spa_tokens[idx] = line
+    return vocab, spa_tokens
 
 def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
     with open(f"../data/{lang}/vocab.json") as f:
@@ -272,29 +293,30 @@ def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
 
     for packet in packets:
         fileId = state[lang]['packets'][packet]['tra_id']
+        packet_idx = state[lang]['packets'][packet]['packet_idx']
         spa = service.spreadsheets().values().get(
             spreadsheetId=fileId,
             range="C2:C"
         ).execute()
         spa = [sent[0] for sent in spa['values']]
-        vocab, spa_tokens = get_spacy_vocab_and_tokens(lang, lang_vocab, spa)
-        body = {
-            "valueInputOption": "USER_ENTERED",
-            "data": [
-                {
-                    "range": "D2:D",
-                    "majorDimension": "COLUMNS",
-                    "values": [
-                        vocab
-                    ]
-                }
-            ]
-        }
-
-        service.spreadsheets().values().batchUpdate(
-            spreadsheetId=fileId,
-            body=body
-        ).execute()
+        vocab, spa_tokens = get_vocab_and_spa_tokens(lang_vocab, packet_idx)
+        if len([v for v in vocab if v]) > 0: # make sure there is at least one vocab term with a definition
+            body = {
+                "valueInputOption": "USER_ENTERED",
+                "data": [
+                    {
+                        "range": "D2:D",
+                        "majorDimension": "COLUMNS",
+                        "values": [
+                            vocab
+                        ]
+                    }
+                ]
+            }
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=fileId,
+                body=body
+            ).execute()
 
         body = {
             "requests": [
@@ -315,7 +337,10 @@ def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
             ]
         }
 
-        service.spreadsheets().batchUpdate
+        service.spreadsheets().batchUpdate(
+            spreadsheetId=fileId,
+            body=body
+        ).execute()
 
 def send_email_notification(recipients: Union[List[str], str], message: str, subject: str) -> None:
     sender_email = os.getenv("EMAIL_ADRESS")
@@ -338,3 +363,55 @@ def send_email_notification(recipients: Union[List[str], str], message: str, sub
     except Exception as e:
         print(f"Error sending email: {e}")
 
+def protect_packet_sheets(ssheets_ids: list, creds) -> None:
+    service = build("sheets", "v4", credentials=creds)
+    for ss in ssheets_ids:
+        response = service.spreadsheets().get(
+            spreadsheetId=ss,
+            fields="sheets(protectedRanges(protectedRangeId),properties(sheetId))"
+            ).execute()
+
+        # Collect all protectedRangeIds into a list of delete requests
+        requests = []
+        for sheet in response.get('sheets', []):
+        # Check if the sheet has any protected ranges
+            if 'protectedRanges' in sheet:
+                for pr in sheet['protectedRanges']:
+                    requests.append({
+                        "deleteProtectedRange": {
+                            "protectedRangeId": pr['protectedRangeId']
+                        }
+                    })
+            new_protection_request = {
+                "addProtectedRange": {
+                    "protectedRange": {
+                        "range": {
+                        "sheetId": sheet['properties']['sheetId']
+                        },
+                        "description": "Master Lock",
+                        "warningOnly": False,
+                        "editors": {
+                            "users": ["and_lou@gcloud.ua.es"]
+                        }
+                    }
+                }
+            }
+            requests.append(new_protection_request)
+        if requests:
+            body = {"requests": requests}
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=ss,
+                body=body
+            ).execute()
+            print("All previous protections removed. New protection applied.")
+        else:
+            print("No changes needed.")
+
+def __main__():
+    creds = authenticate()
+    ssheets = ["1eutIMHCgvhLUk3v7C56_Ds1bOQV9vu5teMFoo7lPPn8"]
+
+    protect_packet_sheets(ssheets, creds)
+
+if __name__ == "__main__":
+    __main__()

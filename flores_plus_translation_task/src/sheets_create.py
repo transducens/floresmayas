@@ -21,10 +21,23 @@ def create_translation_spreadsheet(
     eng = [row.split('\t')[1] for row in sents]
     spa = [row.split('\t')[2] for row in sents]
 
+    from icecream import ic
     with open(f"../data/{lang_code}/vocab.json") as f:
         lang_vocab = json.loads(f.read())
 
-    vocab, spa_tokens = get_spacy_vocab_and_tokens(lang_code, lang_vocab, spa)
+    spa_tokens = []
+    vocab = []
+    with open('temp',  'w') as f:
+        for line in spa:
+            f.write(line)
+    os.system(f"mkdir -p ../data/tokens/{packet_idx}")
+    os.system(f"bash apertium_tokenise_line_by_line.sh temp {packet_idx}")
+    os.system("rm temp")
+    for filename in os.listdir(f"../data/tokens/{packet_idx}"):
+        with open(f"../data/tokens/{packet_idx}/{filename}") as f:
+            spa_tokens.append(f.readlines())
+
+    vocab, spa_tokens = get_vocab_and_spa_tokens(lang_vocab, packet_idx)
 
     # Create translation sheet
     service = build("sheets", "v4", credentials=creds)
@@ -52,6 +65,8 @@ def create_translation_spreadsheet(
     drive_service = build("drive", "v3", credentials=creds)
     email_message = f"""
     Como traductor, has recibido acceso a la hoja de traducción '{title}' de tu correspondiente lengua maya. Rellena las celdas en la columna de **Traducción** con las traducciones correspondientes, sin alterar el contenido de las lenguas originales. Al terminar, no olvides marcar la casilla de **Completado** al final del documento.
+
+    Puedes hallar las instrucciones detalladas en el siguiente enlace: https://transducens.github.io/floresmayas/#tarea/protocolo/interaccion/
     """
     body = {
         "type": "user",
@@ -111,7 +126,7 @@ def create_translation_spreadsheet(
             },
             {
                 "range": f"B{len(spa) + 3}",
-                "values": [["No puedes marcar la tarea como «Completada» si hay celdas en blanco, celdas que requieran de una selección o celdas que indiquen un problema con la selección."]]
+                "values": [["No puedes marcar la tarea como «Completada» si hay celdas en blanco correspondientes a frases sin traducirse"]]
             }
         ],
     }
@@ -172,6 +187,19 @@ def create_translation_spreadsheet(
                         }
                     },
                     "fields": "userEnteredFormat.wrapStrategy",
+                }
+            },
+            {
+                "updateDimensionProperties": {
+                    "range": {
+                        "dimension": "COLUMNS",
+                        "startIndex": 0,
+                        "endIndex": 1,
+                    },
+                    "properties": {
+                        "pixelSize": 135,
+                    },
+                    "fields": "pixelSize",
                 }
             },
             {
@@ -356,10 +384,13 @@ def create_translation_spreadsheet(
                     },
                     "cell": {
                         "userEnteredFormat": {
-                            "textFormat": {"bold": True}
+                            "textFormat": {
+                                "bold": True,
+                                "fontSize": 16
+                            }
                         }
                     },
-                    "fields": "userEnteredFormat.textFormat.bold"
+                    "fields": "userEnteredFormat.textFormat.bold, userEnteredFormat.textFormat.fontSize"
                 }
             }
         ] + [
@@ -474,7 +505,9 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
     - La severidad del error
     - El comentario sobre el error
 
-    Recuerda que las traducciones que contengan error deben incluir cada uno de los campos anteriores. Si la traducción no contiene error alguno, no debe marcarse con más que la indicación de «Correcta».
+    Recuerda que las traducciones que contengan error deben incluir cada uno de los campos anteriores. Si la traducción no contiene error alguno, no debe marcarse con más que la indicación de «Correcta». Al terminar, no olvides marcar la casilla de **Completado** al final del documento.
+
+    Puedes hallar las instrucciones detalladas en el siguiente enlace: https://transducens.github.io/floresmayas/#tarea/protocolo/interaccion/
     """
     results = (
         drive_service.permissions().create(
@@ -522,6 +555,10 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 "range": f"B{checkbox_row_index}",
                 "values": [[False]]
             },
+            {
+                "range": f"B{checkbox_row_index + 1}",
+                "values": [["No puedes marcar la tarea como «Completada» si hay celdas en blanco, celdas que requieran de una selección o celdas que indiquen un problema con la selección."]]
+            }
         ],
     }
 
@@ -1022,8 +1059,26 @@ def create_correction_sheet(creds, lang_code, title, packet):
     rows_to_correct_validation_st = ";".join(rows_to_correct_validation_st)
     rows_to_correct_validation_st = f"OR({rows_to_correct_validation_st})"
 
+    results = service.spreadsheets().get(spreadsheetId=tra_id).execute()
+    results = results['sheets']
+    results = [sheet for sheet in results if sheet['properties']['title'] == 'traducción']
+    orig_sheet_id = results[0]['properties']['sheetId']
+    # ic(results, copy_rev_id)
+    # exit()
+
     body = {
         "requests": [
+
+            # Cambiar de índice a la hora de traducción original
+            {
+                "updateSheetProperties": {
+                    "properties": {
+                        "sheetId": orig_sheet_id,
+                        "index": 1,
+                    },
+                    "fields": "index"
+                },
+            },
 
             # Cambiar el título a la hoja de la segunda traducción
             {
@@ -1031,8 +1086,9 @@ def create_correction_sheet(creds, lang_code, title, packet):
                     "properties": {
                         "sheetId": copy_rev_id,
                         "title": "Segunda traducción",
+                        "index": 0,
                     },
-                    "fields": "title"
+                    "fields": "index, title"
                 },
             },
 
@@ -1224,6 +1280,10 @@ def create_correction_sheet(creds, lang_code, title, packet):
             {
                 "range": f"Segunda traducción!B{checkbox_row_index + 1}",
                 "values": [[False]]
+            },
+            {
+                "range": f"B{checkbox_row_index + 2}",
+                "values": [["No puedes marcar la tarea como «Completada» si hay celdas en blanco correspondientes a frases sin traducirse"]]
             }
         ]
     }
@@ -1251,7 +1311,7 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
     )
     protected_range_id = (
         protected_range_id
-        ['sheets'][1]
+        ['sheets'][0]
         ['protectedRanges'][0]
         ["protectedRangeId"]
     )
@@ -1278,7 +1338,7 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
         service.spreadsheets().get(spreadsheetId=tra_id).execute()
     )
 
-    copy_sheet_id = results["sheets"][1]["properties"]["sheetId"]
+    copy_sheet_id = results["sheets"][0]["properties"]["sheetId"]
 
     results = (
         service.spreadsheets().sheets().copyTo(
@@ -1338,17 +1398,34 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
     rows_to_correct_validation_st = ";".join(rows_to_correct_validation_st)
     rows_to_correct_validation_st = f"AND({rows_to_correct_validation_st})"
 
+    orig_sheet_id = service.spreadsheets().get(spreadsheetId=rev_id).execute()
+    orig_sheet_id = orig_sheet_id['sheets']
+    orig_sheet_id = [sheet for sheet in orig_sheet_id if sheet['properties']['title'] == '1ra revisión']
+    orig_sheet_id = orig_sheet_id[0]['properties']['sheetId']
+
     body = {
         "requests": [
 
-            # Cambiar el título de la hoja
+            # Cambiar el título e índice de la hoja
             {
                 "updateSheetProperties": {
                     "properties": {
                         "sheetId": copy_sheet_id,
                         "title": "2nda revisión",
+                        "index": 0
                     },
-                    "fields": "title"
+                    "fields": "title, index"
+                },
+            },
+
+            # Cambiar el título de la hoja
+            {
+                "updateSheetProperties": {
+                    "properties": {
+                        "sheetId": orig_sheet_id,
+                        "index": 1
+                    },
+                    "fields": "index"
                 },
             },
 
@@ -1678,6 +1755,10 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
             {
                 "range": f"2nda revisión!B{checkbox_row_index + 1}",
                 "values": [[False]]
+            },
+            {
+                "range": f"B{checkbox_row_index + 2}",
+                "values": [["No puedes marcar la tarea como «Completada» si hay celdas en blanco, celdas que requieran de una selección o celdas que indiquen un problema con la selección."]]
             }
         ]
     }

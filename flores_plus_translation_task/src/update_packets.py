@@ -104,6 +104,13 @@ if __name__ == "__main__":
                 update_sheet_vocabulary(creds, state, lang)
                 break
 
+    if config['start_translation'] is False:
+        with open("../data/state.json", "w") as g:
+            g.write(json.dumps(state, indent=2))
+        logger.info("Translation update task not ready yet. Modify config file to launch.")
+        logger.info(f"Update complete.")
+        exit()
+
     # Check if there's at least one packet in state and create one if not
     for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
         packets = [p for _, p in state[lang]['packets'].items() if p is not None]
@@ -247,6 +254,11 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                         state[lang]['translators'][packet['translator']] += tra_sents
                         state[lang]['revisors'][packet['revisor']] += rev_sents
 
+                        # Remove all protections from packet sheets and replace
+                        # with single master lock
+                        protect_packet_sheets([packet['rev_id'], packet['tra_id']], creds)
+
+
                         logger.info(
                             f"Packet '{packet['title']}': First revision complete by user '{packet['revisor']}'. No errors found. Translation complete."
                         )
@@ -299,6 +311,10 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
                     state[lang]['translators'][packet['translator']] += tra_sents
                     state[lang]['revisors'][packet['revisor']] += rev_sents
+
+                    # Remove all protections from packet sheets and replace
+                    # with single master lock
+                    protect_packet_sheets([packet['rev_id'], packet['tra_id']], creds)
 
 
                     logger.info(f"Packet '{packet['title']}': Second revision complete by user '{packet['revisor']}'. Translation complete.")
