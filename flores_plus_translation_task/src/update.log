@@ -4199,3 +4199,15 @@ INFO : 2026-01-21 12:10:25,456 Updating report on language 'sjn'.
 INFO : 2026-01-21 12:10:27,743 Update on language 'sjn' complete.
 INFO : 2026-01-21 12:10:27,743 Saving state to file.
 INFO : 2026-01-21 12:10:27,743 Update complete.
+WARNING : 2026-01-21 11:56:55,737 No state file found. Generating from config.
+WARNING : 2026-01-21 11:56:56,182 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 11:57:02,752 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 11:57:03,181 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 11:57:07,787 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 11:57:12,048 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 11:57:12,049 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 11:57:14,174 Running update on language: sjn
+INFO : 2026-01-21 11:57:15,386 Updating report on language 'sjn'.
+INFO : 2026-01-21 11:57:16,887 Update on language 'sjn' complete.
+INFO : 2026-01-21 11:57:16,887 Saving state to file.
+INFO : 2026-01-21 11:57:16,888 Update complete.
