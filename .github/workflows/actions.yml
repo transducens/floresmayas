@@ -30,8 +30,8 @@ jobs:
 
       - name: decrypt floresp
         run: |
-          gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output flores.eng-spa.dev flores.eng-spa.dev.gpg
-          gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output flores.eng-spa.devtest flores.eng-spa.devtest.gpg
+          gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output ../data/flores.eng-spa.dev ../data/flores.eng-spa.dev.gpg
+          gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output ../data/flores.eng-spa.devtest ../data/flores.eng-spa.devtest.gpg
 
       - name: update packets 
         env:
