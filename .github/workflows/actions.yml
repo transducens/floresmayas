@@ -32,6 +32,8 @@ jobs:
         run: |
           gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output flores_plus_translation_task/data/flores.eng-spa.dev flores_plus_translation_task/data/flores.eng-spa.dev.gpg
           gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE_FLORESP }}" --output flores_plus_translation_task/data/flores.eng-spa.devtest flores_plus_translation_task/data/flores.eng-spa.devtest.gpg
+          echo $(ls flores_plus_translation_task/data/flores.eng-spa.devtest)
+          echo $(ls flores_plus_translation_task/data/flores.eng-spa.dev)
 
       - name: update packets 
         env:
