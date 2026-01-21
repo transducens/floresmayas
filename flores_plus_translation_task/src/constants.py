@@ -24,8 +24,7 @@ R = 120
 with open("../data/vocabulario_flores_plus.json") as f:
     VOCAB_FLORES_PLUS = json.loads(f.read())
 
-R = 120
-n = len(DEVTEST)
+n = 1000
 
 COLOR_GOOD = {
     "red": 68 / 255,
