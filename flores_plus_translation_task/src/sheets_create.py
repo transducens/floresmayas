@@ -1,4 +1,3 @@
-from icecream import ic
 import os
 import datetime
 from constants import *
@@ -1064,8 +1063,6 @@ def create_correction_sheet(creds, lang_code, title, packet):
     results = results['sheets']
     results = [sheet for sheet in results if sheet['properties']['title'] == 'traducción']
     orig_sheet_id = results[0]['properties']['sheetId']
-    # ic(results, copy_rev_id)
-    # exit()
 
     body = {
         "requests": [
