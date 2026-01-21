@@ -43,7 +43,7 @@ with open("../data/flores.eng-spa.dev") as f:
     ]
 
 DATASET = DEVTEST + DEV
-print(DATASET)
+
 COLOR_GOOD = {
     "red": 68 / 255,
     "green": 170 / 255,
