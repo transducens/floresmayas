@@ -26,6 +26,24 @@ with open("../data/vocabulario_flores_plus.json") as f:
 
 n = 1000
 
+with open("../data/flores.eng-spa.dev") as f:
+    DEV = f.readlines()
+    DEV = [
+        DEV[x:x + PACKET_SIZE] for x in range(0, len(DEV), PACKET_SIZE)
+    ]
+
+# Because of budget constraints, only a fraction of the dev set may be translated
+DEV_FRACTION = .1
+DEV = DEV[:floor(len(DEV) * DEV_FRACTION)]
+
+with open("../data/flores.eng-spa.dev") as f:
+    DEVTEST = f.readlines()
+    DEVTEST = [
+        DEVTEST[x:x + PACKET_SIZE] for x in range(0, len(DEVTEST), PACKET_SIZE)
+    ]
+
+DATASET = DEVTEST + DEV
+print(DATASET)
 COLOR_GOOD = {
     "red": 68 / 255,
     "green": 170 / 255,
