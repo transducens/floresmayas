@@ -3,14 +3,11 @@
 *Todas las horas están en la zona horaria de Guatemala (CST, UTC-6).*
 
 ---
-
-Aquí tienes la agenda con cada evento formateado como un encabezado **h3**, manteniendo el horario de Guatemala y las descripciones originales:
-
 ## Lunes, 9 de febrero de 2026
 
 ### 08:00 – 09:00 | **Bienvenida**
 
-Almuerzo (comida en España) y bienvenida para los trabajadores, quienes comenzarán a llegar el mismo día a diferentes horas dependiendo de su pueblo.
+Bienvenida a los trabajadores. Presentación individual de todos los involucrados.
 
 ### 09:00 – 09:45 | **Presentación del proyecto FLORES+ Mayas**
 
@@ -99,9 +96,9 @@ Se presentará la interfaz de traducción y revisión que cada equipo utilizará
 
 ### 10:30 – 10:45 | **Descanso**
 
-### 10:45 – 12:30 | **Traducción preliminar de 10 oraciones del corpus (ensayo / laboratorio)**
+### 10:45 – 12:30 | **Traducción preliminar de 60 oraciones del corpus (ensayo / laboratorio)**
 
-Se traducen 50 frases de FLORES+ utilizando el contenido del vocabulario y la guía de traducción a modo de poner en práctica su utilidad.
+Se traducen 60 frases de FLORES+ utilizando el contenido del vocabulario y la guía de traducción a modo de poner en práctica su utilidad.
 
 ### 12:30 – 13:30 | **Almuerzo (comida)**
 
@@ -115,7 +112,7 @@ Después del la traducción y revision preliminares llevados a cabo con la prime
 
 ### 08:00 – 10:30 | **Traducción y revisión utilizando el vocabulario y la guía nuevos**
 
-Utilizando las nuevas versiones del vocabulario y la guía, se procede con la traducción y revisión, ya sea de las mismas 50 frases trabajadas, o bien con el resto del corpus.
+Utilizando las nuevas versiones del vocabulario y la guía, se procede con la traducción y revisión, ya sea de las mismas 60 frases trabajadas, o bien con el resto del corpus.
 
 ### 10:30 – 10:45 | **Descanso**
 
@@ -132,6 +129,3 @@ Se procede con la traducción y revisión del resto del corpus.
 ### 15:00 – 15:30 | **Resumen del trabajo telemático**
 
 Donde se describe o se recuerda las tareas que cada uno de los trabajadores debe llevar a cabo cuando se trabaje de forma remota.
-
-
-

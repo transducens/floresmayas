@@ -220,14 +220,13 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
     service = build("sheets", "v4", credentials=creds)
     vocab = service.spreadsheets().values().get(
         spreadsheetId=doc_id,
-        range="A2:D"
+        range="A2:C"
     ).execute()
     vocab = vocab['values']
     vocab = {
-        row[1]: {
-            'freq': int(row[0]),
-            'def': row[2] if len(row) > 2 else "",
-            'notes': row[3] if len(row) > 3 else ""
+        row[0]: {
+            'def': row[0] if len(row) > 2 else "",
+            'notes': row[0] if len(row) > 3 else ""
         } for row in vocab
     }
     return vocab

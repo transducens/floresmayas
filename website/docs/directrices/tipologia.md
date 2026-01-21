@@ -5,8 +5,13 @@ Cada una de las frases traducidas debe revisarse en busca de errores. De detecta
 Los niveles de gravedad son mutuamente exclusivos entre sí. Es decir, si una frase contiene un error de cierto nivel, esta no puede pertenecer a ningún otro. El error de más alta severidad en la frase determina el nivel de gravedad.
 
 * Los **errores críticos** son problemas que hacen que el contenido no sea apto para ningún tipo uso. Un error se considera crítico solo si distorsiona gravemente el significado del texto original, tal que este se vuelve completamente incomprensible o que se pierde la esencia del mensaje.
-* Los **errores graves** podrían causar confusión al usuario o dificultar el uso correcto del producto debido a un cambio importante en el significado original, o si estos se dieran en una parte altamente visible o importante del contenido.
+* Los **errores graves** podrían causar confusión al usuario o dificultar la comprensión de la frase debido a un cambio importante en el significado original, o si estos se dieran en una parte altamente visible o importante del contenido.
 * Los **errores leves** no provocan ninguna pérdida en el significado ni causan ninguna confusión al usuario, pero son perceptibles, disminuyen la calidad estilística, la fluidez o la claridad o provocan que el contenido se perciba como menos atractivo.
+
+### Ejemplo de los distintos niveles de gravedad
+Considérese la frase en inglés _The paper was submitted only after having crossed all the t's and dotted all the i's_, «El artículo fue enviado tan solo después de haber ultimado detalles». 
+
+Un **error crítico** consistiría en “traducir” la frase copiando y pegando el texto original o dejando la traducción en blanco. Un **error grave** consistiría en traducir la frase palabra por palabra («El papel fue enviado solo después de habiendo cruzado todas las tés y punteado todas las íes»), ignorando el modismo _to cross the t's and dot the i's_, lo cual produce una frase carente de sentido en español; otro error grave consistiría en utilizar una sentido del término _submit_ («El artículo fue **rendido** después de haber…»). Un ejemplo de error leve consistiría en incluir una falta de ortografía, un error tipográfico o la omisión de un signo de puntuación que no alterara el significado original.
 
 ## Categorías de errores
 Las categorías de errores no se excluyen entre sí. Es decir, una frase puede contener múltiples errores de categorías distintas.

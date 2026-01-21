@@ -3,22 +3,19 @@ nav:
   - Inicio: index.md
   - Qué es FLORES+: flores.md
   - Tarea de traducción: 
+    - Cronograma de actividades: tarea/cronograma.md 
+    - Prácticas predeterminadas: tarea/predeterminada.md 
+    - Protocolo de traducción:
+      - tarea/protocolo/fases.md
+      - tarea/protocolo/equipos.md
+      - tarea/protocolo/interaccion.md 
+      - tarea/protocolo/compensacion.md
     - Directrices para el control de calidad:
       - Tipología de errores: directrices/tipologia.md
       - Aspectos por considerar: directrices/aspectos.md
-    - Cronograma de actividades: tarea/cronograma.md 
-    - Guía de traducción: tarea/guia.md 
-    - Cómo rellenar la guía de traducción: tarea/como_rellenar.md 
-    - Prácticas predeterminadas: tarea/predeterminada.md 
-
-
-      # - Tarea de traducción:
-      #    - Cronograma de actividades: tarea/cronograma.md 
-  #- Vocabularios y textos paralelos: textos.md
-  # - JW Crawler: jw.md
-  #- FLORES-Mayas: flores.md
-  # - Sobre el proyecto: about.md
-  # - Cómo colaborar: colaborar.md
+    - Guía de traducción: 
+      - Qué es la guía de traducción: tarea/guia.md 
+      - Cómo rellenar la guía de traducción: tarea/como_rellenar.md 
 theme:
   name: windmill
   language: es

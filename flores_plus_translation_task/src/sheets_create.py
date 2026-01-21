@@ -1815,10 +1815,9 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         "valueInputOption": "USER_ENTERED",
         "data": [
             {
-                "range": "A1:D1",
+                "range": "A1:C1",
                 "values": [
                     [
-                        "Frecuencia",
                         "Término",
                         "Traducción",
                         "Nota"
@@ -1826,9 +1825,9 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                 ],
             },
             {
-                "range": "A2:D",
+                "range": "A2:C",
                 "values": [
-                    [vocab[key]['freq'], key, vocab[key]['def'], vocab[key]['notes']] for key, value in vocab.items()
+                    [key, vocab[key]['def'], vocab[key]['notes']] for key, value in vocab.items()
                 ]
             }
         ]
@@ -1916,16 +1915,14 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
                             {
                                 "sheetId": 0,
                                 "startRowIndex": 1,
-                                "endRowIndex": len(vocab.keys()) + 100,
-                                "startColumnIndex": 2,
-                                "endColumnIndex": 4,
+                                "startColumnIndex": 1,
+                                "endColumnIndex": 3,
                             },
                             {
                                 "sheetId": 0,
                                 "startRowIndex": len(vocab.keys()) + 1,
-                                "endRowIndex": len(vocab.keys()) + 100,
-                                "startColumnIndex": 1,
-                                "endColumnIndex": 4,
+                                "startColumnIndex": 0,
+                                "endColumnIndex": 3,
                             },
                         ],
                         "editors": {
