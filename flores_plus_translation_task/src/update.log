@@ -2973,3 +2973,1229 @@ INFO : 2025-12-23 09:01:29,387 Updating report on language 'qya'.
 INFO : 2025-12-23 09:01:31,141 Update on language 'qya' complete.
 INFO : 2025-12-23 09:01:31,141 Saving state to file.
 INFO : 2025-12-23 09:01:31,142 Update complete.
+WARNING : 2025-12-31 00:31:34,869 No folder associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:31:35,529 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:31:37,251 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:31:45,165 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:31:46,306 Language 'sjn' has no packages ready to work on.
+WARNING : 2025-12-31 00:35:16,121 No folder associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:35:16,588 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:35:17,735 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:35:25,773 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:35:26,948 Language 'sjn' has no packages ready to work on.
+WARNING : 2025-12-31 00:41:39,325 No folder associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:41:39,961 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:41:41,634 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:41:49,336 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:41:49,960 Language 'sjn' has no packages ready to work on.
+INFO : 2025-12-31 00:44:36,602 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:44:37,750 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:44:47,151 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:44:48,351 Language 'sjn' has no packages ready to work on.
+INFO : 2025-12-31 00:46:38,774 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:46:39,912 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:46:49,212 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:46:50,369 Language 'sjn' has no packages ready to work on.
+INFO : 2025-12-31 00:54:00,636 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2025-12-31 00:54:02,403 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2025-12-31 00:54:10,158 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2025-12-31 00:54:11,395 Language 'sjn' has no packages ready to work on.
+WARNING : 2026-01-02 12:18:06,058 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-02 12:18:06,776 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 12:18:07,839 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 12:18:16,913 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 12:18:17,532 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 12:26:34,273 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 12:26:35,634 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 12:26:45,852 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 12:26:46,970 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 13:51:50,002 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 13:51:50,946 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 13:51:59,720 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 13:52:00,441 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:00:18,338 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:00:19,815 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:00:28,957 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:00:29,985 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:00:53,476 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:00:54,584 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:01:03,717 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:01:04,698 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:02:28,355 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:02:29,408 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:02:41,659 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:02:42,248 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:05:19,876 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:05:21,120 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:05:29,063 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:05:30,023 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:14:23,489 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:14:24,877 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:14:34,238 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:14:35,237 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:23:13,058 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:23:14,368 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:23:21,839 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:23:22,780 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:28:26,265 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:28:27,638 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:28:34,620 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:28:35,559 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:29:33,918 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:29:34,988 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:29:42,767 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:29:43,696 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:36:45,784 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:36:47,063 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:36:54,591 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:36:55,108 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:43:36,715 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:43:38,182 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:43:48,390 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:43:49,522 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 14:59:31,394 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 14:59:32,546 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 14:59:41,021 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 14:59:42,049 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 15:00:28,560 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 15:00:29,582 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:00:38,877 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 15:00:39,905 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 15:02:00,695 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 15:02:01,712 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:02:09,576 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 15:02:10,122 Language 'sjn' has no packages ready to work on.
+WARNING : 2026-01-02 15:13:23,595 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:13:24,216 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 15:13:25,779 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:13:36,497 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 15:13:37,462 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 15:13:42,034 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-02 15:13:47,028 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-02 15:13:47,029 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-02 15:13:50,329 Running update on language: qya
+INFO : 2026-01-02 15:13:52,996 Updating report on language 'qya'.
+INFO : 2026-01-02 15:13:55,552 Update on language 'qya' complete.
+INFO : 2026-01-02 15:13:55,552 Running update on language: sjn
+INFO : 2026-01-02 15:13:58,419 Updating report on language 'sjn'.
+INFO : 2026-01-02 15:14:00,034 Update on language 'sjn' complete.
+INFO : 2026-01-02 15:14:00,034 Saving state to file.
+INFO : 2026-01-02 15:14:00,042 Update complete.
+WARNING : 2026-01-02 15:22:54,581 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:22:55,202 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-02 15:22:56,655 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-02 15:22:57,765 Running update on language: qya
+INFO : 2026-01-02 15:23:00,759 Updating report on language 'qya'.
+INFO : 2026-01-02 15:23:03,111 Update on language 'qya' complete.
+INFO : 2026-01-02 15:23:03,111 Running update on language: sjn
+INFO : 2026-01-02 15:23:12,610 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-02 15:23:13,535 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-02 15:23:13,897 Running update on language: qya
+INFO : 2026-01-02 15:23:17,423 Updating report on language 'qya'.
+INFO : 2026-01-02 15:23:20,333 Update on language 'qya' complete.
+INFO : 2026-01-02 15:23:20,333 Running update on language: sjn
+WARNING : 2026-01-02 15:26:00,956 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:26:01,673 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-02 15:26:02,727 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-02 15:26:12,052 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-02 15:26:12,838 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-02 15:26:17,956 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-02 15:26:23,655 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-02 15:26:23,656 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-02 15:26:27,702 Running update on language: qya
+INFO : 2026-01-02 15:26:30,961 Updating report on language 'qya'.
+INFO : 2026-01-02 15:26:33,060 Update on language 'qya' complete.
+INFO : 2026-01-02 15:26:33,060 Running update on language: sjn
+INFO : 2026-01-02 15:26:35,668 Updating report on language 'sjn'.
+INFO : 2026-01-02 15:26:37,963 Update on language 'sjn' complete.
+INFO : 2026-01-02 15:26:37,963 Saving state to file.
+INFO : 2026-01-02 15:26:37,964 Update complete.
+INFO : 2026-01-02 15:33:53,784 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-02 15:33:55,159 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:11:05,601 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 10:11:07,013 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:11:15,361 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 10:11:15,879 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 10:15:20,852 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 10:15:21,867 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:15:31,465 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 10:15:32,595 Language 'sjn' has no packages ready to work on.
+WARNING : 2026-01-05 10:17:39,358 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:17:40,080 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 10:17:41,439 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:17:51,036 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 10:17:52,065 Language 'sjn' has no packages ready to work on.
+WARNING : 2026-01-05 10:19:02,508 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:19:03,263 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 10:19:04,379 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:19:13,980 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 10:19:15,010 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 10:19:20,423 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 10:19:26,926 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 10:19:26,927 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-05 10:19:30,980 Running update on language: qya
+INFO : 2026-01-05 10:19:33,625 Updating report on language 'qya'.
+INFO : 2026-01-05 10:19:36,304 Update on language 'qya' complete.
+INFO : 2026-01-05 10:19:36,304 Running update on language: sjn
+INFO : 2026-01-05 10:19:39,376 Updating report on language 'sjn'.
+INFO : 2026-01-05 10:19:41,641 Update on language 'sjn' complete.
+INFO : 2026-01-05 10:19:41,641 Saving state to file.
+INFO : 2026-01-05 10:19:41,642 Update complete.
+WARNING : 2026-01-05 10:22:00,106 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:22:00,778 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:22:01,799 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:22:58,026 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 10:22:58,764 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 10:23:08,068 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 10:23:09,082 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 10:23:15,264 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 10:23:21,709 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 10:23:21,709 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-05 10:23:25,230 Running update on language: qya
+INFO : 2026-01-05 10:23:27,460 Updating report on language 'qya'.
+INFO : 2026-01-05 10:23:30,355 Update on language 'qya' complete.
+INFO : 2026-01-05 10:23:30,355 Running update on language: sjn
+INFO : 2026-01-05 10:23:33,745 Updating report on language 'sjn'.
+INFO : 2026-01-05 10:23:36,025 Update on language 'sjn' complete.
+INFO : 2026-01-05 10:23:36,025 Saving state to file.
+INFO : 2026-01-05 10:23:36,025 Update complete.
+INFO : 2026-01-05 10:28:21,617 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:28:22,947 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:28:24,032 Running update on language: qya
+INFO : 2026-01-05 10:28:26,710 Updating report on language 'qya'.
+INFO : 2026-01-05 10:28:30,121 Update on language 'qya' complete.
+INFO : 2026-01-05 10:28:30,121 Running update on language: sjn
+INFO : 2026-01-05 10:28:33,701 Updating report on language 'sjn'.
+INFO : 2026-01-05 10:28:36,367 Update on language 'sjn' complete.
+INFO : 2026-01-05 10:28:36,367 Saving state to file.
+INFO : 2026-01-05 10:28:36,368 Update complete.
+INFO : 2026-01-05 10:29:19,186 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:29:20,136 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:29:21,116 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 10:29:21,121 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 10:29:45,586 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:29:46,656 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:29:47,637 Running update on language: qya
+INFO : 2026-01-05 10:29:50,241 Updating report on language 'qya'.
+INFO : 2026-01-05 10:29:53,162 Update on language 'qya' complete.
+INFO : 2026-01-05 10:29:53,163 Running update on language: sjn
+INFO : 2026-01-05 10:29:56,238 Updating report on language 'sjn'.
+INFO : 2026-01-05 10:29:58,692 Update on language 'sjn' complete.
+INFO : 2026-01-05 10:29:58,692 Saving state to file.
+INFO : 2026-01-05 10:29:58,693 Update complete.
+INFO : 2026-01-05 10:30:59,135 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:31:00,157 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:31:01,051 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 10:31:01,055 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 10:35:19,807 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:35:21,032 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:35:22,180 Running update on language: qya
+INFO : 2026-01-05 10:35:24,939 Updating report on language 'qya'.
+INFO : 2026-01-05 10:35:27,705 Update on language 'qya' complete.
+INFO : 2026-01-05 10:35:27,705 Running update on language: sjn
+INFO : 2026-01-05 10:35:31,391 Updating report on language 'sjn'.
+INFO : 2026-01-05 10:35:34,157 Update on language 'sjn' complete.
+INFO : 2026-01-05 10:35:34,157 Saving state to file.
+INFO : 2026-01-05 10:35:34,157 Update complete.
+INFO : 2026-01-05 10:36:34,520 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:36:35,514 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:36:36,520 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 10:36:36,525 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 10:41:52,904 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 10:41:54,197 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 10:41:55,219 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 10:41:55,224 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:31:29,715 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:31:30,763 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:31:31,868 Running update on language: qya
+INFO : 2026-01-05 11:31:35,040 Updating report on language 'qya'.
+INFO : 2026-01-05 11:31:37,908 Update on language 'qya' complete.
+INFO : 2026-01-05 11:31:37,908 Running update on language: sjn
+INFO : 2026-01-05 11:31:40,959 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:31:43,286 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:31:43,286 Saving state to file.
+INFO : 2026-01-05 11:31:43,287 Update complete.
+INFO : 2026-01-05 11:32:20,293 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:32:21,446 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:32:22,450 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:32:22,455 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:39:13,486 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:39:15,159 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:39:16,254 Running update on language: qya
+INFO : 2026-01-05 11:39:19,744 Updating report on language 'qya'.
+INFO : 2026-01-05 11:39:23,013 Update on language 'qya' complete.
+INFO : 2026-01-05 11:39:23,013 Running update on language: sjn
+INFO : 2026-01-05 11:39:26,347 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:39:28,847 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:39:28,847 Saving state to file.
+INFO : 2026-01-05 11:39:28,856 Update complete.
+INFO : 2026-01-05 11:39:51,068 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:39:52,221 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:39:53,143 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:39:53,154 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:39:54,879 Running update on language: qya
+INFO : 2026-01-05 11:39:57,119 Updating report on language 'qya'.
+INFO : 2026-01-05 11:39:59,308 Update on language 'qya' complete.
+INFO : 2026-01-05 11:39:59,308 Running update on language: sjn
+INFO : 2026-01-05 11:40:01,375 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:40:03,252 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:40:03,252 Saving state to file.
+INFO : 2026-01-05 11:40:03,253 Update complete.
+INFO : 2026-01-05 11:42:29,174 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:42:30,270 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:42:31,226 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:42:31,230 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:44:02,276 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:44:03,415 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:44:03,940 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:44:03,943 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:45:10,959 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:45:12,327 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:45:13,318 Running update on language: qya
+INFO : 2026-01-05 11:45:16,393 Updating report on language 'qya'.
+INFO : 2026-01-05 11:45:18,953 Update on language 'qya' complete.
+INFO : 2026-01-05 11:45:18,953 Running update on language: sjn
+INFO : 2026-01-05 11:45:22,932 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:45:25,224 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:45:25,224 Saving state to file.
+INFO : 2026-01-05 11:45:25,225 Update complete.
+INFO : 2026-01-05 11:45:37,987 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:45:38,985 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:45:39,948 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:45:39,960 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:47:31,869 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:47:33,020 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:47:33,509 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:47:33,513 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:54:46,449 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:54:47,767 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:54:48,814 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:54:48,817 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:54:50,663 Running update on language: qya
+INFO : 2026-01-05 11:54:54,135 Updating report on language 'qya'.
+INFO : 2026-01-05 11:54:56,799 Update on language 'qya' complete.
+INFO : 2026-01-05 11:54:56,799 Running update on language: sjn
+INFO : 2026-01-05 11:54:58,847 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:55:01,101 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:55:01,101 Saving state to file.
+INFO : 2026-01-05 11:55:01,101 Update complete.
+INFO : 2026-01-05 11:58:58,882 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 11:58:59,982 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 11:59:01,027 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 11:59:01,030 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 11:59:02,370 Running update on language: qya
+INFO : 2026-01-05 11:59:04,813 Updating report on language 'qya'.
+INFO : 2026-01-05 11:59:07,987 Update on language 'qya' complete.
+INFO : 2026-01-05 11:59:07,987 Running update on language: sjn
+INFO : 2026-01-05 11:59:10,138 Updating report on language 'sjn'.
+INFO : 2026-01-05 11:59:12,493 Update on language 'sjn' complete.
+INFO : 2026-01-05 11:59:12,493 Saving state to file.
+INFO : 2026-01-05 11:59:12,494 Update complete.
+INFO : 2026-01-05 13:53:17,041 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 13:53:17,879 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 13:53:42,120 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 13:53:43,183 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 13:53:44,273 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 13:53:44,283 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 13:55:16,439 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 13:55:17,606 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 13:55:18,481 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 13:55:18,486 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 13:58:11,339 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 13:58:12,395 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 13:58:13,245 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 13:58:13,256 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 13:58:15,156 Running update on language: qya
+INFO : 2026-01-05 13:58:17,816 Updating report on language 'qya'.
+INFO : 2026-01-05 13:58:20,745 Update on language 'qya' complete.
+INFO : 2026-01-05 13:58:20,745 Running update on language: sjn
+INFO : 2026-01-05 13:58:22,863 Updating report on language 'sjn'.
+INFO : 2026-01-05 13:58:25,471 Update on language 'sjn' complete.
+INFO : 2026-01-05 13:58:25,471 Saving state to file.
+INFO : 2026-01-05 13:58:25,471 Update complete.
+WARNING : 2026-01-05 16:44:25,903 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:44:26,572 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:44:27,527 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:44:36,197 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:44:36,816 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:49:24,045 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:49:25,198 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:49:34,388 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:49:35,417 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:50:20,695 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:50:21,927 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:50:31,692 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:50:32,762 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:55:39,027 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:55:40,341 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:55:51,008 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:55:52,046 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:56:47,336 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:56:48,533 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:56:58,638 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:56:59,601 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:58:45,198 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 16:58:46,539 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 16:58:57,649 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 16:58:58,815 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 16:59:05,686 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 16:59:11,672 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 16:59:11,672 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-05 16:59:15,562 Running update on language: qya
+INFO : 2026-01-05 16:59:18,991 Updating report on language 'qya'.
+INFO : 2026-01-05 16:59:21,797 Update on language 'qya' complete.
+INFO : 2026-01-05 16:59:21,797 Running update on language: sjn
+INFO : 2026-01-05 16:59:25,236 Updating report on language 'sjn'.
+INFO : 2026-01-05 16:59:27,462 Update on language 'sjn' complete.
+INFO : 2026-01-05 16:59:27,463 Saving state to file.
+INFO : 2026-01-05 16:59:27,463 Update complete.
+WARNING : 2026-01-05 17:17:22,003 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-05 17:17:22,589 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-05 17:17:23,770 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-05 17:17:35,082 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-05 17:17:35,702 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-05 17:17:40,944 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 17:17:47,631 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-05 17:17:47,631 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-05 17:17:51,069 Running update on language: qya
+INFO : 2026-01-05 17:17:54,834 Updating report on language 'qya'.
+INFO : 2026-01-05 17:17:57,838 Update on language 'qya' complete.
+INFO : 2026-01-05 17:17:57,838 Running update on language: sjn
+INFO : 2026-01-05 17:17:59,804 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:18:02,437 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:18:02,437 Saving state to file.
+INFO : 2026-01-05 17:18:02,438 Update complete.
+INFO : 2026-01-05 17:20:56,705 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:20:57,280 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:20:57,892 Running update on language: qya
+INFO : 2026-01-05 17:21:00,257 Updating report on language 'qya'.
+INFO : 2026-01-05 17:21:03,158 Update on language 'qya' complete.
+INFO : 2026-01-05 17:21:03,158 Running update on language: sjn
+INFO : 2026-01-05 17:21:05,851 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:21:08,279 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:21:08,280 Saving state to file.
+INFO : 2026-01-05 17:21:08,281 Update complete.
+INFO : 2026-01-05 17:22:13,201 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:22:14,253 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:22:15,130 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:22:15,135 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:22:16,495 Running update on language: qya
+INFO : 2026-01-05 17:22:18,846 Updating report on language 'qya'.
+INFO : 2026-01-05 17:22:21,775 Update on language 'qya' complete.
+INFO : 2026-01-05 17:22:21,775 Running update on language: sjn
+INFO : 2026-01-05 17:22:23,933 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:22:26,358 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:22:26,358 Saving state to file.
+INFO : 2026-01-05 17:22:26,359 Update complete.
+INFO : 2026-01-05 17:28:40,876 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:28:42,251 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:28:43,553 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:28:43,557 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:28:45,047 Running update on language: qya
+INFO : 2026-01-05 17:28:49,491 Updating report on language 'qya'.
+INFO : 2026-01-05 17:28:52,767 Update on language 'qya' complete.
+INFO : 2026-01-05 17:28:52,767 Running update on language: sjn
+INFO : 2026-01-05 17:28:54,917 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:28:57,263 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:28:57,264 Saving state to file.
+INFO : 2026-01-05 17:28:57,264 Update complete.
+INFO : 2026-01-05 17:30:33,631 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:30:34,650 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:30:35,096 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:30:35,101 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:30:36,316 Running update on language: qya
+INFO : 2026-01-05 17:30:39,366 Updating report on language 'qya'.
+INFO : 2026-01-05 17:30:42,642 Update on language 'qya' complete.
+INFO : 2026-01-05 17:30:42,643 Running update on language: sjn
+INFO : 2026-01-05 17:30:44,720 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:30:47,045 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:30:47,046 Saving state to file.
+INFO : 2026-01-05 17:30:47,046 Update complete.
+INFO : 2026-01-05 17:31:48,947 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:31:49,943 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:31:50,359 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:31:50,364 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:31:51,094 Running update on language: qya
+INFO : 2026-01-05 17:31:54,266 Updating report on language 'qya'.
+INFO : 2026-01-05 17:31:57,395 Update on language 'qya' complete.
+INFO : 2026-01-05 17:31:57,395 Running update on language: sjn
+INFO : 2026-01-05 17:31:58,914 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:32:01,142 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:32:01,142 Saving state to file.
+INFO : 2026-01-05 17:32:01,143 Update complete.
+INFO : 2026-01-05 17:34:48,711 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:34:49,876 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:34:50,432 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:34:50,438 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:34:52,129 Running update on language: qya
+INFO : 2026-01-05 17:34:54,893 Updating report on language 'qya'.
+INFO : 2026-01-05 17:34:57,772 Update on language 'qya' complete.
+INFO : 2026-01-05 17:34:57,772 Running update on language: sjn
+INFO : 2026-01-05 17:34:59,846 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:35:02,511 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:35:02,512 Saving state to file.
+INFO : 2026-01-05 17:35:02,512 Update complete.
+INFO : 2026-01-05 17:36:16,980 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:36:18,035 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:36:18,455 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:36:18,459 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:36:20,083 Running update on language: qya
+INFO : 2026-01-05 17:36:22,688 Updating report on language 'qya'.
+INFO : 2026-01-05 17:36:25,752 Update on language 'qya' complete.
+INFO : 2026-01-05 17:36:25,753 Running update on language: sjn
+INFO : 2026-01-05 17:36:27,914 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:36:30,191 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:36:30,191 Saving state to file.
+INFO : 2026-01-05 17:36:30,193 Update complete.
+INFO : 2026-01-05 17:38:53,624 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:38:54,646 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:38:55,301 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:38:55,306 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:38:57,095 Running update on language: qya
+INFO : 2026-01-05 17:39:00,557 Updating report on language 'qya'.
+INFO : 2026-01-05 17:39:03,483 Update on language 'qya' complete.
+INFO : 2026-01-05 17:39:03,483 Running update on language: sjn
+INFO : 2026-01-05 17:39:05,666 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:39:08,086 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:39:08,086 Saving state to file.
+INFO : 2026-01-05 17:39:08,087 Update complete.
+INFO : 2026-01-05 17:46:36,847 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:46:38,277 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:46:38,963 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:46:38,968 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:46:42,793 Running update on language: qya
+INFO : 2026-01-05 17:46:46,977 Updating report on language 'qya'.
+INFO : 2026-01-05 17:46:50,007 Update on language 'qya' complete.
+INFO : 2026-01-05 17:46:50,007 Running update on language: sjn
+INFO : 2026-01-05 17:46:52,147 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:46:54,728 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:46:54,728 Saving state to file.
+INFO : 2026-01-05 17:46:54,729 Update complete.
+INFO : 2026-01-05 17:50:20,002 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-05 17:50:21,190 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-05 17:50:21,888 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-01-05 17:50:21,893 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-01-05 17:50:25,690 Running update on language: qya
+INFO : 2026-01-05 17:50:28,717 Updating report on language 'qya'.
+INFO : 2026-01-05 17:50:31,698 Update on language 'qya' complete.
+INFO : 2026-01-05 17:50:31,698 Running update on language: sjn
+INFO : 2026-01-05 17:50:33,347 Updating report on language 'sjn'.
+INFO : 2026-01-05 17:50:36,743 Update on language 'sjn' complete.
+INFO : 2026-01-05 17:50:36,743 Saving state to file.
+INFO : 2026-01-05 17:50:36,743 Update complete.
+WARNING : 2026-01-06 14:01:59,689 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-06 14:02:00,508 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-06 14:02:01,567 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-06 14:02:10,917 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 14:02:11,940 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-01-06 14:02:11,940 Update complete.
+INFO : 2026-01-06 14:07:37,062 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 14:07:38,520 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 14:07:39,661 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-01-06 14:07:39,661 Update complete.
+INFO : 2026-01-06 14:23:48,060 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 14:23:48,938 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-06 14:23:50,109 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-06 14:23:56,407 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 14:24:02,993 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 14:24:02,993 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-06 14:24:05,972 Running update on language: qya
+INFO : 2026-01-06 14:24:09,348 Updating report on language 'qya'.
+INFO : 2026-01-06 14:24:12,050 Update on language 'qya' complete.
+INFO : 2026-01-06 14:24:12,051 Running update on language: sjn
+INFO : 2026-01-06 14:24:14,978 Updating report on language 'sjn'.
+INFO : 2026-01-06 14:24:16,984 Update on language 'sjn' complete.
+INFO : 2026-01-06 14:24:16,985 Saving state to file.
+INFO : 2026-01-06 14:24:16,985 Update complete.
+INFO : 2026-01-06 16:03:56,112 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 16:03:57,268 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 16:03:58,470 Running update on language: qya
+INFO : 2026-01-06 16:04:01,531 Updating report on language 'qya'.
+INFO : 2026-01-06 16:04:04,807 Update on language 'qya' complete.
+INFO : 2026-01-06 16:04:04,807 Running update on language: sjn
+INFO : 2026-01-06 16:04:06,634 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-06 16:04:18,845 Updating report on language 'sjn'.
+INFO : 2026-01-06 16:04:21,560 Update on language 'sjn' complete.
+INFO : 2026-01-06 16:04:21,560 Saving state to file.
+INFO : 2026-01-06 16:04:21,561 Update complete.
+WARNING : 2026-01-06 16:07:59,213 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-06 16:07:59,823 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-06 16:08:01,178 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-06 16:08:11,701 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 16:08:12,830 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-01-06 16:08:12,830 Update complete.
+INFO : 2026-01-06 16:09:20,003 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 16:09:21,440 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-06 16:09:22,711 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-06 16:09:29,164 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 16:09:35,288 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 16:09:35,288 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-06 16:09:38,583 Running update on language: qya
+INFO : 2026-01-06 16:09:42,317 Updating report on language 'qya'.
+INFO : 2026-01-06 16:09:45,500 Update on language 'qya' complete.
+INFO : 2026-01-06 16:09:45,500 Running update on language: sjn
+INFO : 2026-01-06 16:09:48,982 Updating report on language 'sjn'.
+INFO : 2026-01-06 16:09:51,554 Update on language 'sjn' complete.
+INFO : 2026-01-06 16:09:51,554 Saving state to file.
+INFO : 2026-01-06 16:09:51,555 Update complete.
+INFO : 2026-01-06 17:42:16,819 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 17:42:17,858 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 17:42:18,672 Running update on language: qya
+INFO : 2026-01-06 17:42:22,347 Updating report on language 'qya'.
+INFO : 2026-01-06 17:42:25,316 Update on language 'qya' complete.
+INFO : 2026-01-06 17:42:25,316 Running update on language: sjn
+INFO : 2026-01-06 17:42:27,052 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-06 17:42:38,243 Updating report on language 'sjn'.
+INFO : 2026-01-06 17:42:40,754 Update on language 'sjn' complete.
+INFO : 2026-01-06 17:42:40,755 Saving state to file.
+INFO : 2026-01-06 17:42:40,755 Update complete.
+INFO : 2026-01-06 17:43:38,240 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 17:43:39,373 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 17:43:40,370 Running update on language: qya
+INFO : 2026-01-06 17:43:43,918 Updating report on language 'qya'.
+INFO : 2026-01-06 17:43:47,137 Update on language 'qya' complete.
+INFO : 2026-01-06 17:43:47,138 Running update on language: sjn
+INFO : 2026-01-06 17:43:54,478 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-06 17:43:55,419 Updating report on language 'sjn'.
+INFO : 2026-01-06 17:43:58,286 Update on language 'sjn' complete.
+INFO : 2026-01-06 17:43:58,286 Saving state to file.
+INFO : 2026-01-06 17:43:58,287 Update complete.
+INFO : 2026-01-06 17:56:29,405 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 17:56:30,883 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 17:56:31,825 Running update on language: qya
+INFO : 2026-01-06 17:56:36,265 Updating report on language 'qya'.
+INFO : 2026-01-06 17:56:39,543 Update on language 'qya' complete.
+INFO : 2026-01-06 17:56:39,543 Running update on language: sjn
+INFO : 2026-01-06 17:57:23,471 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 17:57:24,644 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 17:57:25,730 Running update on language: qya
+INFO : 2026-01-06 17:57:29,411 Updating report on language 'qya'.
+INFO : 2026-01-06 17:57:32,277 Update on language 'qya' complete.
+INFO : 2026-01-06 17:57:32,277 Running update on language: sjn
+INFO : 2026-01-06 18:00:33,858 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:00:34,961 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:00:35,889 Running update on language: qya
+INFO : 2026-01-06 18:00:39,407 Updating report on language 'qya'.
+INFO : 2026-01-06 18:00:42,538 Update on language 'qya' complete.
+INFO : 2026-01-06 18:00:42,538 Running update on language: sjn
+INFO : 2026-01-06 18:08:20,370 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:08:21,841 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:08:23,109 Running update on language: qya
+INFO : 2026-01-06 18:08:26,978 Updating report on language 'qya'.
+INFO : 2026-01-06 18:08:30,226 Update on language 'qya' complete.
+INFO : 2026-01-06 18:08:30,226 Running update on language: sjn
+INFO : 2026-01-06 18:09:05,629 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:09:06,654 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:09:07,600 Running update on language: qya
+INFO : 2026-01-06 18:09:11,095 Updating report on language 'qya'.
+INFO : 2026-01-06 18:09:14,232 Update on language 'qya' complete.
+INFO : 2026-01-06 18:09:14,232 Running update on language: sjn
+INFO : 2026-01-06 18:10:30,329 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:10:31,564 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:10:32,034 Running update on language: qya
+INFO : 2026-01-06 18:10:34,516 Updating report on language 'qya'.
+INFO : 2026-01-06 18:10:37,689 Update on language 'qya' complete.
+INFO : 2026-01-06 18:10:37,689 Running update on language: sjn
+INFO : 2026-01-06 18:14:13,530 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:14:14,884 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:14:15,599 Running update on language: qya
+INFO : 2026-01-06 18:14:19,027 Updating report on language 'qya'.
+INFO : 2026-01-06 18:14:22,256 Update on language 'qya' complete.
+INFO : 2026-01-06 18:14:22,256 Running update on language: sjn
+INFO : 2026-01-06 18:14:29,766 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-06 18:14:31,059 Updating report on language 'sjn'.
+INFO : 2026-01-06 18:14:34,033 Update on language 'sjn' complete.
+INFO : 2026-01-06 18:14:34,033 Saving state to file.
+INFO : 2026-01-06 18:14:34,034 Update complete.
+WARNING : 2026-01-06 18:17:39,482 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-06 18:17:40,310 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-06 18:17:41,416 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-06 18:17:49,319 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-06 18:17:50,335 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-06 18:17:57,108 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 18:18:02,477 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-06 18:18:02,477 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-06 18:18:05,956 Running update on language: qya
+INFO : 2026-01-06 18:18:09,631 Updating report on language 'qya'.
+INFO : 2026-01-06 18:18:12,508 Update on language 'qya' complete.
+INFO : 2026-01-06 18:18:12,509 Running update on language: sjn
+INFO : 2026-01-06 18:18:14,574 Updating report on language 'sjn'.
+INFO : 2026-01-06 18:18:16,798 Update on language 'sjn' complete.
+INFO : 2026-01-06 18:18:16,798 Saving state to file.
+INFO : 2026-01-06 18:18:16,799 Update complete.
+INFO : 2026-01-06 18:18:53,819 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:18:54,970 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:18:55,527 Running update on language: qya
+INFO : 2026-01-06 18:18:58,683 Updating report on language 'qya'.
+INFO : 2026-01-06 18:19:01,703 Update on language 'qya' complete.
+INFO : 2026-01-06 18:19:01,704 Running update on language: sjn
+INFO : 2026-01-06 18:19:03,309 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-06 18:19:12,058 Updating report on language 'sjn'.
+INFO : 2026-01-06 18:19:16,346 Update on language 'sjn' complete.
+INFO : 2026-01-06 18:19:16,346 Saving state to file.
+INFO : 2026-01-06 18:19:16,347 Update complete.
+INFO : 2026-01-06 18:20:20,247 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-06 18:20:21,442 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-06 18:20:21,988 Running update on language: qya
+INFO : 2026-01-06 18:20:25,365 Updating report on language 'qya'.
+INFO : 2026-01-06 18:20:28,435 Update on language 'qya' complete.
+INFO : 2026-01-06 18:20:28,435 Running update on language: sjn
+INFO : 2026-01-06 18:20:33,180 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-06 18:20:35,160 Updating report on language 'sjn'.
+INFO : 2026-01-06 18:20:37,755 Update on language 'sjn' complete.
+INFO : 2026-01-06 18:20:37,755 Saving state to file.
+INFO : 2026-01-06 18:20:37,756 Update complete.
+INFO : 2026-01-07 11:59:10,243 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 11:59:11,197 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 11:59:11,995 Running update on language: qya
+INFO : 2026-01-07 11:59:15,819 Updating report on language 'qya'.
+INFO : 2026-01-07 11:59:18,546 Update on language 'qya' complete.
+INFO : 2026-01-07 11:59:18,546 Running update on language: sjn
+INFO : 2026-01-07 11:59:20,483 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:05:08,644 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:05:09,993 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:05:11,514 Running update on language: qya
+INFO : 2026-01-07 12:05:15,638 Updating report on language 'qya'.
+INFO : 2026-01-07 12:05:18,594 Update on language 'qya' complete.
+INFO : 2026-01-07 12:05:18,595 Running update on language: sjn
+INFO : 2026-01-07 12:05:20,230 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:06:14,999 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:06:16,194 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:06:17,153 Running update on language: qya
+INFO : 2026-01-07 12:06:20,084 Updating report on language 'qya'.
+INFO : 2026-01-07 12:06:22,885 Update on language 'qya' complete.
+INFO : 2026-01-07 12:06:22,885 Running update on language: sjn
+INFO : 2026-01-07 12:06:24,514 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:09:02,937 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:09:04,104 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:09:05,091 Running update on language: qya
+INFO : 2026-01-07 12:09:08,467 Updating report on language 'qya'.
+INFO : 2026-01-07 12:09:11,436 Update on language 'qya' complete.
+INFO : 2026-01-07 12:09:11,436 Running update on language: sjn
+INFO : 2026-01-07 12:09:12,933 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:10:02,329 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:10:03,376 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:10:04,269 Running update on language: qya
+INFO : 2026-01-07 12:10:06,780 Updating report on language 'qya'.
+INFO : 2026-01-07 12:10:09,273 Update on language 'qya' complete.
+INFO : 2026-01-07 12:10:09,274 Running update on language: sjn
+INFO : 2026-01-07 12:10:10,451 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:11:18,003 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:11:19,259 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:11:20,360 Running update on language: qya
+INFO : 2026-01-07 12:11:23,533 Updating report on language 'qya'.
+INFO : 2026-01-07 12:11:26,605 Update on language 'qya' complete.
+INFO : 2026-01-07 12:11:26,605 Running update on language: sjn
+INFO : 2026-01-07 12:11:28,346 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:12:55,480 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:12:56,539 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:12:57,437 Running update on language: qya
+INFO : 2026-01-07 12:13:01,017 Updating report on language 'qya'.
+INFO : 2026-01-07 12:13:03,885 Update on language 'qya' complete.
+INFO : 2026-01-07 12:13:03,886 Running update on language: sjn
+INFO : 2026-01-07 12:13:05,524 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:15:28,372 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:15:29,426 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:15:30,422 Running update on language: qya
+INFO : 2026-01-07 12:15:33,248 Updating report on language 'qya'.
+INFO : 2026-01-07 12:15:36,050 Update on language 'qya' complete.
+INFO : 2026-01-07 12:15:36,050 Running update on language: sjn
+INFO : 2026-01-07 12:15:37,376 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:17:43,233 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:17:43,996 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:17:45,182 Running update on language: qya
+INFO : 2026-01-07 12:17:48,967 Updating report on language 'qya'.
+INFO : 2026-01-07 12:17:52,050 Update on language 'qya' complete.
+INFO : 2026-01-07 12:17:52,050 Running update on language: sjn
+INFO : 2026-01-07 12:17:53,678 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+WARNING : 2026-01-07 12:26:06,428 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-07 12:26:07,146 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-07 12:26:08,624 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-07 12:26:17,282 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-07 12:26:17,795 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-07 12:26:23,533 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-07 12:26:28,545 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-07 12:26:28,545 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-07 12:26:31,925 Running update on language: qya
+INFO : 2026-01-07 12:26:35,531 Updating report on language 'qya'.
+INFO : 2026-01-07 12:26:38,478 Update on language 'qya' complete.
+INFO : 2026-01-07 12:26:38,478 Running update on language: sjn
+INFO : 2026-01-07 12:26:41,167 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:26:43,488 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:26:43,488 Saving state to file.
+INFO : 2026-01-07 12:26:43,488 Update complete.
+INFO : 2026-01-07 12:27:08,688 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:27:09,734 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:27:10,237 Running update on language: qya
+INFO : 2026-01-07 12:27:13,193 Updating report on language 'qya'.
+INFO : 2026-01-07 12:27:15,912 Update on language 'qya' complete.
+INFO : 2026-01-07 12:27:15,912 Running update on language: sjn
+INFO : 2026-01-07 12:27:16,969 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 12:27:24,872 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:27:27,351 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:27:27,352 Saving state to file.
+INFO : 2026-01-07 12:27:27,352 Update complete.
+INFO : 2026-01-07 12:29:16,893 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:29:17,922 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:29:18,841 Running update on language: qya
+INFO : 2026-01-07 12:29:21,604 Updating report on language 'qya'.
+INFO : 2026-01-07 12:29:24,574 Update on language 'qya' complete.
+INFO : 2026-01-07 12:29:24,574 Running update on language: sjn
+INFO : 2026-01-07 12:29:30,513 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 12:29:31,385 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:29:33,712 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:29:33,712 Saving state to file.
+INFO : 2026-01-07 12:29:33,713 Update complete.
+INFO : 2026-01-07 12:31:46,090 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:31:47,276 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:31:48,278 Running update on language: qya
+INFO : 2026-01-07 12:31:51,611 Updating report on language 'qya'.
+INFO : 2026-01-07 12:31:54,575 Update on language 'qya' complete.
+INFO : 2026-01-07 12:31:54,576 Running update on language: sjn
+INFO : 2026-01-07 12:32:01,100 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 12:32:02,269 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:32:04,935 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:32:04,935 Saving state to file.
+INFO : 2026-01-07 12:32:04,936 Update complete.
+INFO : 2026-01-07 12:39:50,751 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:39:52,122 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:39:53,177 Running update on language: qya
+INFO : 2026-01-07 12:39:56,477 Updating report on language 'qya'.
+INFO : 2026-01-07 12:39:59,762 Update on language 'qya' complete.
+INFO : 2026-01-07 12:39:59,763 Running update on language: sjn
+INFO : 2026-01-07 12:40:00,995 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:40:09,166 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:40:12,051 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:40:12,051 Saving state to file.
+INFO : 2026-01-07 12:40:12,052 Update complete.
+INFO : 2026-01-07 12:45:39,961 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:45:41,393 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:45:42,602 Running update on language: qya
+INFO : 2026-01-07 12:45:46,822 Updating report on language 'qya'.
+INFO : 2026-01-07 12:45:50,024 Update on language 'qya' complete.
+INFO : 2026-01-07 12:45:50,025 Running update on language: sjn
+INFO : 2026-01-07 12:45:51,181 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:45:58,379 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:46:01,133 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:46:01,133 Saving state to file.
+INFO : 2026-01-07 12:46:01,134 Update complete.
+INFO : 2026-01-07 12:47:44,455 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:47:45,474 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:47:45,921 Running update on language: qya
+INFO : 2026-01-07 12:47:48,952 Updating report on language 'qya'.
+INFO : 2026-01-07 12:47:51,952 Update on language 'qya' complete.
+INFO : 2026-01-07 12:47:51,953 Running update on language: sjn
+INFO : 2026-01-07 12:47:53,670 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:48:00,020 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:48:02,744 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:48:02,744 Saving state to file.
+INFO : 2026-01-07 12:48:02,744 Update complete.
+INFO : 2026-01-07 12:50:23,483 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:50:24,529 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:50:25,415 Running update on language: qya
+INFO : 2026-01-07 12:50:28,295 Updating report on language 'qya'.
+INFO : 2026-01-07 12:50:31,470 Update on language 'qya' complete.
+INFO : 2026-01-07 12:50:31,470 Running update on language: sjn
+INFO : 2026-01-07 12:50:32,772 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:50:34,952 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:50:34,952 Saving state to file.
+INFO : 2026-01-07 12:50:34,952 Update complete.
+INFO : 2026-01-07 12:52:07,027 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:52:08,266 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:52:09,231 Running update on language: qya
+INFO : 2026-01-07 12:52:12,436 Updating report on language 'qya'.
+INFO : 2026-01-07 12:52:15,304 Update on language 'qya' complete.
+INFO : 2026-01-07 12:52:15,305 Running update on language: sjn
+INFO : 2026-01-07 12:52:18,703 Packet 'sjn_0': Second revision complete by user 'feasinde@gmail.com'. Translation complete.
+INFO : 2026-01-07 12:52:19,020 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-01-07 12:52:24,072 New packet 'sjn_2' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 12:52:24,827 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:52:28,699 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:52:28,699 Saving state to file.
+INFO : 2026-01-07 12:52:28,700 Update complete.
+INFO : 2026-01-07 12:53:21,964 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:53:22,997 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:53:23,915 Running update on language: qya
+INFO : 2026-01-07 12:53:27,291 Updating report on language 'qya'.
+INFO : 2026-01-07 12:53:30,159 Update on language 'qya' complete.
+INFO : 2026-01-07 12:53:30,159 Running update on language: sjn
+INFO : 2026-01-07 12:53:32,616 Packet 'sjn_2': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 12:53:41,443 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:53:46,748 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:53:46,748 Saving state to file.
+INFO : 2026-01-07 12:53:46,748 Update complete.
+INFO : 2026-01-07 12:54:55,899 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:54:57,035 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:54:57,962 Running update on language: qya
+INFO : 2026-01-07 12:55:00,422 Updating report on language 'qya'.
+INFO : 2026-01-07 12:55:03,248 Update on language 'qya' complete.
+INFO : 2026-01-07 12:55:03,248 Running update on language: sjn
+INFO : 2026-01-07 12:55:10,646 Packet 'sjn_2': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 12:55:10,933 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:55:15,213 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:55:15,214 Saving state to file.
+INFO : 2026-01-07 12:55:15,214 Update complete.
+INFO : 2026-01-07 12:56:03,040 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:56:04,121 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:56:05,093 Running update on language: qya
+INFO : 2026-01-07 12:56:08,328 Updating report on language 'qya'.
+INFO : 2026-01-07 12:56:10,674 Update on language 'qya' complete.
+INFO : 2026-01-07 12:56:10,674 Running update on language: sjn
+INFO : 2026-01-07 12:56:12,462 Packet 'sjn_2': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 12:56:18,837 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:56:22,806 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:56:22,806 Saving state to file.
+INFO : 2026-01-07 12:56:22,806 Update complete.
+INFO : 2026-01-07 12:57:37,264 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 12:57:38,505 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 12:57:39,608 Running update on language: qya
+INFO : 2026-01-07 12:57:42,780 Updating report on language 'qya'.
+INFO : 2026-01-07 12:57:45,236 Update on language 'qya' complete.
+INFO : 2026-01-07 12:57:45,236 Running update on language: sjn
+INFO : 2026-01-07 12:57:49,243 Packet 'sjn_2': Second revision complete by user 'feasinde@gmail.com'. Translation complete.
+INFO : 2026-01-07 12:57:49,548 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-01-07 12:57:57,432 New packet 'sjn_3' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 12:57:57,432 Updating report on language 'sjn'.
+INFO : 2026-01-07 12:58:03,053 Update on language 'sjn' complete.
+INFO : 2026-01-07 12:58:03,053 Saving state to file.
+INFO : 2026-01-07 12:58:03,053 Update complete.
+INFO : 2026-01-07 13:07:11,232 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 13:07:12,613 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 13:07:13,737 Running update on language: qya
+INFO : 2026-01-07 13:07:17,269 Updating report on language 'qya'.
+INFO : 2026-01-07 13:07:20,105 Update on language 'qya' complete.
+INFO : 2026-01-07 13:07:20,105 Running update on language: sjn
+INFO : 2026-01-07 13:07:23,094 Packet 'sjn_3': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 13:07:32,506 Updating report on language 'sjn'.
+INFO : 2026-01-07 13:07:39,217 Update on language 'sjn' complete.
+INFO : 2026-01-07 13:07:39,217 Saving state to file.
+INFO : 2026-01-07 13:07:39,218 Update complete.
+INFO : 2026-01-07 13:08:46,025 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 13:08:47,030 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 13:08:47,969 Running update on language: qya
+INFO : 2026-01-07 13:08:50,935 Updating report on language 'qya'.
+INFO : 2026-01-07 13:08:53,248 Update on language 'qya' complete.
+INFO : 2026-01-07 13:08:53,249 Running update on language: sjn
+INFO : 2026-01-07 13:09:01,613 Packet 'sjn_3': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 13:09:01,908 Updating report on language 'sjn'.
+INFO : 2026-01-07 13:09:08,451 Update on language 'sjn' complete.
+INFO : 2026-01-07 13:09:08,451 Saving state to file.
+INFO : 2026-01-07 13:09:08,452 Update complete.
+INFO : 2026-01-07 13:10:25,131 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 13:10:26,319 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 13:10:27,297 Running update on language: qya
+INFO : 2026-01-07 13:10:30,056 Updating report on language 'qya'.
+INFO : 2026-01-07 13:10:33,108 Update on language 'qya' complete.
+INFO : 2026-01-07 13:10:33,108 Running update on language: sjn
+INFO : 2026-01-07 13:10:35,302 Packet 'sjn_3': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 13:10:43,068 Updating report on language 'sjn'.
+INFO : 2026-01-07 13:10:49,008 Update on language 'sjn' complete.
+INFO : 2026-01-07 13:10:49,008 Saving state to file.
+INFO : 2026-01-07 13:10:49,009 Update complete.
+INFO : 2026-01-07 13:11:37,456 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 13:11:38,495 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 13:11:39,376 Running update on language: qya
+INFO : 2026-01-07 13:11:41,847 Updating report on language 'qya'.
+INFO : 2026-01-07 13:11:44,172 Update on language 'qya' complete.
+INFO : 2026-01-07 13:11:44,173 Running update on language: sjn
+INFO : 2026-01-07 13:11:48,707 Packet 'sjn_3': Second revision complete by user 'feasinde@gmail.com'. Translation complete.
+INFO : 2026-01-07 13:11:48,992 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-01-07 13:11:55,774 New packet 'sjn_4' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 13:11:55,774 Updating report on language 'sjn'.
+INFO : 2026-01-07 13:12:03,454 Update on language 'sjn' complete.
+INFO : 2026-01-07 13:12:03,454 Saving state to file.
+INFO : 2026-01-07 13:12:03,454 Update complete.
+WARNING : 2026-01-07 16:05:49,964 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-07 16:05:50,670 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-07 16:05:51,572 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-07 16:06:02,245 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-07 16:06:02,696 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-07 16:06:08,703 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-07 16:06:15,708 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-07 16:06:15,708 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-07 16:06:18,995 Running update on language: qya
+INFO : 2026-01-07 16:06:22,046 Updating report on language 'qya'.
+INFO : 2026-01-07 16:06:28,039 Update on language 'qya' complete.
+INFO : 2026-01-07 16:06:28,039 Running update on language: sjn
+INFO : 2026-01-07 16:06:31,509 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:06:33,909 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:06:33,909 Saving state to file.
+INFO : 2026-01-07 16:06:33,910 Update complete.
+INFO : 2026-01-07 16:07:01,951 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:07:03,119 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:07:03,606 Running update on language: qya
+INFO : 2026-01-07 16:07:05,992 Updating report on language 'qya'.
+INFO : 2026-01-07 16:07:08,554 Update on language 'qya' complete.
+INFO : 2026-01-07 16:07:08,554 Running update on language: sjn
+INFO : 2026-01-07 16:07:09,622 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 16:07:20,894 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:07:23,660 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:07:23,661 Saving state to file.
+INFO : 2026-01-07 16:07:23,661 Update complete.
+INFO : 2026-01-07 16:09:03,090 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:09:04,236 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:09:04,733 Running update on language: qya
+INFO : 2026-01-07 16:09:07,789 Updating report on language 'qya'.
+INFO : 2026-01-07 16:09:10,685 Update on language 'qya' complete.
+INFO : 2026-01-07 16:09:10,685 Running update on language: sjn
+INFO : 2026-01-07 16:09:16,584 Packet 'sjn_0': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 16:09:18,414 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:09:21,216 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:09:21,216 Saving state to file.
+INFO : 2026-01-07 16:09:21,217 Update complete.
+INFO : 2026-01-07 16:09:59,349 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:10:00,364 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:10:00,733 Running update on language: qya
+INFO : 2026-01-07 16:10:03,284 Updating report on language 'qya'.
+INFO : 2026-01-07 16:10:05,895 Update on language 'qya' complete.
+INFO : 2026-01-07 16:10:05,895 Running update on language: sjn
+INFO : 2026-01-07 16:10:07,185 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 16:10:13,922 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:10:16,527 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:10:16,527 Saving state to file.
+INFO : 2026-01-07 16:10:16,527 Update complete.
+INFO : 2026-01-07 16:11:12,013 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:11:13,376 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:11:13,961 Running update on language: qya
+INFO : 2026-01-07 16:11:16,551 Updating report on language 'qya'.
+INFO : 2026-01-07 16:11:18,850 Update on language 'qya' complete.
+INFO : 2026-01-07 16:11:18,850 Running update on language: sjn
+INFO : 2026-01-07 16:11:21,171 Packet 'sjn_0': Second revision complete by user 'feasinde@gmail.com'. Translation complete.
+INFO : 2026-01-07 16:11:21,455 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-01-07 16:11:29,099 New packet 'sjn_2' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 16:11:30,855 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:11:34,884 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:11:34,884 Saving state to file.
+INFO : 2026-01-07 16:11:34,885 Update complete.
+INFO : 2026-01-07 16:14:03,531 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:14:04,580 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:14:04,969 Running update on language: qya
+INFO : 2026-01-07 16:14:07,548 Updating report on language 'qya'.
+INFO : 2026-01-07 16:14:10,084 Update on language 'qya' complete.
+INFO : 2026-01-07 16:14:10,084 Running update on language: sjn
+INFO : 2026-01-07 16:14:13,359 Packet 'sjn_2': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 16:14:23,837 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:14:28,237 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:14:28,237 Saving state to file.
+INFO : 2026-01-07 16:14:28,238 Update complete.
+INFO : 2026-01-07 16:15:22,587 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:15:23,743 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:15:24,330 Running update on language: qya
+INFO : 2026-01-07 16:15:26,836 Updating report on language 'qya'.
+INFO : 2026-01-07 16:15:29,269 Update on language 'qya' complete.
+INFO : 2026-01-07 16:15:29,270 Running update on language: sjn
+INFO : 2026-01-07 16:15:37,615 Packet 'sjn_2': First revision complete by user 'feasinde@gmail.com'. Submitting for second translation.
+INFO : 2026-01-07 16:15:37,943 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:15:43,067 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:15:43,067 Saving state to file.
+INFO : 2026-01-07 16:15:43,068 Update complete.
+INFO : 2026-01-07 16:16:24,538 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:16:25,731 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:16:26,342 Running update on language: qya
+INFO : 2026-01-07 16:16:30,069 Updating report on language 'qya'.
+INFO : 2026-01-07 16:16:32,392 Update on language 'qya' complete.
+INFO : 2026-01-07 16:16:32,392 Running update on language: sjn
+INFO : 2026-01-07 16:16:36,110 Packet 'sjn_2': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-01-07 16:16:43,379 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:16:47,930 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:16:47,930 Saving state to file.
+INFO : 2026-01-07 16:16:47,931 Update complete.
+INFO : 2026-01-07 16:17:32,162 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:17:33,207 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:17:33,640 Running update on language: qya
+INFO : 2026-01-07 16:17:36,324 Updating report on language 'qya'.
+INFO : 2026-01-07 16:18:05,852 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:18:06,964 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:18:07,454 Running update on language: qya
+INFO : 2026-01-07 16:18:10,626 Updating report on language 'qya'.
+INFO : 2026-01-07 16:18:13,190 Update on language 'qya' complete.
+INFO : 2026-01-07 16:18:13,190 Running update on language: sjn
+INFO : 2026-01-07 16:18:21,686 Packet 'sjn_2': Second revision complete by user 'feasinde@gmail.com'. Translation complete.
+INFO : 2026-01-07 16:18:21,999 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-01-07 16:18:28,032 New packet 'sjn_3' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 16:18:28,032 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:18:34,345 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:18:34,345 Saving state to file.
+INFO : 2026-01-07 16:18:34,345 Update complete.
+INFO : 2026-01-07 16:19:15,116 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:19:16,185 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:19:16,675 Running update on language: qya
+INFO : 2026-01-07 16:19:19,280 Updating report on language 'qya'.
+INFO : 2026-01-07 16:19:21,663 Update on language 'qya' complete.
+INFO : 2026-01-07 16:19:21,663 Running update on language: sjn
+INFO : 2026-01-07 16:19:23,331 Packet 'sjn_1': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-01-07 16:19:35,305 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:19:42,155 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:19:42,156 Saving state to file.
+INFO : 2026-01-07 16:19:42,156 Update complete.
+INFO : 2026-01-07 16:20:41,338 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-07 16:20:41,993 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-07 16:20:42,488 Running update on language: qya
+INFO : 2026-01-07 16:20:45,400 Updating report on language 'qya'.
+INFO : 2026-01-07 16:20:47,857 Update on language 'qya' complete.
+INFO : 2026-01-07 16:20:47,857 Running update on language: sjn
+INFO : 2026-01-07 16:20:53,948 Packet 'sjn_1': First revision complete by user 'feasinde@gmail.com'. No errors found. Translation complete.
+INFO : 2026-01-07 16:20:53,948 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-01-07 16:21:00,602 New packet 'sjn_4' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-07 16:21:01,699 Updating report on language 'sjn'.
+INFO : 2026-01-07 16:21:09,405 Update on language 'sjn' complete.
+INFO : 2026-01-07 16:21:09,405 Saving state to file.
+INFO : 2026-01-07 16:21:09,406 Update complete.
+INFO : 2026-01-08 11:26:58,533 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:26:59,457 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:27:00,209 Running update on language: qya
+INFO : 2026-01-08 11:27:03,571 Updating report on language 'qya'.
+INFO : 2026-01-08 11:27:06,893 Update on language 'qya' complete.
+INFO : 2026-01-08 11:27:06,893 Running update on language: sjn
+INFO : 2026-01-08 11:27:10,521 Packet 'sjn_4': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-01-08 11:27:21,790 Updating report on language 'sjn'.
+INFO : 2026-01-08 11:27:29,684 Update on language 'sjn' complete.
+INFO : 2026-01-08 11:27:29,684 Saving state to file.
+INFO : 2026-01-08 11:27:29,684 Update complete.
+INFO : 2026-01-08 11:27:52,712 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:27:53,770 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:27:54,644 Running update on language: qya
+INFO : 2026-01-08 11:27:57,580 Updating report on language 'qya'.
+INFO : 2026-01-08 11:28:00,133 Update on language 'qya' complete.
+INFO : 2026-01-08 11:28:00,134 Running update on language: sjn
+INFO : 2026-01-08 11:28:07,608 Packet 'sjn_4': First revision complete by user 'feasinde@gmail.com'. No errors found. Translation complete.
+INFO : 2026-01-08 11:28:07,608 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-01-08 11:31:19,266 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:31:20,335 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:31:21,016 Running update on language: qya
+INFO : 2026-01-08 11:31:24,591 Updating report on language 'qya'.
+INFO : 2026-01-08 11:31:27,096 Update on language 'qya' complete.
+INFO : 2026-01-08 11:31:27,096 Running update on language: sjn
+INFO : 2026-01-08 11:31:35,955 Packet 'sjn_4': First revision complete by user 'feasinde@gmail.com'. No errors found. Translation complete.
+INFO : 2026-01-08 11:31:35,956 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-01-08 11:33:22,147 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:33:23,405 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:33:24,287 Running update on language: qya
+INFO : 2026-01-08 11:33:27,914 Updating report on language 'qya'.
+INFO : 2026-01-08 11:33:30,708 Update on language 'qya' complete.
+INFO : 2026-01-08 11:33:30,708 Running update on language: sjn
+INFO : 2026-01-08 11:33:42,246 Packet 'sjn_4': First revision complete by user 'feasinde@gmail.com'. No errors found. Translation complete.
+INFO : 2026-01-08 11:33:42,246 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-01-08 11:33:48,668 New packet 'sjn_5' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-08 11:33:48,669 Updating report on language 'sjn'.
+INFO : 2026-01-08 11:33:58,806 Update on language 'sjn' complete.
+INFO : 2026-01-08 11:33:58,806 Saving state to file.
+INFO : 2026-01-08 11:33:58,807 Update complete.
+INFO : 2026-01-08 11:40:36,119 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:40:37,568 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:40:38,746 Running update on language: qya
+INFO : 2026-01-08 11:40:43,089 Updating report on language 'qya'.
+INFO : 2026-01-08 11:40:48,614 Update on language 'qya' complete.
+INFO : 2026-01-08 11:40:48,614 Running update on language: sjn
+INFO : 2026-01-08 11:40:51,991 Packet 'sjn_5': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-01-08 11:41:03,305 Updating report on language 'sjn'.
+INFO : 2026-01-08 11:41:14,035 Update on language 'sjn' complete.
+INFO : 2026-01-08 11:41:14,035 Saving state to file.
+INFO : 2026-01-08 11:41:14,036 Update complete.
+INFO : 2026-01-08 11:41:46,572 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:41:47,694 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:41:48,622 Running update on language: qya
+INFO : 2026-01-08 11:41:51,998 Updating report on language 'qya'.
+INFO : 2026-01-08 11:41:54,969 Update on language 'qya' complete.
+INFO : 2026-01-08 11:41:54,969 Running update on language: sjn
+INFO : 2026-01-08 11:42:04,232 Packet 'sjn_5': First revision complete by user 'feasinde@gmail.com'. No errors found. Translation complete.
+INFO : 2026-01-08 11:42:04,232 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-01-08 11:42:10,534 New packet 'sjn_6' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'.
+INFO : 2026-01-08 11:42:10,534 Updating report on language 'sjn'.
+INFO : 2026-01-08 11:42:21,073 Update on language 'sjn' complete.
+INFO : 2026-01-08 11:42:21,073 Saving state to file.
+INFO : 2026-01-08 11:42:21,074 Update complete.
+INFO : 2026-01-08 11:56:17,681 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-08 11:56:19,262 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-08 11:56:20,632 Running update on language: qya
+INFO : 2026-01-08 11:56:25,218 Updating report on language 'qya'.
+INFO : 2026-01-08 11:56:28,306 Update on language 'qya' complete.
+INFO : 2026-01-08 11:56:28,306 Running update on language: sjn
+INFO : 2026-01-08 11:56:32,743 Packet 'sjn_6': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-01-08 11:56:41,652 Updating report on language 'sjn'.
+INFO : 2026-01-08 11:56:54,583 Update on language 'sjn' complete.
+INFO : 2026-01-08 11:56:54,583 Saving state to file.
+INFO : 2026-01-08 11:56:54,583 Update complete.
+WARNING : 2026-01-21 10:10:17,938 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:10:18,590 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-21 10:10:19,698 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:10:28,776 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 10:16:30,116 No folder associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:16:30,699 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-21 10:16:32,010 Updating vocabulary file for lang 'qya'.
+INFO : 2026-01-21 10:16:32,028 Updating current packets with new vocabulary for language 'qya'.
+WARNING : 2026-01-21 10:16:36,351 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:16:44,183 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-21 10:18:23,360 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-21 10:18:24,699 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:18:33,235 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-21 10:24:33,701 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-21 10:36:20,845 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-21 10:36:59,679 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-21 10:57:02,190 No state file found. Generating from config.
+WARNING : 2026-01-21 10:57:02,840 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 10:57:11,138 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 10:57:12,252 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 10:57:18,038 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 10:57:25,073 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 10:57:25,073 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 10:57:28,331 Running update on language: sjn
+INFO : 2026-01-21 10:57:31,643 Updating report on language 'sjn'.
+INFO : 2026-01-21 10:57:33,883 Update on language 'sjn' complete.
+INFO : 2026-01-21 10:57:33,883 Saving state to file.
+INFO : 2026-01-21 10:57:33,884 Update complete.
+WARNING : 2026-01-21 11:28:52,775 No state file found. Generating from config.
+WARNING : 2026-01-21 11:28:53,329 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 11:29:01,520 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 11:29:02,539 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 11:29:08,077 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 11:29:14,156 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 11:29:14,156 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 11:29:17,385 Running update on language: sjn
+INFO : 2026-01-21 11:29:20,755 Updating report on language 'sjn'.
+INFO : 2026-01-21 11:29:23,505 Update on language 'sjn' complete.
+INFO : 2026-01-21 11:29:23,506 Saving state to file.
+INFO : 2026-01-21 11:29:23,506 Update complete.
+INFO : 2026-01-21 12:00:45,570 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-21 12:00:46,888 Running update on language: sjn
+INFO : 2026-01-21 12:00:50,538 Updating report on language 'sjn'.
+INFO : 2026-01-21 12:00:53,072 Update on language 'sjn' complete.
+INFO : 2026-01-21 12:00:53,072 Saving state to file.
+INFO : 2026-01-21 12:00:53,073 Update complete.
+WARNING : 2026-01-21 12:01:12,828 No state file found. Generating from config.
+WARNING : 2026-01-21 12:01:13,532 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 12:01:22,087 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 12:01:23,093 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 12:01:29,404 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:01:35,239 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:01:35,239 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 12:01:38,350 Running update on language: sjn
+INFO : 2026-01-21 12:01:40,726 Updating report on language 'sjn'.
+INFO : 2026-01-21 12:01:42,526 Update on language 'sjn' complete.
+INFO : 2026-01-21 12:01:42,526 Saving state to file.
+INFO : 2026-01-21 12:01:42,526 Update complete.
+WARNING : 2026-01-21 12:06:33,092 No state file found. Generating from config.
+WARNING : 2026-01-21 12:06:33,850 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 12:06:44,248 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 12:06:44,815 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 12:06:50,825 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:06:56,224 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:06:56,224 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 12:06:59,641 Running update on language: sjn
+INFO : 2026-01-21 12:07:02,338 Updating report on language 'sjn'.
+INFO : 2026-01-21 12:07:04,687 Update on language 'sjn' complete.
+INFO : 2026-01-21 12:07:04,688 Saving state to file.
+INFO : 2026-01-21 12:07:04,688 Update complete.
+WARNING : 2026-01-21 12:09:54,791 No state file found. Generating from config.
+WARNING : 2026-01-21 12:09:55,491 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-01-21 12:09:56,148 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-21 12:10:05,263 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-21 12:10:06,456 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-21 12:10:12,372 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:10:18,686 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'feasinde@gmail.com'
+INFO : 2026-01-21 12:10:18,687 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-21 12:10:21,885 Running update on language: sjn
+INFO : 2026-01-21 12:10:25,456 Updating report on language 'sjn'.
+INFO : 2026-01-21 12:10:27,743 Update on language 'sjn' complete.
+INFO : 2026-01-21 12:10:27,743 Saving state to file.
+INFO : 2026-01-21 12:10:27,743 Update complete.

@@ -1,12 +1,13 @@
 {
     "langs": {
-        "qya": {
+        "sjn": {
             "translators": [
-                "fsanchez@dlsi.ua.es",
-                "japerez@dlsi.ua.es"
+                "and_lou@ua.es",
+                "andres.lou@ua.es"
             ],
-            "revisor": "vm.sanchez@gcloud.ua.es"
+            "revisor": "feasinde@gmail.com"
         }
     },
-    "packet_size": 5
+    "packet_size": 5,
+    "start_translation": true
 }

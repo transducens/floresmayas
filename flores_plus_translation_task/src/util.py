@@ -1,3 +1,4 @@
+from icecream import ic
 import os
 import os.path
 import json
@@ -53,6 +54,7 @@ def minLev(w, s):
 
 
 def get_text_format_runs(text, tokenised_text, vocab):
+    from icecream import ic
     vocab_words = [
         minLev(word, text) for word in tokenised_text if word in vocab
     ]
