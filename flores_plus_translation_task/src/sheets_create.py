@@ -21,7 +21,6 @@ def create_translation_spreadsheet(
     eng = [row.split('\t')[1] for row in sents]
     spa = [row.split('\t')[2] for row in sents]
 
-    from icecream import ic
     with open(f"../data/{lang_code}/vocab.json") as f:
         lang_vocab = json.loads(f.read())
 
