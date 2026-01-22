@@ -81,9 +81,9 @@ COLOR_VOCAB = {
 }
 
 COLOR_GREY = {
-    "red": 180,
-    "green": 180,
-    "blue": 180,
+    "red": 180 / 255,
+    "green": 180 / 255,
+    "blue": 180 / 255,
 }
 
 
