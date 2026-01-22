@@ -376,6 +376,22 @@ def create_translation_spreadsheet(
             {
                 "repeatCell": {
                     "range": {
+                        "startRowIndex": 0,
+                        "endRowIndex": len(spa),
+                        "startColumnIndex": 0,
+                        "endColumnIndex": 3
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "backgroundColor": COLOR_GREY
+                        }
+                    },
+                    "fields": "userEnteredFormat.backgroundColor"
+                }
+            },
+            {
+                "repeatCell": {
+                    "range": {
                         "startRowIndex": len(spa) + 1,
                         "endRowIndex": len(spa) + 2,
                         "startColumnIndex": 0,

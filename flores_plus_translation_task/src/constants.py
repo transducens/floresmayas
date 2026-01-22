@@ -80,6 +80,12 @@ COLOR_VOCAB = {
     "blue": 136 / 255,
 }
 
+COLOR_GREY = {
+    "red": 180,
+    "green": 180,
+    "blue": 180,
+}
+
 
 class Stage(str, Enum):
     FIRST_TRANSLATION = 'FIRST_TRANSLATION'
