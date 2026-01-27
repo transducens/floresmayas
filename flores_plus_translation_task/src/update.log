@@ -42,3 +42,14 @@ INFO : 2026-01-27 11:02:55,795 Updating report on language 'qya'.
 INFO : 2026-01-27 11:02:57,095 Update on language 'qya' complete.
 INFO : 2026-01-27 11:02:57,095 Saving state to file.
 INFO : 2026-01-27 11:02:57,096 Update complete.
+INFO : 2026-01-27 11:06:48,800 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-01-27 11:06:49,743 Checking vocabulary spreadsheet for updates for lang 'qya'.
+INFO : 2026-01-27 11:06:50,126 Running update on language: sjn
+INFO : 2026-01-27 11:06:51,846 Updating report on language 'sjn'.
+INFO : 2026-01-27 11:06:53,211 Update on language 'sjn' complete.
+INFO : 2026-01-27 11:06:53,211 Running update on language: qya
+INFO : 2026-01-27 11:06:57,642 Packet 'qya_1': First revision complete by user 'and_lou@gcloud.ua.es'. Submitting for second translation.
+INFO : 2026-01-27 11:06:58,768 Updating report on language 'qya'.
+INFO : 2026-01-27 11:07:00,360 Update on language 'qya' complete.
+INFO : 2026-01-27 11:07:00,360 Saving state to file.
+INFO : 2026-01-27 11:07:00,361 Update complete.
