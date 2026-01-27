@@ -13,10 +13,10 @@
         "rev_id": "15ya4wXl2-o7jZHlhlWjoVRhofJxsiAHqQkf4nrQsfXw",
         "title": "sjn_0",
         "created": "Jan 27 2026 09:30AM",
-        "last_stage_update": "Jan 27 2026 10:02AM",
+        "last_stage_update": "Jan 27 2026 10:05AM",
         "translator": "and_lou@ua.es",
         "revisor": "and_lou@gcloud.ua.es",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -41,7 +41,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 16,
     "translation_complete": false,
     "vocab_id": "1c9ibHdx1A0qpeaGc13JH5q0rSD0U3-QPTmGzP--0zPU",
     "report": "1bp1DFZLY2A-EhNmsimuwu1GnvHefYLSZDtT1Jpv_4M8"
