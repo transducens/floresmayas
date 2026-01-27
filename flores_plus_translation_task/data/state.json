@@ -68,13 +68,13 @@
       },
       "1": {
         "tra_id": "1YlvdLnj0YnW1reWhwel0NmAY7QOmrITO7kF8bWtsePU",
-        "rev_id": null,
+        "rev_id": "1mb9Dj9AbEsCpK6la0-25h0NS2UeCqkZGW3gRAjzgfp8",
         "title": "qya_1",
         "created": "Jan 27 2026 10:49AM",
-        "last_stage_update": "Jan 27 2026 10:49AM",
+        "last_stage_update": "Jan 27 2026 11:02AM",
         "translator": "feasinde@gmail.com",
         "revisor": "and_lou@gcloud.ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
