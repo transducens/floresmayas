@@ -1,9 +1,9 @@
 name: update_packets
 
-  #on:
+on:
 # schedule:
 #- cron: '0 * * * *' 
-#push:
+  push:
 
 jobs:
   build:
