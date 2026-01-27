@@ -1,0 +1,23 @@
+WARNING : 2026-01-27 08:55:22,748 No state file found. Generating from config.
+WARNING : 2026-01-27 08:55:23,154 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-01-27 08:55:24,167 No folder associated to language 'qya'. Creating.
+WARNING : 2026-01-27 08:55:24,618 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-01-27 08:55:31,982 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-27 08:55:32,558 No vocabulary spreadsheet associated to language 'qya'. Creating.
+INFO : 2026-01-27 08:55:39,542 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-27 08:55:39,944 Language 'sjn' has no packages ready to work on.
+INFO : 2026-01-27 08:55:49,460 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2026-01-27 08:55:58,253 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'and_lou@gcloud.ua.es'
+WARNING : 2026-01-27 08:55:58,253 Language 'qya' has no packages ready to work on.
+INFO : 2026-01-27 08:56:06,965 New packet 'qya_0' created for language 'qya' and assigned to translator 'lourios.andres@gmail.com' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2026-01-27 08:56:16,090 New packet 'qya_1' created for language 'qya' and assigned to translator 'feasinde@gmail.com' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2026-01-27 08:56:16,090 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-01-27 08:56:18,890 Creating report spreadsheet for lang 'qya.'
+INFO : 2026-01-27 08:56:21,717 Running update on language: sjn
+INFO : 2026-01-27 08:56:22,918 Updating report on language 'sjn'.
+INFO : 2026-01-27 08:56:24,097 Update on language 'sjn' complete.
+INFO : 2026-01-27 08:56:24,097 Running update on language: qya
+INFO : 2026-01-27 08:56:25,303 Updating report on language 'qya'.
+INFO : 2026-01-27 08:56:26,413 Update on language 'qya' complete.
+INFO : 2026-01-27 08:56:26,413 Saving state to file.
+INFO : 2026-01-27 08:56:26,414 Update complete.

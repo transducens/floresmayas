@@ -1,0 +1,96 @@
+{
+  "sjn": {
+    "translators": {
+      "and_lou@ua.es": [],
+      "andres.lou@ua.es": []
+    },
+    "revisors": {
+      "and_lou@gcloud.ua.es": []
+    },
+    "packets": {
+      "0": {
+        "tra_id": "1HqZWYn5KUG5jfis0xtDjQHejQwtLG5EVcb8tSEFjAgU",
+        "rev_id": null,
+        "title": "sjn_0",
+        "created": "Jan 27 2026 08:55AM",
+        "last_stage_update": "Jan 27 2026 08:55AM",
+        "translator": "and_lou@ua.es",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1CY2np160fK3qq2OLzfG7cv0zW659dISuCn4yT_kh1B8",
+        "rev_id": null,
+        "title": "sjn_1",
+        "created": "Jan 27 2026 08:55AM",
+        "last_stage_update": "Jan 27 2026 08:55AM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "vocab_id": "1hUtxOIsRH8ERYVPmvGE3zFvaMUrl1J-8CJ6oqtJuDLY",
+    "report": "1GR2H02y7IkYffpMy7TDybA3f3u0hED4CX4Mzcn2BBT0"
+  },
+  "qya": {
+    "translators": {
+      "lourios.andres@gmail.com": [],
+      "feasinde@gmail.com": []
+    },
+    "revisors": {
+      "and_lou@gcloud.ua.es": []
+    },
+    "packets": {
+      "0": {
+        "tra_id": "1VLI3Qk9PgIQdu6Oc1rNpajw9GcVv95PwimqQGK9BBy4",
+        "rev_id": null,
+        "title": "qya_0",
+        "created": "Jan 27 2026 08:56AM",
+        "last_stage_update": "Jan 27 2026 08:56AM",
+        "translator": "lourios.andres@gmail.com",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1x6bxMBSXM-RTmbKjH8XBk4OH9g8TmqA9x3sOeryvc04",
+        "rev_id": null,
+        "title": "qya_1",
+        "created": "Jan 27 2026 08:56AM",
+        "last_stage_update": "Jan 27 2026 08:56AM",
+        "translator": "feasinde@gmail.com",
+        "revisor": "and_lou@gcloud.ua.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "vocab_id": "1-0qRYxGrfBWR6Y8zbvsytpGLSGeUqdFa547dAF_CVbc",
+    "report": "1pTC2EwNqbW9rX_9BP8_wC8e9az6tYGtz14fxYuz2MxQ"
+  }
+}
