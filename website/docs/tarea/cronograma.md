@@ -1,6 +1,6 @@
 # Cronograma de actividades
 
-*Todas las horas están en la zona horaria de Guatemala (CST, UTC-6).*
+*Todas las horas están en la zona horaria de Guatemala (CET, UTC-6).*
 
 ---
 ## Lunes, 9 de febrero de 2026
@@ -14,8 +14,10 @@ Bienvenida a los trabajadores. Presentación individual de todos los involucrado
 Presentación del proyecto a cargo de Andrés Lou Ríos. Se presentarán rápidamente los conceptos de PLN, TA, luego se enfocará en la naturaleza de FLORES+ y su importancia para el desarrollo de tecnologías de lenguaje para lenguas de escasos recursos; después, se presentará en detalle las fases de la tarea de traducción, la división de los trabajadores en traductores y revisores, y se echará un primer vistazo a la interfaz de traducción.
 
 * **Archivos adjuntos:**
-    * [directrices_cc.pdf](https://drive.google.com/open?id=17p2S0ktRQtZhD_RkamsWf2ZtXSRhGjbo)
-    * [doc_auxiliar_guia_de_traduccion.pdf](https://drive.google.com/open?id=19MmnWSmRHJL560sgESuAD1uI90mDB302)
+    * [Cronograma de actividades](https://drive.google.com/file/d/10HUW6x9Be3AF8IGA5BkBJHhr7f63ioIw/view?usp=drive_link)
+    * [Aspectos a considerarse durante la traducción](https://drive.google.com/file/d/1384UGuMiFK4as3xvN6lVsU0Y6H1_09Mh/view?usp=sharing)
+    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1ZGTZHiQ2GUK59IcScvu5dtV4RRwtFK-o/view?usp=sharing)
+    * [Tipología de errores](https://drive.google.com/file/d/1PsP-LHpzqlOJbpqiNiFBPLVlL1gBTOVq/view?usp=drive_link)
 
 ### 09:45 – 10:30 | **Presentación de la fase de alineamiento**
 
@@ -32,7 +34,7 @@ Presentación del FLORES+ a los trabajadores: número de frases, idiomas, domini
 Donde se discute: Dialecto a utilizarase - Convención ortográfica a utilizarse.
 
 * **Archivos adjuntos:**
-    * [doc_auxiliar_guia_de_traduccion.pdf](https://drive.google.com/open?id=19MmnWSmRHJL560sgESuAD1uI90mDB302)
+    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1ZGTZHiQ2GUK59IcScvu5dtV4RRwtFK-o/view?usp=sharing)
     * [Guía de traducción](https://drive.google.com/open?id=1dpJinQXeNp3RlXCh8hVtKyf6DNHUnwPb56ISt7OpiuY)
 
 

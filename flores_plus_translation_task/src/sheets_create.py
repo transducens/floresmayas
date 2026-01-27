@@ -377,7 +377,7 @@ def create_translation_spreadsheet(
                 "repeatCell": {
                     "range": {
                         "startRowIndex": 1,
-                        "endRowIndex": len(spa),
+                        "endRowIndex": len(spa) + 1,
                         "startColumnIndex": 0,
                         "endColumnIndex": 3
                     },
