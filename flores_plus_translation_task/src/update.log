@@ -24,3 +24,18 @@ INFO : 2026-01-22 14:25:56,918 Updating report on language 'sjn'.
 INFO : 2026-01-22 14:25:58,372 Update on language 'sjn' complete.
 INFO : 2026-01-22 14:25:58,372 Saving state to file.
 INFO : 2026-01-22 14:25:58,373 Update complete.
+INFO : 2026-01-27 08:47:30,986 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-01-27 08:47:31,894 No vocabulary spreadsheet associated to language 'qya'. Creating.
+INFO : 2026-01-27 08:47:42,864 Checking vocabulary spreadsheet for updates for lang 'qya'.
+WARNING : 2026-01-27 08:47:43,485 Language 'qya' has no packages ready to work on.
+INFO : 2026-01-27 08:47:54,275 New packet 'qya_0' created for language 'qya' and assigned to translator 'lourios.andres@gmail.com' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2026-01-27 08:48:04,576 New packet 'qya_1' created for language 'qya' and assigned to translator 'feasinde@gmail.com' and revisor 'and_lou@gcloud.ua.es'
+INFO : 2026-01-27 08:48:04,576 Creating report spreadsheet for lang 'qya.'
+INFO : 2026-01-27 08:48:08,326 Running update on language: sjn
+INFO : 2026-01-27 08:48:10,178 Updating report on language 'sjn'.
+INFO : 2026-01-27 08:48:12,019 Update on language 'sjn' complete.
+INFO : 2026-01-27 08:48:12,019 Running update on language: qya
+INFO : 2026-01-27 08:48:13,403 Updating report on language 'qya'.
+INFO : 2026-01-27 08:48:14,948 Update on language 'qya' complete.
+INFO : 2026-01-27 08:48:14,948 Saving state to file.
+INFO : 2026-01-27 08:48:14,948 Update complete.
