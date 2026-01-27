@@ -10,13 +10,13 @@
     "packets": {
       "0": {
         "tra_id": "18vAs3vbx3ZLYw2Ct9oRygVkc_PgXaAnDt0eawfbz8Ak",
-        "rev_id": null,
+        "rev_id": "15ya4wXl2-o7jZHlhlWjoVRhofJxsiAHqQkf4nrQsfXw",
         "title": "sjn_0",
         "created": "Jan 27 2026 09:30AM",
-        "last_stage_update": "Jan 27 2026 09:30AM",
+        "last_stage_update": "Jan 27 2026 09:39AM",
         "translator": "and_lou@ua.es",
         "revisor": "and_lou@gcloud.ua.es",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
