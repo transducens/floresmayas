@@ -25,6 +25,8 @@ jobs:
 
       - name: install apertium
         run: |
+          sudo apt update
+          sudo apt update --fix-missing
           sudo apt install apertium
           sudo apt install apertium-eng-spa
 
