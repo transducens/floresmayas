@@ -19,6 +19,7 @@ HOME = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 CATEGORY_COLUMN_SPREADSHEET_ID = "1EGhgsdl2MSI2-mQ6ilkTaLFGVtjtmujU7mkCqZwuL6Y"
 
 PACKET_SIZE = config['packet_size']
+PRELIM_PACKET_SIZE = config['prelim_packet_size']
 R = 120
 
 with open("../data/vocabulario_flores_plus.json") as f:
@@ -38,13 +39,16 @@ DEV = DEV[:floor(len(DEV) * DEV_FRACTION)]
 
 with open("../data/flores.eng-spa.dev") as f:
     DEVTEST = f.readlines()
+    PRELIM_DATASET = DEVTEST[:60]
+    DEVTEST = DEVTEST[60:]
     DEVTEST = [
         DEVTEST[x:x + PACKET_SIZE] for x in range(0, len(DEVTEST), PACKET_SIZE)
     ]
+    PRELIM_DATASET = [
+        PRELIM_DATASET[x:x + PRELIM_PACKET_SIZE] for x in range(0, len(PRELIM_DATASET), PRELIM_PACKET_SIZE)
+    ]
 
 DATASET = DEVTEST + DEV
-PRELIM_DATASET = DATASET[60]
-DATASET = DATASET[60:]
 
 COLOR_GOOD = {
     "red": 68 / 255,

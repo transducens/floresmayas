@@ -9,7 +9,7 @@ from sheets_create import create_revision_sheet
 from sheets_create import create_vocab_spreadsheet
 from sheets_create import create_report_spreadsheet
 from sheets_create import update_report_spreadsheet
-from constants import Stage, DATETIME_FORMAT, DATASET, LOGGER_FORMAT, R
+from constants import Stage, DATETIME_FORMAT, DATASET, PRELIM_DATASET, LOGGER_FORMAT, R
 from util import *
 
 logger = logging.getLogger('updat_packets')
@@ -39,8 +39,11 @@ if __name__ == "__main__":
                 "revisors": {
                     config['langs'][lang]['revisor']: []
                 },
+                "prelim_packets": {
+                    f"prelim_{str(i)}": None for i in range(len(PRELIM_DATASET))
+                },
                 "packets": {
-                    str(i): None for i in range(1, len(DATASET) + 1)
+                    str(i): None for i in range(len(DATASET))
                 },
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,
