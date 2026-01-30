@@ -1,3 +1,4 @@
+from icecream import ic
 import os
 import os.path
 import json
@@ -97,7 +98,7 @@ def get_users(users_filename: str) -> dict:
 
 def is_ready_packet(id: str, creds: object) -> bool:
     service = build("sheets", "v4", credentials=creds)
-    last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][-1]['properties']['title']
+    last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][0]['properties']['title']
     results = (
         service.spreadsheets().get(
             spreadsheetId=id,
@@ -107,7 +108,7 @@ def is_ready_packet(id: str, creds: object) -> bool:
     )
 
     rgb_color = (
-        results['sheets'][-1]
+        results['sheets'][0]
         ['data'][0]
         ['rowData'][0]
         ['values'][0]
@@ -115,7 +116,6 @@ def is_ready_packet(id: str, creds: object) -> bool:
         ['backgroundColorStyle']
         ['rgbColor']
     )
-
     return len(rgb_color.keys()) == 1 and rgb_color.get('green') == 1
 
 

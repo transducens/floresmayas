@@ -5,16 +5,11 @@
                 "and_lou@ua.es",
                 "andres.lou@ua.es"
             ],
-            "revisor": "and_lou@gcloud.ua.es"
-        },
-        "qya": {
-            "translators": [
-                "lourios.andres@gmail.com",
-                "feasinde@gmail.com"
-            ],
-            "revisor": "and_lou@gcloud.ua.es"
+            "revisor": "lourios.andres@gmail.com"
         }
     },
     "packet_size": 100,
-    "start_translation": true
+    "prelim_packet_size": 10,
+    "start_translation": true,
+    "prelim_translation": true
 }

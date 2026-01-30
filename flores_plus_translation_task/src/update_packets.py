@@ -40,7 +40,7 @@ if __name__ == "__main__":
                     config['langs'][lang]['revisor']: []
                 },
                 "packets": {
-                    str(i): None for i in range(len(DATASET))
+                    str(i): None for i in range(1, len(DATASET) + 1)
                 },
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,

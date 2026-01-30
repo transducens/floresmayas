@@ -15,6 +15,12 @@ Los trabajadores deben decidir a qué convención ortográfica se adherirán. De
 - La convención utilizada en la mayoría de los recursos didácticos disponibles puede contrastar con la empleada para los numerosos topónimos de origen mayense en Guatemala.
 - Las lenguas mayas habladas tanto en Guatemala como en México pueden tener diferentes convenciones ortográficas oficialmente respaldadas.
 
+## Términos sin equivalente directo
+Los trabajadores deciden cómo tratar con términos que puedan no tener equivalente directo en la lengua maya por medio de la convención del uso de neologismos, calcos léxicos o semánticos, préstamos crudos, o una combinación de las anteriores.
+
+### Ejemplos por considerar
+- Términos como «célula», «geológico» o «ferrocarril» podrían no tener traducción directa, en cuyo caso los trabajadores podrían proponer neologismos originándose en la historia de los términos, adoptar calcos basados en la ortografía o fonología del idioma maya, o bien podrían adoptar préstamos crudos del castellano.
+
 ## Direcciones
 Los trabajadores deciden cómo tratar las direcciones, las cuales pueden tener un formato en la lengua maya que difiera del formato en español o inglés.
 
@@ -37,7 +43,7 @@ Los trabajadores deciden cómo tratar los topónimos, determinando si se usará 
 - **Madhya Pradesh**, una provincia de la India, suele escribirse de la misma forma en español.
 
 ## Nombres propios
-Los trabajadores acuerdan una estrategia para tratar los nombres propios, tanto cuando tienen un equivalente en MAYA o español como cuando no. Muchos nombres cristianos tradicionales tienen equivalentes en lenguas mayas, pero la mayoría de los nombres no cristianos no lo tendrán.
+Los trabajadores acuerdan una estrategia para tratar los nombres propios, tanto cuando tienen un equivalente en lengua maya o español como cuando no. Muchos nombres cristianos tradicionales tienen equivalentes en lenguas mayas, pero la mayoría de los nombres no cristianos no lo tendrán.
 
 ### Ejemplos por considerar
 - "Andrés", "Pedro" y "Santiago" son nombres cristianos con equivalentes tradicionales en la mayoría de las lenguas mayas.
