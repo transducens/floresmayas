@@ -117,6 +117,7 @@ if __name__ == "__main__":
 
     # Check if working on prelim packets or full translation
     packet_string = 'prelim_packets' if config['prelim_translation'] else 'packets'
+    prelim_title_string = 'prelim_' if config['prelim_translation'] else ""
 
     # Check if there's at least one packet in state and create one if not
     for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
@@ -132,9 +133,9 @@ if __name__ == "__main__":
                 packet_idx = min(int(idx) for idx in state[lang][packet_string].keys() if state[lang][packet_string][idx] is None)
                 state[lang][packet_string][str(packet_idx)] = create_translation_spreadsheet(
                     creds=creds,
-                    sents=DATASET[packet_idx],
+                    sents=PRELIM_DATASET[packet_idx] if config['prelim_translation'] else DATASET[packet_idx],
                     lang_code=lang,
-                    title=f"{lang}_{packet_idx}",
+                    title=f"{prelim_title_string}{lang}_{packet_idx}",
                     tra_email=translator,
                     rev_email=revisor,
                     packet_idx=packet_idx,
@@ -196,9 +197,9 @@ if __name__ == "__main__":
 
                 state[lang][packet_string][str(packet_idx)] = create_translation_spreadsheet(
                     creds=creds,
-                    sents=DATASET[packet_idx],
+                    sents=PRELIM_DATASET[packet_idx] if config['prelim_translation'] else DATASET[packet_idx],
                     lang_code=lang,
-                    title=f"{lang}_{packet_idx}",
+                    title=f"{prelim_title_string}{lang}_{packet_idx}",
                     tra_email=translator,
                     rev_email=revisor,
                     packet_idx=packet_idx,
@@ -296,9 +297,9 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
 
                         state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
                             creds=creds,
-                            sents=DATASET[next_packet_idx],
+                            sents=PRELIM_DATASET[next_packet_idx] if config['prelim_translation'] else DATASET[next_packet_idx],
                             lang_code=lang,
-                            title=f"{lang}_{next_packet_idx}",
+                            title=f"{prelim_title_string}{lang}_{next_packet_idx}",
                             tra_email=packet['translator'],
                             rev_email=packet['revisor'],
                             packet_idx=next_packet_idx,
@@ -354,9 +355,9 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     next_packet_idx = min(next_packet_idx)
                     state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
                         creds=creds,
-                        sents=DATASET[next_packet_idx],
+                        sents=PRELIM_DATASET[next_packet_idx] if config['prelim_translation'] else DATASET[next_packet_idx],
                         lang_code=lang,
-                        title=f"{lang}_{next_packet_idx}",
+                        title=f"{prelim_title_string}{lang}_{next_packet_idx}",
                         tra_email=packet['translator'],
                         rev_email=packet['revisor'],
                         packet_idx=next_packet_idx,
