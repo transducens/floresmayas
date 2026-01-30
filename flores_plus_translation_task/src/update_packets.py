@@ -40,7 +40,7 @@ if __name__ == "__main__":
                     config['langs'][lang]['revisor']: []
                 },
                 "prelim_packets": {
-                    f"prelim_{str(i)}": None for i in range(len(PRELIM_DATASET))
+                    str(i): None for i in range(len(PRELIM_DATASET))
                 },
                 "packets": {
                     str(i): None for i in range(len(DATASET))
@@ -61,7 +61,7 @@ if __name__ == "__main__":
                 "translators": {translator: [] for translator in config['langs'][lang]['translators']},
                 "revisors": {config['langs'][lang]['revisor']: []},
                 "packets": {str(i): None for i in range(len(DATASET))},
-                "prelim_packets": {f"prelim_{str(i)}": None for i in range(len(PRELIM_DATASET))},
+                "prelim_packets": {str(i): None for i in range(len(PRELIM_DATASET))},
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,
                 "translation_complete": False
