@@ -4,3 +4,8 @@ WARNING : 2026-02-05 15:19:04,060 No vocabulary spreadsheet associated to langua
 INFO : 2026-02-05 15:19:14,316 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-05 15:19:22,796 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-02-05 15:19:22,796 Update complete.
+INFO : 2026-02-05 15:22:40,096 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-05 15:22:40,927 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-02-05 15:22:40,932 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-02-05 15:22:40,945 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-02-05 15:22:40,946 Update complete.
