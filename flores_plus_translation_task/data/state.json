@@ -108,13 +108,13 @@
       },
       "5": {
         "tra_id": "1UWTGedsEja3DJHFgJ35YZr1N_i-ANUrGgZQFpaV9AsE",
-        "rev_id": null,
+        "rev_id": "1dSPOPbaszoxsK2MC-16ktG_2-NHiQhS1beedm0NcDYM",
         "title": "prelim_sjn_5",
         "created": "Feb 05 2026 05:33PM",
-        "last_stage_update": "Feb 05 2026 05:33PM",
+        "last_stage_update": "Feb 05 2026 05:43PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 5
       }
     },
