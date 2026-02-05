@@ -144,10 +144,10 @@
         "rev_id": "1oLHw64tXv__6WSvqRmNAvnjjc3rUg_RlW5yXa5xk1vk",
         "title": "sjn_0",
         "created": "Feb 05 2026 05:53PM",
-        "last_stage_update": "Feb 05 2026 06:38PM",
+        "last_stage_update": "Feb 05 2026 06:47PM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 0
       },
       "1": {
@@ -155,10 +155,10 @@
         "rev_id": "14S8BEsAHYP2_npewz8rXhvFoyym0PRladltTOJJyYe8",
         "title": "sjn_1",
         "created": "Feb 05 2026 05:53PM",
-        "last_stage_update": "Feb 05 2026 06:39PM",
+        "last_stage_update": "Feb 05 2026 06:47PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },
       "2": null,
