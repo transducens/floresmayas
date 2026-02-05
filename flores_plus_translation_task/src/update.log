@@ -116,3 +116,11 @@ INFO : 2026-02-05 17:46:45,369 Updating report on language 'sjn'.
 INFO : 2026-02-05 17:46:52,366 Update on language 'sjn' complete.
 INFO : 2026-02-05 17:46:52,366 Saving state to file.
 INFO : 2026-02-05 17:46:52,367 Update complete.
+INFO : 2026-02-05 17:48:26,527 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-05 17:48:26,954 Found 2 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-05 17:48:26,955 No unassigned packets lefts.
+INFO : 2026-02-05 17:48:26,955 Running update on language: sjn
+INFO : 2026-02-05 17:48:26,955 Updating report on language 'sjn'.
+INFO : 2026-02-05 17:48:33,636 Update on language 'sjn' complete.
+INFO : 2026-02-05 17:48:33,636 Saving state to file.
+INFO : 2026-02-05 17:48:33,637 Update complete.
