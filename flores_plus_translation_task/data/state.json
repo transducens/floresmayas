@@ -366,10 +366,10 @@
         "rev_id": "1ClOD1xcz3K9OIlzAScuvAb-LMWA6rwZ1THcvLtpbSV4",
         "title": "sjn_2",
         "created": "Feb 05 2026 07:01PM",
-        "last_stage_update": "Feb 05 2026 08:19PM",
+        "last_stage_update": "Feb 05 2026 08:37PM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -377,10 +377,10 @@
         "rev_id": "1L-f0QoDZgcfGfBin3QdCRKEQBDhF9fNzaYzRZy3ALII",
         "title": "sjn_3",
         "created": "Feb 05 2026 07:37PM",
-        "last_stage_update": "Feb 05 2026 08:19PM",
+        "last_stage_update": "Feb 05 2026 08:37PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 3
       },
       "4": null,
@@ -392,7 +392,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 40,
+    "spent_additional_revisions": 67,
     "translation_complete": false,
     "prelim_translation": false,
     "vocab_id": "1dA7QuOBIgOyy0fAiJFNjKScmcC4I41Gc6-0pHzh-rnw",
