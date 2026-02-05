@@ -1,7 +1,18 @@
 {
   "sjn": {
     "translators": {
-      "and_lou@ua.es": [],
+      "and_lou@ua.es": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "andres.lou@ua.es": []
     },
     "revisors": {
@@ -13,10 +24,10 @@
         "rev_id": "19n7WTaO-PiQ17J3w23RPTYh8xg5XfKlKqwuenAamRyA",
         "title": "prelim_sjn_0",
         "created": "Feb 05 2026 03:25PM",
-        "last_stage_update": "Feb 05 2026 04:51PM",
+        "last_stage_update": "Feb 05 2026 05:04PM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -24,13 +35,23 @@
         "rev_id": "1adJ3HGMz9ZQTTBFtqezK_mCHONnDRI4lrznewmcr5Tw",
         "title": "prelim_sjn_1",
         "created": "Feb 05 2026 03:26PM",
-        "last_stage_update": "Feb 05 2026 04:51PM",
+        "last_stage_update": "Feb 05 2026 05:05PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "10Znlndk7_Ucop8SvFMD6Ma7vX4pKNLmrRab0Aqsg71E",
+        "rev_id": null,
+        "title": "prelim_sjn_2",
+        "created": "Feb 05 2026 05:04PM",
+        "last_stage_update": "Feb 05 2026 05:04PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null
