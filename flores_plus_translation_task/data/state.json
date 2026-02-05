@@ -139,8 +139,28 @@
       }
     },
     "packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1I-gtZGiIqu09mWvcc6g946tU4d59stRNH3Dg4sHF_AA",
+        "rev_id": null,
+        "title": "sjn_0",
+        "created": "Feb 05 2026 05:53PM",
+        "last_stage_update": "Feb 05 2026 05:53PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1OL5FIunMje0fvefoakZlTOHKJkwyBUtswt8Oo8L0g5Q",
+        "rev_id": null,
+        "title": "sjn_1",
+        "created": "Feb 05 2026 05:53PM",
+        "last_stage_update": "Feb 05 2026 05:53PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -154,7 +174,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 23,
     "translation_complete": false,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "vocab_id": "1dA7QuOBIgOyy0fAiJFNjKScmcC4I41Gc6-0pHzh-rnw",
     "report": "1qVkawgKtGaU6q-NQ_RVXZLRykA_6bbxN3UfNT9GWJps"
   }
