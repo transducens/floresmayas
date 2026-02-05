@@ -1,3 +1,4 @@
+from icecream import ic
 import json
 import logging
 import os.path
@@ -47,7 +48,8 @@ if __name__ == "__main__":
                 },
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,
-                "translation_complete": False
+                "translation_complete": False,
+                "prelim_translation": True if config['prelim_translation'] else False
             } for lang in config['langs'].keys()
         }
     else:
@@ -66,6 +68,7 @@ if __name__ == "__main__":
                 "spent_additional_revisions": 0,
                 "translation_complete": False
             }
+        state[lang]['prelim_translation'] = config['prelim_translation']
         for translator in config['langs'][lang]['translators']:
             if state[lang]['translators'].get(translator) is None:
                 state[lang]['translators'][translator]: []
@@ -139,6 +142,7 @@ if __name__ == "__main__":
                     tra_email=translator,
                     rev_email=revisor,
                     packet_idx=packet_idx,
+                    is_prelim=state[lang]['prelim_translation']
                 )
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'""")
 
@@ -203,6 +207,7 @@ if __name__ == "__main__":
                     tra_email=translator,
                     rev_email=revisor,
                     packet_idx=packet_idx,
+                    is_prelim=state[lang]['prelim_translation']
                 )
                 logger.info(f"""New packet '{lang}_{packet_idx}' created for language '{lang}' and assigned to translator '{translator}' and revisor '{revisor}'.""")
 
@@ -210,9 +215,7 @@ if __name__ == "__main__":
         logger.info(f"Running update on language: {lang}")
         for idx, packet in packets:
             if packet['stage'] == Stage.FIRST_TRANSLATION.name:
-
-                if is_ready_packet(packet['tra_id'], creds):
-
+                if is_ready_packet(packet['tra_id'], creds, config['prelim_translation']):
                     packet['stage'] = Stage.FIRST_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': First translation complete by user '{packet['translator']}'. Submitting for revision.")
@@ -223,7 +226,7 @@ if __name__ == "__main__":
                     state[lang][packet_string][idx] = create_revision_spreadsheet(creds, lang, packet['title'], packet)
 
             elif packet['stage'] == Stage.SECOND_TRANSLATION.name:
-                if is_ready_packet(packet['tra_id'], creds):
+                if is_ready_packet(packet['tra_id'], creds, config['prelim_translation']):
                     t = len([key for key in state[lang][packet_string].keys()
                              if state[lang][packet_string][key] is not None])
                     c = get_c(
@@ -234,6 +237,7 @@ if __name__ == "__main__":
                     )
 
                     r_max = get_r_max(c=c, t=t)
+                    ic(c, r_max)
 
                     packet['stage'] = Stage.SECOND_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
@@ -253,15 +257,17 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                     state[lang]['spent_additional_revisions'] += k
 
             elif packet['stage'] == Stage.FIRST_REVISION.name:
-                if is_ready_packet(packet['rev_id'], creds):
-                    if is_complete_translation(packet['rev_id'], creds):
+                if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
+                    if is_complete_translation(packet['rev_id'], creds, config['prelim_translation']):
 
                         # update state with stage, completed packet, and the sentences translated by
                         # both the translator and the revisor
                         packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                         packet['stage'] = Stage.TRANSLATION_COMPLETE
                         state[lang][packet_string][idx] = packet
-                        tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
+                        tra_sents, rev_sents = get_translation_ids(creds,
+                                                                   packet['rev_id'],
+                                                                   state[lang]['prelim_translation'])
                         state[lang]['translators'][packet['translator']] += tra_sents
                         state[lang]['revisors'][packet['revisor']] += rev_sents
 
@@ -290,7 +296,7 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                                             state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
                             if not open_packets:
                                 logger.info(f"All packets of language '{lang}' have been translated.")
-                                state[lang]['translation_complete'] = True
+                                state[lang]['translation_complete'] = False if state[lang]['prelim_translation'] else True
                             continue
 
                         next_packet_idx = min(next_packet_idx)
@@ -303,6 +309,7 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                             tra_email=packet['translator'],
                             rev_email=packet['revisor'],
                             packet_idx=next_packet_idx,
+                            is_prelim=state[lang]['prelim_translation']
                         )
                         logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
                         continue
@@ -319,11 +326,11 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     send_email_notification(packet['translator'], message, subject)
 
             elif packet['stage'] == Stage.SECOND_REVISION.name:
-                if is_ready_packet(packet['rev_id'], creds):
+                if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
                     packet['stage'] = Stage.TRANSLATION_COMPLETE
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     state[lang][packet_string][idx] = packet
-                    tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'])
+                    tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'], config['prelim_translation'])
                     state[lang]['translators'][packet['translator']] += tra_sents
                     state[lang]['revisors'][packet['revisor']] += rev_sents
 
@@ -361,6 +368,7 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                         tra_email=packet['translator'],
                         rev_email=packet['revisor'],
                         packet_idx=next_packet_idx,
+                        is_prelim=state[lang]['prelim_translation']
                     )
                     logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
                     continue

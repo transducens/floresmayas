@@ -37,7 +37,7 @@ with open("../data/flores.eng-spa.dev") as f:
 DEV_FRACTION = .1
 DEV = DEV[:floor(len(DEV) * DEV_FRACTION)]
 
-with open("../data/flores.eng-spa.dev") as f:
+with open("../data/flores.eng-spa.devtest") as f:
     DEVTEST = f.readlines()
     PRELIM_DATASET = DEVTEST[:60]
     DEVTEST = DEVTEST[60:]
@@ -94,7 +94,6 @@ COLOR_GREY = {
 
 
 class Stage(str, Enum):
-    PRELIMINARY_TRANSLATION = 'PRELIMINARY_TRANSLATION'
     FIRST_TRANSLATION = 'FIRST_TRANSLATION'
     FIRST_REVISION = 'FIRST_REVISION'
     SECOND_TRANSLATION = 'SECOND_TRANSLATION'

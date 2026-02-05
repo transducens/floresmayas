@@ -5,7 +5,7 @@ automorf=/usr/share/apertium/apertium-eng-spa/spa-eng.automorf.bin
 tagger=/usr/share/apertium/apertium-eng-spa/spa-eng.prob
 
 # 2. Initialize counter
-count=1
+count=$3
 
 # 3. Process Line by Line
 while IFS= read -r line; do

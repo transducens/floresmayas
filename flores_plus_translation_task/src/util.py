@@ -7,7 +7,7 @@ from math import sqrt, floor
 from typing import List, Union
 from email.message import EmailMessage
 from Levenshtein import distance
-from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, FOLDER_ID_TAREA_DE_TRADUCCION
+from constants import SCOPES, COLOR_VOCAB, PACKET_SIZE, PRELIM_PACKET_SIZE, FOLDER_ID_TAREA_DE_TRADUCCION
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -95,14 +95,15 @@ def get_users(users_filename: str) -> dict:
         return json.loads(f.read())
 
 
-def is_ready_packet(id: str, creds: object) -> bool:
+def is_ready_packet(id: str, creds: object, is_prelim=False) -> bool:
+    packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
     last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][0]['properties']['title']
     results = (
         service.spreadsheets().get(
             spreadsheetId=id,
             includeGridData=True,
-            ranges=[f"{last_sheet_name}!B{PACKET_SIZE + 2}"]
+            ranges=[f"{last_sheet_name}!B{packet_size + 2}"]
         ).execute()
     )
 
@@ -118,22 +119,24 @@ def is_ready_packet(id: str, creds: object) -> bool:
     return len(rgb_color.keys()) == 1 and rgb_color.get('green') == 1
 
 
-def is_complete_translation(id: str, creds: object) -> bool:
+def is_complete_translation(id: str, creds: object, is_prelim=False) -> bool:
+    packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
     data = service.spreadsheets().values().get(
         spreadsheetId=id,
-        range=(f"G2:G{PACKET_SIZE + 2}")
+        range=(f"G2:G{packet_size + 2}")
     ).execute()
     data = [value[0] for value in data['values']]
 
     return len([value for value in data if value == "Correcta"]) == len(data)
 
 
-def get_translation_ids(creds: object, rev_id: str) -> list:
+def get_translation_ids(creds: object, rev_id: str, is_prelim=False) -> list:
+    packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
     sheets = service.spreadsheets().get(spreadsheetId=rev_id).execute()['sheets']
-    sheet_title = sheets[-1]['properties']['title']
-    values = service.spreadsheets().values().get(spreadsheetId=rev_id, range=f"{sheet_title}!A1:N{PACKET_SIZE + 1}").execute()['values']
+    sheet_title = sheets[0]['properties']['title']
+    values = service.spreadsheets().values().get(spreadsheetId=rev_id, range=f"{sheet_title}!A1:N{packet_size + 1}").execute()['values']
     if len(sheets) == 1:
         values = [value[0] for value in values[1:]]
         return values, []
@@ -224,8 +227,8 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
     vocab = vocab['values']
     vocab = {
         row[0]: {
-            'def': row[0] if len(row) > 2 else "",
-            'notes': row[0] if len(row) > 3 else ""
+            'def': row[1] if len(row) >= 2 else "",
+            'notes': row[2] if len(row) >= 3 else ""
         } for row in vocab
     }
     return vocab
@@ -262,10 +265,11 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
     return vocab, spa_tokens
 
 
-def get_vocab_and_spa_tokens(lang_vocab: dict, packet_idx: int):
+def get_vocab_and_spa_tokens(lang_vocab: dict, packet_idx: str):
     spa_tokens = []
     vocab = []
-    for filename in os.listdir(f"../data/tokens/{packet_idx}"):
+    packets_ls = sorted(os.listdir(f"../data/tokens/{packet_idx}"), key=lambda x: int(x.split(".")[0]))
+    for filename in packets_ls:
         with open(f"../data/tokens/{packet_idx}/{filename}") as f:
             spa_tokens.append(f.readlines())
 
@@ -283,15 +287,18 @@ def get_vocab_and_spa_tokens(lang_vocab: dict, packet_idx: int):
     return vocab, spa_tokens
 
 def update_sheet_vocabulary(creds, state: dict, lang: str) -> None:
+    packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
+    prelim_string = "prelim_" if state[lang]['prelim_translation'] else ""
     with open(f"../data/{lang}/vocab.json") as f:
         lang_vocab = json.loads(f.read())
 
     service = build("sheets", "v4", credentials=creds)
-    packets = [packet for packet in state[lang]['packets'] if state[lang]['packets'][packet] is not None and state[lang]['packets'][packet]['stage'] != "TRANSLATION_COMPLETE"]
+    packets = [packet for packet in state[lang][packet_string] if state[lang][packet_string][packet] is not None and state[lang][packet_string][packet]['stage'] != "TRANSLATION_COMPLETE"]
 
     for packet in packets:
-        fileId = state[lang]['packets'][packet]['tra_id']
-        packet_idx = state[lang]['packets'][packet]['packet_idx']
+        fileId = state[lang][packet_string][packet]['tra_id']
+        packet_idx = state[lang][packet_string][packet]['packet_idx']
+        packet_idx = f"{prelim_string}{packet_idx}"
         spa = service.spreadsheets().values().get(
             spreadsheetId=fileId,
             range="C2:C"
