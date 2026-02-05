@@ -13,10 +13,22 @@
         "9",
         "10"
       ],
-      "andres.lou@ua.es": []
+      "andres.lou@ua.es": [
+        "11",
+        "12",
+        "14",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
     },
     "revisors": {
-      "lourios.andres@gmail.com": []
+      "lourios.andres@gmail.com": [
+        "13",
+        "15",
+        "16"
+      ]
     },
     "prelim_packets": {
       "0": {
@@ -35,10 +47,10 @@
         "rev_id": "1adJ3HGMz9ZQTTBFtqezK_mCHONnDRI4lrznewmcr5Tw",
         "title": "prelim_sjn_1",
         "created": "Feb 05 2026 03:26PM",
-        "last_stage_update": "Feb 05 2026 05:09PM",
+        "last_stage_update": "Feb 05 2026 05:13PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 1
       },
       "2": {
@@ -52,7 +64,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "1tE2kIrAKrKquMnl6rJpzo07LeiJYNam5Ca4oaL6pp_M",
+        "rev_id": null,
+        "title": "prelim_sjn_3",
+        "created": "Feb 05 2026 05:13PM",
+        "last_stage_update": "Feb 05 2026 05:13PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },
