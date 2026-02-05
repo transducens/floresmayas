@@ -225,3 +225,11 @@ INFO : 2026-02-05 20:45:49,728 Updating report on language 'sjn'.
 INFO : 2026-02-05 20:46:03,655 Update on language 'sjn' complete.
 INFO : 2026-02-05 20:46:03,656 Saving state to file.
 INFO : 2026-02-05 20:46:03,656 Update complete.
+INFO : 2026-02-05 21:01:50,825 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-05 21:01:51,801 Running update on language: sjn
+INFO : 2026-02-05 21:01:52,921 Packet 'sjn_4': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-02-05 21:02:12,121 Packet 'sjn_5': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-02-05 21:02:22,896 Updating report on language 'sjn'.
+INFO : 2026-02-05 21:02:44,502 Update on language 'sjn' complete.
+INFO : 2026-02-05 21:02:44,503 Saving state to file.
+INFO : 2026-02-05 21:02:44,503 Update complete.
