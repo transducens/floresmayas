@@ -2428,9 +2428,3 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
         body=body
     ).execute()
 
-
-if __name__ == "__main__":
-    from icecream import ic
-    creds = authenticate()
-    with open("../data/state.json") as f:
-        state = json.loads(f.read())

@@ -1,4 +1,3 @@
-from icecream import ic
 import json
 import logging
 import os.path
@@ -237,7 +236,6 @@ if __name__ == "__main__":
                     )
 
                     r_max = get_r_max(c=c, t=t)
-                    ic(c, r_max)
 
                     packet['stage'] = Stage.SECOND_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
