@@ -35,10 +35,10 @@
         "rev_id": "1adJ3HGMz9ZQTTBFtqezK_mCHONnDRI4lrznewmcr5Tw",
         "title": "prelim_sjn_1",
         "created": "Feb 05 2026 03:26PM",
-        "last_stage_update": "Feb 05 2026 05:05PM",
+        "last_stage_update": "Feb 05 2026 05:09PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
       "2": {
@@ -70,7 +70,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 5,
     "translation_complete": false,
     "prelim_translation": true,
     "vocab_id": "1dA7QuOBIgOyy0fAiJFNjKScmcC4I41Gc6-0pHzh-rnw",
