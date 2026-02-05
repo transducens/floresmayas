@@ -9,3 +9,13 @@ INFO : 2026-02-05 15:22:40,927 Updating vocabulary file for lang 'sjn'.
 INFO : 2026-02-05 15:22:40,932 Updating current packets with new vocabulary for language 'sjn'.
 INFO : 2026-02-05 15:22:40,945 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-02-05 15:22:40,946 Update complete.
+INFO : 2026-02-05 15:25:46,060 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-02-05 15:25:47,345 Language 'sjn' has no packages ready to work on.
+INFO : 2026-02-05 15:25:55,057 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-05 15:26:01,898 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-05 15:26:01,898 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-02-05 15:26:05,799 Running update on language: sjn
+INFO : 2026-02-05 15:26:07,307 Updating report on language 'sjn'.
+INFO : 2026-02-05 15:26:08,700 Update on language 'sjn' complete.
+INFO : 2026-02-05 15:26:08,701 Saving state to file.
+INFO : 2026-02-05 15:26:08,701 Update complete.
