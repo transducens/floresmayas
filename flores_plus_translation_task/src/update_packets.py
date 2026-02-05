@@ -252,7 +252,7 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                     send_email_notification(packet['revisor'], message, subject)
 
                     state[lang][packet_string][idx], k = create_revision_sheet(creds, lang, packet['title'], packet, r_max)
-                    state[lang]['spent_additional_revisions'] += k
+                    state[lang]['spent_additional_revisions'] += 0 if state[lang]['prelim_translation'] else k
 
             elif packet['stage'] == Stage.FIRST_REVISION.name:
                 if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
