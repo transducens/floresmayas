@@ -1,4 +1,3 @@
-from icecream import ic
 import os
 import os.path
 import json
@@ -422,7 +421,6 @@ def protect_packet_sheets(ssheets_ids: list, creds) -> None:
 def __main__():
     creds = authenticate()
     stid = "1tg5OQ-5GNiO_9TRUHFwrFEstfZNr7nccxT1yH8zMrW4"
-    ic(is_ready_packet(stid, creds))
 
 
 if __name__ == "__main__":
