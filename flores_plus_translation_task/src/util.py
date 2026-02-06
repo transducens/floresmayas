@@ -1,3 +1,4 @@
+from icecream import ic
 import os
 import os.path
 import json
@@ -99,11 +100,18 @@ def is_ready_packet(id: str, creds: object, is_prelim=False) -> bool:
     packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
     last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][0]['properties']['title']
+    n_values = (
+            service.spreadsheets().values().get(
+                spreadsheetId=id,
+                range=f"{last_sheet_name}!A1:A"
+            ).execute()
+    )
+    n_values = len(n_values['values'])
     results = (
         service.spreadsheets().get(
             spreadsheetId=id,
             includeGridData=True,
-            ranges=[f"{last_sheet_name}!B{packet_size + 2}"]
+            ranges=[f"{last_sheet_name}!B{n_values}"]
         ).execute()
     )
 
@@ -120,11 +128,10 @@ def is_ready_packet(id: str, creds: object, is_prelim=False) -> bool:
 
 
 def is_complete_translation(id: str, creds: object, is_prelim=False) -> bool:
-    packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
     data = service.spreadsheets().values().get(
         spreadsheetId=id,
-        range=(f"G2:G{packet_size + 2}")
+        range=(f"G2:G")
     ).execute()
     data = [value[0] for value in data['values']]
 
@@ -414,9 +421,9 @@ def protect_packet_sheets(ssheets_ids: list, creds) -> None:
 
 def __main__():
     creds = authenticate()
-    ssheets = ["1eutIMHCgvhLUk3v7C56_Ds1bOQV9vu5teMFoo7lPPn8"]
+    stid = "1tg5OQ-5GNiO_9TRUHFwrFEstfZNr7nccxT1yH8zMrW4"
+    ic(is_ready_packet(stid, creds))
 
-    protect_packet_sheets(ssheets, creds)
 
 if __name__ == "__main__":
     __main__()
