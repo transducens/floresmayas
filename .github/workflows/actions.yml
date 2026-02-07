@@ -64,4 +64,5 @@ jobs:
 
       - name: update report
         run: |
+          cd flores_plus_translation_task/src
           python update_report.py
