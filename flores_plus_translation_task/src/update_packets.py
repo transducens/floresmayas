@@ -371,10 +371,6 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
                     continue
 
-        logger.info(f"Updating report on language '{lang}'.")
-        update_report_spreadsheet(creds, state, lang)
-        logger.info(f"Update on language '{lang}' complete.")
     logger.info(f"Saving state to file.")
     with open("../data/state.json", "w") as g:
         g.write(json.dumps(state, indent=2))
-    logger.info(f"Update complete.")

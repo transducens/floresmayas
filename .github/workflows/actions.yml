@@ -61,3 +61,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
+
+      - name: update report
+        run: |
+          python update_report.py

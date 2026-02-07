@@ -1,3 +1,4 @@
+from icecream import ic
 import os
 import datetime
 from constants import *
@@ -2008,15 +2009,14 @@ def flores_sentences(creds: object, state: dict, lang: str, is_prelim=False) -> 
         if len(sheets) > 1:
             values = service.spreadsheets().values().get(
                 spreadsheetId=state[lang][packets_string][idx]['rev_id'],
-                range=f"2nda revisión!A2:N{packet_size + 1}"
+                range=f"2nda revisión!A2:N"
             ).execute()
-            values = values['values']
         else:
             values = service.spreadsheets().values().get(
                 spreadsheetId=state[lang][packets_string][idx]['rev_id'],
-                range=f"1ra revisión!A2:H{packet_size + 1}"
+                range=f"1ra revisión!A2:H"
             ).execute()
-            values = values['values']
+        values = values['values'][:-2]
         sent_packet = state[lang][packets_string][idx]['title']
         for row in values:
             if len(row) < 12:
