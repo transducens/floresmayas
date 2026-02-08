@@ -1,0 +1,6 @@
+WARNING : 2026-02-08 19:16:38,729 No state file found. Generating from config.
+WARNING : 2026-02-08 19:16:39,220 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-02-08 19:16:39,872 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-02-08 19:16:48,280 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-08 19:16:48,840 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-02-08 19:16:48,840 Update complete.

@@ -1,0 +1,37 @@
+{
+  "sjn": {
+    "translators": {
+      "and_lou@ua.es": [],
+      "andres.lou@ua.es": []
+    },
+    "revisors": {
+      "lourios.andres@gmail.com": []
+    },
+    "prelim_packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "prelim_translation": true,
+    "vocab_id": "1NL0a6T8_pknsA3LLt4x3G2EgAvrlAbByJUPhV8XvoXw"
+  }
+}
