@@ -16,7 +16,7 @@ Presentación del proyecto a cargo de Andrés Lou Ríos. Se presentarán rápida
 * **Archivos adjuntos:**
     * [Cronograma de actividades](https://drive.google.com/file/d/10HUW6x9Be3AF8IGA5BkBJHhr7f63ioIw/view?usp=drive_link)
     * [Aspectos a considerarse durante la traducción](https://drive.google.com/file/d/1384UGuMiFK4as3xvN6lVsU0Y6H1_09Mh/view?usp=sharing)
-    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1ZGTZHiQ2GUK59IcScvu5dtV4RRwtFK-o/view?usp=sharing)
+    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1UeI-rwHf_iiV9YSqljrqqwUb8NToLv3T/view?usp=drive_link)
     * [Tipología de errores](https://drive.google.com/file/d/1PsP-LHpzqlOJbpqiNiFBPLVlL1gBTOVq/view?usp=drive_link)
 
 ### 09:30 – 10:00 **Presentación del trabajo presencial**
@@ -30,7 +30,7 @@ Presentación del proyecto a cargo de Andrés Lou Ríos. Se presentarán rápida
 Donde se discute: Dialecto y convención ortográfica a utilizarse. Además, donde se tratan los siguientes temas: términos sin equivalente directo, texto cortado, direcciones, fechas, topónimos, nombres propios, nombres de organismos y denominaciones oficiales, siglas y acrónimos, títulos, diplomas, y calificaciones.
 
 * **Archivos adjuntos:**
-    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1ZGTZHiQ2GUK59IcScvu5dtV4RRwtFK-o/view?usp=sharing)
+    * [Cómo rellenar la guía de traducción](https://drive.google.com/file/d/1UeI-rwHf_iiV9YSqljrqqwUb8NToLv3T/view?usp=drive_link)
     * [Guía de traducción](https://drive.google.com/open?id=1dpJinQXeNp3RlXCh8hVtKyf6DNHUnwPb56ISt7OpiuY)
 
 ### 10:30 – 10:45 | **Descanso**
@@ -39,7 +39,7 @@ Donde se discute: Dialecto y convención ortográfica a utilizarse. Además, don
 
 ### 12:30 – 13:30 | **Almuerzo (comida)**
 
-### 13:30 – 15:30 | **Elaboración de la guía de traducción
+### 13:30 – 15:30 | **Elaboración de la guía de traducción**
 
 ---
 
