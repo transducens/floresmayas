@@ -95,3 +95,7 @@ INFO : 2026-02-08 23:16:22,677 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-02-08 23:16:23,245 Running update on language: sjn
 INFO : 2026-02-08 23:16:24,574 Saving state to file.
 >>>>>>> 6cdd0866ef3c079a90a510fac1f30c051487a101
+WARNING : 2026-02-08 23:33:49,126 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-08 23:33:54,901 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-08 23:33:55,789 Running update on language: sjn
+INFO : 2026-02-08 23:33:58,111 Saving state to file.
