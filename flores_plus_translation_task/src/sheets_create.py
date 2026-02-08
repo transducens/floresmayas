@@ -1807,7 +1807,7 @@ def create_translation_guide(creds, lang, permission_emails):
             drive_service.files()
             .update(
                 fileId=translation_guide_id,
-                addParents=get_lang_folder(creds, lang_code),
+                addParents=get_lang_folder(creds, lang),
                 removeParents=previous_parents,
                 fields="id, parents",
             )
