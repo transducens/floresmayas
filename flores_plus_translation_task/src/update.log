@@ -40,3 +40,6 @@ INFO : 2026-02-08 20:12:41,723 Checking to see next available packet for user 'a
 INFO : 2026-02-08 20:12:47,757 New packet 'sjn_2' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'.
 INFO : 2026-02-08 20:12:52,283 Packet 'prelim_sjn_1': First revision complete by user 'lourios.andres@gmail.com'. Submitting for second translation.
 INFO : 2026-02-08 20:12:54,396 Saving state to file.
+INFO : 2026-02-08 20:25:23,801 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-08 20:25:24,844 Running update on language: sjn
+INFO : 2026-02-08 20:25:26,693 Saving state to file.
