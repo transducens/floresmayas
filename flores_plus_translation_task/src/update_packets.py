@@ -323,6 +323,10 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
                     send_email_notification(packet['translator'], message, subject)
 
+                    message = f"""Este es un mensaje automatizado notificándote que la revisión del paquete de traducción '{packet['title']}' ha concluido. A partir de ahora, seguirás teniendo acceso a este pero ya no podrás editarlo hasta nuevo aviso."""
+                    subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
+                    send_email_notification(packet['revisor'], message, subject)
+
             elif packet['stage'] == Stage.SECOND_REVISION.name:
                 if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
                     packet['stage'] = Stage.TRANSLATION_COMPLETE
