@@ -86,3 +86,7 @@ WARNING : 2026-02-08 23:12:49,056 No translation guide associated to language 's
 INFO : 2026-02-08 23:12:52,415 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:12:53,360 Running update on language: sjn
 INFO : 2026-02-08 23:12:55,508 Saving state to file.
+WARNING : 2026-02-08 23:16:19,250 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-08 23:16:22,677 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-08 23:16:23,245 Running update on language: sjn
+INFO : 2026-02-08 23:16:24,574 Saving state to file.
