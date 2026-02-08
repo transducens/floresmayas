@@ -1,3 +1,4 @@
+from icecream import ic
 import os
 import datetime
 from constants import *
@@ -1797,7 +1798,7 @@ def create_translation_guide(creds, lang, permission_emails):
     body = {
         'name': f'guia_de_traduccion_{lang}',
     }
-    translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()
+    translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()['id']
 
     # Move translation spreadsheet into corresponding folder
     try:
