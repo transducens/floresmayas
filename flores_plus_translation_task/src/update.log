@@ -451,3 +451,13 @@ INFO : 2026-02-07 00:37:24,426 Saving state to file.
 INFO : 2026-02-07 00:39:49,036 Saving state to file.
 INFO : 2026-02-07 00:43:13,674 Saving state to file.
 INFO : 2026-02-08 16:54:31,801 Saving state to file.
+WARNING : 2026-02-08 19:12:35,832 No state file found. Generating from config.
+WARNING : 2026-02-08 19:12:36,565 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-02-08 19:12:37,273 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-02-08 19:12:46,079 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-02-08 19:12:46,558 Language 'sjn' has no packages ready to work on.
+INFO : 2026-02-08 19:12:57,009 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-08 19:13:07,318 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-08 19:13:07,318 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-02-08 19:13:10,848 Running update on language: sjn
+INFO : 2026-02-08 19:13:12,356 Saving state to file.
