@@ -84,6 +84,13 @@ if __name__ == "__main__":
             logger.warning(f"No folder associated to language '{lang}'. Creating.")
             create_lang_folder(creds, lang)
 
+    # Check translation guide
+    for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
+        if state[lang].get('translation_guide') is None:
+            logger.warning(f"No translation guide associated to language '{lang}'. Creating.")
+            permission_emails = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys())
+            state[lang]['translation_guide'] = create_translation_guide(creds, lang, permission_emails)
+
     # Check vocabulary
     for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
 

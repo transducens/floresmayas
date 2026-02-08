@@ -17,6 +17,7 @@ DATETIME_FORMAT = '%b %d %Y %I:%M%p'
 LOGGER_FORMAT = '%(levelname)s : %(asctime)s %(message)s'
 HOME = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 CATEGORY_COLUMN_SPREADSHEET_ID = "1EGhgsdl2MSI2-mQ6ilkTaLFGVtjtmujU7mkCqZwuL6Y"
+TRANSLATION_GUIDE_DOC_ID = "1dpJinQXeNp3RlXCh8hVtKyf6DNHUnwPb56ISt7OpiuY"
 
 PACKET_SIZE = config['packet_size']
 PRELIM_PACKET_SIZE = config['prelim_packet_size']

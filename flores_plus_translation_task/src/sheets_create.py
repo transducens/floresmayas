@@ -1790,6 +1790,33 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
 
     return packet, len(rows_to_correct)
 
+def create_translation_guide(creds, lang, permission_emails):
+    # Copy spreadsheet from translation to turn it into revision
+    drive_service = build("drive", "v3", credentials=creds)
+
+    body = {
+        'name': f'guia_de_traduccion_{lang}',
+    }
+    translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()
+
+    # Move translation spreadsheet into corresponding folder
+    try:
+        file = drive_service.files().get( fileId=translation_guide_id, fields="parents").execute()
+        previous_parents = ",".join(file.get("parents"))
+        file = (
+            drive_service.files()
+            .update(
+                fileId=translation_guide_id,
+                addParents=get_lang_folder(creds, lang_code),
+                removeParents=previous_parents,
+                fields="id, parents",
+            )
+        ).execute()
+
+    except HttpError as error:
+        print(f"An error occurred: {error}")
+        return None
+
 
 def create_vocab_spreadsheet(creds, lang, permission_emails):
     # Create vocab spreadsheet file
