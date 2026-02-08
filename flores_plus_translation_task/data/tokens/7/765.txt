@@ -1,7 +1,0 @@
-metro
-de+el
-resto
-de
-el
-animal
-salvaje
