@@ -7,6 +7,7 @@ from sheets_create import create_revision_spreadsheet
 from sheets_create import create_correction_sheet
 from sheets_create import create_revision_sheet
 from sheets_create import create_vocab_spreadsheet
+from sheets_create import create_translation_guide
 from sheets_create import create_report_spreadsheet
 from sheets_create import update_report_spreadsheet
 from constants import Stage, DATETIME_FORMAT, DATASET, PRELIM_DATASET, LOGGER_FORMAT, R
