@@ -111,3 +111,21 @@ WARNING : 2026-02-09 00:10:49,937 No translation guide associated to language 's
 INFO : 2026-02-09 00:10:55,874 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-09 00:10:56,803 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-02-09 00:10:56,804 Update complete.
+WARNING : 2026-02-09 19:50:53,410 No state file found. Generating from config.
+WARNING : 2026-02-09 19:50:55,542 No translation guide associated to language 'sjn'. Creating.
+WARNING : 2026-02-09 19:50:59,352 No translation guide associated to language 'mam'. Creating.
+WARNING : 2026-02-09 19:51:03,272 No translation guide associated to language 'kek'. Creating.
+WARNING : 2026-02-09 19:51:07,173 No translation guide associated to language 'cak'. Creating.
+WARNING : 2026-02-09 19:51:11,392 No translation guide associated to language 'quc'. Creating.
+WARNING : 2026-02-09 19:51:15,374 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-02-09 19:51:24,187 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-02-09 19:51:24,688 No vocabulary spreadsheet associated to language 'mam'. Creating.
+INFO : 2026-02-09 19:51:33,112 Checking vocabulary spreadsheet for updates for lang 'mam'.
+WARNING : 2026-02-09 19:51:33,720 No vocabulary spreadsheet associated to language 'kek'. Creating.
+INFO : 2026-02-09 19:51:41,877 Checking vocabulary spreadsheet for updates for lang 'kek'.
+WARNING : 2026-02-09 19:51:42,392 No vocabulary spreadsheet associated to language 'cak'. Creating.
+INFO : 2026-02-09 19:51:51,291 Checking vocabulary spreadsheet for updates for lang 'cak'.
+WARNING : 2026-02-09 19:51:51,791 No vocabulary spreadsheet associated to language 'quc'. Creating.
+INFO : 2026-02-09 19:51:58,096 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-09 19:51:58,552 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-02-09 19:51:58,552 Update complete.
