@@ -107,3 +107,7 @@ WARNING : 2026-02-08 23:56:47,772 No translation guide associated to language 's
 INFO : 2026-02-08 23:56:53,004 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:56:54,027 Running update on language: sjn
 INFO : 2026-02-08 23:56:56,725 Saving state to file.
+WARNING : 2026-02-09 00:10:49,937 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-09 00:10:55,874 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-09 00:10:56,803 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-02-09 00:10:56,804 Update complete.
