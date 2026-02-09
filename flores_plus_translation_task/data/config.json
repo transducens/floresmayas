@@ -10,6 +10,6 @@
     },
     "packet_size": 100,
     "prelim_packet_size": 10,
-    "start_translation": true,
+    "start_translation": false,
     "prelim_translation": true
 }
