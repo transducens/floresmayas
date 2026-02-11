@@ -143,3 +143,19 @@ INFO : 2026-02-09 21:16:43,767 Updating vocabulary file for lang 'quc'.
 INFO : 2026-02-09 21:16:43,772 Updating current packets with new vocabulary for language 'quc'.
 INFO : 2026-02-09 21:16:43,775 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-02-09 21:16:43,775 Update complete.
+WARNING : 2026-02-11 15:04:19,630 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 15:04:26,716 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 15:04:27,447 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 15:04:28,056 Updating vocabulary file for lang 'mam'.
+INFO : 2026-02-11 15:04:28,060 Updating current packets with new vocabulary for language 'mam'.
+INFO : 2026-02-11 15:04:28,063 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 15:04:28,663 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 15:04:28,667 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 15:04:28,670 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 15:04:29,300 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-11 15:04:29,305 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-11 15:04:29,308 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 15:04:30,133 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-11 15:04:30,137 Updating current packets with new vocabulary for language 'quc'.
+INFO : 2026-02-11 15:04:30,140 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-02-11 15:04:30,140 Update complete.
