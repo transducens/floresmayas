@@ -8,8 +8,28 @@
       "lourios.andres@gmail.com": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1E-rbM13uG1YmwXpp3s18Czao_iD_5BbhsK2t_yHCXOk",
+        "rev_id": null,
+        "title": "prelim_sjn_0",
+        "created": "Feb 11 2026 03:50PM",
+        "last_stage_update": "Feb 11 2026 03:50PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1CrcX5Gl3K0AUENTVgJOZr__H_yYgCXYPmMsCxNZ1Kns",
+        "rev_id": null,
+        "title": "prelim_sjn_1",
+        "created": "Feb 11 2026 03:50PM",
+        "last_stage_update": "Feb 11 2026 03:50PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -45,8 +65,28 @@
       "vsindybeatriz@gmail.com": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1p2_DCDKX8r7b5LwnILQYCCUCF2ElzNr5aJiyFIou9qI",
+        "rev_id": null,
+        "title": "prelim_mam_0",
+        "created": "Feb 11 2026 03:50PM",
+        "last_stage_update": "Feb 11 2026 03:50PM",
+        "translator": "xjaw1964@gmail.com",
+        "revisor": "vsindybeatriz@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "140bSWHg9qyH9pI34KpX3pPG4aoQz-kitFWgpD7D1ysw",
+        "rev_id": null,
+        "title": "prelim_mam_1",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "ixkikap@gmail.com",
+        "revisor": "vsindybeatriz@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -82,8 +122,28 @@
       "poyanam@yahoo.es": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1PLa-Wa0d-uPTnyfAUBvPQV_iCh-7KTw5qb113LEHCRI",
+        "rev_id": null,
+        "title": "prelim_kek_0",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "juan.tzoc@gmail.com",
+        "revisor": "poyanam@yahoo.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1LU5-K-9IXe6GEhtYJN-j01TNm_qKYwQKMWhIGTE0YrE",
+        "rev_id": null,
+        "title": "prelim_kek_1",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "equidades@gmail.com",
+        "revisor": "poyanam@yahoo.es",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -119,8 +179,28 @@
       "matuyuc@gmail.com": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1TkmSWzQrO7axJ6z8q-GcrY0D7v9Q7CHVuBF0ythJdNg",
+        "rev_id": null,
+        "title": "prelim_cak_0",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1v9-CH3wayq5bf0-6P503ux3EV4OhpWpD1c5UgAEDm0o",
+        "rev_id": null,
+        "title": "prelim_cak_1",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "svasquezv7@miumg.edu.gt",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -156,8 +236,28 @@
       "jrguarchaj@gmail.com": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1_TuqCDUbWi9uGUQ9vCr_Ai9MVfHYjeiKpkRV7GgjFNs",
+        "rev_id": null,
+        "title": "prelim_quc_0",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "felivicente@yahoo.es",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1iNKOvFaLCGhrNf5Ug98k6gz1sg3oQlFzchERqwI5qeQ",
+        "rev_id": null,
+        "title": "prelim_quc_1",
+        "created": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 11 2026 03:51PM",
+        "translator": "josefinapos070@gmail.com",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,

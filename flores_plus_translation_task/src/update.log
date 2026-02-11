@@ -226,3 +226,38 @@ INFO : 2026-02-11 15:28:47,315 Running update on language: kek
 INFO : 2026-02-11 15:28:50,358 Running update on language: cak
 INFO : 2026-02-11 15:28:54,193 Running update on language: quc
 INFO : 2026-02-11 15:28:56,250 Saving state to file.
+WARNING : 2026-02-11 15:50:22,370 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 15:50:30,254 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 15:50:30,631 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 15:50:31,535 Updating vocabulary file for lang 'mam'.
+INFO : 2026-02-11 15:50:31,540 Updating current packets with new vocabulary for language 'mam'.
+INFO : 2026-02-11 15:50:31,543 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 15:50:32,264 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 15:50:32,268 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 15:50:32,272 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 15:50:33,139 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-11 15:50:33,144 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-11 15:50:33,147 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 15:50:33,612 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-11 15:50:33,616 Updating current packets with new vocabulary for language 'quc'.
+WARNING : 2026-02-11 15:50:33,619 Language 'sjn' has no packages ready to work on.
+INFO : 2026-02-11 15:50:40,567 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-11 15:50:47,739 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+WARNING : 2026-02-11 15:50:47,740 Language 'mam' has no packages ready to work on.
+INFO : 2026-02-11 15:50:55,755 New packet 'mam_0' created for language 'mam' and assigned to translator 'xjaw1964@gmail.com' and revisor 'vsindybeatriz@gmail.com'
+INFO : 2026-02-11 15:51:02,237 New packet 'mam_1' created for language 'mam' and assigned to translator 'ixkikap@gmail.com' and revisor 'vsindybeatriz@gmail.com'
+WARNING : 2026-02-11 15:51:02,237 Language 'kek' has no packages ready to work on.
+INFO : 2026-02-11 15:51:07,942 New packet 'kek_0' created for language 'kek' and assigned to translator 'juan.tzoc@gmail.com' and revisor 'poyanam@yahoo.es'
+INFO : 2026-02-11 15:51:14,234 New packet 'kek_1' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'poyanam@yahoo.es'
+WARNING : 2026-02-11 15:51:14,234 Language 'cak' has no packages ready to work on.
+INFO : 2026-02-11 15:51:20,720 New packet 'cak_0' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'matuyuc@gmail.com'
+INFO : 2026-02-11 15:51:26,689 New packet 'cak_1' created for language 'cak' and assigned to translator 'svasquezv7@miumg.edu.gt' and revisor 'matuyuc@gmail.com'
+WARNING : 2026-02-11 15:51:26,689 Language 'quc' has no packages ready to work on.
+INFO : 2026-02-11 15:51:33,109 New packet 'quc_0' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'
+INFO : 2026-02-11 15:51:39,239 New packet 'quc_1' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'
+INFO : 2026-02-11 15:51:39,239 Running update on language: sjn
+INFO : 2026-02-11 15:51:41,147 Running update on language: mam
+INFO : 2026-02-11 15:51:42,931 Running update on language: kek
+INFO : 2026-02-11 15:51:44,513 Running update on language: cak
+INFO : 2026-02-11 15:51:46,035 Running update on language: quc
+INFO : 2026-02-11 15:51:47,670 Saving state to file.
