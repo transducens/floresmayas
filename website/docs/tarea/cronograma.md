@@ -65,20 +65,6 @@ Se da a los trabajores un listado de términos ordenados por frecuencia que apar
 
 ## Miércoles, 11 de febrero de 2026
 
-### 08:00 – 10:30 | **Elaboración del vocabulario**
-
-### 10:30 – 10:45 | **Descanso**
-
-### 10:45 – 12:30 | **Elaboración del vocabulario**
-
-### 12:30 – 13:30 | **Almuerzo (comida)**
-
-### 13:30 – 15:30 | **Elaboración del vocabulario**
-
----
-
-## Jueves, 12 de febrero de 2026
-
 ### 08:00 – 08:45 | **Presentación y demostración de la interfaz de traducción**
 
 Se presentará la interfaz de traducción y revisión que cada equipo utilizará para la elaboración de la tarea de traducción. Se presentan además las categorías de error y los grados de severidad, así como ejemplos del comentario que los revisores deben proporcionar.
@@ -101,7 +87,7 @@ Se traducen 60 frases de FLORES+ utilizando el contenido del vocabulario y la gu
 
 ---
 
-## Viernes, 13 de febrero de 2026
+## Jueves, 12 de febrero de 2026
 
 ### 08:00 – 10:30 | **Traducción preliminar de 60 oraciones del corpus**
 
@@ -117,6 +103,20 @@ Utilizando las nuevas versiones del vocabulario y la guía, se procede con la tr
 ### 12:30 – 13:30 | **Almuerzo (comida)**
 
 ### 13:30 – 15:00 | **Traducción y revisión**
+
+---
+
+## Viernes, 13 de febrero de 2026
+
+### 08:00 – 10:30 | **Elaboración del vocabulario**
+
+### 10:30 – 10:45 | **Descanso**
+
+### 10:45 – 12:30 | **Elaboración del vocabulario**
+
+### 12:30 – 13:30 | **Almuerzo (comida)**
+
+### 13:30 – 15:00 | **Elaboración del vocabulario**
 
 ### 15:00 – 15:30 | **Resumen del trabajo telemático**
 
