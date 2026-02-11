@@ -159,3 +159,58 @@ INFO : 2026-02-11 15:04:30,133 Updating vocabulary file for lang 'quc'.
 INFO : 2026-02-11 15:04:30,137 Updating current packets with new vocabulary for language 'quc'.
 INFO : 2026-02-11 15:04:30,140 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-02-11 15:04:30,140 Update complete.
+WARNING : 2026-02-11 15:13:52,970 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 15:13:58,920 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 15:13:59,934 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 15:14:00,872 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 15:14:01,607 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 15:14:02,439 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-11 15:14:02,444 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-11 15:14:02,451 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 15:14:03,112 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-11 15:14:03,116 Updating current packets with new vocabulary for language 'quc'.
+WARNING : 2026-02-11 15:14:03,119 Language 'sjn' has no packages ready to work on.
+INFO : 2026-02-11 15:14:09,842 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-02-11 15:14:17,904 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+WARNING : 2026-02-11 15:14:17,904 Language 'mam' has no packages ready to work on.
+INFO : 2026-02-11 15:14:28,108 New packet 'mam_0' created for language 'mam' and assigned to translator 'saqbech25@hotmail.com' and revisor 'ixkikap@gmail.com'
+INFO : 2026-02-11 15:14:34,018 New packet 'mam_1' created for language 'mam' and assigned to translator 'vsindybeatriz@gmail.com' and revisor 'ixkikap@gmail.com'
+WARNING : 2026-02-11 15:14:34,018 Language 'kek' has no packages ready to work on.
+INFO : 2026-02-11 15:14:40,135 New packet 'kek_0' created for language 'kek' and assigned to translator 'poyanam@yahoo.es' and revisor 'equidades@gmail.com'
+INFO : 2026-02-11 15:14:46,037 New packet 'kek_1' created for language 'kek' and assigned to translator 'juan.tzoc@gmail.com' and revisor 'equidades@gmail.com'
+WARNING : 2026-02-11 15:14:46,037 Language 'cak' has no packages ready to work on.
+INFO : 2026-02-11 15:15:00,626 New packet 'cak_0' created for language 'cak' and assigned to translator 'matuyuc@gmail.com' and revisor 'svasquezv7@miumg.edu.gt'
+INFO : 2026-02-11 15:15:06,012 New packet 'cak_1' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'svasquezv7@miumg.edu.gt'
+WARNING : 2026-02-11 15:15:06,012 Language 'quc' has no packages ready to work on.
+INFO : 2026-02-11 15:15:11,527 New packet 'quc_0' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'
+INFO : 2026-02-11 15:15:11,527 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-02-11 15:15:14,768 Creating report spreadsheet for lang 'mam.'
+INFO : 2026-02-11 15:15:17,864 Creating report spreadsheet for lang 'kek.'
+INFO : 2026-02-11 15:15:21,780 Creating report spreadsheet for lang 'cak.'
+INFO : 2026-02-11 15:15:25,529 Creating report spreadsheet for lang 'quc.'
+INFO : 2026-02-11 15:15:28,440 Running update on language: sjn
+WARNING : 2026-02-11 15:15:30,231 Found 2 inactive translator(s).
+INFO : 2026-02-11 15:15:31,207 The following translators have been removed from the project: ['saqbech25@hotmail.com', 'vsindybeatriz@gmail.com']
+INFO : 2026-02-11 15:15:31,208 Found new translator 'xjaw1964@gmail.com'. Adding them to roster of language 'mam'.
+INFO : 2026-02-11 15:15:31,208 Found new translator 'ixkikap@gmail.com'. Adding them to roster of language 'mam'.
+INFO : 2026-02-11 15:15:31,208 Found 2 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 15:15:37,636 New packet 'mam_2' created for language 'mam' and assigned to translator 'xjaw1964@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-11 15:15:53,598 New packet 'mam_3' created for language 'mam' and assigned to translator 'ixkikap@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-11 15:15:53,598 Running update on language: mam
+WARNING : 2026-02-11 15:15:55,763 Found 1 inactive translator(s).
+INFO : 2026-02-11 15:15:57,651 The following translators have been removed from the project: ['saqbech25@hotmail.com', 'vsindybeatriz@gmail.com', 'poyanam@yahoo.es']
+INFO : 2026-02-11 15:15:57,651 Found new translator 'equidades@gmail.com'. Adding them to roster of language 'kek'.
+INFO : 2026-02-11 15:15:57,651 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 15:16:03,002 New packet 'kek_2' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'equidades@gmail.com'.
+INFO : 2026-02-11 15:16:03,002 Running update on language: kek
+WARNING : 2026-02-11 15:16:05,233 Found 1 inactive translator(s).
+INFO : 2026-02-11 15:16:07,311 The following translators have been removed from the project: ['saqbech25@hotmail.com', 'vsindybeatriz@gmail.com', 'poyanam@yahoo.es', 'matuyuc@gmail.com']
+INFO : 2026-02-11 15:16:07,311 Found new translator 'svasquezv7@miumg.edu.gt'. Adding them to roster of language 'cak'.
+INFO : 2026-02-11 15:16:07,311 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 15:16:12,919 New packet 'cak_2' created for language 'cak' and assigned to translator 'svasquezv7@miumg.edu.gt' and revisor 'svasquezv7@miumg.edu.gt'.
+INFO : 2026-02-11 15:16:12,919 Running update on language: cak
+INFO : 2026-02-11 15:16:14,686 Found new translator 'josefinapos070@gmail.com'. Adding them to roster of language 'quc'.
+INFO : 2026-02-11 15:16:14,686 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 15:16:21,552 New packet 'quc_1' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
+INFO : 2026-02-11 15:16:21,552 Running update on language: quc
+INFO : 2026-02-11 15:16:22,526 Saving state to file.
