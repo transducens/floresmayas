@@ -2327,9 +2327,11 @@ def create_report_spreadsheet(creds: object, state: dict, lang: str) -> str:
 
 
 def update_report_spreadsheet(creds: object, state: dict, lang: str):
+    from icecream import ic
     packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
     service = build("drive", "v3", credentials=creds)
     spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
+    ic(spreadsheet_id)
     spreadsheet_id = spreadsheet_id['files'][0]['id']
     vocab_url = service.files().get(fileId=state[lang]['vocab_id'], fields="webViewLink").execute()
     vocab_url = vocab_url['webViewLink']
@@ -2454,3 +2456,7 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
         body=body
     ).execute()
 
+if __name__ == "__main__":
+    with open("../data/state.json") as f:
+        state = json.loads(f.read())
+    creds = authenticate()
