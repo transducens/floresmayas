@@ -389,3 +389,21 @@ INFO : 2026-02-11 17:21:50,727 Running update on language: kek
 INFO : 2026-02-11 17:21:52,801 Running update on language: cak
 INFO : 2026-02-11 17:21:54,925 Running update on language: quc
 INFO : 2026-02-11 17:21:56,808 Saving state to file.
+WARNING : 2026-02-11 17:26:46,922 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 17:26:52,332 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 17:26:53,382 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 17:26:54,154 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 17:26:54,877 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 17:26:54,881 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 17:26:58,286 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 17:27:01,530 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 17:27:02,348 Running update on language: sjn
+INFO : 2026-02-11 17:27:04,558 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 17:27:09,981 New packet 'mam_2' created for language 'mam' and assigned to translator 'vsindybeatriz@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-11 17:27:09,981 Running update on language: mam
+INFO : 2026-02-11 17:27:12,165 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 17:27:18,988 New packet 'kek_2' created for language 'kek' and assigned to translator 'poyanam@yahoo.es' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-02-11 17:27:18,988 Running update on language: kek
+INFO : 2026-02-11 17:27:21,155 Running update on language: cak
+INFO : 2026-02-11 17:27:23,685 Running update on language: quc
+INFO : 2026-02-11 17:27:25,824 Saving state to file.
