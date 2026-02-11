@@ -10,13 +10,13 @@
     "prelim_packets": {
       "0": {
         "tra_id": "1E-rbM13uG1YmwXpp3s18Czao_iD_5BbhsK2t_yHCXOk",
-        "rev_id": null,
+        "rev_id": "1ngQRGLY0GLZMJs3qgjgiF4W7iKfM5UO-6bGibD8jGqM",
         "title": "prelim_sjn_0",
         "created": "Feb 11 2026 03:50PM",
-        "last_stage_update": "Feb 11 2026 03:50PM",
+        "last_stage_update": "Feb 11 2026 03:54PM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
