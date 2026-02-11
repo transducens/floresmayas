@@ -369,3 +369,23 @@ INFO : 2026-02-11 17:18:06,796 Running update on language: kek
 INFO : 2026-02-11 17:18:08,942 Running update on language: cak
 INFO : 2026-02-11 17:18:11,593 Running update on language: quc
 INFO : 2026-02-11 17:18:14,439 Saving state to file.
+WARNING : 2026-02-11 17:21:30,956 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 17:21:36,187 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 17:21:36,729 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 17:21:37,411 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 17:21:37,930 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 17:21:37,934 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 17:21:42,227 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 17:21:42,718 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 17:21:43,103 Running update on language: sjn
+WARNING : 2026-02-11 17:21:44,536 Found 1 inactive translator(s).
+INFO : 2026-02-11 17:21:46,896 The following translators have been removed from the project: ['vsindybeatriz@gmail.com']
+INFO : 2026-02-11 17:21:46,896 Found new translator 'ixkikap@gmail.com'. Adding them to roster of language 'mam'.
+INFO : 2026-02-11 17:21:46,896 Running update on language: mam
+WARNING : 2026-02-11 17:21:48,362 Found 1 inactive translator(s).
+INFO : 2026-02-11 17:21:50,727 The following translators have been removed from the project: ['vsindybeatriz@gmail.com', 'poyanam@yahoo.es']
+INFO : 2026-02-11 17:21:50,727 Found new translator 'juan.tzoc@gmail.com'. Adding them to roster of language 'kek'.
+INFO : 2026-02-11 17:21:50,727 Running update on language: kek
+INFO : 2026-02-11 17:21:52,801 Running update on language: cak
+INFO : 2026-02-11 17:21:54,925 Running update on language: quc
+INFO : 2026-02-11 17:21:56,808 Saving state to file.

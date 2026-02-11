@@ -81,7 +81,7 @@
   "mam": {
     "translators": {
       "xjaw1964@gmail.com": [],
-      "vsindybeatriz@gmail.com": []
+      "ixkikap@gmail.com": []
     },
     "revisors": {
       "ixkikap@gmail.com": []
@@ -127,7 +127,9 @@
       "9": null,
       "10": null
     },
-    "inactive_translators": {},
+    "inactive_translators": {
+      "vsindybeatriz@gmail.com": []
+    },
     "spent_additional_revisions": 0,
     "translation_complete": false,
     "prelim_translation": true,
@@ -137,8 +139,8 @@
   },
   "kek": {
     "translators": {
-      "poyanam@yahoo.es": [],
-      "equidades@gmail.com": []
+      "equidades@gmail.com": [],
+      "juan.tzoc@gmail.com": []
     },
     "revisors": {
       "juan.tzoc@gmail.com": []
@@ -184,7 +186,9 @@
       "9": null,
       "10": null
     },
-    "inactive_translators": {},
+    "inactive_translators": {
+      "poyanam@yahoo.es": []
+    },
     "spent_additional_revisions": 0,
     "translation_complete": false,
     "prelim_translation": true,
