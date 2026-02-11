@@ -214,3 +214,15 @@ INFO : 2026-02-11 15:16:14,686 Found 1 unassigned translator(s). Assigning them 
 INFO : 2026-02-11 15:16:21,552 New packet 'quc_1' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-02-11 15:16:21,552 Running update on language: quc
 INFO : 2026-02-11 15:16:22,526 Saving state to file.
+WARNING : 2026-02-11 15:28:30,383 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 15:28:36,049 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 15:28:37,007 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 15:28:38,076 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 15:28:39,049 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 15:28:39,754 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 15:28:40,701 Running update on language: sjn
+INFO : 2026-02-11 15:28:43,291 Running update on language: mam
+INFO : 2026-02-11 15:28:47,315 Running update on language: kek
+INFO : 2026-02-11 15:28:50,358 Running update on language: cak
+INFO : 2026-02-11 15:28:54,193 Running update on language: quc
+INFO : 2026-02-11 15:28:56,250 Saving state to file.
