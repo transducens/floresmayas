@@ -300,3 +300,18 @@ INFO : 2026-02-11 15:57:33,728 Running update on language: kek
 INFO : 2026-02-11 15:57:35,722 Running update on language: cak
 INFO : 2026-02-11 15:57:39,038 Running update on language: quc
 INFO : 2026-02-11 15:57:40,971 Saving state to file.
+WARNING : 2026-02-11 16:23:45,453 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 16:23:51,002 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 16:23:52,074 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 16:23:52,836 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 16:23:53,547 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 16:23:53,551 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 16:23:56,428 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 16:23:57,297 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 16:23:57,944 Running update on language: sjn
+INFO : 2026-02-11 16:24:01,697 Packet 'prelim_sjn_0': First revision complete by user 'lourios.andres@gmail.com'. Submitting for second translation.
+INFO : 2026-02-11 16:24:05,122 Running update on language: mam
+INFO : 2026-02-11 16:24:07,160 Running update on language: kek
+INFO : 2026-02-11 16:24:08,589 Running update on language: cak
+INFO : 2026-02-11 16:24:10,471 Running update on language: quc
+INFO : 2026-02-11 16:24:12,263 Saving state to file.
