@@ -282,3 +282,21 @@ INFO : 2026-02-11 15:54:13,064 Running update on language: kek
 INFO : 2026-02-11 15:54:14,392 Running update on language: cak
 INFO : 2026-02-11 15:54:16,004 Running update on language: quc
 INFO : 2026-02-11 15:54:17,295 Saving state to file.
+WARNING : 2026-02-11 15:56:59,583 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 15:57:04,325 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 15:57:04,815 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 15:57:06,035 Updating vocabulary file for lang 'mam'.
+INFO : 2026-02-11 15:57:06,040 Updating current packets with new vocabulary for language 'mam'.
+INFO : 2026-02-11 15:57:10,038 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 15:57:10,383 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 15:57:10,387 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 15:57:14,478 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 15:57:14,740 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 15:57:15,275 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-11 15:57:15,279 Updating current packets with new vocabulary for language 'quc'.
+INFO : 2026-02-11 15:57:29,382 Running update on language: sjn
+INFO : 2026-02-11 15:57:32,065 Running update on language: mam
+INFO : 2026-02-11 15:57:33,728 Running update on language: kek
+INFO : 2026-02-11 15:57:35,722 Running update on language: cak
+INFO : 2026-02-11 15:57:39,038 Running update on language: quc
+INFO : 2026-02-11 15:57:40,971 Saving state to file.
