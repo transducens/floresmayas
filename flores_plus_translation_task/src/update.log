@@ -407,3 +407,23 @@ INFO : 2026-02-11 17:27:18,988 Running update on language: kek
 INFO : 2026-02-11 17:27:21,155 Running update on language: cak
 INFO : 2026-02-11 17:27:23,685 Running update on language: quc
 INFO : 2026-02-11 17:27:25,824 Saving state to file.
+WARNING : 2026-02-11 17:41:51,140 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-02-11 17:41:56,519 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-11 17:41:57,528 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-11 17:41:58,254 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-11 17:41:58,771 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-11 17:41:58,775 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-11 17:42:04,983 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-11 17:42:05,466 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-11 17:42:05,470 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-11 17:42:08,083 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-11 17:42:08,749 Running update on language: sjn
+INFO : 2026-02-11 17:42:10,689 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 17:42:16,155 New packet 'mam_3' created for language 'mam' and assigned to translator 'vsindybeatriz@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-11 17:42:16,155 Running update on language: mam
+INFO : 2026-02-11 17:42:18,778 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-11 17:42:24,323 New packet 'kek_3' created for language 'kek' and assigned to translator 'poyanam@yahoo.es' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-02-11 17:42:24,323 Running update on language: kek
+INFO : 2026-02-11 17:42:28,695 Running update on language: cak
+INFO : 2026-02-11 17:42:30,281 Running update on language: quc
+INFO : 2026-02-11 17:42:32,257 Saving state to file.

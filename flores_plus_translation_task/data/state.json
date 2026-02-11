@@ -120,7 +120,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "1oiBcXWSqE_fJ5T9Mi0D0pA_ru2JHuaAVwvnUNYjF4es",
+        "rev_id": null,
+        "title": "prelim_mam_3",
+        "created": "Feb 11 2026 05:42PM",
+        "last_stage_update": "Feb 11 2026 05:42PM",
+        "translator": "vsindybeatriz@gmail.com",
+        "revisor": "ixkikap@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },
@@ -189,7 +199,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "15f6mRSHaF9arjN9iqcdqlTGLCdoWQAr74LWARXa2AOI",
+        "rev_id": null,
+        "title": "prelim_kek_3",
+        "created": "Feb 11 2026 05:42PM",
+        "last_stage_update": "Feb 11 2026 05:42PM",
+        "translator": "poyanam@yahoo.es",
+        "revisor": "juan.tzoc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },
