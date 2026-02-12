@@ -965,3 +965,16 @@ INFO : 2026-02-12 19:52:15,493 Packet 'prelim_kek_1': Second translation complet
 INFO : 2026-02-12 19:52:20,298 Running update on language: cak
 INFO : 2026-02-12 19:52:22,356 Running update on language: quc
 INFO : 2026-02-12 19:52:23,978 Saving state to file.
+INFO : 2026-02-12 19:59:03,967 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 19:59:05,196 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 19:59:06,066 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 19:59:06,570 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 19:59:07,158 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-12 19:59:07,163 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-12 19:59:08,918 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 19:59:09,421 Running update on language: sjn
+INFO : 2026-02-12 19:59:12,214 Running update on language: mam
+INFO : 2026-02-12 19:59:14,495 Running update on language: kek
+INFO : 2026-02-12 19:59:16,220 Running update on language: cak
+INFO : 2026-02-12 19:59:18,425 Running update on language: quc
+INFO : 2026-02-12 19:59:19,856 Saving state to file.
