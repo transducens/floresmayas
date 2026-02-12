@@ -906,3 +906,16 @@ INFO : 2026-02-12 17:40:55,145 Running update on language: cak
 INFO : 2026-02-12 17:40:55,880 Packet 'prelim_cak_0': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
 INFO : 2026-02-12 17:41:01,998 Running update on language: quc
 INFO : 2026-02-12 17:41:04,752 Saving state to file.
+INFO : 2026-02-12 17:58:22,696 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 17:58:23,547 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 17:58:24,607 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 17:58:25,414 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-12 17:58:25,418 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-12 17:58:28,214 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 17:58:29,066 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 17:58:29,840 Running update on language: sjn
+INFO : 2026-02-12 17:58:32,930 Running update on language: mam
+INFO : 2026-02-12 17:58:35,554 Running update on language: kek
+INFO : 2026-02-12 17:58:37,438 Running update on language: cak
+INFO : 2026-02-12 17:58:40,579 Running update on language: quc
+INFO : 2026-02-12 17:58:42,790 Saving state to file.
