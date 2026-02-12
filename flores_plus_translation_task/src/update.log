@@ -881,3 +881,16 @@ INFO : 2026-02-12 17:29:34,612 Running update on language: cak
 INFO : 2026-02-12 17:29:38,830 Packet 'prelim_cak_1': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
 INFO : 2026-02-12 17:29:40,584 Running update on language: quc
 INFO : 2026-02-12 17:29:43,446 Saving state to file.
+INFO : 2026-02-12 17:36:08,426 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 17:36:09,421 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 17:36:09,965 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 17:36:10,766 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 17:36:11,495 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-12 17:36:11,499 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-12 17:36:15,025 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 17:36:15,695 Running update on language: sjn
+INFO : 2026-02-12 17:36:18,849 Running update on language: mam
+INFO : 2026-02-12 17:36:21,341 Running update on language: kek
+INFO : 2026-02-12 17:36:23,406 Running update on language: cak
+INFO : 2026-02-12 17:36:25,669 Running update on language: quc
+INFO : 2026-02-12 17:36:27,783 Saving state to file.
