@@ -181,13 +181,13 @@
       },
       "2": {
         "tra_id": "1mulGnWH1yGNKQZipxQgdW8OR4EaLTb7PMOIrKc8F1C4",
-        "rev_id": null,
+        "rev_id": "1TD7ddE9qepmvMla1OiJTnVc28K9KiEp0rMbabJAW2GA",
         "title": "prelim_kek_2",
         "created": "Feb 12 2026 04:25PM",
-        "last_stage_update": "Feb 12 2026 04:25PM",
+        "last_stage_update": "Feb 12 2026 09:31PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -238,7 +238,18 @@
         "9",
         "10"
       ],
-      "svasquezv7@miumg.edu.gt": []
+      "svasquezv7@miumg.edu.gt": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
     },
     "revisors": {
       "matuyuc@gmail.com": [
@@ -262,10 +273,10 @@
         "rev_id": "1tVdpNsDfZDay3zZhkXE225CHqkSj_MCrxAUQ9K61zGI",
         "title": "prelim_cak_1",
         "created": "Feb 11 2026 03:51PM",
-        "last_stage_update": "Feb 12 2026 05:29PM",
+        "last_stage_update": "Feb 12 2026 09:31PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 1
       },
       "2": {
@@ -279,7 +290,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "1H8yHEJ9nQjrKci-KeNIYoq-SCjgUkQkX4vwfPgxERyk",
+        "rev_id": null,
+        "title": "prelim_cak_3",
+        "created": "Feb 12 2026 09:32PM",
+        "last_stage_update": "Feb 12 2026 09:32PM",
+        "translator": "svasquezv7@miumg.edu.gt",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },
