@@ -894,3 +894,15 @@ INFO : 2026-02-12 17:36:21,341 Running update on language: kek
 INFO : 2026-02-12 17:36:23,406 Running update on language: cak
 INFO : 2026-02-12 17:36:25,669 Running update on language: quc
 INFO : 2026-02-12 17:36:27,783 Saving state to file.
+INFO : 2026-02-12 17:40:47,182 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 17:40:47,609 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 17:40:47,882 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 17:40:48,452 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 17:40:49,070 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 17:40:49,362 Running update on language: sjn
+INFO : 2026-02-12 17:40:50,934 Running update on language: mam
+INFO : 2026-02-12 17:40:52,625 Running update on language: kek
+INFO : 2026-02-12 17:40:55,145 Running update on language: cak
+INFO : 2026-02-12 17:40:55,880 Packet 'prelim_cak_0': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
+INFO : 2026-02-12 17:41:01,998 Running update on language: quc
+INFO : 2026-02-12 17:41:04,752 Saving state to file.
