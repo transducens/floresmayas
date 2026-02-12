@@ -978,3 +978,19 @@ INFO : 2026-02-12 19:59:14,495 Running update on language: kek
 INFO : 2026-02-12 19:59:16,220 Running update on language: cak
 INFO : 2026-02-12 19:59:18,425 Running update on language: quc
 INFO : 2026-02-12 19:59:19,856 Saving state to file.
+INFO : 2026-02-12 20:02:40,518 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 20:02:40,958 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 20:02:41,241 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 20:02:41,677 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 20:02:42,289 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-12 20:02:42,293 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-12 20:02:45,228 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 20:02:45,792 Running update on language: sjn
+INFO : 2026-02-12 20:02:46,818 Running update on language: mam
+INFO : 2026-02-12 20:02:48,600 Running update on language: kek
+INFO : 2026-02-12 20:02:52,056 Packet 'prelim_kek_1': Second revision complete by user 'juan.tzoc@gmail.com'. Translation complete.
+INFO : 2026-02-12 20:02:53,579 Checking to see next available packet for user 'equidades@gmail.com
+INFO : 2026-02-12 20:02:59,352 New packet 'kek_3' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-02-12 20:03:00,590 Running update on language: cak
+INFO : 2026-02-12 20:03:02,236 Running update on language: quc
+INFO : 2026-02-12 20:03:04,409 Saving state to file.
