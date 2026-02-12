@@ -128,7 +128,18 @@
   "kek": {
     "translators": {
       "equidades@gmail.com": [],
-      "poyanam@yahoo.es": []
+      "poyanam@yahoo.es": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
     },
     "revisors": {
       "juan.tzoc@gmail.com": []
@@ -139,10 +150,10 @@
         "rev_id": "1t9jvRrn9YswzJ1AW0maYeGeHW-mYzRlFmuv4glKAk7k",
         "title": "prelim_kek_0",
         "created": "Feb 11 2026 03:51PM",
-        "last_stage_update": "Feb 12 2026 04:19PM",
+        "last_stage_update": "Feb 12 2026 04:25PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -156,7 +167,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "1mulGnWH1yGNKQZipxQgdW8OR4EaLTb7PMOIrKc8F1C4",
+        "rev_id": null,
+        "title": "prelim_kek_2",
+        "created": "Feb 12 2026 04:25PM",
+        "last_stage_update": "Feb 12 2026 04:25PM",
+        "translator": "poyanam@yahoo.es",
+        "revisor": "juan.tzoc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null
@@ -204,13 +225,13 @@
       },
       "1": {
         "tra_id": "1v9-CH3wayq5bf0-6P503ux3EV4OhpWpD1c5UgAEDm0o",
-        "rev_id": null,
+        "rev_id": "1tVdpNsDfZDay3zZhkXE225CHqkSj_MCrxAUQ9K61zGI",
         "title": "prelim_cak_1",
         "created": "Feb 11 2026 03:51PM",
-        "last_stage_update": "Feb 11 2026 03:51PM",
+        "last_stage_update": "Feb 12 2026 04:25PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
