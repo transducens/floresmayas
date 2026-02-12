@@ -852,3 +852,17 @@ INFO : 2026-02-12 17:02:33,218 Running update on language: kek
 INFO : 2026-02-12 17:02:35,286 Running update on language: cak
 INFO : 2026-02-12 17:02:37,499 Running update on language: quc
 INFO : 2026-02-12 17:02:39,451 Saving state to file.
+INFO : 2026-02-12 17:06:10,392 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 17:06:10,913 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 17:06:11,312 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 17:06:14,689 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 17:06:15,413 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 17:06:16,154 Running update on language: sjn
+INFO : 2026-02-12 17:06:18,003 Running update on language: mam
+INFO : 2026-02-12 17:06:20,257 Running update on language: kek
+INFO : 2026-02-12 17:06:22,094 Running update on language: cak
+INFO : 2026-02-12 17:06:24,559 Running update on language: quc
+INFO : 2026-02-12 17:06:29,702 Packet 'prelim_quc_1': Second revision complete by user 'jrguarchaj@gmail.com'. Translation complete.
+INFO : 2026-02-12 17:06:31,130 Checking to see next available packet for user 'josefinapos070@gmail.com
+INFO : 2026-02-12 17:06:37,871 New packet 'quc_2' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
+INFO : 2026-02-12 17:06:37,871 Saving state to file.
