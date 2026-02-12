@@ -994,3 +994,17 @@ INFO : 2026-02-12 20:02:59,352 New packet 'kek_3' created for language 'kek' and
 INFO : 2026-02-12 20:03:00,590 Running update on language: cak
 INFO : 2026-02-12 20:03:02,236 Running update on language: quc
 INFO : 2026-02-12 20:03:04,409 Saving state to file.
+INFO : 2026-02-12 20:14:27,177 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 20:14:28,524 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 20:14:29,329 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 20:14:29,966 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-12 20:14:29,970 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-12 20:14:33,525 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 20:14:34,380 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 20:14:35,049 Running update on language: sjn
+INFO : 2026-02-12 20:14:37,525 Running update on language: mam
+INFO : 2026-02-12 20:14:39,379 Packet 'prelim_mam_1': First translation complete by user 'vsindybeatriz@gmail.com'. Submitting for revision.
+INFO : 2026-02-12 20:14:47,591 Running update on language: kek
+INFO : 2026-02-12 20:14:49,154 Running update on language: cak
+INFO : 2026-02-12 20:14:51,548 Running update on language: quc
+INFO : 2026-02-12 20:14:56,491 Saving state to file.
