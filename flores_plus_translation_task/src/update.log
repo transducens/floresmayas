@@ -715,3 +715,16 @@ INFO : 2026-02-12 15:04:24,767 Running update on language: cak
 INFO : 2026-02-12 15:04:27,084 Running update on language: quc
 INFO : 2026-02-12 15:04:33,941 Packet 'prelim_quc_1': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
 INFO : 2026-02-12 15:04:36,894 Saving state to file.
+INFO : 2026-02-12 15:07:29,218 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 15:07:29,798 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 15:07:30,241 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 15:07:30,538 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 15:07:30,959 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-12 15:07:30,963 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-12 15:07:33,718 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 15:07:34,329 Running update on language: sjn
+INFO : 2026-02-12 15:07:36,324 Running update on language: mam
+INFO : 2026-02-12 15:07:37,970 Running update on language: kek
+INFO : 2026-02-12 15:07:40,146 Running update on language: cak
+INFO : 2026-02-12 15:07:42,210 Running update on language: quc
+INFO : 2026-02-12 15:07:44,607 Saving state to file.
