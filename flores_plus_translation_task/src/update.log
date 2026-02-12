@@ -808,3 +808,17 @@ INFO : 2026-02-12 16:36:04,093 Running update on language: kek
 INFO : 2026-02-12 16:36:05,622 Running update on language: cak
 INFO : 2026-02-12 16:36:07,215 Running update on language: quc
 INFO : 2026-02-12 16:36:09,552 Saving state to file.
+INFO : 2026-02-12 16:44:54,105 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 16:44:55,060 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 16:44:55,866 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 16:44:56,712 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-12 16:44:56,716 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-12 16:44:58,647 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 16:44:59,753 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 16:45:00,240 Running update on language: sjn
+INFO : 2026-02-12 16:45:02,662 Running update on language: mam
+INFO : 2026-02-12 16:45:05,113 Running update on language: kek
+INFO : 2026-02-12 16:45:06,157 Packet 'prelim_kek_1': First translation complete by user 'equidades@gmail.com'. Submitting for revision.
+INFO : 2026-02-12 16:45:15,326 Running update on language: cak
+INFO : 2026-02-12 16:45:18,439 Running update on language: quc
+INFO : 2026-02-12 16:45:21,323 Saving state to file.
