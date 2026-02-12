@@ -168,16 +168,16 @@ def create_translation_spreadsheet(
                     "fields": "gridProperties.frozenRowCount"
                 }
             },
-            {
-                "updateSheetProperties": {
-                    "properties": {
-                        "gridProperties": {
-                            "frozenColumnCount": 3
-                        }
-                    },
-                    "fields": "gridProperties.frozenColumnCount"
-                }
-            },
+            # {
+            #     "updateSheetProperties": {
+            #         "properties": {
+            #             "gridProperties": {
+            #                 "frozenColumnCount": 3
+            #             }
+            #         },
+            #         "fields": "gridProperties.frozenColumnCount"
+            #     }
+            # },
             {
                 "repeatCell": {
                     "range": {
@@ -213,7 +213,7 @@ def create_translation_spreadsheet(
                         "endIndex": len(spa) + 2,
                     },
                     "properties": {
-                        "pixelSize": 300,
+                        "pixelSize": 150,
                     },
                     "fields": "pixelSize",
                 }
@@ -2327,11 +2327,9 @@ def create_report_spreadsheet(creds: object, state: dict, lang: str) -> str:
 
 
 def update_report_spreadsheet(creds: object, state: dict, lang: str):
-    from icecream import ic
     packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
     service = build("drive", "v3", credentials=creds)
     spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
-    ic(spreadsheet_id)
     spreadsheet_id = spreadsheet_id['files'][0]['id']
     vocab_url = service.files().get(fileId=state[lang]['vocab_id'], fields="webViewLink").execute()
     vocab_url = vocab_url['webViewLink']
