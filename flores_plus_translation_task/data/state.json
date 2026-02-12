@@ -227,11 +227,23 @@
   },
   "cak": {
     "translators": {
-      "gabrielpichiya@gmail.com": [],
+      "gabrielpichiya@gmail.com": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "svasquezv7@miumg.edu.gt": []
     },
     "revisors": {
-      "matuyuc@gmail.com": []
+      "matuyuc@gmail.com": [
+        "4"
+      ]
     },
     "prelim_packets": {
       "0": {
@@ -239,10 +251,10 @@
         "rev_id": "1SYs0GZQu7BdVlwhUyqNjRwzytnro7uafHsY0MVyQsT8",
         "title": "prelim_cak_0",
         "created": "Feb 11 2026 03:51PM",
-        "last_stage_update": "Feb 12 2026 05:41PM",
+        "last_stage_update": "Feb 12 2026 08:59PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -256,7 +268,17 @@
         "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "1WFqEdVmqVBlBWyJnxRjwPlWxc0VZz3QSsboMtUBrf9M",
+        "rev_id": null,
+        "title": "prelim_cak_2",
+        "created": "Feb 12 2026 09:00PM",
+        "last_stage_update": "Feb 12 2026 09:00PM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null
@@ -338,13 +360,13 @@
       },
       "2": {
         "tra_id": "1a5YYrZs3_DExgLQGUgnE4-iPbFOtxQ18gyqvgriED_M",
-        "rev_id": null,
+        "rev_id": "1Hh--3sIA_6GCn4pMnxVp19C9wgjS_K0JnrpWviSzSvY",
         "title": "prelim_quc_2",
         "created": "Feb 12 2026 05:06PM",
-        "last_stage_update": "Feb 12 2026 05:06PM",
+        "last_stage_update": "Feb 12 2026 09:00PM",
         "translator": "josefinapos070@gmail.com",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 2
       },
       "3": {
