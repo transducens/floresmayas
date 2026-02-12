@@ -866,3 +866,18 @@ INFO : 2026-02-12 17:06:29,702 Packet 'prelim_quc_1': Second revision complete b
 INFO : 2026-02-12 17:06:31,130 Checking to see next available packet for user 'josefinapos070@gmail.com
 INFO : 2026-02-12 17:06:37,871 New packet 'quc_2' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-02-12 17:06:37,871 Saving state to file.
+INFO : 2026-02-12 17:29:18,704 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 17:29:19,559 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 17:29:20,104 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 17:29:20,656 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 17:29:21,242 Updating vocabulary file for lang 'cak'.
+INFO : 2026-02-12 17:29:21,246 Updating current packets with new vocabulary for language 'cak'.
+INFO : 2026-02-12 17:29:23,946 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 17:29:24,610 Running update on language: sjn
+INFO : 2026-02-12 17:29:26,872 Running update on language: mam
+INFO : 2026-02-12 17:29:28,559 Running update on language: kek
+INFO : 2026-02-12 17:29:31,601 Packet 'prelim_kek_1': First revision complete by user 'juan.tzoc@gmail.com'. Submitting for second translation.
+INFO : 2026-02-12 17:29:34,612 Running update on language: cak
+INFO : 2026-02-12 17:29:38,830 Packet 'prelim_cak_1': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
+INFO : 2026-02-12 17:29:40,584 Running update on language: quc
+INFO : 2026-02-12 17:29:43,446 Saving state to file.
