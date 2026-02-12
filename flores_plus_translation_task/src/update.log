@@ -1029,3 +1029,15 @@ INFO : 2026-02-12 21:00:02,188 New packet 'cak_2' created for language 'cak' and
 INFO : 2026-02-12 21:00:03,760 Running update on language: quc
 INFO : 2026-02-12 21:00:04,676 Packet 'prelim_quc_2': First translation complete by user 'josefinapos070@gmail.com'. Submitting for revision.
 INFO : 2026-02-12 21:00:14,966 Saving state to file.
+INFO : 2026-02-12 21:14:10,597 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-12 21:14:11,408 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-12 21:14:12,109 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-12 21:14:13,001 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-12 21:14:13,490 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-12 21:14:15,169 Running update on language: sjn
+INFO : 2026-02-12 21:14:17,154 Running update on language: mam
+INFO : 2026-02-12 21:14:18,089 Packet 'prelim_mam_0': First translation complete by user 'xjaw1964@gmail.com'. Submitting for revision.
+INFO : 2026-02-12 21:14:27,214 Running update on language: kek
+INFO : 2026-02-12 21:14:28,870 Running update on language: cak
+INFO : 2026-02-12 21:14:30,831 Running update on language: quc
+INFO : 2026-02-12 21:14:32,873 Saving state to file.

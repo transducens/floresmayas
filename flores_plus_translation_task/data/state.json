@@ -79,13 +79,13 @@
     "prelim_packets": {
       "0": {
         "tra_id": "1p2_DCDKX8r7b5LwnILQYCCUCF2ElzNr5aJiyFIou9qI",
-        "rev_id": null,
+        "rev_id": "1PxKYQZMAElrZd--l8rgiqZTOCL8BX0Ncf6szKux4z5M",
         "title": "prelim_mam_0",
         "created": "Feb 11 2026 03:50PM",
-        "last_stage_update": "Feb 11 2026 03:50PM",
+        "last_stage_update": "Feb 12 2026 09:14PM",
         "translator": "xjaw1964@gmail.com",
         "revisor": "ixkikap@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
