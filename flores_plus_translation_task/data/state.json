@@ -226,10 +226,10 @@
         "rev_id": "1ypmVQU4h9oAf3w9dlBz4OJGm3ZIZI0SS4A3sZvXrjCA",
         "title": "prelim_kek_4",
         "created": "Feb 13 2026 04:43PM",
-        "last_stage_update": "Feb 13 2026 08:38PM",
+        "last_stage_update": "Feb 13 2026 09:22PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 4
       },
       "5": {
@@ -324,10 +324,10 @@
         "rev_id": "1qeVxaW3gA7c-Y0spyT-TTSthP5Q3UhRqhUfTaq9BqY0",
         "title": "prelim_cak_2",
         "created": "Feb 12 2026 09:00PM",
-        "last_stage_update": "Feb 13 2026 05:50PM",
+        "last_stage_update": "Feb 13 2026 09:22PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -466,10 +466,10 @@
         "rev_id": "1lHWCJHQNfWj5fMNQ_QKK-BVGI52VlZ_PNdmCJ0t7WBQ",
         "title": "prelim_quc_4",
         "created": "Feb 13 2026 04:43PM",
-        "last_stage_update": "Feb 13 2026 08:39PM",
+        "last_stage_update": "Feb 13 2026 09:22PM",
         "translator": "josefinapos070@gmail.com",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 4
       },
       "5": {
@@ -477,10 +477,10 @@
         "rev_id": "1VXXPX_jZiE2QFkdUk1Mu4BCO4qo_ryVtfBkQZNruUoY",
         "title": "prelim_quc_5",
         "created": "Feb 13 2026 04:55PM",
-        "last_stage_update": "Feb 13 2026 08:39PM",
+        "last_stage_update": "Feb 13 2026 09:22PM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 5
       }
     },
