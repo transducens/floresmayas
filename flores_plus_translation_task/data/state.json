@@ -136,7 +136,17 @@
         "17",
         "18",
         "19",
-        "20"
+        "20",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ],
       "poyanam@yahoo.es": [
         "1",
@@ -205,10 +215,10 @@
         "rev_id": "1b9bGLuLwMOQoLYNEyVaov2Ry77M2VZD6TDAIWFeIcTk",
         "title": "prelim_kek_3",
         "created": "Feb 12 2026 08:02PM",
-        "last_stage_update": "Feb 13 2026 04:27PM",
+        "last_stage_update": "Feb 13 2026 04:54PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 3
       },
       "4": {
@@ -222,7 +232,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 4
       },
-      "5": null
+      "5": {
+        "tra_id": "1FDMQEsDwnWz3ZzFx9yl8eAP0qsprRUeemq21r3y9XtU",
+        "rev_id": null,
+        "title": "prelim_kek_5",
+        "created": "Feb 13 2026 04:54PM",
+        "last_stage_update": "Feb 13 2026 04:54PM",
+        "translator": "equidades@gmail.com",
+        "revisor": "juan.tzoc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      }
     },
     "packets": {
       "0": null,
@@ -301,13 +321,13 @@
       },
       "2": {
         "tra_id": "1WFqEdVmqVBlBWyJnxRjwPlWxc0VZz3QSsboMtUBrf9M",
-        "rev_id": null,
+        "rev_id": "1qeVxaW3gA7c-Y0spyT-TTSthP5Q3UhRqhUfTaq9BqY0",
         "title": "prelim_cak_2",
         "created": "Feb 12 2026 09:00PM",
-        "last_stage_update": "Feb 12 2026 09:00PM",
+        "last_stage_update": "Feb 13 2026 04:54PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -357,7 +377,17 @@
         "7",
         "8",
         "9",
-        "10"
+        "10",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ],
       "josefinapos070@gmail.com": [
         "11",
@@ -425,10 +455,10 @@
         "rev_id": "1yle5YaMWPERnkVAaJ66aUDKsawKq0oTIQ6sjq1MbJoQ",
         "title": "prelim_quc_3",
         "created": "Feb 12 2026 07:44PM",
-        "last_stage_update": "Feb 13 2026 04:43PM",
+        "last_stage_update": "Feb 13 2026 04:55PM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 3
       },
       "4": {
@@ -442,7 +472,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 4
       },
-      "5": null
+      "5": {
+        "tra_id": "1AN-kV1mWKUQlvIZuXc6BAvEm4nIl_rSA-ivbJ-sENVw",
+        "rev_id": null,
+        "title": "prelim_quc_5",
+        "created": "Feb 13 2026 04:55PM",
+        "last_stage_update": "Feb 13 2026 04:55PM",
+        "translator": "felivicente@yahoo.es",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      }
     },
     "packets": {
       "0": null,
