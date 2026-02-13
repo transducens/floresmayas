@@ -1588,23 +1588,23 @@
     "notes": ""
   },
   "explosión": {
-    "def": "",
+    "def": "moqk",
     "notes": ""
   },
   "expansión": {
-    "def": "",
+    "def": "nimank",
     "notes": ""
   },
   "exigencia": {
-    "def": "",
+    "def": "patz'ink",
     "notes": ""
   },
   "evolución": {
-    "def": "",
+    "def": "usaak",
     "notes": ""
   },
   "evocar": {
-    "def": "",
+    "def": "xjultikankil",
     "notes": ""
   },
   "esquiador": {
@@ -1612,27 +1612,27 @@
     "notes": ""
   },
   "específicamente": {
-    "def": "",
+    "def": "xjunes",
     "notes": ""
   },
   "especializado": {
-    "def": "",
+    "def": "wan xnawom",
     "notes": ""
   },
   "esencial": {
-    "def": "",
+    "def": "xsasal",
     "notes": ""
   },
   "equipamiento": {
-    "def": "",
+    "def": "k'a' re ru",
     "notes": ""
   },
   "equilibrio": {
-    "def": "",
+    "def": "tuqtu",
     "notes": ""
   },
   "episodio": {
-    "def": "",
+    "def": "raqal",
     "notes": ""
   },
   "entidad": {
@@ -1640,27 +1640,27 @@
     "notes": ""
   },
   "enfoque": {
-    "def": "",
+    "def": "xna'leb'il",
     "notes": ""
   },
   "encanto": {
-    "def": "",
+    "def": "anumank",
     "notes": ""
   },
   "en gran medida": {
-    "def": "",
+    "def": "xk'ihal",
     "notes": ""
   },
   "egipcio": {
-    "def": "",
+    "def": "aj egipto",
     "notes": ""
   },
   "droga": {
-    "def": "",
+    "def": "kaqi b'an /maa'us b'an",
     "notes": ""
   },
   "dique": {
-    "def": "",
+    "def": "xramb'al",
     "notes": ""
   },
   "diferir": {
@@ -1668,23 +1668,23 @@
     "notes": ""
   },
   "determinismo": {
-    "def": "",
+    "def": "xaqab'anb'il",
     "notes": ""
   },
   "desencadenar": {
-    "def": "",
+    "def": "xhitb'al",
     "notes": ""
   },
   "depresión": {
-    "def": "",
+    "def": "xkub'ik ch'ool",
     "notes": ""
   },
   "deportivo": {
-    "def": "",
+    "def": "b'atz'unl",
     "notes": ""
   },
   "cúspide": {
-    "def": "",
+    "def": "sa' ru'uj",
     "notes": ""
   },
   "curry": {
@@ -1692,31 +1692,31 @@
     "notes": ""
   },
   "cristianismo": {
-    "def": "",
+    "def": "kirisyaan",
     "notes": ""
   },
   "convencional": {
-    "def": "",
+    "def": "k'aynaqil",
     "notes": ""
   },
   "continuación": {
-    "def": "",
+    "def": "xkomon",
     "notes": ""
   },
   "conservación": {
-    "def": "",
+    "def": "k'uulank",
     "notes": ""
   },
   "consciencia": {
-    "def": "",
+    "def": "na'leb'",
     "notes": ""
   },
   "conllevar": {
-    "def": "",
+    "def": "k'amok",
     "notes": ""
   },
   "confuso": {
-    "def": "",
+    "def": "moko ch'olch'o ta",
     "notes": ""
   },
   "conclusión": {
@@ -6624,15 +6624,15 @@
     "notes": ""
   },
   "agnóstico": {
-    "def": "",
+    "def": "maak'a' naraj",
     "notes": ""
   },
   "agenciar": {
-    "def": "",
+    "def": "xk'uulankil",
     "notes": ""
   },
   "afrontar": {
-    "def": "",
+    "def": "xnumsinkil",
     "notes": ""
   },
   "afín": {
@@ -6753,6 +6753,10 @@
   },
   "a": {
     "def": "a",
+    "notes": ""
+  },
+  "asalto": {
+    "def": "ramok / elq'ak",
     "notes": ""
   }
 }
