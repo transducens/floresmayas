@@ -1311,3 +1311,16 @@ INFO : 2026-02-13 12:49:34,339 Running update on language: kek
 INFO : 2026-02-13 12:49:36,583 Running update on language: cak
 INFO : 2026-02-13 12:49:39,153 Running update on language: quc
 INFO : 2026-02-13 12:49:41,239 Saving state to file.
+INFO : 2026-02-13 14:20:46,508 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-13 14:20:47,456 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-13 14:20:48,202 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-13 14:20:48,689 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-13 14:20:48,694 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-13 14:20:50,554 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-13 14:20:51,078 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-13 14:20:51,729 Running update on language: sjn
+INFO : 2026-02-13 14:20:53,787 Running update on language: mam
+INFO : 2026-02-13 14:20:55,583 Running update on language: kek
+INFO : 2026-02-13 14:20:57,177 Running update on language: cak
+INFO : 2026-02-13 14:20:58,910 Running update on language: quc
+INFO : 2026-02-13 14:21:00,828 Saving state to file.
