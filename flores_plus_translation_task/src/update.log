@@ -1519,3 +1519,25 @@ INFO : 2026-02-13 21:22:48,213 Running update on language: quc
 INFO : 2026-02-13 21:22:48,799 Packet 'prelim_quc_4': Second translation complete by user 'josefinapos070@gmail.com'. Submitting for second revision.
 INFO : 2026-02-13 21:22:57,936 Packet 'prelim_quc_5': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
 INFO : 2026-02-13 21:22:59,507 Saving state to file.
+INFO : 2026-02-13 21:47:33,387 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-13 21:47:34,462 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-13 21:47:35,243 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-13 21:47:38,462 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-13 21:47:38,466 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-13 21:47:40,470 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-13 21:47:41,098 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-13 21:47:41,669 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-13 21:47:41,673 Updating current packets with new vocabulary for language 'quc'.
+INFO : 2026-02-13 21:47:43,738 Running update on language: sjn
+INFO : 2026-02-13 21:47:45,917 Running update on language: mam
+INFO : 2026-02-13 21:47:47,846 Running update on language: kek
+INFO : 2026-02-13 21:47:51,321 Packet 'prelim_kek_4': Second revision complete by user 'juan.tzoc@gmail.com'. Translation complete.
+INFO : 2026-02-13 21:47:52,379 Checking to see next available packet for user 'poyanam@yahoo.es
+INFO : 2026-02-13 21:47:52,380 Langage 'kek' has no unassigned packets left.
+INFO : 2026-02-13 21:47:53,016 Running update on language: cak
+INFO : 2026-02-13 21:47:55,472 Packet 'prelim_cak_3': Second translation complete by user 'svasquezv7@miumg.edu.gt'. Submitting for second revision.
+INFO : 2026-02-13 21:48:00,869 Running update on language: quc
+INFO : 2026-02-13 21:48:03,491 Packet 'prelim_quc_4': Second revision complete by user 'jrguarchaj@gmail.com'. Translation complete.
+INFO : 2026-02-13 21:48:04,667 Checking to see next available packet for user 'josefinapos070@gmail.com
+INFO : 2026-02-13 21:48:04,667 Langage 'quc' has no unassigned packets left.
+INFO : 2026-02-13 21:48:05,305 Saving state to file.

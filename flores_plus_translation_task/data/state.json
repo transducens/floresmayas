@@ -168,7 +168,17 @@
         "27",
         "28",
         "29",
-        "30"
+        "30",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
       ]
     },
     "revisors": {
@@ -226,10 +236,10 @@
         "rev_id": "1ypmVQU4h9oAf3w9dlBz4OJGm3ZIZI0SS4A3sZvXrjCA",
         "title": "prelim_kek_4",
         "created": "Feb 13 2026 04:43PM",
-        "last_stage_update": "Feb 13 2026 09:22PM",
+        "last_stage_update": "Feb 13 2026 09:47PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 4
       },
       "5": {
@@ -335,10 +345,10 @@
         "rev_id": "1pOcrWio_r2BwyE1Y3xXEMWZRKPmwed_HvI44aOyZLpo",
         "title": "prelim_cak_3",
         "created": "Feb 12 2026 09:32PM",
-        "last_stage_update": "Feb 13 2026 08:38PM",
+        "last_stage_update": "Feb 13 2026 09:48PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 3
       },
       "4": null,
@@ -407,7 +417,17 @@
         "26",
         "27",
         "29",
-        "30"
+        "30",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
       ]
     },
     "revisors": {
@@ -466,10 +486,10 @@
         "rev_id": "1lHWCJHQNfWj5fMNQ_QKK-BVGI52VlZ_PNdmCJ0t7WBQ",
         "title": "prelim_quc_4",
         "created": "Feb 13 2026 04:43PM",
-        "last_stage_update": "Feb 13 2026 09:22PM",
+        "last_stage_update": "Feb 13 2026 09:48PM",
         "translator": "josefinapos070@gmail.com",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 4
       },
       "5": {
