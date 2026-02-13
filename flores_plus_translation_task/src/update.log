@@ -1342,3 +1342,16 @@ INFO : 2026-02-13 14:48:28,673 Running update on language: cak
 INFO : 2026-02-13 14:48:29,996 Running update on language: quc
 INFO : 2026-02-13 14:48:30,734 Packet 'prelim_quc_2': Second translation complete by user 'josefinapos070@gmail.com'. Submitting for second revision.
 INFO : 2026-02-13 14:48:38,120 Saving state to file.
+INFO : 2026-02-13 15:19:34,005 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-13 15:19:35,029 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-13 15:19:35,596 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-13 15:19:36,228 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-13 15:19:36,841 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-13 15:19:37,456 Updating vocabulary file for lang 'quc'.
+INFO : 2026-02-13 15:19:37,460 Updating current packets with new vocabulary for language 'quc'.
+INFO : 2026-02-13 15:19:39,544 Running update on language: sjn
+INFO : 2026-02-13 15:19:41,334 Running update on language: mam
+INFO : 2026-02-13 15:19:43,377 Running update on language: kek
+INFO : 2026-02-13 15:19:44,912 Running update on language: cak
+INFO : 2026-02-13 15:19:46,643 Running update on language: quc
+INFO : 2026-02-13 15:19:48,431 Saving state to file.
