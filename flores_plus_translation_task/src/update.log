@@ -1558,3 +1558,18 @@ INFO : 2026-02-13 22:13:23,911 No unassigned packets lefts.
 INFO : 2026-02-13 22:13:23,911 Running update on language: quc
 INFO : 2026-02-13 22:13:25,312 Packet 'prelim_quc_5': Second translation complete by user 'felivicente@yahoo.es'. Submitting for second revision.
 INFO : 2026-02-13 22:13:30,919 Saving state to file.
+INFO : 2026-02-13 23:13:48,032 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-13 23:13:48,925 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-13 23:13:49,612 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-13 23:13:50,443 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-13 23:13:51,283 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-13 23:13:52,010 Running update on language: sjn
+INFO : 2026-02-13 23:13:54,478 Running update on language: mam
+INFO : 2026-02-13 23:13:56,633 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-13 23:13:56,633 No unassigned packets lefts.
+INFO : 2026-02-13 23:13:56,633 Running update on language: kek
+INFO : 2026-02-13 23:13:57,669 Running update on language: cak
+INFO : 2026-02-13 23:14:00,453 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-13 23:14:00,453 No unassigned packets lefts.
+INFO : 2026-02-13 23:14:00,453 Running update on language: quc
+INFO : 2026-02-13 23:14:01,828 Saving state to file.
