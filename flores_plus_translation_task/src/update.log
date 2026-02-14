@@ -1729,3 +1729,14 @@ INFO : 2026-02-14 13:22:06,962 Running update on language: kek
 INFO : 2026-02-14 13:22:10,513 Packet 'prelim_kek_5': First revision complete by user 'juan.tzoc@gmail.com'. Submitting for second translation.
 INFO : 2026-02-14 13:22:11,959 Running update on language: cak
 INFO : 2026-02-14 13:22:13,941 Saving state to file.
+INFO : 2026-02-14 14:11:56,741 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-14 14:11:57,523 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-14 14:11:58,218 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-14 14:11:58,807 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-14 14:11:59,434 Running update on language: sjn
+INFO : 2026-02-14 14:12:01,012 Running update on language: mam
+INFO : 2026-02-14 14:12:02,782 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-14 14:12:02,782 No unassigned packets lefts.
+INFO : 2026-02-14 14:12:02,782 Running update on language: kek
+INFO : 2026-02-14 14:12:03,749 Running update on language: cak
+INFO : 2026-02-14 14:12:06,483 Saving state to file.
