@@ -1774,3 +1774,14 @@ INFO : 2026-02-14 18:26:25,203 Running update on language: kek
 INFO : 2026-02-14 18:26:26,380 Packet 'prelim_kek_5': Second translation complete by user 'equidades@gmail.com'. Submitting for second revision.
 INFO : 2026-02-14 18:26:32,309 Running update on language: cak
 INFO : 2026-02-14 18:26:34,638 Saving state to file.
+INFO : 2026-02-14 19:11:07,950 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-14 19:11:08,797 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-14 19:11:09,518 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-14 19:11:10,340 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-14 19:11:11,072 Running update on language: sjn
+INFO : 2026-02-14 19:11:13,170 Running update on language: mam
+INFO : 2026-02-14 19:11:15,055 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-14 19:11:15,055 No unassigned packets lefts.
+INFO : 2026-02-14 19:11:15,055 Running update on language: kek
+INFO : 2026-02-14 19:11:16,211 Running update on language: cak
+INFO : 2026-02-14 19:11:18,561 Saving state to file.
