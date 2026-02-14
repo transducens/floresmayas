@@ -397,7 +397,17 @@
         "37",
         "38",
         "39",
-        "40"
+        "40",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
       ],
       "josefinapos070@gmail.com": [
         "11",
@@ -497,10 +507,10 @@
         "rev_id": "1VXXPX_jZiE2QFkdUk1Mu4BCO4qo_ryVtfBkQZNruUoY",
         "title": "prelim_quc_5",
         "created": "Feb 13 2026 04:55PM",
-        "last_stage_update": "Feb 13 2026 10:13PM",
+        "last_stage_update": "Feb 14 2026 01:39AM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },
@@ -519,7 +529,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": true,
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
     "vocab_id": "1Dgu09VnsWu4zeGN1UCdOVPO8m_BabRcQkV9Sd85NSbo",
