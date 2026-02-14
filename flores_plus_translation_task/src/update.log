@@ -1607,3 +1607,14 @@ INFO : 2026-02-14 01:39:18,045 Checking to see next available packet for user 'f
 INFO : 2026-02-14 01:39:18,045 Langage 'quc' has no unassigned packets left.
 INFO : 2026-02-14 01:39:18,045 All packets of language 'quc' have been translated.
 INFO : 2026-02-14 01:39:18,045 Saving state to file.
+INFO : 2026-02-14 03:03:52,240 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-14 03:03:53,080 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-14 03:03:53,899 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-14 03:03:54,828 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-14 03:03:55,734 Running update on language: sjn
+INFO : 2026-02-14 03:03:58,086 Running update on language: mam
+INFO : 2026-02-14 03:04:00,413 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-14 03:04:00,413 No unassigned packets lefts.
+INFO : 2026-02-14 03:04:00,413 Running update on language: kek
+INFO : 2026-02-14 03:04:01,642 Running update on language: cak
+INFO : 2026-02-14 03:04:03,838 Saving state to file.
