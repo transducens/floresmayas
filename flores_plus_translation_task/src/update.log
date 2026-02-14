@@ -1717,3 +1717,15 @@ INFO : 2026-02-14 12:14:07,653 No unassigned packets lefts.
 INFO : 2026-02-14 12:14:07,653 Running update on language: kek
 INFO : 2026-02-14 12:14:08,879 Running update on language: cak
 INFO : 2026-02-14 12:14:11,139 Saving state to file.
+INFO : 2026-02-14 13:22:00,638 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-14 13:22:01,414 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-14 13:22:02,117 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-14 13:22:02,738 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-14 13:22:03,453 Running update on language: sjn
+INFO : 2026-02-14 13:22:05,283 Running update on language: mam
+INFO : 2026-02-14 13:22:06,961 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-14 13:22:06,961 No unassigned packets lefts.
+INFO : 2026-02-14 13:22:06,962 Running update on language: kek
+INFO : 2026-02-14 13:22:10,513 Packet 'prelim_kek_5': First revision complete by user 'juan.tzoc@gmail.com'. Submitting for second translation.
+INFO : 2026-02-14 13:22:11,959 Running update on language: cak
+INFO : 2026-02-14 13:22:13,941 Saving state to file.
