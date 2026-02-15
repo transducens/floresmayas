@@ -2251,11 +2251,10 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
             try:
                 service.permissions().create(fileId=vocab_id, body=body, emailMessage=email_message).execute()
                 break
-        except:
-            sleep(t)
-            t = 2 * t
-            continue
-
+            except:
+                sleep(t)
+                t = 2 * t
+                continue
 
     return vocab_id
 
