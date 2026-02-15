@@ -5,6 +5,7 @@ from util import *
 from random import shuffle
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from time import sleep
 
 
 def create_translation_spreadsheet(
@@ -57,11 +58,19 @@ def create_translation_spreadsheet(
             }
         ],
     }
-    spreadsheet = (
-        service.spreadsheets()
-        .create(body=spreadsheet, fields="spreadsheetId")
-        .execute()
-    )
+    t = 30
+    while True:
+        try:
+            spreadsheet = (
+                service.spreadsheets()
+                .create(body=spreadsheet, fields="spreadsheetId")
+                .execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     id = spreadsheet.get('spreadsheetId')
 
     # Create permissions for translator
@@ -77,7 +86,15 @@ def create_translation_spreadsheet(
         "emailAddress": tra_email
     }
 
-    drive_service.permissions().create(fileId=id, body=body, emailMessage=email_message).execute()
+    t = 30
+    while True:
+        try:
+            drive_service.permissions().create(fileId=id, body=body, emailMessage=email_message).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Put all the data on the sheet
     body = {
@@ -134,10 +151,17 @@ def create_translation_spreadsheet(
         ],
     }
 
-    service.spreadsheets().values().batchUpdate(
-        spreadsheetId=id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=id,
+                body=body
+            ).execute()
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Format the data
     body = {
@@ -430,32 +454,43 @@ def create_translation_spreadsheet(
         ]
     }
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
 
     # Move translation spreadsheet into corresponding folder
     service = build("drive", "v3", credentials=creds)
-    try:
-        file = service.files().get(
-            fileId=id, fields="parents"
-        ).execute()
-        previous_parents = ",".join(file.get("parents"))
-        file = (
-            service.files()
-            .update(
-                fileId=id,
-                addParents=get_lang_folder(creds, lang_code),
-                removeParents=previous_parents,
-                fields="id, parents",
-            )
-        ).execute()
-
-    except HttpError as error:
-        print(f"An error occurred: {error}")
-        return None
+    t = 30
+    while True:
+        try:
+            file = service.files().get(
+                fileId=id, fields="parents"
+            ).execute()
+            previous_parents = ",".join(file.get("parents"))
+            file = (
+                service.files()
+                .update(
+                    fileId=id,
+                    addParents=get_lang_folder(creds, lang_code),
+                    removeParents=previous_parents,
+                    fields="id, parents",
+                )
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     return {
         "tra_id": id,
@@ -475,32 +510,40 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
     sheets_service = build("sheets", "v4", credentials=creds)
 
     # Get protected range id and lock first translation sheet
-    protected_range_id = (
-        sheets_service.spreadsheets().get(spreadsheetId=tra_id).execute()
-    )
-    protected_range_id = (
-        protected_range_id
-        ['sheets'][0]
-        ['protectedRanges'][0]
-        ["protectedRangeId"]
-    )
+    t = 30
+    while True:
+        try:
+            protected_range_id = (
+                sheets_service.spreadsheets().get(spreadsheetId=tra_id).execute()
+            )
+            protected_range_id = (
+                protected_range_id
+                ['sheets'][0]
+                ['protectedRanges'][0]
+                ["protectedRangeId"]
+            )
 
-    sheets_service.spreadsheets().batchUpdate(
-        spreadsheetId=tra_id,
-        body={
-            "requests": [
-                {
-                    "updateProtectedRange": {
-                        "protectedRange": {
-                            "protectedRangeId": protected_range_id,
-                            "unprotectedRanges": []
-                        },
-                        "fields": "unprotectedRanges"
-                    }
+            sheets_service.spreadsheets().batchUpdate(
+                spreadsheetId=tra_id,
+                body={
+                    "requests": [
+                        {
+                            "updateProtectedRange": {
+                                "protectedRange": {
+                                    "protectedRangeId": protected_range_id,
+                                    "unprotectedRanges": []
+                                },
+                                "fields": "unprotectedRanges"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
-    ).execute()
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Copy spreadsheet from translation to turn it into revision
     drive_service = build("drive", "v3", credentials=creds)
@@ -508,7 +551,15 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
     body = {
         'name': f'{title}_rev',
     }
-    file = drive_service.files().copy(fileId=tra_id, body=body).execute()
+    t = 30
+    while True:
+        try:
+            file = drive_service.files().copy(fileId=tra_id, body=body).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     rev_id = file['id']
 
     body = {
@@ -528,32 +579,55 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
 
     Puedes hallar las instrucciones detalladas en el siguiente enlace: https://transducens.github.io/floresmayas/#tarea/protocolo/interaccion/
     """
-    results = (
-        drive_service.permissions().create(
-            fileId=rev_id,
-            body=body,
-            emailMessage=email_message
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                drive_service.permissions().create(
+                    fileId=rev_id,
+                    body=body,
+                    emailMessage=email_message
+                ).execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # copy validation column from external file
-    results = (
-        sheets_service.spreadsheets().sheets().copyTo(
-            spreadsheetId=CATEGORY_COLUMN_SPREADSHEET_ID,
-            sheetId=0,
-            body={"destinationSpreadsheetId": rev_id}
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                sheets_service.spreadsheets().sheets().copyTo(
+                    spreadsheetId=CATEGORY_COLUMN_SPREADSHEET_ID,
+                    sheetId=0,
+                    body={"destinationSpreadsheetId": rev_id}
+                ).execute()
+            )
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     copy_sheet_id = results['sheetId']
 
     # get row index of completion checkbox
-    checkbox_row_index = (
-        sheets_service
-        .spreadsheets()
-        .values()
-        .batchGet(spreadsheetId=tra_id, ranges="A:A")
-        .execute()['valueRanges'][0]['values']
-    )
+    t = 30
+    while True:
+        try:
+            checkbox_row_index = (
+                sheets_service
+                .spreadsheets()
+                .values()
+                .batchGet(spreadsheetId=tra_id, ranges="A:A")
+                .execute()['valueRanges'][0]['values']
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     checkbox_row_index = len(checkbox_row_index)
 
     body = {
@@ -581,10 +655,18 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
         ],
     }
 
-    sheets_service.spreadsheets().values().batchUpdate(
-        spreadsheetId=rev_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            sheets_service.spreadsheets().values().batchUpdate(
+                spreadsheetId=rev_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     body = {
         "requests": [
@@ -994,10 +1076,18 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
         ]
     }
 
-    sheets_service.spreadsheets().batchUpdate(
-        spreadsheetId=rev_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            sheets_service.spreadsheets().batchUpdate(
+                spreadsheetId=rev_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     packet['rev_id'] = rev_id
 
@@ -1011,51 +1101,75 @@ def create_correction_sheet(creds, lang_code, title, packet):
     service = build("sheets", "v4", credentials=creds)
 
     # Get protected range id and lock first revision sheet
-    protected_range_id = (
-        service.spreadsheets().get(spreadsheetId=rev_id).execute()
-    )
-    protected_range_id = (
-        protected_range_id
-        ['sheets'][0]
-        ['protectedRanges'][0]
-        ["protectedRangeId"]
-    )
+    t = 30
+    while True:
+        try:
+            protected_range_id = (
+                service.spreadsheets().get(spreadsheetId=rev_id).execute()
+            )
+            protected_range_id = (
+                protected_range_id
+                ['sheets'][0]
+                ['protectedRanges'][0]
+                ["protectedRangeId"]
+            )
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=rev_id,
-        body={
-            "requests":
-            [
-                {
-                    "updateProtectedRange": {
-                        "protectedRange": {
-                            "protectedRangeId": protected_range_id,
-                            "unprotectedRanges": []
-                        },
-                        "fields": "unprotectedRanges"
-                    }
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=rev_id,
+                body={
+                    "requests":
+                    [
+                        {
+                            "updateProtectedRange": {
+                                "protectedRange": {
+                                    "protectedRangeId": protected_range_id,
+                                    "unprotectedRanges": []
+                                },
+                                "fields": "unprotectedRanges"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
-    ).execute()
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # copy revision 1 results onto translation spreadsheet
-    results = (
-        service.spreadsheets().sheets().copyTo(
-            spreadsheetId=rev_id,
-            sheetId=0,
-            body={"destinationSpreadsheetId": tra_id},
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                service.spreadsheets().sheets().copyTo(
+                    spreadsheetId=rev_id,
+                    sheetId=0,
+                    body={"destinationSpreadsheetId": tra_id},
+                ).execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     copy_rev_id = results['sheetId']
 
-    results = (
-        service.spreadsheets().values().batchGet(
-            spreadsheetId=rev_id,
-            ranges=["A:I"],
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                service.spreadsheets().values().batchGet(
+                    spreadsheetId=rev_id,
+                    ranges=["A:I"],
+                ).execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     rows_to_correct = [
         (idx, row) for idx, row in enumerate(
@@ -1078,7 +1192,15 @@ def create_correction_sheet(creds, lang_code, title, packet):
     rows_to_correct_validation_st = ";".join(rows_to_correct_validation_st)
     rows_to_correct_validation_st = f"OR({rows_to_correct_validation_st})"
 
-    results = service.spreadsheets().get(spreadsheetId=tra_id).execute()
+    t = 30
+    while True:
+        try:
+            results = service.spreadsheets().get(spreadsheetId=tra_id).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     results = results['sheets']
     results = [sheet for sheet in results if sheet['properties']['title'] == 'traducción']
     orig_sheet_id = results[0]['properties']['sheetId']
@@ -1278,10 +1400,18 @@ def create_correction_sheet(creds, lang_code, title, packet):
         ]
     }
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=tra_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=tra_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     body = {
         "valueInputOption": "USER_ENTERED",
@@ -1304,10 +1434,18 @@ def create_correction_sheet(creds, lang_code, title, packet):
             }
         ]
     }
-    service.spreadsheets().values().batchUpdate(
-        spreadsheetId=tra_id,
-        body=body,
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=tra_id,
+                body=body,
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     packet['stage'] = Stage.SECOND_TRANSLATION
     packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
@@ -1323,59 +1461,83 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
     service = build("sheets", "v4", credentials=creds)
 
     # Get protected range id and lock second translation sheet
-    protected_range_id = (
-        service.spreadsheets().get(spreadsheetId=tra_id).execute()
-    )
-    protected_range_id = (
-        protected_range_id
-        ['sheets'][0]
-        ['protectedRanges'][0]
-        ["protectedRangeId"]
-    )
+    t = 30
+    while True:
+        try:
+            protected_range_id = (
+                service.spreadsheets().get(spreadsheetId=tra_id).execute()
+            )
+            protected_range_id = (
+                protected_range_id
+                ['sheets'][0]
+                ['protectedRanges'][0]
+                ["protectedRangeId"]
+            )
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=tra_id,
-        body={
-            "requests":
-            [
-                {
-                    "updateProtectedRange": {
-                        "protectedRange": {
-                            "protectedRangeId": protected_range_id,
-                            "unprotectedRanges": []
-                        },
-                        "fields": "unprotectedRanges"
-                    }
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=tra_id,
+                body={
+                    "requests":
+                    [
+                        {
+                            "updateProtectedRange": {
+                                "protectedRange": {
+                                    "protectedRangeId": protected_range_id,
+                                    "unprotectedRanges": []
+                                },
+                                "fields": "unprotectedRanges"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
-    ).execute()
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
-    results = (
-        service.spreadsheets().get(spreadsheetId=tra_id).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                service.spreadsheets().get(spreadsheetId=tra_id).execute()
+            )
 
-    copy_sheet_id = results["sheets"][0]["properties"]["sheetId"]
+            copy_sheet_id = results["sheets"][0]["properties"]["sheetId"]
 
-    results = (
-        service.spreadsheets().sheets().copyTo(
-            spreadsheetId=tra_id,
-            sheetId=copy_sheet_id,
-            body={"destinationSpreadsheetId": rev_id},
-        ).execute()
-    )
+            results = (
+                service.spreadsheets().sheets().copyTo(
+                    spreadsheetId=tra_id,
+                    sheetId=copy_sheet_id,
+                    body={"destinationSpreadsheetId": rev_id},
+                ).execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     copy_sheet_id = results["sheetId"]
 
-    results = (
-        service
-        .spreadsheets()
-        .values()
-        .batchGet(
-            spreadsheetId=tra_id, ranges="Segunda traducción!A:Z"
-        )
-        .execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                service
+                .spreadsheets()
+                .values()
+                .batchGet(
+                    spreadsheetId=tra_id, ranges="Segunda traducción!A:Z"
+                )
+                .execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     checkbox_row_index = [
         (idx, row) for idx, row in enumerate(
@@ -1415,7 +1577,16 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
     rows_to_correct_validation_st = ";".join(rows_to_correct_validation_st)
     rows_to_correct_validation_st = f"AND({rows_to_correct_validation_st})"
 
-    orig_sheet_id = service.spreadsheets().get(spreadsheetId=rev_id).execute()
+    t = 30
+    while True:
+        try:
+            orig_sheet_id = service.spreadsheets().get(spreadsheetId=rev_id).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
+
     orig_sheet_id = orig_sheet_id['sheets']
     orig_sheet_id = [sheet for sheet in orig_sheet_id if sheet['properties']['title'] == '1ra revisión']
     orig_sheet_id = orig_sheet_id[0]['properties']['sheetId']
@@ -1757,10 +1928,18 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
         ]
     }
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=rev_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=rev_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     body = {
         "valueInputOption": "USER_ENTERED",
@@ -1780,10 +1959,18 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
         ]
     }
 
-    service.spreadsheets().values().batchUpdate(
-        spreadsheetId=rev_id,
-        body=body,
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=rev_id,
+                body=body,
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     packet['stage'] = Stage.SECOND_REVISION
     packet['last_stage_update'] = datetime.datetime.now().strftime(DATETIME_FORMAT)
@@ -1797,25 +1984,36 @@ def create_translation_guide(creds, lang, permission_emails):
     body = {
         'name': f'guia_de_traduccion_{lang}',
     }
-    translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()['id']
+    t = 30
+    while True:
+        try:
+            translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()['id']
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Move translation spreadsheet into corresponding folder
-    try:
-        file = drive_service.files().get( fileId=translation_guide_id, fields="parents").execute()
-        previous_parents = ",".join(file.get("parents"))
-        file = (
-            drive_service.files()
-            .update(
-                fileId=translation_guide_id,
-                addParents=get_lang_folder(creds, lang),
-                removeParents=previous_parents,
-                fields="id, parents",
-            )
-        ).execute()
-
-    except HttpError as error:
-        print(f"An error occurred: {error}")
-        return None
+    t = 30
+    while True:
+        try:
+            file = drive_service.files().get( fileId=translation_guide_id, fields="parents").execute()
+            previous_parents = ",".join(file.get("parents"))
+            file = (
+                drive_service.files()
+                .update(
+                    fileId=translation_guide_id,
+                    addParents=get_lang_folder(creds, lang),
+                    removeParents=previous_parents,
+                    fields="id, parents",
+                )
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
 
 def create_vocab_spreadsheet(creds, lang, permission_emails):
@@ -1835,12 +2033,20 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
     }
 
     service = build("sheets", "v4", credentials=creds)
-    results = (
-        service.spreadsheets().create(
-            body=body,
-            fields="spreadsheetId"
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            results = (
+                service.spreadsheets().create(
+                    body=body,
+                    fields="spreadsheetId"
+                ).execute()
+            )
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     vocab_id = results.get("spreadsheetId")
 
     # Check if lang vocab file exists and create one if not
@@ -1877,10 +2083,18 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         ]
     }
 
-    service.spreadsheets().values().batchUpdate(
-        spreadsheetId=vocab_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=vocab_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Format the data
     body = {
@@ -1980,30 +2194,46 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         ]
     }
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=vocab_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=vocab_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Move vocabulary spreadsheet into corresponding folder
     service = build("drive", "v3", credentials=creds)
     query = f"mimeType = 'application/vnd.google-apps.folder' and '{FOLDER_ID_TAREA_DE_TRADUCCION}' in parents and name = '{lang}'"
-    results = service.files().list(q=query).execute()
-    parent_folder = results['files'][0]['id']
+    t = 30
+    while True:
+        try:
+            results = service.files().list(q=query).execute()
+            parent_folder = results['files'][0]['id']
 
-    file = service.files().get(
-        fileId=vocab_id, fields="parents"
-    ).execute()
-    previous_parents = ",".join(file.get("parents"))
-    file = (
-        service.files()
-        .update(
-            fileId=vocab_id,
-            addParents=parent_folder,
-            removeParents=previous_parents,
-            fields="id, parents",
-        )
-    ).execute()
+            file = service.files().get(
+                fileId=vocab_id, fields="parents"
+            ).execute()
+            previous_parents = ",".join(file.get("parents"))
+            file = (
+                service.files()
+                .update(
+                    fileId=vocab_id,
+                    addParents=parent_folder,
+                    removeParents=previous_parents,
+                    fields="id, parents",
+                )
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     # Create permissions for translators and revisor
     for email in permission_emails:
@@ -2016,7 +2246,16 @@ def create_vocab_spreadsheet(creds, lang, permission_emails):
         email_message = """
         Has recibido acceso al vocabulario de tu correspondiente lengua maya. Puedes añadir, editar y anotar las traducciones de los términos incluidos, así como añadir términos adicionales.
         """
-        service.permissions().create(fileId=vocab_id, body=body, emailMessage=email_message).execute()
+        t = 30
+        while True:
+            try:
+                service.permissions().create(fileId=vocab_id, body=body, emailMessage=email_message).execute()
+                break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
+
 
     return vocab_id
 
@@ -2027,301 +2266,325 @@ def flores_sentences(creds: object, state: dict, lang: str, is_prelim=False) -> 
     sentences = []
     translators = list(state[lang]['translators'].keys()) + list(state[lang]['revisors'].keys()) + list(state[lang]['inactive_translators'].keys())
     service = build("sheets", "v4", credentials=creds)
-    for idx in [p for p in state[lang][packets_string] if
-                state[lang][packets_string][p] is not None and
-                state[lang][packets_string][p].get('stage') == "TRANSLATION_COMPLETE"]:
-        sheets = service.spreadsheets().get(spreadsheetId=state[lang][packets_string][idx]['rev_id']).execute()
-        sheets = sheets['sheets']
-        if len(sheets) > 1:
-            values = service.spreadsheets().values().get(
-                spreadsheetId=state[lang][packets_string][idx]['rev_id'],
-                range=f"2nda revisión!A2:N"
-            ).execute()
-        else:
-            values = service.spreadsheets().values().get(
-                spreadsheetId=state[lang][packets_string][idx]['rev_id'],
-                range=f"1ra revisión!A2:H"
-            ).execute()
-        values = values['values'][:-2]
-        sent_packet = state[lang][packets_string][idx]['title']
-        for row in values:
-            if len(row) < 12:
-                i = 4
-            elif len(row) == 12:
-                i = 9
-            elif len(row) > 12:
-                i = 13
-            sent = row[i]
-            sent_id = row[0]
-            sent_translator = None
-            for translator in state[lang]['translators'].keys():
-                if sent_translator is None and sent_id in state[lang]['translators'][translator]:
-                    sent_translator = translator
-            for translator in state[lang]['revisors'].keys():
-                if sent_translator is None and sent_id in state[lang]['revisors'][translator]:
-                    sent_translator = translator
-            for translator in state[lang]['inactive_translators'].keys():
-                if sent_translator is None and sent_id in state[lang]['inactive_translators'][translator]:
-                    sent_translator = translator
-            sentences.append((sent_id, sent, sent_packet, sent_translator))
-
+    t = 30
+    while True:
+        try:
+            for idx in [p for p in state[lang][packets_string] if
+                        state[lang][packets_string][p] is not None and
+                        state[lang][packets_string][p].get('stage') == "TRANSLATION_COMPLETE"]:
+                sheets = service.spreadsheets().get(spreadsheetId=state[lang][packets_string][idx]['rev_id']).execute()
+                sleep(10)
+                sheets = sheets['sheets']
+                if len(sheets) > 1:
+                    values = service.spreadsheets().values().get(
+                        spreadsheetId=state[lang][packets_string][idx]['rev_id'],
+                        range=f"2nda revisión!A2:N"
+                    ).execute()
+                else:
+                    values = service.spreadsheets().values().get(
+                        spreadsheetId=state[lang][packets_string][idx]['rev_id'],
+                        range=f"1ra revisión!A2:H"
+                    ).execute()
+                values = values['values'][:-2]
+                sent_packet = state[lang][packets_string][idx]['title']
+                for row in values:
+                    if len(row) < 12:
+                        i = 4
+                    elif len(row) == 12:
+                        i = 9
+                    elif len(row) > 12:
+                        i = 13
+                    sent = row[i]
+                    sent_id = row[0]
+                    sent_translator = None
+                    for translator in state[lang]['translators'].keys():
+                        if sent_translator is None and sent_id in state[lang]['translators'][translator]:
+                            sent_translator = translator
+                    for translator in state[lang]['revisors'].keys():
+                        if sent_translator is None and sent_id in state[lang]['revisors'][translator]:
+                            sent_translator = translator
+                    for translator in state[lang]['inactive_translators'].keys():
+                        if sent_translator is None and sent_id in state[lang]['inactive_translators'][translator]:
+                            sent_translator = translator
+                    sentences.append((sent_id, sent, sent_packet, sent_translator))
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     return sentences
 
 
 def create_report_spreadsheet(creds: object, state: dict, lang: str) -> str:
     packets_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
     service = build("sheets", "v4", credentials=creds)
-    spreadsheet = {
-        "properties": {
-            "title": f"Reporte ({lang})"
-        },
-        "sheets": [
-            {
+    t = 30
+    while True:
+        try:
+            spreadsheet = {
                 "properties": {
-                    "sheetId": 0,
-                    "title": "Resumen",
-                }
-            },
-            {
-                "properties": {
-                    "sheetId": 1,
-                    "title": "Paquetitos",
-                }
-            },
-            {
-                "properties": {
-                    "sheetId": 2,
-                    "title": "Frases traducidas",
-                }
-            },
-        ],
-    }
-    spreadsheet = (
-        service.spreadsheets()
-        .create(body=spreadsheet, fields="spreadsheetId")
-        .execute()
-    )
-    n_packets = len([p for p in state[lang][packets_string] if
-                     state[lang][packets_string][p] is not None])
-    spreadsheet_id = spreadsheet.get("spreadsheetId")
+                    "title": f"Reporte ({lang})"
+                },
+                "sheets": [
+                    {
+                        "properties": {
+                            "sheetId": 0,
+                            "title": "Resumen",
+                        }
+                    },
+                    {
+                        "properties": {
+                            "sheetId": 1,
+                            "title": "Paquetitos",
+                        }
+                    },
+                    {
+                        "properties": {
+                            "sheetId": 2,
+                            "title": "Frases traducidas",
+                        }
+                    },
+                ],
+            }
+            spreadsheet = (
+                service.spreadsheets()
+                .create(body=spreadsheet, fields="spreadsheetId")
+                .execute()
+            )
+            n_packets = len([p for p in state[lang][packets_string] if
+                             state[lang][packets_string][p] is not None])
+            spreadsheet_id = spreadsheet.get("spreadsheetId")
 
-    body = {
-        "requests": [
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 0,
-                        "startRowIndex": 0,
-                        "endRowIndex": 10,
-                        "startColumnIndex": 0,
-                        "endColumnIndex": 1
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "textFormat": {
-                                "bold": True
-                            }
+            body = {
+                "requests": [
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 0,
+                                "startRowIndex": 0,
+                                "endRowIndex": 10,
+                                "startColumnIndex": 0,
+                                "endColumnIndex": 1
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "textFormat": {
+                                        "bold": True
+                                    }
+                                }
+                            },
+                            "fields": "userEnteredFormat.textFormat.bold"
                         }
                     },
-                    "fields": "userEnteredFormat.textFormat.bold"
-                }
-            },
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 1,
-                        "startRowIndex": 0,
-                        "endRowIndex": 1,
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "textFormat": {
-                                "bold": True
-                            }
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 1,
+                                "startRowIndex": 0,
+                                "endRowIndex": 1,
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "textFormat": {
+                                        "bold": True
+                                    }
+                                }
+                            },
+                            "fields": "userEnteredFormat.textFormat.bold"
                         }
                     },
-                    "fields": "userEnteredFormat.textFormat.bold"
-                }
-            },
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 0,
-                        "startRowIndex": 0,
-                        "startColumnIndex": 0,
-                        "endColumnIndex": 2
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "wrapStrategy": "WRAP"
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 0,
+                                "startRowIndex": 0,
+                                "startColumnIndex": 0,
+                                "endColumnIndex": 2
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "wrapStrategy": "WRAP"
+                                }
+                            },
+                            "fields": "userEnteredFormat.wrapStrategy",
                         }
                     },
-                    "fields": "userEnteredFormat.wrapStrategy",
-                }
-            },
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 1,
-                        "startRowIndex": 0,
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "wrapStrategy": "WRAP"
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 1,
+                                "startRowIndex": 0,
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "wrapStrategy": "WRAP"
+                                }
+                            },
+                            "fields": "userEnteredFormat.wrapStrategy",
                         }
                     },
-                    "fields": "userEnteredFormat.wrapStrategy",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 0,
-                        "startIndex": 0,
-                        "endIndex": 2,
-                    },
-                    "properties": {
-                        "pixelSize": 300,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 1,
-                        "startIndex": 0,
-                    },
-                    "properties": {
-                        "pixelSize": 150,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 2,
-                        "startRowIndex": 0,
-                        # "endRowIndex": n_packets + 1,
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "wrapStrategy": "WRAP"
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 0,
+                                "startIndex": 0,
+                                "endIndex": 2,
+                            },
+                            "properties": {
+                                "pixelSize": 300,
+                            },
+                            "fields": "pixelSize",
                         }
                     },
-                    "fields": "userEnteredFormat.wrapStrategy",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 2,
-                        "startIndex": 0,
-                        "endIndex": 1,
-                    },
-                    "properties": {
-                        "pixelSize": 50,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 2,
-                        "startIndex": 1,
-                        "endIndex": 2,
-                    },
-                    "properties": {
-                        "pixelSize": 300,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 2,
-                        "startIndex": 2,
-                        "endIndex": 3,
-                    },
-                    "properties": {
-                        "pixelSize": 50,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "dimension": "COLUMNS",
-                        "sheetId": 2,
-                        "startIndex": 3,
-                        "endIndex": 4,
-                    },
-                    "properties": {
-                        "pixelSize": 200,
-                    },
-                    "fields": "pixelSize",
-                }
-            },
-            {
-                "repeatCell": {
-                    "range": {
-                        "sheetId": 2,
-                        "startRowIndex": 0,
-                        "endRowIndex": 1,
-                    },
-                    "cell": {
-                        "userEnteredFormat": {
-                            "textFormat": {
-                                "bold": True
-                            }
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 1,
+                                "startIndex": 0,
+                            },
+                            "properties": {
+                                "pixelSize": 150,
+                            },
+                            "fields": "pixelSize",
                         }
                     },
-                    "fields": "userEnteredFormat.textFormat.bold"
-                }
-            },
-            {
-                "updateSheetProperties": {
-                    "properties": {
-                        "sheetId": 2,
-                        "gridProperties": {
-                            "frozenRowCount": 1
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 2,
+                                "startRowIndex": 0,
+                                # "endRowIndex": n_packets + 1,
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "wrapStrategy": "WRAP"
+                                }
+                            },
+                            "fields": "userEnteredFormat.wrapStrategy",
                         }
                     },
-                    "fields": "gridProperties.frozenRowCount"
-                }
-            },
-        ]
-    }
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 2,
+                                "startIndex": 0,
+                                "endIndex": 1,
+                            },
+                            "properties": {
+                                "pixelSize": 50,
+                            },
+                            "fields": "pixelSize",
+                        }
+                    },
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 2,
+                                "startIndex": 1,
+                                "endIndex": 2,
+                            },
+                            "properties": {
+                                "pixelSize": 300,
+                            },
+                            "fields": "pixelSize",
+                        }
+                    },
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 2,
+                                "startIndex": 2,
+                                "endIndex": 3,
+                            },
+                            "properties": {
+                                "pixelSize": 50,
+                            },
+                            "fields": "pixelSize",
+                        }
+                    },
+                    {
+                        "updateDimensionProperties": {
+                            "range": {
+                                "dimension": "COLUMNS",
+                                "sheetId": 2,
+                                "startIndex": 3,
+                                "endIndex": 4,
+                            },
+                            "properties": {
+                                "pixelSize": 200,
+                            },
+                            "fields": "pixelSize",
+                        }
+                    },
+                    {
+                        "repeatCell": {
+                            "range": {
+                                "sheetId": 2,
+                                "startRowIndex": 0,
+                                "endRowIndex": 1,
+                            },
+                            "cell": {
+                                "userEnteredFormat": {
+                                    "textFormat": {
+                                        "bold": True
+                                    }
+                                }
+                            },
+                            "fields": "userEnteredFormat.textFormat.bold"
+                        }
+                    },
+                    {
+                        "updateSheetProperties": {
+                            "properties": {
+                                "sheetId": 2,
+                                "gridProperties": {
+                                    "frozenRowCount": 1
+                                }
+                            },
+                            "fields": "gridProperties.frozenRowCount"
+                        }
+                    },
+                ]
+            }
 
-    service.spreadsheets().batchUpdate(
-        spreadsheetId=spreadsheet_id,
-        body=body
-    ).execute()
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=spreadsheet_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     service = build("drive", "v3", credentials=creds)
-    file = service.files().get(
-        fileId=spreadsheet_id, fields="parents"
-    ).execute()
+    t = 30
+    while True:
+        try:
+            file = service.files().get(
+                fileId=spreadsheet_id, fields="parents"
+            ).execute()
 
-    previous_parents = ",".join(file.get("parents"))
-    file = (
-        service.files()
-        .update(
-            fileId=spreadsheet_id,
-            addParents=get_lang_folder(creds, lang),
-            removeParents=previous_parents,
-            fields="id, parents",
-        )
-    ).execute()
+            previous_parents = ",".join(file.get("parents"))
+            file = (
+                service.files()
+                .update(
+                    fileId=spreadsheet_id,
+                    addParents=get_lang_folder(creds, lang),
+                    removeParents=previous_parents,
+                    fields="id, parents",
+                )
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
     return spreadsheet_id
 
@@ -2329,9 +2592,25 @@ def create_report_spreadsheet(creds: object, state: dict, lang: str) -> str:
 def update_report_spreadsheet(creds: object, state: dict, lang: str):
     packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
     service = build("drive", "v3", credentials=creds)
-    spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
+    t = 30
+    while True:
+        try:
+            spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     spreadsheet_id = spreadsheet_id['files'][0]['id']
-    vocab_url = service.files().get(fileId=state[lang]['vocab_id'], fields="webViewLink").execute()
+    t = 30
+    while True:
+        try:
+            vocab_url = service.files().get(fileId=state[lang]['vocab_id'], fields="webViewLink").execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     vocab_url = vocab_url['webViewLink']
 
     tra_urls, rev_urls = [], []
@@ -2339,12 +2618,29 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
 
     for idx in [p for p in state[lang]['prelim_packets'].keys() if state[lang]['prelim_packets'][p] is not None]:
         tra_id = state[lang]['prelim_packets'][idx]['tra_id']
-        tra_url = service.files().get(fileId=tra_id, fields="webViewLink").execute()
+        t = 30
+        while True:
+            try:
+                tra_url = service.files().get(fileId=tra_id, fields="webViewLink").execute()
+                sleep(5)
+                break
+            except:
+                sleep(t)
+                t = 2 * t
+                continue
         prelim_tra_urls.append(tra_url['webViewLink'])
 
         rev_id = state[lang]['prelim_packets'][idx]['rev_id']
         if rev_id is not None:
-            rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+            t = 30
+            while True:
+                try:
+                    rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+                    break
+                except:
+                    sleep(t)
+                    t = 2 * t
+                    continue
             prelim_rev_urls.append(rev_url['webViewLink'])
         else:
             prelim_rev_urls.append("")
@@ -2356,7 +2652,16 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
 
         rev_id = state[lang]['packets'][idx]['rev_id']
         if rev_id is not None:
-            rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+            t = 30
+            while True:
+                try:
+                    rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
+                    sleep(5)
+                    break
+                except:
+                    sleep(t)
+                    t = 2 * t
+                    continue
             rev_urls.append(rev_url['webViewLink'])
         else:
             rev_urls.append("")
@@ -2449,10 +2754,18 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
         ],
     }
 
-    service.spreadsheets().values().batchUpdate(
-        spreadsheetId=spreadsheet_id,
-        body=body
-    ).execute()
+    t = 30
+    while True:
+        try:
+            service.spreadsheets().values().batchUpdate(
+                spreadsheetId=spreadsheet_id,
+                body=body
+            ).execute()
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
 if __name__ == "__main__":
     with open("../data/state.json") as f:
