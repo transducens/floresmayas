@@ -67,7 +67,8 @@ def create_translation_spreadsheet(
                 .execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -91,7 +92,8 @@ def create_translation_spreadsheet(
         try:
             drive_service.permissions().create(fileId=id, body=body, emailMessage=email_message).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -158,7 +160,8 @@ def create_translation_spreadsheet(
                 spreadsheetId=id,
                 body=body
             ).execute()
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -462,7 +465,8 @@ def create_translation_spreadsheet(
                 body=body
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -487,7 +491,8 @@ def create_translation_spreadsheet(
                 )
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -540,7 +545,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 }
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -556,7 +562,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
         try:
             file = drive_service.files().copy(fileId=tra_id, body=body).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -590,7 +597,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 ).execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -606,7 +614,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                     body={"destinationSpreadsheetId": rev_id}
                 ).execute()
             )
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -624,7 +633,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 .execute()['valueRanges'][0]['values']
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -663,7 +673,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 body=body
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1084,7 +1095,8 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                 body=body
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1132,7 +1144,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
                 }
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1149,7 +1162,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
                 ).execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1166,7 +1180,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
                 ).execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1197,7 +1212,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
         try:
             results = service.spreadsheets().get(spreadsheetId=tra_id).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1408,7 +1424,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
                 body=body
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1442,7 +1459,8 @@ def create_correction_sheet(creds, lang_code, title, packet):
                 body=body,
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1492,7 +1510,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
                 }
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1514,7 +1533,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
                 ).execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1534,7 +1554,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
                 .execute()
             )
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1582,7 +1603,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
         try:
             orig_sheet_id = service.spreadsheets().get(spreadsheetId=rev_id).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1936,7 +1958,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
                 body=body
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1967,7 +1990,8 @@ def create_revision_sheet(creds, lang_code, title, packet, r_max) -> (dict, int)
                 body=body,
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -1989,7 +2013,8 @@ def create_translation_guide(creds, lang, permission_emails):
         try:
             translation_guide_id = drive_service.files().copy(fileId=TRANSLATION_GUIDE_DOC_ID, body=body).execute()['id']
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -2010,7 +2035,8 @@ def create_translation_guide(creds, lang, permission_emails):
                 )
             ).execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
