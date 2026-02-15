@@ -1840,3 +1840,14 @@ INFO : 2026-02-15 00:41:52,414 No unassigned packets lefts.
 INFO : 2026-02-15 00:41:52,414 Running update on language: kek
 INFO : 2026-02-15 00:41:53,816 Running update on language: cak
 INFO : 2026-02-15 00:41:56,053 Saving state to file.
+INFO : 2026-02-15 01:39:04,481 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-15 01:39:05,290 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-15 01:39:05,960 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-15 01:39:06,536 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-15 01:39:07,106 Running update on language: sjn
+INFO : 2026-02-15 01:39:08,758 Running update on language: mam
+INFO : 2026-02-15 01:39:10,630 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-15 01:39:10,630 No unassigned packets lefts.
+INFO : 2026-02-15 01:39:10,631 Running update on language: kek
+INFO : 2026-02-15 01:39:11,547 Running update on language: cak
+INFO : 2026-02-15 01:39:15,766 Saving state to file.
