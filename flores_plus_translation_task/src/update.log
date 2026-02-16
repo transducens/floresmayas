@@ -2145,3 +2145,11 @@ INFO : 2026-02-16 20:35:36,252 New packet 'sjn_3' created for language 'sjn' and
 INFO : 2026-02-16 20:35:36,252 Running update on language: mam
 INFO : 2026-02-16 20:36:20,704 Running update on language: cak
 INFO : 2026-02-16 20:36:22,700 Saving state to file.
+INFO : 2026-02-16 22:16:13,661 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-16 22:16:14,527 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-16 22:16:15,317 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-16 22:16:16,132 Running update on language: sjn
+INFO : 2026-02-16 22:16:17,056 Packet 'prelim_sjn_2': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-02-16 22:16:25,855 Running update on language: mam
+INFO : 2026-02-16 22:16:28,270 Running update on language: cak
+INFO : 2026-02-16 22:16:30,417 Saving state to file.
