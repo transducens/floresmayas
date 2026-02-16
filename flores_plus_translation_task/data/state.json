@@ -78,8 +78,28 @@
       "5": null
     },
     "packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1uI5adq13sdIEl25GrJSm5j1Wd3CDTnAvHr8YhFgzy-c",
+        "rev_id": null,
+        "title": "sjn_0",
+        "created": "Feb 16 2026 10:23PM",
+        "last_stage_update": "Feb 16 2026 10:23PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1XTsj7vSRO2pQQe6FYrpwVuNawatmyX6byDrLLZIh9oU",
+        "rev_id": null,
+        "title": "sjn_1",
+        "created": "Feb 16 2026 10:23PM",
+        "last_stage_update": "Feb 16 2026 10:23PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
