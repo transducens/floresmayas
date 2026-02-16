@@ -1,0 +1,20 @@
+El
+inicio
+de+el
+programa
+tener# lugar
+a
+el
+8
+:
+30
+p
+m
+hora
+local
+(
+15
+:
+00
+UTC
+)
