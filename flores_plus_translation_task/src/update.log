@@ -2082,3 +2082,15 @@ INFO : 2026-02-15 22:09:05,212 No unassigned packets lefts.
 INFO : 2026-02-15 22:09:05,212 Running update on language: kek
 INFO : 2026-02-15 22:09:06,565 Running update on language: cak
 INFO : 2026-02-15 22:09:08,969 Saving state to file.
+INFO : 2026-02-15 17:02:00,451 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-15 17:02:01,486 Updating vocabulary file for lang 'sjn'.
+INFO : 2026-02-15 17:02:01,491 Updating current packets with new vocabulary for language 'sjn'.
+INFO : 2026-02-15 17:02:01,494 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-15 17:02:02,640 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-15 17:02:03,959 Checking vocabulary spreadsheet for updates for lang 'cak'.
+WARNING : 2026-02-15 17:02:05,087 Language 'sjn' has no packages ready to work on.
+INFO : 2026-02-15 17:43:01,428 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-15 17:43:02,472 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-15 17:43:03,381 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-15 17:43:04,261 Checking vocabulary spreadsheet for updates for lang 'cak'.
+WARNING : 2026-02-15 17:43:05,169 Language 'sjn' has no packages ready to work on.
