@@ -134,7 +134,16 @@
         "37",
         "38",
         "39",
-        "40"
+        "40",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59"
       ],
       "poyanam@yahoo.es": [
         "1",
@@ -171,7 +180,8 @@
     },
     "revisors": {
       "juan.tzoc@gmail.com": [
-        "13"
+        "13",
+        "60"
       ]
     },
     "prelim_packets": {
@@ -235,10 +245,10 @@
         "rev_id": "1zkjwBYT3-9IGuz4RQpi-GBv71CaQd7c0HUmlV0Rq79c",
         "title": "prelim_kek_5",
         "created": "Feb 13 2026 04:54PM",
-        "last_stage_update": "Feb 14 2026 06:26PM",
+        "last_stage_update": "Feb 16 2026 06:12PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },
@@ -257,7 +267,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": true,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
     "vocab_id": "1ZnhuvbN3Cr6McMKJ9h4pq3pCy32Ayca4Vflo6f_5Nm0",

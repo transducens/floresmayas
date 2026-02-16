@@ -2108,3 +2108,18 @@ INFO : 2026-02-16 14:59:02,123 No unassigned packets lefts.
 INFO : 2026-02-16 14:59:02,123 Running update on language: kek
 INFO : 2026-02-16 14:59:03,316 Running update on language: cak
 INFO : 2026-02-16 14:59:05,429 Saving state to file.
+INFO : 2026-02-16 18:12:33,360 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-16 18:12:34,273 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-16 18:12:35,025 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-16 18:12:35,661 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-16 18:12:36,509 Running update on language: sjn
+INFO : 2026-02-16 18:12:38,454 Running update on language: mam
+INFO : 2026-02-16 18:12:40,566 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-16 18:12:40,566 No unassigned packets lefts.
+INFO : 2026-02-16 18:12:40,566 Running update on language: kek
+INFO : 2026-02-16 18:12:43,877 Packet 'prelim_kek_5': Second revision complete by user 'juan.tzoc@gmail.com'. Translation complete.
+INFO : 2026-02-16 18:12:45,227 Checking to see next available packet for user 'equidades@gmail.com
+INFO : 2026-02-16 18:12:45,227 Langage 'kek' has no unassigned packets left.
+INFO : 2026-02-16 18:12:45,227 All packets of language 'kek' have been translated.
+INFO : 2026-02-16 18:12:45,227 Running update on language: cak
+INFO : 2026-02-16 18:12:47,563 Saving state to file.
