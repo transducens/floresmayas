@@ -310,7 +310,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 0,
     "translation_complete": true,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
     "vocab_id": "1ZnhuvbN3Cr6McMKJ9h4pq3pCy32Ayca4Vflo6f_5Nm0",
     "report": "1hAdPspU4Vn49X1qg0D_zE-yy9q2N220yzk91vBdmj9Q"
@@ -570,7 +570,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 0,
     "translation_complete": true,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
     "vocab_id": "1Dgu09VnsWu4zeGN1UCdOVPO8m_BabRcQkV9Sd85NSbo",
     "report": "1QNE737uKPOSUlnPtJHmeiCvxj3-bOQXm_QeMC_qKJqY"
