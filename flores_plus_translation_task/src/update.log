@@ -2123,3 +2123,12 @@ INFO : 2026-02-16 18:12:45,227 Langage 'kek' has no unassigned packets left.
 INFO : 2026-02-16 18:12:45,227 All packets of language 'kek' have been translated.
 INFO : 2026-02-16 18:12:45,227 Running update on language: cak
 INFO : 2026-02-16 18:12:47,563 Saving state to file.
+INFO : 2026-02-16 20:19:10,267 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-16 20:19:11,152 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-16 20:19:11,785 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-16 20:19:12,474 Running update on language: sjn
+INFO : 2026-02-16 20:19:13,368 Packet 'prelim_sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-02-16 20:19:20,195 Packet 'prelim_sjn_1': First translation complete by user 'andres.lou@ua.es'. Submitting for revision.
+INFO : 2026-02-16 20:19:25,546 Running update on language: mam
+INFO : 2026-02-16 20:19:27,216 Running update on language: cak
+INFO : 2026-02-16 20:19:29,009 Saving state to file.
