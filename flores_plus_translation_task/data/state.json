@@ -93,7 +93,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 0,
     "translation_complete": false,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "translation_guide": "blala",
     "vocab_id": "1tajVnO3LZp3xUlRQjoBALHIWa6IGEcJTU2M_htPIFrU",
     "report": "1pC38_Db_RJKF4RJZ8Mn5ug8vDg7bjdFC1J7nYEbYPGg"
