@@ -1,8 +1,30 @@
 {
   "sjn": {
     "translators": {
-      "and_lou@ua.es": [],
-      "andres.lou@ua.es": []
+      "and_lou@ua.es": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "andres.lou@ua.es": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
     },
     "revisors": {
       "lourios.andres@gmail.com": []
@@ -13,10 +35,10 @@
         "rev_id": "1gC3VKHKHUKIyZ98rPBzWiTnsabVQiIynPhWEJqZ1nIY",
         "title": "prelim_sjn_0",
         "created": "Feb 16 2026 02:58PM",
-        "last_stage_update": "Feb 16 2026 08:19PM",
+        "last_stage_update": "Feb 16 2026 08:35PM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -24,14 +46,34 @@
         "rev_id": "1KvNQbuEHNGdkubYDWaKLVOCWVo4mqswOsYMsR5ubdFk",
         "title": "prelim_sjn_1",
         "created": "Feb 16 2026 02:58PM",
-        "last_stage_update": "Feb 16 2026 08:19PM",
+        "last_stage_update": "Feb 16 2026 08:35PM",
         "translator": "andres.lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 1
       },
-      "2": null,
-      "3": null,
+      "2": {
+        "tra_id": "1Ll8fHBBsFV-PGs4NuY5DBacV708uTmobfLiTZOAuGnU",
+        "rev_id": null,
+        "title": "prelim_sjn_2",
+        "created": "Feb 16 2026 08:35PM",
+        "last_stage_update": "Feb 16 2026 08:35PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
+      "3": {
+        "tra_id": "1oiMana8A8N2fV7hQy6SVZUc3LdIQFlxZmyfzifShBg0",
+        "rev_id": null,
+        "title": "prelim_sjn_3",
+        "created": "Feb 16 2026 08:35PM",
+        "last_stage_update": "Feb 16 2026 08:35PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },

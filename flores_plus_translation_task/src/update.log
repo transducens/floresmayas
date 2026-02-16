@@ -2132,3 +2132,16 @@ INFO : 2026-02-16 20:19:20,195 Packet 'prelim_sjn_1': First translation complete
 INFO : 2026-02-16 20:19:25,546 Running update on language: mam
 INFO : 2026-02-16 20:19:27,216 Running update on language: cak
 INFO : 2026-02-16 20:19:29,009 Saving state to file.
+INFO : 2026-02-16 20:35:13,092 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-16 20:35:14,003 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-16 20:35:14,723 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-16 20:35:15,588 Running update on language: sjn
+INFO : 2026-02-16 20:35:18,622 Packet 'prelim_sjn_0': First revision complete by user 'lourios.andres@gmail.com'. No errors found. Translation complete.
+INFO : 2026-02-16 20:35:18,622 Checking to see next available packet for user 'and_lou@ua.es.
+INFO : 2026-02-16 20:35:26,809 New packet 'sjn_2' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'.
+INFO : 2026-02-16 20:35:29,745 Packet 'prelim_sjn_1': First revision complete by user 'lourios.andres@gmail.com'. No errors found. Translation complete.
+INFO : 2026-02-16 20:35:29,745 Checking to see next available packet for user 'andres.lou@ua.es.
+INFO : 2026-02-16 20:35:36,252 New packet 'sjn_3' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'.
+INFO : 2026-02-16 20:35:36,252 Running update on language: mam
+INFO : 2026-02-16 20:36:20,704 Running update on language: cak
+INFO : 2026-02-16 20:36:22,700 Saving state to file.
