@@ -66,9 +66,9 @@ if __name__ == "__main__":
                 "prelim_packets": {str(i): None for i in range(len(PRELIM_DATASET))},
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,
-                "translation_complete": False
+                "translation_complete": False,
+                "prelim_translation": config['prelim_translation']
             }
-        state[lang]['prelim_translation'] = config['prelim_translation']
         for translator in config['langs'][lang]['translators']:
             if state[lang]['translators'].get(translator) is None:
                 state[lang]['translators'][translator]: []
@@ -125,12 +125,10 @@ if __name__ == "__main__":
         logger.info(f"Update complete.")
         exit()
 
-    # Check if working on prelim packets or full translation
-    packet_string = 'prelim_packets' if config['prelim_translation'] else 'packets'
-    prelim_title_string = 'prelim_' if config['prelim_translation'] else ""
-
     # Check if there's at least one packet in state and create one if not
     for lang in [lang for lang in state.keys() if state[lang]['translation_complete'] is False]:
+        packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
+        prelim_title_string = 'prelim_' if state[lang]['prelim_translation'] else ""
         packets = [p for _, p in state[lang][packet_string].items() if p is not None]
         if not packets:
             logger.warning(f"Language '{lang}' has no packages ready to work on.")
@@ -143,7 +141,7 @@ if __name__ == "__main__":
                 packet_idx = min(int(idx) for idx in state[lang][packet_string].keys() if state[lang][packet_string][idx] is None)
                 state[lang][packet_string][str(packet_idx)] = create_translation_spreadsheet(
                     creds=creds,
-                    sents=PRELIM_DATASET[packet_idx] if config['prelim_translation'] else DATASET[packet_idx],
+                    sents=PRELIM_DATASET[packet_idx] if state[lang]['prelim_translation'] else DATASET[packet_idx],
                     lang_code=lang,
                     title=f"{prelim_title_string}{lang}_{packet_idx}",
                     tra_email=translator,
@@ -162,6 +160,8 @@ if __name__ == "__main__":
     # Iterate over languages in state file
     langs = [lang for lang in state.keys() if state[lang]['translation_complete'] is False]
     for lang in langs:
+        packet_string = 'prelim_packets' if state[lang]['prelim_translation'] else 'packets'
+        prelim_title_string = 'prelim_' if state[lang]['prelim_translation'] else ""
 
         # Get translation packets and first check if there are any left to translate
         packets = [(idx, packet) for idx, packet in state[lang][packet_string].items() if packet is not None]
@@ -208,7 +208,7 @@ if __name__ == "__main__":
 
                 state[lang][packet_string][str(packet_idx)] = create_translation_spreadsheet(
                     creds=creds,
-                    sents=PRELIM_DATASET[packet_idx] if config['prelim_translation'] else DATASET[packet_idx],
+                    sents=PRELIM_DATASET[packet_idx] if state[lang]['prelim_translation'] else DATASET[packet_idx],
                     lang_code=lang,
                     title=f"{prelim_title_string}{lang}_{packet_idx}",
                     tra_email=translator,
@@ -222,7 +222,7 @@ if __name__ == "__main__":
         logger.info(f"Running update on language: {lang}")
         for idx, packet in packets:
             if packet['stage'] == Stage.FIRST_TRANSLATION.name:
-                if is_ready_packet(packet['tra_id'], creds, config['prelim_translation']):
+                if is_ready_packet(packet['tra_id'], creds, state[lang]['prelim_translation']):
                     packet['stage'] = Stage.FIRST_REVISION
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     logger.info(f"Packet '{packet['title']}': First translation complete by user '{packet['translator']}'. Submitting for revision.")
@@ -233,7 +233,7 @@ if __name__ == "__main__":
                     state[lang][packet_string][idx] = create_revision_spreadsheet(creds, lang, packet['title'], packet)
 
             elif packet['stage'] == Stage.SECOND_TRANSLATION.name:
-                if is_ready_packet(packet['tra_id'], creds, config['prelim_translation']):
+                if is_ready_packet(packet['tra_id'], creds, state[lang]['prelim_translation']):
                     t = len([key for key in state[lang][packet_string].keys()
                              if state[lang][packet_string][key] is not None])
                     c = get_c(
@@ -263,8 +263,8 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                     state[lang]['spent_additional_revisions'] += 0 if state[lang]['prelim_translation'] else k
 
             elif packet['stage'] == Stage.FIRST_REVISION.name:
-                if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
-                    if is_complete_translation(packet['rev_id'], creds, config['prelim_translation']):
+                if is_ready_packet(packet['rev_id'], creds, state[lang]['prelim_translation']):
+                    if is_complete_translation(packet['rev_id'], creds, state[lang]['prelim_translation']):
 
                         # update state with stage, completed packet, and the sentences translated by
                         # both the translator and the revisor
@@ -291,15 +291,11 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                         subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
                         send_email_notification([packet['translator'], packet['revisor']], message, subject)
 
-                        next_packet_idx = [int(idx) for idx in
-                                           state[lang][packet_string].keys() if
-                                           state[lang][packet_string][idx] is None] 
+                        next_packet_idx = [int(idx) for idx in state[lang][packet_string].keys() if state[lang][packet_string][idx] is None]
 
                         if not next_packet_idx:
                             logger.info(f"Langage '{lang}' has no unassigned packets left to translate.")
-                            open_packets = [p for p in
-                                            state[lang][packet_string] if
-                                            state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
+                            open_packets = [p for p in state[lang][packet_string] if state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
                             if not open_packets:
                                 logger.info(f"All packets of language '{lang}' have been translated.")
                                 state[lang]['translation_complete'] = False if state[lang]['prelim_translation'] else True
@@ -309,7 +305,7 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
 
                         state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
                             creds=creds,
-                            sents=PRELIM_DATASET[next_packet_idx] if config['prelim_translation'] else DATASET[next_packet_idx],
+                            sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],
                             lang_code=lang,
                             title=f"{prelim_title_string}{lang}_{next_packet_idx}",
                             tra_email=packet['translator'],
@@ -336,11 +332,11 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     send_email_notification(packet['revisor'], message, subject)
 
             elif packet['stage'] == Stage.SECOND_REVISION.name:
-                if is_ready_packet(packet['rev_id'], creds, config['prelim_translation']):
+                if is_ready_packet(packet['rev_id'], creds, state[lang]['prelim_translation']):
                     packet['stage'] = Stage.TRANSLATION_COMPLETE
                     packet['last_stage_update'] = datetime.now().strftime(DATETIME_FORMAT)
                     state[lang][packet_string][idx] = packet
-                    tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'], config['prelim_translation'])
+                    tra_sents, rev_sents = get_translation_ids(creds, packet['rev_id'], state[lang]['prelim_translation'])
                     state[lang]['translators'][packet['translator']] += tra_sents
                     state[lang]['revisors'][packet['revisor']] += rev_sents
 
@@ -372,7 +368,7 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     next_packet_idx = min(next_packet_idx)
                     state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
                         creds=creds,
-                        sents=PRELIM_DATASET[next_packet_idx] if config['prelim_translation'] else DATASET[next_packet_idx],
+                        sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],
                         lang_code=lang,
                         title=f"{prelim_title_string}{lang}_{next_packet_idx}",
                         tra_email=packet['translator'],
