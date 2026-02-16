@@ -2163,3 +2163,10 @@ INFO : 2026-02-16 22:23:25,461 Running update on language: sjn
 INFO : 2026-02-16 22:23:26,911 Running update on language: mam
 INFO : 2026-02-16 22:23:29,216 Running update on language: cak
 INFO : 2026-02-16 22:23:31,321 Saving state to file.
+INFO : 2026-02-16 23:08:07,991 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-16 23:08:08,764 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-16 23:08:09,575 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-16 23:08:10,082 Running update on language: sjn
+INFO : 2026-02-16 23:08:12,455 Running update on language: mam
+INFO : 2026-02-16 23:08:14,221 Running update on language: cak
+INFO : 2026-02-16 23:08:16,163 Saving state to file.
