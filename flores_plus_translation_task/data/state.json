@@ -8,8 +8,28 @@
       "lourios.andres@gmail.com": []
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1xfJIeOkJ7_BWnjcHusKiapmunbiZqDO5vTjYfWflHBc",
+        "rev_id": null,
+        "title": "prelim_sjn_0",
+        "created": "Feb 16 2026 02:58PM",
+        "last_stage_update": "Feb 16 2026 02:58PM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1HLO84CCHoby3lYrp_MFLgKJiYE2p0CRN1wyEhKWNRFI",
+        "rev_id": null,
+        "title": "prelim_sjn_1",
+        "created": "Feb 16 2026 02:58PM",
+        "last_stage_update": "Feb 16 2026 02:58PM",
+        "translator": "andres.lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
