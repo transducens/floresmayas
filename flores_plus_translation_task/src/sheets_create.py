@@ -160,6 +160,7 @@ def create_translation_spreadsheet(
                 spreadsheetId=id,
                 body=body
             ).execute()
+            break
         except Exception as e:
             print(e)
             sleep(t)
@@ -614,6 +615,7 @@ def create_revision_spreadsheet(creds, lang_code, title, packet):
                     body={"destinationSpreadsheetId": rev_id}
                 ).execute()
             )
+            break
         except Exception as e:
             print(e)
             sleep(t)
@@ -2298,7 +2300,7 @@ def flores_sentences(creds: object, state: dict, lang: str, is_prelim=False) -> 
                         state[lang][packets_string][p] is not None and
                         state[lang][packets_string][p].get('stage') == "TRANSLATION_COMPLETE"]:
                 sheets = service.spreadsheets().get(spreadsheetId=state[lang][packets_string][idx]['rev_id']).execute()
-                sleep(10)
+                sleep(5)
                 sheets = sheets['sheets']
                 if len(sheets) > 1:
                     values = service.spreadsheets().values().get(
@@ -2333,7 +2335,8 @@ def flores_sentences(creds: object, state: dict, lang: str, is_prelim=False) -> 
                             sent_translator = translator
                     sentences.append((sent_id, sent, sent_packet, sent_translator))
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -2622,7 +2625,8 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
         try:
             spreadsheet_id = service.files().list(q=f"name = 'Reporte ({lang})'").execute()
             break
-        except:
+        except Exception as e:
+            print(e)
             sleep(t)
             t = 2 * t
             continue
@@ -2647,7 +2651,7 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
         while True:
             try:
                 tra_url = service.files().get(fileId=tra_id, fields="webViewLink").execute()
-                sleep(5)
+                sleep(3)
                 break
             except:
                 sleep(t)
@@ -2681,7 +2685,7 @@ def update_report_spreadsheet(creds: object, state: dict, lang: str):
             while True:
                 try:
                     rev_url = service.files().get(fileId=rev_id, fields="webViewLink").execute()
-                    sleep(5)
+                    sleep(3)
                     break
                 except:
                     sleep(t)
