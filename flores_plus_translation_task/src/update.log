@@ -2170,3 +2170,20 @@ INFO : 2026-02-16 23:08:10,082 Running update on language: sjn
 INFO : 2026-02-16 23:08:12,455 Running update on language: mam
 INFO : 2026-02-16 23:08:14,221 Running update on language: cak
 INFO : 2026-02-16 23:08:16,163 Saving state to file.
+INFO : 2026-02-17 14:19:41,570 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-17 14:19:42,451 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-17 14:19:43,293 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-17 14:19:44,174 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-17 14:19:44,992 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-02-17 14:19:46,056 Language 'kek' has no packages ready to work on.
+INFO : 2026-02-17 14:19:56,500 New packet 'kek_0' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'juan.tzoc@gmail.com'
+INFO : 2026-02-17 14:20:07,442 New packet 'kek_1' created for language 'kek' and assigned to translator 'poyanam@yahoo.es' and revisor 'juan.tzoc@gmail.com'
+WARNING : 2026-02-17 14:20:07,442 Language 'quc' has no packages ready to work on.
+INFO : 2026-02-17 14:20:21,659 New packet 'quc_0' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'
+INFO : 2026-02-17 14:20:32,721 New packet 'quc_1' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'
+INFO : 2026-02-17 14:20:32,721 Running update on language: sjn
+INFO : 2026-02-17 14:20:34,766 Running update on language: mam
+INFO : 2026-02-17 14:20:36,815 Running update on language: kek
+INFO : 2026-02-17 14:20:38,420 Running update on language: cak
+INFO : 2026-02-17 14:20:40,790 Running update on language: quc
+INFO : 2026-02-17 14:20:42,347 Saving state to file.
