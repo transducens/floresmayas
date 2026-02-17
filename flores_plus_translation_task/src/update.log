@@ -2187,3 +2187,16 @@ INFO : 2026-02-17 14:20:36,815 Running update on language: kek
 INFO : 2026-02-17 14:20:38,420 Running update on language: cak
 INFO : 2026-02-17 14:20:40,790 Running update on language: quc
 INFO : 2026-02-17 14:20:42,347 Saving state to file.
+INFO : 2026-02-17 18:19:34,527 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-17 18:19:35,377 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-17 18:19:36,220 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-17 18:19:37,311 Updating vocabulary file for lang 'kek'.
+INFO : 2026-02-17 18:19:37,315 Updating current packets with new vocabulary for language 'kek'.
+INFO : 2026-02-17 18:19:39,743 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-17 18:19:40,593 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-17 18:19:41,443 Running update on language: sjn
+INFO : 2026-02-17 18:19:43,520 Running update on language: mam
+INFO : 2026-02-17 18:19:45,590 Running update on language: kek
+INFO : 2026-02-17 18:19:46,775 Running update on language: cak
+INFO : 2026-02-17 18:19:48,904 Running update on language: quc
+INFO : 2026-02-17 18:19:50,858 Saving state to file.
