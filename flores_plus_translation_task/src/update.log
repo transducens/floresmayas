@@ -2265,3 +2265,14 @@ INFO : 2026-02-19 14:22:05,636 Running update on language: cak
 INFO : 2026-02-19 14:22:07,692 Packet 'prelim_cak_4': First translation complete by user 'gabrielpichiya@gmail.com'. Submitting for revision.
 INFO : 2026-02-19 14:22:18,053 Running update on language: quc
 INFO : 2026-02-19 14:22:20,048 Saving state to file.
+INFO : 2026-02-19 18:18:40,952 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-19 18:18:41,890 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-19 18:18:42,723 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-19 18:18:43,577 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-19 18:18:44,253 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-19 18:18:44,914 Running update on language: sjn
+INFO : 2026-02-19 18:18:48,729 Running update on language: mam
+INFO : 2026-02-19 18:18:50,896 Running update on language: kek
+INFO : 2026-02-19 18:18:53,396 Running update on language: cak
+INFO : 2026-02-19 18:18:55,970 Running update on language: quc
+INFO : 2026-02-19 18:18:58,875 Saving state to file.
