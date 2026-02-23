@@ -2402,3 +2402,16 @@ INFO : 2026-02-23 14:20:52,133 Checking to see next available packet for user 's
 INFO : 2026-02-23 14:20:52,133 Langage 'cak' has no unassigned packets left.
 INFO : 2026-02-23 14:20:52,133 Running update on language: quc
 INFO : 2026-02-23 14:20:54,379 Saving state to file.
+INFO : 2026-02-23 23:13:50,713 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-23 23:13:51,627 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-23 23:13:52,595 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-23 23:13:53,874 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-23 23:13:54,769 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-23 23:13:55,573 Running update on language: sjn
+INFO : 2026-02-23 23:13:57,576 Running update on language: mam
+INFO : 2026-02-23 23:14:00,294 Running update on language: kek
+INFO : 2026-02-23 23:14:02,667 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-23 23:14:02,668 No unassigned packets lefts.
+INFO : 2026-02-23 23:14:02,668 Running update on language: cak
+INFO : 2026-02-23 23:14:03,698 Running update on language: quc
+INFO : 2026-02-23 23:14:08,674 Saving state to file.
