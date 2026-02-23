@@ -98,32 +98,40 @@ def get_users(users_filename: str) -> dict:
 def is_ready_packet(id: str, creds: object, is_prelim=False) -> bool:
     packet_size = PRELIM_PACKET_SIZE if is_prelim else PACKET_SIZE
     service = build("sheets", "v4", credentials=creds)
-    last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][0]['properties']['title']
-    n_values = (
-            service.spreadsheets().values().get(
-                spreadsheetId=id,
-                range=f"{last_sheet_name}!A1:A"
-            ).execute()
-    )
-    n_values = len(n_values['values'])
-    results = (
-        service.spreadsheets().get(
-            spreadsheetId=id,
-            includeGridData=True,
-            ranges=[f"{last_sheet_name}!B{n_values}"]
-        ).execute()
-    )
+    t = 30
+    while True:
+        try:
+            last_sheet_name = service.spreadsheets().get(spreadsheetId=id).execute()['sheets'][0]['properties']['title']
+            n_values = (
+                    service.spreadsheets().values().get(
+                        spreadsheetId=id,
+                        range=f"{last_sheet_name}!A1:A"
+                    ).execute()
+            )
+            n_values = len(n_values['values'])
+            results = (
+                service.spreadsheets().get(
+                    spreadsheetId=id,
+                    includeGridData=True,
+                    ranges=[f"{last_sheet_name}!B{n_values}"]
+                ).execute()
+            )
 
-    rgb_color = (
-        results['sheets'][0]
-        ['data'][0]
-        ['rowData'][0]
-        ['values'][0]
-        ['effectiveFormat']
-        ['backgroundColorStyle']
-        ['rgbColor']
-    )
-    return len(rgb_color.keys()) == 1 and rgb_color.get('green') == 1
+            rgb_color = (
+                results['sheets'][0]
+                ['data'][0]
+                ['rowData'][0]
+                ['values'][0]
+                ['effectiveFormat']
+                ['backgroundColorStyle']
+                ['rgbColor']
+            )
+            return len(rgb_color.keys()) == 1 and rgb_color.get('green') == 1
+
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
 
 def is_complete_translation(id: str, creds: object, is_prelim=False) -> bool:
