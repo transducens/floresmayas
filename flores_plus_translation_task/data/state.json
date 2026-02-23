@@ -398,7 +398,17 @@
         "37",
         "38",
         "39",
-        "40"
+        "40",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
       ]
     },
     "revisors": {
@@ -467,10 +477,10 @@
         "rev_id": "12Xhj73xiWY81jL9zE7hyuggxv630NUaTAHpSiv7MCKY",
         "title": "prelim_cak_5",
         "created": "Feb 18 2026 02:19PM",
-        "last_stage_update": "Feb 22 2026 02:08PM",
+        "last_stage_update": "Feb 23 2026 02:20PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },
