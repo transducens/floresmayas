@@ -2429,3 +2429,37 @@ INFO : 2026-02-24 14:22:32,610 Running update on language: cak
 INFO : 2026-02-24 14:22:37,309 Packet 'prelim_cak_4': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
 INFO : 2026-02-24 14:22:39,359 Running update on language: quc
 INFO : 2026-02-24 14:22:42,006 Saving state to file.
+INFO : 2026-02-24 10:46:58,260 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-24 10:46:59,010 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-24 10:46:59,610 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-24 10:47:00,187 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-24 10:47:00,793 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-24 10:47:01,384 Running update on language: sjn
+WARNING : 2026-02-24 10:47:03,664 Found 2 inactive translator(s).
+INFO : 2026-02-24 10:47:07,181 The following translators have been removed from the project: ['xjaw1964@gmail.com', 'vsindybeatriz@gmail.com']
+INFO : 2026-02-24 10:47:07,181 Found new translator 'ixkikap@gmail.com'. Adding them to roster of language 'mam'.
+INFO : 2026-02-24 10:47:07,181 Found new translator 'princesamam16@gmail.com'. Adding them to roster of language 'mam'.
+INFO : 2026-02-24 10:47:07,181 Found 2 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-24 10:47:13,655 New packet 'mam_2' created for language 'mam' and assigned to translator 'ixkikap@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-24 10:47:20,564 New packet 'mam_3' created for language 'mam' and assigned to translator 'princesamam16@gmail.com' and revisor 'ixkikap@gmail.com'.
+INFO : 2026-02-24 10:47:20,564 Running update on language: mam
+INFO : 2026-02-24 10:47:23,984 Packet 'prelim_mam_0': First revision complete by user 'ixkikap@gmail.com'. Submitting for second translation.
+INFO : 2026-02-24 10:47:26,929 Running update on language: kek
+INFO : 2026-02-24 10:47:29,376 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-24 10:47:29,376 No unassigned packets lefts.
+INFO : 2026-02-24 10:47:29,376 Running update on language: cak
+INFO : 2026-02-24 10:47:32,040 Running update on language: quc
+INFO : 2026-02-24 10:47:34,355 Saving state to file.
+INFO : 2026-02-24 10:58:04,198 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-24 10:58:05,434 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-24 10:58:06,621 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-24 10:58:07,851 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-24 10:58:09,022 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-24 10:58:10,305 Running update on language: sjn
+INFO : 2026-02-24 10:58:13,857 Running update on language: mam
+INFO : 2026-02-24 10:59:03,039 Running update on language: kek
+INFO : 2026-02-24 10:59:05,831 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-24 10:59:05,831 No unassigned packets lefts.
+INFO : 2026-02-24 10:59:05,831 Running update on language: cak
+INFO : 2026-02-24 10:59:06,935 Running update on language: quc
+INFO : 2026-02-24 10:59:09,125 Saving state to file.

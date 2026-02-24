@@ -120,11 +120,11 @@
   },
   "mam": {
     "translators": {
-      "xjaw1964@gmail.com": [],
-      "vsindybeatriz@gmail.com": []
+      "ixkikap@gmail.com": [],
+      "princesamam16@gmail.com": []
     },
     "revisors": {
-      "ixkikap@gmail.com": []
+      "saqpom@gmail.com": []
     },
     "prelim_packets": {
       "0": {
@@ -133,9 +133,9 @@
         "title": "prelim_mam_0",
         "created": "Feb 11 2026 03:50PM",
         "last_stage_update": "Feb 12 2026 09:14PM",
-        "translator": "xjaw1964@gmail.com",
-        "revisor": "ixkikap@gmail.com",
-        "stage": "FIRST_REVISION",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 0
       },
       "1": {
@@ -144,8 +144,8 @@
         "title": "prelim_mam_1",
         "created": "Feb 11 2026 03:51PM",
         "last_stage_update": "Feb 13 2026 07:59PM",
-        "translator": "vsindybeatriz@gmail.com",
-        "revisor": "ixkikap@gmail.com",
+        "translator": "ixkikap@gmail.com",
+        "revisor": "saqpom@gmail.com",
         "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },

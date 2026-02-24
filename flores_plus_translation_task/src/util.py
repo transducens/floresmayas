@@ -197,7 +197,7 @@ def remove_permissions(creds, state: dict) -> list:
     for doc_id in doc_ids:
         results = service.permissions().list(fileId=doc_id, fields="permissions").execute()
         for permission in results['permissions']:
-            if permission['emailAddress'] in workers_to_remove:
+            if permission.get('emailAddress') in workers_to_remove:
                 service.permissions().delete(
                     fileId=doc_id,
                     permissionId=permission['id']
