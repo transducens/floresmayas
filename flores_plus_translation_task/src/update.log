@@ -2503,3 +2503,16 @@ INFO : 2026-02-24 23:10:00,877 Running update on language: cak
 INFO : 2026-02-24 23:10:01,941 Packet 'prelim_cak_4': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
 INFO : 2026-02-24 23:10:06,865 Running update on language: quc
 INFO : 2026-02-24 23:10:09,187 Saving state to file.
+INFO : 2026-02-25 14:21:29,356 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-25 14:21:30,886 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-25 14:21:32,004 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-25 14:21:33,349 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-25 14:21:41,725 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-25 14:21:44,171 Running update on language: sjn
+INFO : 2026-02-25 14:21:46,602 Running update on language: mam
+INFO : 2026-02-25 14:21:49,308 Running update on language: kek
+INFO : 2026-02-25 14:21:52,818 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-25 14:21:52,818 No unassigned packets lefts.
+INFO : 2026-02-25 14:21:52,819 Running update on language: cak
+INFO : 2026-02-25 14:21:54,557 Running update on language: quc
+INFO : 2026-02-25 14:21:57,611 Saving state to file.
