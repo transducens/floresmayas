@@ -2529,3 +2529,20 @@ INFO : 2026-02-25 18:23:47,450 No unassigned packets lefts.
 INFO : 2026-02-25 18:23:47,450 Running update on language: cak
 INFO : 2026-02-25 18:23:48,745 Running update on language: quc
 INFO : 2026-02-25 18:23:50,871 Saving state to file.
+INFO : 2026-02-25 23:10:12,266 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-25 23:10:13,174 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-25 23:10:14,077 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-25 23:10:15,046 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-25 23:10:15,820 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-25 23:10:16,655 Running update on language: sjn
+INFO : 2026-02-25 23:10:18,758 Running update on language: mam
+INFO : 2026-02-25 23:10:21,069 Running update on language: kek
+INFO : 2026-02-25 23:10:23,131 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-02-25 23:10:23,131 No unassigned packets lefts.
+INFO : 2026-02-25 23:10:23,131 Running update on language: cak
+INFO : 2026-02-25 23:10:26,341 Packet 'prelim_cak_4': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
+INFO : 2026-02-25 23:10:27,722 Checking to see next available packet for user 'gabrielpichiya@gmail.com
+INFO : 2026-02-25 23:10:27,722 Langage 'cak' has no unassigned packets left.
+INFO : 2026-02-25 23:10:27,722 All packets of language 'cak' have been translated.
+INFO : 2026-02-25 23:10:27,722 Running update on language: quc
+INFO : 2026-02-25 23:10:29,935 Saving state to file.

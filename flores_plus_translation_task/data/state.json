@@ -376,7 +376,17 @@
         "27",
         "28",
         "29",
-        "30"
+        "30",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
       ],
       "svasquezv7@miumg.edu.gt": [
         "11",
@@ -466,10 +476,10 @@
         "rev_id": "14_9c93Y3923KZnjDvhsEXf65yIm7CqBvW2f9KvpS-yI",
         "title": "prelim_cak_4",
         "created": "Feb 18 2026 02:19PM",
-        "last_stage_update": "Feb 24 2026 11:10PM",
+        "last_stage_update": "Feb 25 2026 11:10PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 4
       },
       "5": {
@@ -499,7 +509,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": true,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
     "vocab_id": "1HQ4_JDszuJhzxHlf-68Zr7NVAbXIDnUdwf2lKpIgC-w",
