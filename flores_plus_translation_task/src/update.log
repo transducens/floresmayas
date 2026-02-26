@@ -2546,3 +2546,12 @@ INFO : 2026-02-25 23:10:27,722 Langage 'cak' has no unassigned packets left.
 INFO : 2026-02-25 23:10:27,722 All packets of language 'cak' have been translated.
 INFO : 2026-02-25 23:10:27,722 Running update on language: quc
 INFO : 2026-02-25 23:10:29,935 Saving state to file.
+INFO : 2026-02-26 14:20:42,582 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-26 14:20:43,872 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-26 14:20:44,631 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-26 14:20:45,392 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-26 14:20:46,050 Running update on language: sjn
+INFO : 2026-02-26 14:20:48,349 Running update on language: mam
+INFO : 2026-02-26 14:20:50,626 Running update on language: kek
+INFO : 2026-02-26 14:20:52,683 Running update on language: quc
+INFO : 2026-02-26 14:20:56,533 Saving state to file.
