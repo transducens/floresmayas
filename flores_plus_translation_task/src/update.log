@@ -2555,3 +2555,18 @@ INFO : 2026-02-26 14:20:48,349 Running update on language: mam
 INFO : 2026-02-26 14:20:50,626 Running update on language: kek
 INFO : 2026-02-26 14:20:52,683 Running update on language: quc
 INFO : 2026-02-26 14:20:56,533 Saving state to file.
+INFO : 2026-02-26 15:51:49,776 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-26 15:51:50,651 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-26 15:51:51,311 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-26 15:51:51,972 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-26 15:51:52,793 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-02-26 15:51:53,391 Language 'cak' has no packages ready to work on.
+INFO : 2026-02-26 15:52:06,166 New packet 'cak_0' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'matuyuc@gmail.com'
+INFO : 2026-02-26 15:52:19,540 New packet 'cak_1' created for language 'cak' and assigned to translator 'svasquezv7@miumg.edu.gt' and revisor 'matuyuc@gmail.com'
+INFO : 2026-02-26 15:52:19,540 Running update on language: sjn
+INFO : 2026-02-26 15:52:21,467 Running update on language: mam
+INFO : 2026-02-26 15:52:23,740 Packet 'prelim_mam_1': Second translation complete by user 'ixkikap@gmail.com'. Submitting for second revision.
+INFO : 2026-02-26 15:52:28,754 Running update on language: kek
+INFO : 2026-02-26 15:52:31,038 Running update on language: cak
+INFO : 2026-02-26 15:52:32,610 Running update on language: quc
+INFO : 2026-02-26 15:52:34,538 Saving state to file.
