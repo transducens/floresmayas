@@ -2594,3 +2594,14 @@ INFO : 2026-02-26 23:09:22,757 Packet 'kek_1': First translation complete by use
 INFO : 2026-02-26 23:09:34,035 Running update on language: cak
 INFO : 2026-02-26 23:09:36,454 Running update on language: quc
 INFO : 2026-02-26 23:09:39,251 Saving state to file.
+INFO : 2026-02-27 14:15:47,925 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-02-27 14:15:49,120 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-02-27 14:15:49,975 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-02-27 14:15:52,805 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-02-27 14:15:54,034 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-02-27 14:16:01,629 Running update on language: sjn
+INFO : 2026-02-27 14:16:04,013 Running update on language: mam
+INFO : 2026-02-27 14:16:09,334 Running update on language: kek
+INFO : 2026-02-27 14:16:13,109 Running update on language: cak
+INFO : 2026-02-27 14:16:15,421 Running update on language: quc
+INFO : 2026-02-27 14:16:19,048 Saving state to file.
