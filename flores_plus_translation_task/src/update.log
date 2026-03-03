@@ -2727,3 +2727,14 @@ INFO : 2026-03-03 12:18:08,588 Running update on language: cak
 INFO : 2026-03-03 12:18:09,691 Packet 'cak_0': First translation complete by user 'gabrielpichiya@gmail.com'. Submitting for revision.
 INFO : 2026-03-03 12:18:18,787 Running update on language: quc
 INFO : 2026-03-03 12:18:21,366 Saving state to file.
+INFO : 2026-03-03 14:44:21,939 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-03 14:44:23,409 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-03 14:44:24,123 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-03 14:44:24,856 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-03 14:44:25,800 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-03 14:44:26,842 Running update on language: sjn
+INFO : 2026-03-03 14:44:29,016 Running update on language: mam
+INFO : 2026-03-03 14:44:31,749 Running update on language: kek
+INFO : 2026-03-03 14:44:36,471 Running update on language: cak
+INFO : 2026-03-03 14:44:45,317 Running update on language: quc
+INFO : 2026-03-03 14:44:47,828 Saving state to file.
