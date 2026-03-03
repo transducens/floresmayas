@@ -133,16 +133,21 @@ def is_ready_packet(id: str, creds: object, is_prelim=False) -> bool:
             t = 2 * t
             continue
 
-
 def is_complete_translation(id: str, creds: object, is_prelim=False) -> bool:
     service = build("sheets", "v4", credentials=creds)
-    data = service.spreadsheets().values().get(
-        spreadsheetId=id,
-        range=(f"G2:G")
-    ).execute()
-    data = [value[0] for value in data['values']]
-
-    return len([value for value in data if value == "Correcta"]) == len(data)
+    t = 30
+    while True:
+        try:
+            data = service.spreadsheets().values().get(
+                spreadsheetId=id,
+                range=(f"G2:G")
+            ).execute()
+            data = [value[0] for value in data['values']]
+            return len([value for value in data if value == "Correcta"]) == len(data)
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
 
 
 def get_translation_ids(creds: object, rev_id: str, is_prelim=False) -> list:
@@ -150,7 +155,15 @@ def get_translation_ids(creds: object, rev_id: str, is_prelim=False) -> list:
     service = build("sheets", "v4", credentials=creds)
     sheets = service.spreadsheets().get(spreadsheetId=rev_id).execute()['sheets']
     sheet_title = sheets[0]['properties']['title']
-    values = service.spreadsheets().values().get(spreadsheetId=rev_id, range=f"{sheet_title}!A1:N{packet_size + 1}").execute()['values']
+    t = 30
+    while True:
+        try:
+            values = service.spreadsheets().values().get(spreadsheetId=rev_id, range=f"{sheet_title}!A1:N{packet_size + 1}").execute()['values']
+            break
+        except:
+            sleep(t)
+            t = 2 * t
+            continue
     if len(sheets) == 1:
         values = [value[0] for value in values[1:]]
         return values, []
