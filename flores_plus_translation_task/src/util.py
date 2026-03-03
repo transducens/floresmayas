@@ -3,6 +3,7 @@ import os.path
 import json
 import smtplib
 import ssl
+from time import sleep
 from math import sqrt, floor
 from typing import List, Union
 from email.message import EmailMessage
