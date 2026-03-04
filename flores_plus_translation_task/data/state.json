@@ -121,7 +121,10 @@
   "mam": {
     "translators": {
       "ixkikap@gmail.com": [],
-      "princesamam16@gmail.com": []
+      "princesamam16@gmail.com": [
+        "7",
+        "8"
+      ]
     },
     "revisors": {
       "saqpom@gmail.com": [
@@ -134,7 +137,15 @@
         "17",
         "18",
         "19",
-        "20"
+        "20",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "9",
+        "10"
       ]
     },
     "prelim_packets": {
@@ -143,10 +154,10 @@
         "rev_id": "1PxKYQZMAElrZd--l8rgiqZTOCL8BX0Ncf6szKux4z5M",
         "title": "prelim_mam_0",
         "created": "Feb 11 2026 03:50PM",
-        "last_stage_update": "Feb 26 2026 11:09PM",
+        "last_stage_update": "Mar 04 2026 06:14PM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {
@@ -171,7 +182,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 2
       },
-      "3": null,
+      "3": {
+        "tra_id": "12lh1HfY2dRbJ0Jd8kObiCc5_V9lzocB9yErVvkeiP_0",
+        "rev_id": null,
+        "title": "prelim_mam_3",
+        "created": "Mar 04 2026 06:14PM",
+        "last_stage_update": "Mar 04 2026 06:14PM",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 3
+      },
       "4": null,
       "5": null
     },

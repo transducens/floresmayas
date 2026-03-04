@@ -2774,3 +2774,17 @@ INFO : 2026-03-04 14:16:03,042 Running update on language: kek
 INFO : 2026-03-04 14:16:05,121 Running update on language: cak
 INFO : 2026-03-04 14:17:11,241 Running update on language: quc
 INFO : 2026-03-04 14:17:13,693 Saving state to file.
+INFO : 2026-03-04 18:13:56,343 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-04 18:13:57,216 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-04 18:13:58,045 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-04 18:13:58,767 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-04 18:13:59,608 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-04 18:14:00,726 Running update on language: sjn
+INFO : 2026-03-04 18:14:02,938 Running update on language: mam
+INFO : 2026-03-04 18:14:07,064 Packet 'prelim_mam_0': Second revision complete by user 'saqpom@gmail.com'. Translation complete.
+INFO : 2026-03-04 18:14:08,208 Checking to see next available packet for user 'princesamam16@gmail.com
+INFO : 2026-03-04 18:14:14,581 New packet 'mam_3' created for language 'mam' and assigned to translator 'princesamam16@gmail.com' and revisor 'saqpom@gmail.com'.
+INFO : 2026-03-04 18:14:15,917 Running update on language: kek
+INFO : 2026-03-04 18:14:18,673 Running update on language: cak
+INFO : 2026-03-04 18:14:21,075 Running update on language: quc
+INFO : 2026-03-04 18:14:23,225 Saving state to file.
