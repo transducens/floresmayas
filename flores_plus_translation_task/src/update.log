@@ -2812,3 +2812,14 @@ INFO : 2026-03-05 14:18:20,099 Packet 'kek_1': First revision complete by user '
 INFO : 2026-03-05 14:18:21,917 Running update on language: cak
 INFO : 2026-03-05 14:18:24,071 Running update on language: quc
 INFO : 2026-03-05 14:18:26,063 Saving state to file.
+INFO : 2026-03-05 18:36:56,455 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-05 18:36:57,487 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-05 18:36:58,428 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-05 18:36:59,371 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-05 18:37:00,218 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-05 18:37:01,341 Running update on language: sjn
+INFO : 2026-03-05 18:37:03,594 Running update on language: mam
+INFO : 2026-03-05 18:37:05,988 Running update on language: kek
+INFO : 2026-03-05 18:37:08,448 Running update on language: cak
+INFO : 2026-03-05 18:37:10,980 Running update on language: quc
+INFO : 2026-03-05 18:37:13,298 Saving state to file.
