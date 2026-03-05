@@ -359,13 +359,13 @@
     "packets": {
       "0": {
         "tra_id": "1FkHLEHGzq4AelOXTEe6KAv2_EfVwxk1FM1v7O70tF9k",
-        "rev_id": null,
+        "rev_id": "1MheDj7_MTIQzI6Tkwln7bIIRGptgumU2XNnAgxX7e3Q",
         "title": "kek_0",
         "created": "Feb 17 2026 02:19PM",
-        "last_stage_update": "Feb 17 2026 02:19PM",
+        "last_stage_update": "Mar 05 2026 02:18PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -373,10 +373,10 @@
         "rev_id": "1AkuqM7-3iF2Or0xjST6gBbhLkwoXXoqR3Uevz6hLL98",
         "title": "kek_1",
         "created": "Feb 17 2026 02:20PM",
-        "last_stage_update": "Feb 26 2026 11:09PM",
+        "last_stage_update": "Mar 05 2026 02:18PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },
       "2": null,

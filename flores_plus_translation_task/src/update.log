@@ -2799,3 +2799,16 @@ INFO : 2026-03-04 23:08:57,329 Running update on language: kek
 INFO : 2026-03-04 23:08:59,457 Running update on language: cak
 INFO : 2026-03-04 23:09:01,943 Running update on language: quc
 INFO : 2026-03-04 23:09:04,793 Saving state to file.
+INFO : 2026-03-05 14:17:58,585 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-05 14:17:59,434 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-05 14:18:00,092 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-05 14:18:01,054 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-05 14:18:01,899 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-05 14:18:02,752 Running update on language: sjn
+INFO : 2026-03-05 14:18:04,665 Running update on language: mam
+INFO : 2026-03-05 14:18:06,848 Running update on language: kek
+INFO : 2026-03-05 14:18:07,726 Packet 'kek_0': First translation complete by user 'equidades@gmail.com'. Submitting for revision.
+INFO : 2026-03-05 14:18:20,099 Packet 'kek_1': First revision complete by user 'juan.tzoc@gmail.com'. Submitting for second translation.
+INFO : 2026-03-05 14:18:21,917 Running update on language: cak
+INFO : 2026-03-05 14:18:24,071 Running update on language: quc
+INFO : 2026-03-05 14:18:26,063 Saving state to file.
