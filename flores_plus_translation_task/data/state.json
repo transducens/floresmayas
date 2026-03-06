@@ -184,13 +184,13 @@
       },
       "3": {
         "tra_id": "12lh1HfY2dRbJ0Jd8kObiCc5_V9lzocB9yErVvkeiP_0",
-        "rev_id": null,
+        "rev_id": "1-IGh0MuUSOMSkh-gBYb65zXGWiWTFACbzqETi3tzJZw",
         "title": "prelim_mam_3",
         "created": "Mar 04 2026 06:14PM",
-        "last_stage_update": "Mar 04 2026 06:14PM",
+        "last_stage_update": "Mar 06 2026 11:07PM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 3
       },
       "4": null,
@@ -362,10 +362,10 @@
         "rev_id": "1MheDj7_MTIQzI6Tkwln7bIIRGptgumU2XNnAgxX7e3Q",
         "title": "kek_0",
         "created": "Feb 17 2026 02:19PM",
-        "last_stage_update": "Mar 05 2026 02:18PM",
+        "last_stage_update": "Mar 06 2026 11:07PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 0
       },
       "1": {
