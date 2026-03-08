@@ -2907,3 +2907,14 @@ INFO : 2026-03-07 23:04:58,939 Packet 'kek_0': Second translation complete by us
 INFO : 2026-03-07 23:05:05,606 Running update on language: cak
 INFO : 2026-03-07 23:05:07,494 Running update on language: quc
 INFO : 2026-03-07 23:05:09,501 Saving state to file.
+INFO : 2026-03-08 14:06:12,845 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-08 14:06:13,764 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-08 14:06:16,741 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-08 14:06:17,633 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-08 14:06:18,565 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-08 14:06:19,368 Running update on language: sjn
+INFO : 2026-03-08 14:06:21,380 Running update on language: mam
+INFO : 2026-03-08 14:06:23,767 Running update on language: kek
+INFO : 2026-03-08 14:06:26,718 Running update on language: cak
+INFO : 2026-03-08 14:06:28,746 Running update on language: quc
+INFO : 2026-03-08 14:06:31,561 Saving state to file.
