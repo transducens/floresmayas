@@ -939,13 +939,13 @@
     "packets": {
       "0": {
         "tra_id": "1Ao9UsgO1NAkj4uxKn6J-UadYUo4gBQvwUickSm5_sDo",
-        "rev_id": null,
+        "rev_id": "1XZKT26mYq38Z0DepOXGBYoii0XDZyNT8NzbgSLP1CQQ",
         "title": "quc_0",
         "created": "Feb 17 2026 02:20PM",
-        "last_stage_update": "Feb 17 2026 02:20PM",
+        "last_stage_update": "Mar 10 2026 11:07PM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
