@@ -3031,3 +3031,14 @@ INFO : 2026-03-11 14:19:43,207 Running update on language: cak
 INFO : 2026-03-11 14:19:44,445 Packet 'cak_0': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
 INFO : 2026-03-11 14:19:51,746 Running update on language: quc
 INFO : 2026-03-11 14:19:53,967 Saving state to file.
+INFO : 2026-03-11 18:18:12,480 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-11 18:18:13,435 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-11 18:18:14,225 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-11 18:18:15,233 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-11 18:18:16,200 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-11 18:18:17,207 Running update on language: sjn
+INFO : 2026-03-11 18:18:19,547 Running update on language: mam
+INFO : 2026-03-11 18:18:21,769 Running update on language: kek
+INFO : 2026-03-11 18:18:23,940 Running update on language: cak
+INFO : 2026-03-11 18:18:26,654 Running update on language: quc
+INFO : 2026-03-11 18:18:29,163 Saving state to file.
