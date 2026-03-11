@@ -123,7 +123,16 @@
       "ixkikap@gmail.com": [],
       "princesamam16@gmail.com": [
         "7",
-        "8"
+        "8",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ]
     },
     "revisors": {
@@ -145,7 +154,8 @@
         "5",
         "6",
         "9",
-        "10"
+        "10",
+        "31"
       ]
     },
     "prelim_packets": {
@@ -187,13 +197,23 @@
         "rev_id": "1-IGh0MuUSOMSkh-gBYb65zXGWiWTFACbzqETi3tzJZw",
         "title": "prelim_mam_3",
         "created": "Mar 04 2026 06:14PM",
-        "last_stage_update": "Mar 10 2026 06:16PM",
+        "last_stage_update": "Mar 11 2026 02:19PM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 3
       },
-      "4": null,
+      "4": {
+        "tra_id": "1DyiitW2kWLQtAx3IUJFWQ045KO5MvhnIlByY0Qf1K2o",
+        "rev_id": null,
+        "title": "prelim_mam_4",
+        "created": "Mar 11 2026 02:19PM",
+        "last_stage_update": "Mar 11 2026 02:19PM",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 4
+      },
       "5": null
     },
     "packets": {
@@ -762,10 +782,10 @@
         "rev_id": "1EHStkiLHI0QsjRcXDXeio7SHkdmnZxe4EetmfqZVizo",
         "title": "cak_0",
         "created": "Feb 26 2026 03:52PM",
-        "last_stage_update": "Mar 09 2026 02:21PM",
+        "last_stage_update": "Mar 11 2026 02:19PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -790,7 +810,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 22,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
