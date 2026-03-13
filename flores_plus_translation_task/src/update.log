@@ -3087,3 +3087,16 @@ INFO : 2026-03-12 23:07:09,420 Running update on language: kek
 INFO : 2026-03-12 23:07:11,619 Running update on language: cak
 INFO : 2026-03-12 23:07:14,088 Running update on language: quc
 INFO : 2026-03-12 23:07:16,073 Saving state to file.
+INFO : 2026-03-13 14:17:06,336 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-13 14:17:07,500 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-13 14:17:08,281 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-13 14:17:09,361 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-13 14:17:10,042 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-13 14:17:10,903 Running update on language: sjn
+INFO : 2026-03-13 14:17:14,077 Running update on language: mam
+INFO : 2026-03-13 14:17:21,589 Packet 'prelim_mam_4': First revision complete by user 'saqpom@gmail.com'. Submitting for second translation.
+INFO : 2026-03-13 14:17:23,299 Running update on language: kek
+INFO : 2026-03-13 14:17:26,328 Packet 'kek_3': First translation complete by user 'poyanam@yahoo.es'. Submitting for revision.
+INFO : 2026-03-13 14:17:36,440 Running update on language: cak
+INFO : 2026-03-13 14:17:39,192 Running update on language: quc
+INFO : 2026-03-13 14:17:41,499 Saving state to file.
