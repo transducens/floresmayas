@@ -3100,3 +3100,15 @@ INFO : 2026-03-13 14:17:26,328 Packet 'kek_3': First translation complete by use
 INFO : 2026-03-13 14:17:36,440 Running update on language: cak
 INFO : 2026-03-13 14:17:39,192 Running update on language: quc
 INFO : 2026-03-13 14:17:41,499 Saving state to file.
+INFO : 2026-03-13 18:11:35,780 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-13 18:11:36,899 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-13 18:11:37,850 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-13 18:11:38,758 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-13 18:11:39,646 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-13 18:11:40,724 Running update on language: sjn
+INFO : 2026-03-13 18:11:43,054 Running update on language: mam
+INFO : 2026-03-13 18:11:44,464 Packet 'prelim_mam_2': First translation complete by user 'ixkikap@gmail.com'. Submitting for revision.
+INFO : 2026-03-13 18:11:55,730 Running update on language: kek
+INFO : 2026-03-13 18:11:58,041 Running update on language: cak
+INFO : 2026-03-13 18:12:00,594 Running update on language: quc
+INFO : 2026-03-13 18:12:02,653 Saving state to file.
