@@ -3148,3 +3148,14 @@ INFO : 2026-03-15 14:10:50,484 Packet 'kek_3': First revision complete by user '
 INFO : 2026-03-15 14:10:52,217 Running update on language: cak
 INFO : 2026-03-15 14:10:53,960 Running update on language: quc
 INFO : 2026-03-15 14:10:55,974 Saving state to file.
+INFO : 2026-03-15 18:08:49,804 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-15 18:08:50,546 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-15 18:08:51,230 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-15 18:08:52,126 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-15 18:08:52,941 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-15 18:08:53,600 Running update on language: sjn
+INFO : 2026-03-15 18:08:55,526 Running update on language: mam
+INFO : 2026-03-15 18:08:57,687 Running update on language: kek
+INFO : 2026-03-15 18:08:59,520 Running update on language: cak
+INFO : 2026-03-15 18:09:01,968 Running update on language: quc
+INFO : 2026-03-15 18:09:04,185 Saving state to file.
