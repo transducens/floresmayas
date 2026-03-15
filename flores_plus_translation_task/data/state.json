@@ -132,7 +132,13 @@
         "37",
         "38",
         "39",
-        "40"
+        "40",
+        "44",
+        "45",
+        "47",
+        "48",
+        "49",
+        "50"
       ]
     },
     "revisors": {
@@ -155,7 +161,11 @@
         "6",
         "9",
         "10",
-        "31"
+        "31",
+        "41",
+        "42",
+        "43",
+        "46"
       ]
     },
     "prelim_packets": {
@@ -208,13 +218,23 @@
         "rev_id": "1Ab9H8PL2sTjHgCyOc2I8aUoCHepKOaSflsAcHZJuBYY",
         "title": "prelim_mam_4",
         "created": "Mar 11 2026 02:19PM",
-        "last_stage_update": "Mar 13 2026 11:07PM",
+        "last_stage_update": "Mar 15 2026 11:08PM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 4
       },
-      "5": null
+      "5": {
+        "tra_id": "1l-t_pG189XXaeMNyvqcBMyPTmqreKN3Camb7dslmmnw",
+        "rev_id": null,
+        "title": "prelim_mam_5",
+        "created": "Mar 15 2026 11:08PM",
+        "last_stage_update": "Mar 15 2026 11:08PM",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      }
     },
     "packets": {
       "0": null,
@@ -615,10 +635,10 @@
         "rev_id": "1fqgOHRMzt-dc0ZhkUSZRRNvxpHh6eYr6AQoVHX0imAE",
         "title": "kek_3",
         "created": "Mar 09 2026 02:21PM",
-        "last_stage_update": "Mar 15 2026 02:10PM",
+        "last_stage_update": "Mar 15 2026 11:08PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 3
       },
       "4": null,
@@ -630,7 +650,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 38,
+    "spent_additional_revisions": 41,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
@@ -793,10 +813,10 @@
         "rev_id": "1DmusRahxtlEeDYcc027wwhm_p-9EPVrrrCeKdrZ155U",
         "title": "cak_1",
         "created": "Feb 26 2026 03:52PM",
-        "last_stage_update": "Mar 07 2026 02:05PM",
+        "last_stage_update": "Mar 15 2026 11:08PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 1
       },
       "2": null,
@@ -962,10 +982,10 @@
         "rev_id": "1XZKT26mYq38Z0DepOXGBYoii0XDZyNT8NzbgSLP1CQQ",
         "title": "quc_0",
         "created": "Feb 17 2026 02:20PM",
-        "last_stage_update": "Mar 10 2026 11:07PM",
+        "last_stage_update": "Mar 15 2026 11:08PM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 0
       },
       "1": {
