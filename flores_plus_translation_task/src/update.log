@@ -3190,3 +3190,14 @@ INFO : 2026-03-16 14:29:31,058 New packet 'kek_4' created for language 'kek' and
 INFO : 2026-03-16 14:29:31,058 Running update on language: cak
 INFO : 2026-03-16 14:29:33,694 Running update on language: quc
 INFO : 2026-03-16 14:29:36,272 Saving state to file.
+INFO : 2026-03-16 18:20:40,880 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-16 18:20:41,714 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-16 18:20:42,422 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-16 18:20:43,497 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-16 18:20:44,539 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-16 18:20:45,388 Running update on language: sjn
+INFO : 2026-03-16 18:20:47,388 Running update on language: mam
+INFO : 2026-03-16 18:20:50,174 Running update on language: kek
+INFO : 2026-03-16 18:20:52,349 Running update on language: cak
+INFO : 2026-03-16 18:20:55,110 Running update on language: quc
+INFO : 2026-03-16 18:20:57,615 Saving state to file.
