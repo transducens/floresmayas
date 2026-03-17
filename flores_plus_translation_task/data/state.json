@@ -1023,10 +1023,10 @@
         "rev_id": "1DmusRahxtlEeDYcc027wwhm_p-9EPVrrrCeKdrZ155U",
         "title": "cak_1",
         "created": "Feb 26 2026 03:52PM",
-        "last_stage_update": "Mar 15 2026 11:08PM",
+        "last_stage_update": "Mar 17 2026 06:20PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
       "2": {
@@ -1050,7 +1050,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 22,
+    "spent_additional_revisions": 39,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
