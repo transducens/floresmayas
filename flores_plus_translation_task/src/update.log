@@ -3239,3 +3239,14 @@ INFO : 2026-03-17 18:20:34,403 Running update on language: cak
 INFO : 2026-03-17 18:20:36,143 Packet 'cak_1': Second translation complete by user 'svasquezv7@miumg.edu.gt'. Submitting for second revision.
 INFO : 2026-03-17 18:20:45,778 Running update on language: quc
 INFO : 2026-03-17 18:20:48,079 Saving state to file.
+INFO : 2026-03-17 23:09:30,831 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-17 23:09:31,657 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-17 23:09:32,459 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-17 23:09:33,473 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-17 23:09:34,415 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-17 23:09:35,303 Running update on language: sjn
+INFO : 2026-03-17 23:09:37,669 Running update on language: mam
+INFO : 2026-03-17 23:09:40,109 Running update on language: kek
+INFO : 2026-03-17 23:09:42,114 Running update on language: cak
+INFO : 2026-03-17 23:09:44,930 Running update on language: quc
+INFO : 2026-03-17 23:09:47,681 Saving state to file.
