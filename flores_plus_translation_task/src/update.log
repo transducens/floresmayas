@@ -3319,3 +3319,19 @@ INFO : 2026-03-19 23:08:33,922 Running update on language: kek
 INFO : 2026-03-19 23:08:36,364 Running update on language: cak
 INFO : 2026-03-19 23:08:39,062 Running update on language: quc
 INFO : 2026-03-19 23:08:41,959 Saving state to file.
+INFO : 2026-03-20 18:12:26,341 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-20 18:12:27,158 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-20 18:12:27,941 Updating vocabulary file for lang 'mam'.
+INFO : 2026-03-20 18:12:27,945 Updating current packets with new vocabulary for language 'mam'.
+INFO : 2026-03-20 18:12:30,061 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-20 18:12:30,754 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-20 18:12:31,329 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-20 18:12:31,930 Running update on language: sjn
+INFO : 2026-03-20 18:12:34,032 Running update on language: mam
+INFO : 2026-03-20 18:12:36,138 Running update on language: kek
+INFO : 2026-03-20 18:12:38,350 Running update on language: cak
+INFO : 2026-03-20 18:12:41,958 Packet 'cak_1': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
+INFO : 2026-03-20 18:12:43,203 Checking to see next available packet for user 'svasquezv7@miumg.edu.gt
+INFO : 2026-03-20 18:12:53,670 New packet 'cak_3' created for language 'cak' and assigned to translator 'svasquezv7@miumg.edu.gt' and revisor 'matuyuc@gmail.com'.
+INFO : 2026-03-20 18:12:54,857 Running update on language: quc
+INFO : 2026-03-20 18:12:57,077 Saving state to file.
