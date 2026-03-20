@@ -3335,3 +3335,14 @@ INFO : 2026-03-20 18:12:43,203 Checking to see next available packet for user 's
 INFO : 2026-03-20 18:12:53,670 New packet 'cak_3' created for language 'cak' and assigned to translator 'svasquezv7@miumg.edu.gt' and revisor 'matuyuc@gmail.com'.
 INFO : 2026-03-20 18:12:54,857 Running update on language: quc
 INFO : 2026-03-20 18:12:57,077 Saving state to file.
+INFO : 2026-03-20 23:07:55,079 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-20 23:07:55,973 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-20 23:07:56,796 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-20 23:07:58,626 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-20 23:07:59,738 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-20 23:08:00,615 Running update on language: sjn
+INFO : 2026-03-20 23:08:02,746 Running update on language: mam
+INFO : 2026-03-20 23:08:05,317 Running update on language: kek
+INFO : 2026-03-20 23:08:07,608 Running update on language: cak
+INFO : 2026-03-20 23:08:09,975 Running update on language: quc
+INFO : 2026-03-20 23:08:12,299 Saving state to file.
