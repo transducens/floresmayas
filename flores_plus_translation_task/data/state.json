@@ -1312,10 +1312,10 @@
         "rev_id": "1XZKT26mYq38Z0DepOXGBYoii0XDZyNT8NzbgSLP1CQQ",
         "title": "quc_0",
         "created": "Feb 17 2026 02:20PM",
-        "last_stage_update": "Mar 15 2026 11:08PM",
+        "last_stage_update": "Mar 21 2026 11:06PM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -1340,7 +1340,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 22,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
