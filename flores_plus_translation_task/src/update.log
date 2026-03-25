@@ -3483,3 +3483,16 @@ INFO : 2026-03-24 23:09:35,867 Running update on language: kek
 INFO : 2026-03-24 23:09:38,184 Running update on language: cak
 INFO : 2026-03-24 23:09:40,677 Running update on language: quc
 INFO : 2026-03-24 23:09:45,943 Saving state to file.
+INFO : 2026-03-25 14:27:41,916 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-25 14:27:42,693 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-25 14:27:43,468 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-25 14:27:44,875 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-25 14:27:45,879 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-25 14:27:46,844 Running update on language: sjn
+INFO : 2026-03-25 14:27:49,293 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-03-25 14:27:49,293 No unassigned packets lefts.
+INFO : 2026-03-25 14:27:49,293 Running update on language: mam
+INFO : 2026-03-25 14:27:50,379 Running update on language: kek
+INFO : 2026-03-25 14:27:52,480 Running update on language: cak
+INFO : 2026-03-25 14:27:55,020 Running update on language: quc
+INFO : 2026-03-25 14:27:57,233 Saving state to file.
