@@ -3509,3 +3509,17 @@ INFO : 2026-03-25 18:20:11,711 Running update on language: kek
 INFO : 2026-03-25 18:20:13,997 Running update on language: cak
 INFO : 2026-03-25 18:20:16,192 Running update on language: quc
 INFO : 2026-03-25 18:20:18,168 Saving state to file.
+INFO : 2026-03-25 23:11:16,540 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-25 23:11:18,134 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-25 23:11:18,959 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-25 23:11:19,897 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-25 23:11:20,659 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-25 23:11:21,508 Running update on language: sjn
+INFO : 2026-03-25 23:11:23,757 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-03-25 23:11:23,757 No unassigned packets lefts.
+INFO : 2026-03-25 23:11:23,757 Running update on language: mam
+INFO : 2026-03-25 23:11:25,216 Packet 'prelim_mam_5': Second translation complete by user 'princesamam16@gmail.com'. Submitting for second revision.
+INFO : 2026-03-25 23:11:30,678 Running update on language: kek
+INFO : 2026-03-25 23:11:32,978 Running update on language: cak
+INFO : 2026-03-25 23:11:35,227 Running update on language: quc
+INFO : 2026-03-25 23:11:37,526 Saving state to file.
