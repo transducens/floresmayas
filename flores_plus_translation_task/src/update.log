@@ -3540,3 +3540,17 @@ INFO : 2026-03-26 14:33:44,692 Running update on language: kek
 INFO : 2026-03-26 14:33:47,375 Running update on language: cak
 INFO : 2026-03-26 14:33:49,145 Running update on language: quc
 INFO : 2026-03-26 14:33:51,267 Saving state to file.
+INFO : 2026-03-26 15:19:06,264 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-26 15:19:07,175 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-26 15:19:07,983 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-26 15:19:08,828 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-26 15:19:09,500 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-03-26 15:19:10,242 Language 'mam' has no packages ready to work on.
+INFO : 2026-03-26 15:19:19,774 New packet 'mam_0' created for language 'mam' and assigned to translator 'ixkikap@gmail.com' and revisor 'saqpom@gmail.com'
+INFO : 2026-03-26 15:19:28,986 New packet 'mam_1' created for language 'mam' and assigned to translator 'princesamam16@gmail.com' and revisor 'saqpom@gmail.com'
+INFO : 2026-03-26 15:19:28,986 Running update on language: sjn
+INFO : 2026-03-26 15:19:31,089 Running update on language: mam
+INFO : 2026-03-26 15:19:32,677 Running update on language: kek
+INFO : 2026-03-26 15:19:35,175 Running update on language: cak
+INFO : 2026-03-26 15:19:36,981 Running update on language: quc
+INFO : 2026-03-26 15:19:41,908 Saving state to file.

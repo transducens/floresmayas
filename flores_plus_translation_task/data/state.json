@@ -258,8 +258,28 @@
       }
     },
     "packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1lNPBu0cqbDw4cePChM4GZJyMT5M3R3I0YDwqvBF38fg",
+        "rev_id": null,
+        "title": "mam_0",
+        "created": "Mar 26 2026 03:19PM",
+        "last_stage_update": "Mar 26 2026 03:19PM",
+        "translator": "ixkikap@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1dehrIeQ-65msZCesfy3vW0UVt6J81NWaxatxmZlkM2k",
+        "rev_id": null,
+        "title": "mam_1",
+        "created": "Mar 26 2026 03:19PM",
+        "last_stage_update": "Mar 26 2026 03:19PM",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
