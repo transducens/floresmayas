@@ -272,8 +272,8 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
-    "translation_complete": true,
-    "prelim_translation": true,
+    "translation_complete": false,
+    "prelim_translation": false,
     "translation_guide": "1RnGrMjRT9CVTopZFhoYhYh6bssAV2K6uXwdeLwjmtt4",
     "vocab_id": "1PB9ZWlc9OSrglKfkdMR0tUocw6Etiko_brTGcW6IXO8",
     "report": "1TYDjZyMWdcsqPKUHlz3Ii0TQM1z04_vmDAovkbbukNk"
