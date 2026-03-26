@@ -148,7 +148,15 @@
         "47",
         "48",
         "49",
-        "50"
+        "50",
+        "51",
+        "52",
+        "54",
+        "55",
+        "56",
+        "58",
+        "59",
+        "60"
       ]
     },
     "revisors": {
@@ -176,7 +184,9 @@
         "42",
         "43",
         "46",
-        "25"
+        "25",
+        "53",
+        "57"
       ]
     },
     "prelim_packets": {
@@ -240,10 +250,10 @@
         "rev_id": "1CuzpTTKW1TCpAqrvbMp9K2aECF1whK8fog8NtEEJwx8",
         "title": "prelim_mam_5",
         "created": "Mar 15 2026 11:08PM",
-        "last_stage_update": "Mar 25 2026 11:11PM",
+        "last_stage_update": "Mar 26 2026 02:33PM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },
@@ -262,7 +272,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": true,
     "translation_guide": "1RnGrMjRT9CVTopZFhoYhYh6bssAV2K6uXwdeLwjmtt4",
     "vocab_id": "1PB9ZWlc9OSrglKfkdMR0tUocw6Etiko_brTGcW6IXO8",
