@@ -765,10 +765,10 @@
         "rev_id": "19vj49F0V-YIE3IjhGPLNSi4e-pqqBADPoiGDkTErLSI",
         "title": "kek_2",
         "created": "Mar 09 2026 02:21PM",
-        "last_stage_update": "Mar 27 2026 02:22PM",
+        "last_stage_update": "Mar 29 2026 02:12PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 2
       },
       "3": {
@@ -1183,13 +1183,13 @@
       },
       "3": {
         "tra_id": "1g-MhV8XdxE8d3q8TD0SW3EDyXSY9Mj2VLVBq4WCEAVg",
-        "rev_id": null,
+        "rev_id": "1HXHnE1hK3EJ0uAoG0l5NgbczvUlolaJvquCdjbaSULA",
         "title": "cak_3",
         "created": "Mar 20 2026 06:12PM",
-        "last_stage_update": "Mar 20 2026 06:12PM",
+        "last_stage_update": "Mar 29 2026 02:12PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 3
       },
       "4": null,
