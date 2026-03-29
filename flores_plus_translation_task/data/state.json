@@ -765,10 +765,10 @@
         "rev_id": "19vj49F0V-YIE3IjhGPLNSi4e-pqqBADPoiGDkTErLSI",
         "title": "kek_2",
         "created": "Mar 09 2026 02:21PM",
-        "last_stage_update": "Mar 29 2026 02:12PM",
+        "last_stage_update": "Mar 29 2026 06:10PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -801,7 +801,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 41,
+    "spent_additional_revisions": 43,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
