@@ -3692,3 +3692,14 @@ INFO : 2026-03-30 14:33:10,864 Running update on language: cak
 INFO : 2026-03-30 14:33:13,015 Running update on language: quc
 INFO : 2026-03-30 14:33:14,196 Packet 'quc_2': First translation complete by user 'felivicente@yahoo.es'. Submitting for revision.
 INFO : 2026-03-30 14:33:25,541 Saving state to file.
+INFO : 2026-03-30 18:19:40,095 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-30 18:19:40,924 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-30 18:19:41,766 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-30 18:19:42,583 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-30 18:19:43,678 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-30 18:19:44,503 Running update on language: sjn
+INFO : 2026-03-30 18:19:46,515 Running update on language: mam
+INFO : 2026-03-30 18:19:48,868 Running update on language: kek
+INFO : 2026-03-30 18:19:50,921 Running update on language: cak
+INFO : 2026-03-30 18:19:53,156 Running update on language: quc
+INFO : 2026-03-30 18:19:56,936 Saving state to file.
