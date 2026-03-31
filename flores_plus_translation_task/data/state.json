@@ -80,13 +80,13 @@
     "packets": {
       "0": {
         "tra_id": "1uI5adq13sdIEl25GrJSm5j1Wd3CDTnAvHr8YhFgzy-c",
-        "rev_id": null,
+        "rev_id": "1qmTYYIgm-viiFQaJqZVQO9pQbNKIEi0do8r9Ft9STFg",
         "title": "sjn_0",
         "created": "Feb 16 2026 10:23PM",
-        "last_stage_update": "Feb 16 2026 10:23PM",
+        "last_stage_update": "Mar 31 2026 09:25AM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {

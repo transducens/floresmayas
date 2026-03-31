@@ -3718,3 +3718,15 @@ INFO : 2026-03-30 23:12:18,387 Running update on language: cak
 INFO : 2026-03-30 23:12:19,482 Packet 'cak_2': First translation complete by user 'gabrielpichiya@gmail.com'. Submitting for revision.
 INFO : 2026-03-30 23:12:30,504 Running update on language: quc
 INFO : 2026-03-30 23:12:32,318 Saving state to file.
+INFO : 2026-03-31 09:25:02,873 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-31 09:25:03,789 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-31 09:25:04,486 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-31 09:25:05,172 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-31 09:25:05,833 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-31 09:25:06,649 Running update on language: sjn
+INFO : 2026-03-31 09:25:07,400 Packet 'sjn_0': First translation complete by user 'and_lou@ua.es'. Submitting for revision.
+INFO : 2026-03-31 09:25:15,813 Running update on language: mam
+INFO : 2026-03-31 09:25:18,002 Running update on language: kek
+INFO : 2026-03-31 09:25:19,918 Running update on language: cak
+INFO : 2026-03-31 09:25:24,406 Running update on language: quc
+INFO : 2026-03-31 09:25:26,494 Saving state to file.
