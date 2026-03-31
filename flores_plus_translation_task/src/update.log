@@ -3742,3 +3742,17 @@ INFO : 2026-03-31 09:32:50,244 Running update on language: kek
 INFO : 2026-03-31 09:32:52,463 Running update on language: cak
 INFO : 2026-03-31 09:32:55,096 Running update on language: quc
 INFO : 2026-03-31 09:32:57,461 Saving state to file.
+INFO : 2026-03-31 09:49:17,407 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-03-31 09:49:18,408 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-03-31 09:49:19,271 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-03-31 09:49:19,979 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-03-31 09:49:20,651 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-03-31 09:49:21,427 Running update on language: sjn
+INFO : 2026-03-31 09:49:22,344 Packet 'sjn_0': Second translation complete by user 'and_lou@ua.es'. Submitting for second revision.
+INFO : 2026-03-31 09:49:26,754 Checking to see next available packet for user 'and_lou@ua.es
+INFO : 2026-03-31 09:49:36,456 New packet 'sjn_2' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'.
+INFO : 2026-03-31 09:49:37,454 Running update on language: mam
+INFO : 2026-03-31 09:49:39,518 Running update on language: kek
+INFO : 2026-03-31 09:49:41,548 Running update on language: cak
+INFO : 2026-03-31 09:49:43,833 Running update on language: quc
+INFO : 2026-03-31 09:49:45,665 Saving state to file.

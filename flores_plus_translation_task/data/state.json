@@ -83,10 +83,10 @@
         "rev_id": "1qmTYYIgm-viiFQaJqZVQO9pQbNKIEi0do8r9Ft9STFg",
         "title": "sjn_0",
         "created": "Feb 16 2026 10:23PM",
-        "last_stage_update": "Mar 31 2026 09:32AM",
+        "last_stage_update": "Mar 31 2026 09:49AM",
         "translator": "and_lou@ua.es",
         "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -100,7 +100,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "1WRQsVWbzGrWEKB_6zRpVFu_aoHnbBsuLV37lO1E-QBs",
+        "rev_id": null,
+        "title": "sjn_2",
+        "created": "Mar 31 2026 09:49AM",
+        "last_stage_update": "Mar 31 2026 09:49AM",
+        "translator": "and_lou@ua.es",
+        "revisor": "lourios.andres@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null,
@@ -111,7 +121,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 2,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "blala",
