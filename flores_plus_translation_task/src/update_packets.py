@@ -262,6 +262,37 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                     state[lang][packet_string][idx], k = create_revision_sheet(creds, lang, packet['title'], packet, r_max)
                     state[lang]['spent_additional_revisions'] += 0 if state[lang]['prelim_translation'] else k
 
+                    # Create new package so translator can start working while
+                    # revisor performs second revision
+                    logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
+
+                    next_packet_idx = [int(idx) for idx in
+                                       state[lang][packet_string].keys() if
+                                       state[lang][packet_string][idx] is None]
+
+                    if not next_packet_idx:
+                        logger.info(f"Langage '{lang}' has no unassigned packets left.")
+                        open_packets = [p for p in state[lang][packet_string]
+                                        if state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
+                        if not open_packets:
+                            logger.info(f"All packets of language '{lang}' have been translated.")
+                            state[lang]['translation_complete'] = True
+                        continue
+
+                    next_packet_idx = min(next_packet_idx)
+                    state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
+                        creds=creds,
+                        sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],
+                        lang_code=lang,
+                        title=f"{prelim_title_string}{lang}_{next_packet_idx}",
+                        tra_email=packet['translator'],
+                        rev_email=packet['revisor'],
+                        packet_idx=next_packet_idx,
+                        is_prelim=state[lang]['prelim_translation']
+                    )
+                    logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
+                    continue
+
             elif packet['stage'] == Stage.FIRST_REVISION.name:
                 if is_ready_packet(packet['rev_id'], creds, state[lang]['prelim_translation']):
                     if is_complete_translation(packet['rev_id'], creds, state[lang]['prelim_translation']):
@@ -350,34 +381,34 @@ https://docs.google.com/spreadsheets/d/{packet['tra_id']}"""
                     subject = f"FLORES+ Mayas - Notificación automática: Paquete de traducción del idioma '{lang}'"
                     send_email_notification([packet['translator'], packet['revisor']], message, subject)
 
-                    logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
+                    # logger.info(f"""Checking to see next available packet for user '{packet["translator"]}""")
 
-                    next_packet_idx = [int(idx) for idx in
-                                       state[lang][packet_string].keys() if
-                                       state[lang][packet_string][idx] is None]
+                    # next_packet_idx = [int(idx) for idx in
+                    #                    state[lang][packet_string].keys() if
+                    #                    state[lang][packet_string][idx] is None]
 
-                    if not next_packet_idx:
-                        logger.info(f"Langage '{lang}' has no unassigned packets left.")
-                        open_packets = [p for p in state[lang][packet_string]
-                                        if state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
-                        if not open_packets:
-                            logger.info(f"All packets of language '{lang}' have been translated.")
-                            state[lang]['translation_complete'] = True
-                        continue
+                    # if not next_packet_idx:
+                    #     logger.info(f"Langage '{lang}' has no unassigned packets left.")
+                    #     open_packets = [p for p in state[lang][packet_string]
+                    #                     if state[lang][packet_string][p]['stage'] != "TRANSLATION_COMPLETE"]
+                    #     if not open_packets:
+                    #         logger.info(f"All packets of language '{lang}' have been translated.")
+                    #         state[lang]['translation_complete'] = True
+                    #     continue
 
-                    next_packet_idx = min(next_packet_idx)
-                    state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
-                        creds=creds,
-                        sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],
-                        lang_code=lang,
-                        title=f"{prelim_title_string}{lang}_{next_packet_idx}",
-                        tra_email=packet['translator'],
-                        rev_email=packet['revisor'],
-                        packet_idx=next_packet_idx,
-                        is_prelim=state[lang]['prelim_translation']
-                    )
-                    logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
-                    continue
+                    # next_packet_idx = min(next_packet_idx)
+                    # state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
+                    #     creds=creds,
+                    #     sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],
+                    #     lang_code=lang,
+                    #     title=f"{prelim_title_string}{lang}_{next_packet_idx}",
+                    #     tra_email=packet['translator'],
+                    #     rev_email=packet['revisor'],
+                    #     packet_idx=next_packet_idx,
+                    #     is_prelim=state[lang]['prelim_translation']
+                    # )
+                    # logger.info(f"""New packet '{lang}_{next_packet_idx}' created for language '{lang}' and assigned to translator '{packet['translator']}' and revisor '{packet['revisor']}'.""")
+                    # continue
 
     logger.info(f"Saving state to file.")
     with open("../data/state.json", "w") as g:
