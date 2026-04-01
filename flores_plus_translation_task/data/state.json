@@ -897,10 +897,10 @@
         "rev_id": "1FSlAEbUPrz4HgdA6sB3D9VknEiHzeLoSWxClSB_pQDQ",
         "title": "kek_4",
         "created": "Mar 16 2026 02:29PM",
-        "last_stage_update": "Apr 01 2026 06:19PM",
+        "last_stage_update": "Apr 01 2026 11:12PM",
         "translator": "poyanam@yahoo.es",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 4
       },
       "5": {
@@ -914,14 +914,24 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 5
       },
-      "6": null,
+      "6": {
+        "tra_id": "1d6aQUG_x_iunRRojr4u7tRhsj61Nis6JDe2iDdYro9Q",
+        "rev_id": null,
+        "title": "kek_6",
+        "created": "Apr 01 2026 11:13PM",
+        "last_stage_update": "Apr 01 2026 11:13PM",
+        "translator": "poyanam@yahoo.es",
+        "revisor": "juan.tzoc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 6
+      },
       "7": null,
       "8": null,
       "9": null,
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 43,
+    "spent_additional_revisions": 45,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
