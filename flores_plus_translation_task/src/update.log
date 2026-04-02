@@ -3838,3 +3838,15 @@ INFO : 2026-04-01 23:13:07,558 New packet 'kek_6' created for language 'kek' and
 INFO : 2026-04-01 23:13:08,786 Running update on language: cak
 INFO : 2026-04-01 23:13:11,104 Running update on language: quc
 INFO : 2026-04-01 23:13:13,379 Saving state to file.
+INFO : 2026-04-02 14:28:24,962 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-02 14:28:25,935 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-02 14:28:26,866 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-02 14:28:27,894 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-02 14:28:28,935 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-02 14:28:30,083 Running update on language: sjn
+INFO : 2026-04-02 14:28:34,369 Running update on language: mam
+INFO : 2026-04-02 14:28:37,345 Running update on language: kek
+INFO : 2026-04-02 14:28:41,427 Packet 'kek_4': Second revision complete by user 'juan.tzoc@gmail.com'. Translation complete.
+INFO : 2026-04-02 14:28:45,463 Running update on language: cak
+INFO : 2026-04-02 14:28:49,332 Running update on language: quc
+INFO : 2026-04-02 14:28:51,878 Saving state to file.
