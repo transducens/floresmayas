@@ -4019,3 +4019,14 @@ INFO : 2026-04-07 14:34:48,202 Packet 'quc_2': Second translation complete by us
 INFO : 2026-04-07 14:34:54,161 Checking to see next available packet for user 'felivicente@yahoo.es
 INFO : 2026-04-07 14:35:05,025 New packet 'quc_4' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-04-07 14:35:06,242 Saving state to file.
+INFO : 2026-04-07 18:20:55,911 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-07 18:20:57,040 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-07 18:20:58,110 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-07 18:20:59,038 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-07 18:20:59,757 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-07 18:21:00,646 Running update on language: sjn
+INFO : 2026-04-07 18:21:04,418 Running update on language: mam
+INFO : 2026-04-07 18:21:06,550 Running update on language: kek
+INFO : 2026-04-07 18:21:08,672 Running update on language: cak
+INFO : 2026-04-07 18:21:11,398 Running update on language: quc
+INFO : 2026-04-07 18:21:15,571 Saving state to file.
