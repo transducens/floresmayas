@@ -270,13 +270,13 @@
     "packets": {
       "0": {
         "tra_id": "1lNPBu0cqbDw4cePChM4GZJyMT5M3R3I0YDwqvBF38fg",
-        "rev_id": null,
+        "rev_id": "1NWatOKDSwSXSiFbmtRGsioGufhc1Kd6o3IwBdihDfSw",
         "title": "mam_0",
         "created": "Mar 26 2026 03:19PM",
-        "last_stage_update": "Mar 26 2026 03:19PM",
+        "last_stage_update": "Apr 12 2026 02:15PM",
         "translator": "ixkikap@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
