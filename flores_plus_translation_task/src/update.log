@@ -4217,3 +4217,14 @@ INFO : 2026-04-13 14:35:05,774 Packet 'quc_3': Second translation complete by us
 INFO : 2026-04-13 14:35:11,289 Checking to see next available packet for user 'josefinapos070@gmail.com
 INFO : 2026-04-13 14:35:22,477 New packet 'quc_5' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-04-13 14:35:23,598 Saving state to file.
+INFO : 2026-04-13 18:26:16,357 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-13 18:26:17,213 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-13 18:26:18,059 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-13 18:26:19,059 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-13 18:26:20,179 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-13 18:26:21,206 Running update on language: sjn
+INFO : 2026-04-13 18:26:24,367 Running update on language: mam
+INFO : 2026-04-13 18:26:26,799 Running update on language: kek
+INFO : 2026-04-13 18:26:29,053 Running update on language: cak
+INFO : 2026-04-13 18:26:33,508 Running update on language: quc
+INFO : 2026-04-13 18:26:37,040 Saving state to file.
