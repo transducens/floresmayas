@@ -4308,3 +4308,14 @@ INFO : 2026-04-16 14:36:50,416 Running update on language: cak
 INFO : 2026-04-16 14:36:55,075 Packet 'cak_2': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
 INFO : 2026-04-16 14:37:00,939 Running update on language: quc
 INFO : 2026-04-16 14:37:04,888 Saving state to file.
+INFO : 2026-04-16 18:25:51,715 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-16 18:25:52,663 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-16 18:25:53,831 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-16 18:25:54,628 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-16 18:25:55,373 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-16 18:25:56,505 Running update on language: sjn
+INFO : 2026-04-16 18:26:00,385 Running update on language: mam
+INFO : 2026-04-16 18:26:02,678 Running update on language: kek
+INFO : 2026-04-16 18:26:05,135 Running update on language: cak
+INFO : 2026-04-16 18:26:09,445 Running update on language: quc
+INFO : 2026-04-16 18:26:11,488 Saving state to file.
