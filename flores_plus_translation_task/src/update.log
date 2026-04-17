@@ -4331,3 +4331,14 @@ INFO : 2026-04-16 23:15:44,218 Running update on language: cak
 INFO : 2026-04-16 23:15:49,900 Packet 'cak_3': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
 INFO : 2026-04-16 23:15:52,990 Running update on language: quc
 INFO : 2026-04-16 23:15:54,888 Saving state to file.
+INFO : 2026-04-17 14:28:06,237 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-17 14:28:07,667 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-17 14:28:08,631 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-17 14:28:09,334 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-17 14:28:10,154 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-17 14:28:10,886 Running update on language: sjn
+INFO : 2026-04-17 14:28:15,036 Running update on language: mam
+INFO : 2026-04-17 14:28:17,348 Running update on language: kek
+INFO : 2026-04-17 14:28:19,463 Running update on language: cak
+INFO : 2026-04-17 14:28:21,743 Running update on language: quc
+INFO : 2026-04-17 14:28:23,697 Saving state to file.
