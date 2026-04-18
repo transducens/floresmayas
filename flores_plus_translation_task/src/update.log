@@ -4395,3 +4395,14 @@ INFO : 2026-04-18 18:14:16,656 Checking to see next available packet for user 'g
 INFO : 2026-04-18 18:14:26,871 New packet 'cak_5' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'matuyuc@gmail.com'.
 INFO : 2026-04-18 18:14:27,675 Running update on language: quc
 INFO : 2026-04-18 18:14:30,084 Saving state to file.
+INFO : 2026-04-18 23:11:38,450 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-18 23:11:39,362 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-18 23:11:40,195 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-18 23:11:41,304 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-18 23:11:42,332 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-18 23:11:43,315 Running update on language: sjn
+INFO : 2026-04-18 23:11:46,693 Running update on language: mam
+INFO : 2026-04-18 23:11:49,750 Running update on language: kek
+INFO : 2026-04-18 23:11:53,029 Running update on language: cak
+INFO : 2026-04-18 23:11:56,555 Running update on language: quc
+INFO : 2026-04-18 23:11:59,035 Saving state to file.
