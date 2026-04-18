@@ -4378,3 +4378,20 @@ INFO : 2026-04-18 14:16:18,705 Packet 'kek_6': First translation complete by use
 INFO : 2026-04-18 14:16:27,176 Running update on language: cak
 INFO : 2026-04-18 14:16:29,676 Running update on language: quc
 INFO : 2026-04-18 14:16:31,937 Saving state to file.
+INFO : 2026-04-18 18:12:54,791 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-18 18:12:55,804 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-18 18:12:56,617 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-18 18:12:57,590 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-18 18:12:58,601 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-18 18:12:59,793 Running update on language: sjn
+INFO : 2026-04-18 18:13:03,341 Running update on language: mam
+INFO : 2026-04-18 18:13:50,495 Running update on language: kek
+INFO : 2026-04-18 18:13:51,794 Packet 'kek_5': Second translation complete by user 'equidades@gmail.com'. Submitting for second revision.
+INFO : 2026-04-18 18:13:57,313 Checking to see next available packet for user 'equidades@gmail.com
+INFO : 2026-04-18 18:14:08,887 New packet 'kek_7' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-04-18 18:14:09,885 Running update on language: cak
+INFO : 2026-04-18 18:14:11,222 Packet 'cak_2': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
+INFO : 2026-04-18 18:14:16,656 Checking to see next available packet for user 'gabrielpichiya@gmail.com
+INFO : 2026-04-18 18:14:26,871 New packet 'cak_5' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'matuyuc@gmail.com'.
+INFO : 2026-04-18 18:14:27,675 Running update on language: quc
+INFO : 2026-04-18 18:14:30,084 Saving state to file.

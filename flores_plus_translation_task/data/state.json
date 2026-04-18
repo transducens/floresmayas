@@ -1008,10 +1008,10 @@
         "rev_id": "1nYSciVNlJqOtvyO2lVAGo83o8sgW-aQXtTpNUn54XhQ",
         "title": "kek_5",
         "created": "Mar 30 2026 11:12PM",
-        "last_stage_update": "Apr 18 2026 02:16PM",
+        "last_stage_update": "Apr 18 2026 06:13PM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 5
       },
       "6": {
@@ -1025,13 +1025,23 @@
         "stage": "FIRST_REVISION",
         "packet_idx": 6
       },
-      "7": null,
+      "7": {
+        "tra_id": "1VSXDWYojEIm88DwcP6MT3BtQEjWXmoxz-Lef1ESj6VU",
+        "rev_id": null,
+        "title": "kek_7",
+        "created": "Apr 18 2026 06:14PM",
+        "last_stage_update": "Apr 18 2026 06:14PM",
+        "translator": "equidades@gmail.com",
+        "revisor": "juan.tzoc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 7
+      },
       "8": null,
       "9": null,
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 45,
+    "spent_additional_revisions": 49,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1nrUnT_JNt-gjW0g4CrtDhVlaQVvgeoY1Uf9WvImpS18",
@@ -1505,10 +1515,10 @@
         "rev_id": "1Wbyy4ipB3UZIFbv91fNl4b2HvfS6QQujVGR478feyiA",
         "title": "cak_2",
         "created": "Mar 16 2026 11:08PM",
-        "last_stage_update": "Apr 16 2026 02:36PM",
+        "last_stage_update": "Apr 18 2026 06:14PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -1533,7 +1543,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 4
       },
-      "5": null,
+      "5": {
+        "tra_id": "1dI_dryEUh-DtIpSdRS1CYBVThkYPHA_T8-31sidWeB4",
+        "rev_id": null,
+        "title": "cak_5",
+        "created": "Apr 18 2026 06:14PM",
+        "last_stage_update": "Apr 18 2026 06:14PM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      },
       "6": null,
       "7": null,
       "8": null,
@@ -1541,7 +1561,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 54,
+    "spent_additional_revisions": 67,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
