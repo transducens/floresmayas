@@ -4418,3 +4418,14 @@ INFO : 2026-04-19 14:16:07,072 Running update on language: cak
 INFO : 2026-04-19 14:16:10,716 Packet 'cak_2': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
 INFO : 2026-04-19 14:16:13,797 Running update on language: quc
 INFO : 2026-04-19 14:16:16,165 Saving state to file.
+INFO : 2026-04-19 18:13:19,851 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-19 18:13:20,842 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-19 18:13:21,661 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-19 18:13:22,784 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-19 18:13:23,648 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-19 18:13:24,627 Running update on language: sjn
+INFO : 2026-04-19 18:13:27,831 Running update on language: mam
+INFO : 2026-04-19 18:13:30,339 Running update on language: kek
+INFO : 2026-04-19 18:13:33,893 Running update on language: cak
+INFO : 2026-04-19 18:13:35,907 Running update on language: quc
+INFO : 2026-04-19 18:13:38,309 Saving state to file.
