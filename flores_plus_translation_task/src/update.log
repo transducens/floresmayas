@@ -4511,3 +4511,14 @@ INFO : 2026-04-21 23:14:34,312 Running update on language: cak
 INFO : 2026-04-21 23:14:35,695 Packet 'cak_4': First translation complete by user 'svasquezv7@miumg.edu.gt'. Submitting for revision.
 INFO : 2026-04-21 23:14:47,482 Running update on language: quc
 INFO : 2026-04-21 23:14:49,898 Saving state to file.
+INFO : 2026-04-22 14:34:39,285 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-22 14:34:40,087 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-22 14:34:40,855 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-22 14:34:41,809 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-22 14:34:43,988 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-22 14:34:44,942 Running update on language: sjn
+INFO : 2026-04-22 14:34:48,501 Running update on language: mam
+INFO : 2026-04-22 14:34:52,125 Running update on language: kek
+INFO : 2026-04-22 14:34:55,636 Running update on language: cak
+INFO : 2026-04-22 14:34:57,755 Running update on language: quc
+INFO : 2026-04-22 14:35:02,207 Saving state to file.
