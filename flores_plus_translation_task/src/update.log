@@ -4617,3 +4617,14 @@ INFO : 2026-04-24 23:15:14,106 Packet 'kek_6': Second revision complete by user 
 INFO : 2026-04-24 23:15:17,078 Running update on language: cak
 INFO : 2026-04-24 23:15:19,015 Running update on language: quc
 INFO : 2026-04-24 23:15:20,951 Saving state to file.
+INFO : 2026-04-25 14:17:32,834 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-25 14:17:33,965 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-25 14:17:34,890 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-25 14:17:36,033 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-25 14:17:37,237 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-25 14:17:38,471 Running update on language: sjn
+INFO : 2026-04-25 14:17:42,906 Running update on language: mam
+INFO : 2026-04-25 14:17:47,418 Running update on language: kek
+INFO : 2026-04-25 14:17:49,732 Running update on language: cak
+INFO : 2026-04-25 14:17:52,507 Running update on language: quc
+INFO : 2026-04-25 14:17:55,327 Saving state to file.
