@@ -4733,3 +4733,14 @@ INFO : 2026-04-28 18:32:47,963 Running update on language: cak
 INFO : 2026-04-28 18:32:50,431 Packet 'cak_5': First translation complete by user 'gabrielpichiya@gmail.com'. Submitting for revision.
 INFO : 2026-04-28 18:32:58,565 Running update on language: quc
 INFO : 2026-04-28 18:33:00,876 Saving state to file.
+INFO : 2026-04-28 23:19:23,078 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-28 23:19:24,066 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-28 23:19:24,945 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-28 23:19:26,090 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-28 23:19:27,160 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-28 23:19:28,210 Running update on language: sjn
+INFO : 2026-04-28 23:19:31,764 Running update on language: mam
+INFO : 2026-04-28 23:19:35,805 Running update on language: kek
+INFO : 2026-04-28 23:19:38,156 Running update on language: cak
+INFO : 2026-04-28 23:19:40,079 Running update on language: quc
+INFO : 2026-04-28 23:19:43,517 Saving state to file.
