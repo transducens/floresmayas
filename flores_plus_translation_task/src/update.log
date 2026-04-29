@@ -4766,3 +4766,14 @@ INFO : 2026-04-29 18:30:58,232 Running update on language: kek
 INFO : 2026-04-29 18:31:00,737 Running update on language: cak
 INFO : 2026-04-29 18:31:03,372 Running update on language: quc
 INFO : 2026-04-29 18:31:06,065 Saving state to file.
+INFO : 2026-04-29 23:19:52,709 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-29 23:19:53,653 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-29 23:19:54,475 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-29 23:19:55,645 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-29 23:19:56,802 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-29 23:19:57,968 Running update on language: sjn
+INFO : 2026-04-29 23:20:01,365 Running update on language: mam
+INFO : 2026-04-29 23:20:05,498 Running update on language: kek
+INFO : 2026-04-29 23:20:08,038 Running update on language: cak
+INFO : 2026-04-29 23:20:10,520 Running update on language: quc
+INFO : 2026-04-29 23:20:13,075 Saving state to file.
