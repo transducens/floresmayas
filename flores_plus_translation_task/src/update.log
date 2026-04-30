@@ -4789,3 +4789,14 @@ INFO : 2026-04-30 14:44:03,739 Running update on language: cak
 INFO : 2026-04-30 14:44:06,383 Running update on language: quc
 INFO : 2026-04-30 14:44:10,404 Packet 'quc_4': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
 INFO : 2026-04-30 14:44:13,229 Saving state to file.
+INFO : 2026-04-30 18:30:33,805 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-30 18:30:34,642 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-30 18:30:35,462 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-30 18:30:36,289 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-30 18:30:45,310 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-30 18:30:46,447 Running update on language: sjn
+INFO : 2026-04-30 18:30:50,526 Running update on language: mam
+INFO : 2026-04-30 18:30:54,521 Running update on language: kek
+INFO : 2026-04-30 18:30:57,812 Running update on language: cak
+INFO : 2026-04-30 18:31:03,658 Running update on language: quc
+INFO : 2026-04-30 18:31:06,405 Saving state to file.
