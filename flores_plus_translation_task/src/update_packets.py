@@ -1,3 +1,4 @@
+from icecream import ic
 import json
 import logging
 import os.path
@@ -191,7 +192,14 @@ if __name__ == "__main__":
             and packet['translator'] not in state[lang]['inactive_translators']
         ]
 
-        free_translators = [translator for translator in state[lang]['translators'].keys() if translator not in busy_translators]
+        # translators that have are assigned at most half the packets # available
+        translators_done = [t for t in state[lang]['translators'] if len([packet['translator'] for _, packet in state[lang][packet_string].items() if packet is not None and packet['translator'] == t]) >= (len(state[lang][packet_string]) // 2)]
+        ic(translators_done, lang)
+
+        free_translators = [translator for translator in
+                            state[lang]['translators'].keys() if translator not
+                            in busy_translators and translator not in
+                            translators_done]
 
         if free_translators:
             logger.info(f"Found {len(free_translators)} unassigned translator(s). Assigning them a packet to work on.")
