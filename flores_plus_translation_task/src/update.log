@@ -5072,3 +5072,14 @@ INFO : 2026-05-04 18:32:52,460 Running update on language: cak
 INFO : 2026-05-04 18:32:55,010 Running update on language: quc
 INFO : 2026-05-04 18:32:59,164 Packet 'quc_5': Second revision complete by user 'jrguarchaj@gmail.com'. Translation complete.
 INFO : 2026-05-04 18:33:02,068 Saving state to file.
+INFO : 2026-05-04 23:19:24,638 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-04 23:19:25,858 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-04 23:19:26,933 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-04 23:19:27,684 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-04 23:19:28,609 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-04 23:19:29,389 Running update on language: sjn
+INFO : 2026-05-04 23:20:04,299 Running update on language: mam
+INFO : 2026-05-04 23:20:07,937 Running update on language: kek
+INFO : 2026-05-04 23:20:10,280 Running update on language: cak
+INFO : 2026-05-04 23:20:12,707 Running update on language: quc
+INFO : 2026-05-04 23:20:15,307 Saving state to file.
