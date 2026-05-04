@@ -193,7 +193,6 @@ if __name__ == "__main__":
 
         # translators that have are assigned at most half the packets # available
         translators_done = [t for t in state[lang]['translators'] if len([packet['translator'] for _, packet in state[lang][packet_string].items() if packet is not None and packet['translator'] == t]) >= (len(state[lang][packet_string]) // 2)]
-        ic(translators_done, lang)
 
         free_translators = [translator for translator in
                             state[lang]['translators'].keys() if translator not
