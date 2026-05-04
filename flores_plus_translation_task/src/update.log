@@ -82,10 +82,8 @@ INFO : 2026-02-08 22:54:06,426 Saving state to file.
 INFO : 2026-02-08 23:03:58,288 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:03:59,168 Running update on language: sjn
 INFO : 2026-02-08 23:04:01,482 Saving state to file.
-<<<<<<< HEAD
 WARNING : 2026-02-08 17:27:15,215 No translation guide associated to language 'sjn'. Creating.
 WARNING : 2026-02-08 17:28:22,243 No translation guide associated to language 'sjn'. Creating.
-=======
 WARNING : 2026-02-08 23:12:49,056 No translation guide associated to language 'sjn'. Creating.
 INFO : 2026-02-08 23:12:52,415 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:12:53,360 Running update on language: sjn
@@ -94,7 +92,6 @@ WARNING : 2026-02-08 23:16:19,250 No translation guide associated to language 's
 INFO : 2026-02-08 23:16:22,677 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:16:23,245 Running update on language: sjn
 INFO : 2026-02-08 23:16:24,574 Saving state to file.
->>>>>>> 6cdd0866ef3c079a90a510fac1f30c051487a101
 WARNING : 2026-02-08 23:33:49,126 No translation guide associated to language 'sjn'. Creating.
 INFO : 2026-02-08 23:33:54,901 Checking vocabulary spreadsheet for updates for lang 'sjn'.
 INFO : 2026-02-08 23:33:55,789 Running update on language: sjn
@@ -4900,3 +4897,140 @@ INFO : 2026-05-04 11:53:22,436 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-05-04 11:53:23,922 Checking vocabulary spreadsheet for updates for lang 'quc'.
 INFO : 2026-05-04 11:53:24,763 Running update on language: sjn
 INFO : 2026-05-04 11:53:32,356 Running update on language: mam
+=======
+INFO : 2026-04-30 14:43:49,988 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-30 14:43:51,021 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-30 14:43:51,918 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-30 14:43:52,651 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-30 14:43:53,380 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-30 14:43:54,184 Running update on language: sjn
+INFO : 2026-04-30 14:43:58,214 Running update on language: mam
+INFO : 2026-04-30 14:44:01,662 Running update on language: kek
+INFO : 2026-04-30 14:44:03,739 Running update on language: cak
+INFO : 2026-04-30 14:44:06,383 Running update on language: quc
+INFO : 2026-04-30 14:44:10,404 Packet 'quc_4': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
+INFO : 2026-04-30 14:44:13,229 Saving state to file.
+INFO : 2026-04-30 18:30:33,805 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-30 18:30:34,642 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-30 18:30:35,462 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-30 18:30:36,289 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-30 18:30:45,310 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-30 18:30:46,447 Running update on language: sjn
+INFO : 2026-04-30 18:30:50,526 Running update on language: mam
+INFO : 2026-04-30 18:30:54,521 Running update on language: kek
+INFO : 2026-04-30 18:30:57,812 Running update on language: cak
+INFO : 2026-04-30 18:31:03,658 Running update on language: quc
+INFO : 2026-04-30 18:31:06,405 Saving state to file.
+INFO : 2026-04-30 23:19:37,569 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-04-30 23:19:38,444 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-04-30 23:19:39,319 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-04-30 23:19:40,560 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-04-30 23:19:41,498 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-04-30 23:19:42,511 Running update on language: sjn
+INFO : 2026-04-30 23:19:46,307 Running update on language: mam
+INFO : 2026-04-30 23:19:50,050 Running update on language: kek
+INFO : 2026-04-30 23:19:52,730 Running update on language: cak
+INFO : 2026-04-30 23:19:54,952 Running update on language: quc
+INFO : 2026-04-30 23:19:57,713 Saving state to file.
+INFO : 2026-05-01 14:25:09,391 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-01 14:25:10,393 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-01 14:25:11,427 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-01 14:25:12,337 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-01 14:25:13,226 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-01 14:25:14,139 Running update on language: sjn
+INFO : 2026-05-01 14:25:18,189 Running update on language: mam
+INFO : 2026-05-01 14:25:21,484 Running update on language: kek
+INFO : 2026-05-01 14:25:23,628 Running update on language: cak
+INFO : 2026-05-01 14:25:26,074 Running update on language: quc
+INFO : 2026-05-01 14:25:28,494 Packet 'quc_5': First translation complete by user 'josefinapos070@gmail.com'. Submitting for revision.
+INFO : 2026-05-01 14:25:36,432 Saving state to file.
+INFO : 2026-05-01 18:23:34,182 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-01 18:23:35,238 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-01 18:23:36,353 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-01 18:23:37,176 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-01 18:23:37,983 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-01 18:23:38,705 Running update on language: sjn
+INFO : 2026-05-01 18:23:43,300 Running update on language: mam
+INFO : 2026-05-01 18:23:46,851 Running update on language: kek
+INFO : 2026-05-01 18:23:49,561 Running update on language: cak
+INFO : 2026-05-01 18:23:51,748 Running update on language: quc
+INFO : 2026-05-01 18:23:53,899 Saving state to file.
+INFO : 2026-05-01 23:18:13,974 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-01 23:18:15,102 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-01 23:18:15,962 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-01 23:18:17,242 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-01 23:18:18,255 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-01 23:18:19,220 Running update on language: sjn
+INFO : 2026-05-01 23:18:22,643 Running update on language: mam
+INFO : 2026-05-01 23:18:26,816 Running update on language: kek
+INFO : 2026-05-01 23:18:29,394 Running update on language: cak
+INFO : 2026-05-01 23:18:32,065 Running update on language: quc
+INFO : 2026-05-01 23:18:34,776 Saving state to file.
+INFO : 2026-05-02 14:20:02,171 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-02 14:20:03,126 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-02 14:20:04,057 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-02 14:20:05,163 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-02 14:20:06,201 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-02 14:20:07,281 Running update on language: sjn
+INFO : 2026-05-02 14:20:11,704 Running update on language: mam
+INFO : 2026-05-02 14:20:15,760 Running update on language: kek
+INFO : 2026-05-02 14:20:17,044 Packet 'kek_7': First translation complete by user 'equidades@gmail.com'. Submitting for revision.
+INFO : 2026-05-02 14:20:27,626 Running update on language: cak
+INFO : 2026-05-02 14:20:29,560 Running update on language: quc
+INFO : 2026-05-02 14:20:32,032 Saving state to file.
+INFO : 2026-05-02 18:18:16,855 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-02 18:18:17,850 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-02 18:18:18,690 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-02 18:18:19,483 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-02 18:18:20,186 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-02 18:18:21,029 Running update on language: sjn
+INFO : 2026-05-02 18:18:24,865 Running update on language: mam
+INFO : 2026-05-02 18:18:27,946 Running update on language: kek
+INFO : 2026-05-02 18:18:30,092 Running update on language: cak
+INFO : 2026-05-02 18:18:32,550 Running update on language: quc
+INFO : 2026-05-02 18:18:34,523 Saving state to file.
+INFO : 2026-05-02 23:16:11,184 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-02 23:16:12,257 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-02 23:16:13,123 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-02 23:16:14,339 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-02 23:16:15,423 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-02 23:16:16,295 Running update on language: sjn
+INFO : 2026-05-02 23:16:20,063 Running update on language: mam
+INFO : 2026-05-02 23:16:24,575 Running update on language: kek
+INFO : 2026-05-02 23:16:27,014 Running update on language: cak
+INFO : 2026-05-02 23:16:29,703 Running update on language: quc
+INFO : 2026-05-02 23:16:32,075 Saving state to file.
+INFO : 2026-05-03 14:20:32,171 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-03 14:20:33,183 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-03 14:20:33,995 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-03 14:20:35,179 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-03 14:20:36,379 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-03 14:20:37,367 Running update on language: sjn
+INFO : 2026-05-03 14:20:41,127 Running update on language: mam
+INFO : 2026-05-03 14:20:45,006 Running update on language: kek
+INFO : 2026-05-03 14:20:47,661 Running update on language: cak
+INFO : 2026-05-03 14:20:49,636 Running update on language: quc
+INFO : 2026-05-03 14:20:52,322 Saving state to file.
+INFO : 2026-05-03 18:18:28,559 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-03 18:18:29,596 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-03 18:18:30,488 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-03 18:18:31,184 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-03 18:18:32,192 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-03 18:18:33,250 Running update on language: sjn
+INFO : 2026-05-03 18:18:36,508 Running update on language: mam
+INFO : 2026-05-03 18:18:40,957 Running update on language: kek
+INFO : 2026-05-03 18:18:43,264 Running update on language: cak
+INFO : 2026-05-03 18:18:45,619 Running update on language: quc
+INFO : 2026-05-03 18:18:48,184 Saving state to file.
+INFO : 2026-05-03 23:16:27,858 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-03 23:16:28,743 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-03 23:16:29,540 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-03 23:16:30,656 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-03 23:16:31,801 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-03 23:16:32,760 Running update on language: sjn
+INFO : 2026-05-03 23:16:36,283 Running update on language: mam
+INFO : 2026-05-03 23:16:39,872 Running update on language: kek
+INFO : 2026-05-03 23:16:42,193 Running update on language: cak
+INFO : 2026-05-03 23:16:44,916 Running update on language: quc
+INFO : 2026-05-03 23:16:51,430 Packet 'quc_5': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
+INFO : 2026-05-03 23:16:54,197 Saving state to file.
