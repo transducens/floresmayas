@@ -1967,10 +1967,10 @@
         "rev_id": "1jQRZWDcMtCQML5MN5vVpJVdqFvsSKnlI2FDkdZEW4vE",
         "title": "cak_4",
         "created": "Apr 11 2026 11:10PM",
-        "last_stage_update": "May 04 2026 10:30AM",
+        "last_stage_update": "May 05 2026 06:32PM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 4
       },
       "5": {
@@ -1984,14 +1984,24 @@
         "stage": "FIRST_REVISION",
         "packet_idx": 5
       },
-      "6": null,
+      "6": {
+        "tra_id": "12MnXfTR7VCM1db9Vh4-bPkZS4FCZZzOl9ylXe3xjrTc",
+        "rev_id": null,
+        "title": "cak_6",
+        "created": "May 05 2026 06:32PM",
+        "last_stage_update": "May 05 2026 06:32PM",
+        "translator": "svasquezv7@miumg.edu.gt",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 6
+      },
       "7": null,
       "8": null,
       "9": null,
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 67,
+    "spent_additional_revisions": 79,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
