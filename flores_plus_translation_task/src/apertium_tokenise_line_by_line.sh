@@ -5,7 +5,7 @@ automorf=/usr/share/apertium/apertium-eng-spa/spa-eng.automorf.bin
 tagger=/usr/share/apertium/apertium-eng-spa/spa-eng.prob
 
 # 2. Initialize counter
-count=$3
+count=1
 
 # 3. Process Line by Line
 while IFS= read -r line; do
@@ -28,7 +28,7 @@ while IFS= read -r line; do
     | tr -d '.' \
     | tr -d ',' \
     | grep -v '^$'                  `# 7. Remove empty lines` \
-    > "../data/tokens/$2/${count}.txt"
+    > "bouquet_lemmas.spa"
 
     ((count++))
 done < "$1"
