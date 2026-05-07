@@ -296,7 +296,8 @@ def get_vocab_from_sheet(creds, doc_id: str) -> dict:
 def get_vocab_and_spa_tokens(lang_vocab: dict, packet_idx: str):
     spa_tokens = []
     vocab = []
-    packets_ls = sorted(os.listdir(f"../data/tokens/{packet_idx}"), key=lambda x: int(x.split(".")[0]))
+    packets_ls = os.listdir(f"../data/tokens/{packet_idx}")
+    packets_ls = sorted(packets_ls, key=lambda x: int(x.split(".")[0]))
     for filename in packets_ls:
         with open(f"../data/tokens/{packet_idx}/{filename}") as f:
             spa_tokens.append(f.readlines())

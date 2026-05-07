@@ -339,7 +339,6 @@ https://docs.google.com/spreadsheets/d/{packet['rev_id']}"""
                             continue
 
                         next_packet_idx = min(next_packet_idx)
-
                         state[lang][packet_string][str(next_packet_idx)] = create_translation_spreadsheet(
                             creds=creds,
                             sents=PRELIM_DATASET[next_packet_idx] if state[lang]['prelim_translation'] else DATASET[next_packet_idx],

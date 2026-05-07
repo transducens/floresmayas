@@ -37,10 +37,6 @@ def create_translation_spreadsheet(
     os.system(f"mkdir -p ../data/tokens/{prelim_string}{packet_idx}")
     os.system(f"bash apertium_tokenise_line_by_line.sh temp {prelim_string}{packet_idx} {min_id}")
     os.system("rm temp")
-    for filename in os.listdir(f"../data/tokens/{prelim_string}{packet_idx}"):
-        with open(f"../data/tokens/{prelim_string}{packet_idx}/{filename}") as f:
-            spa_tokens.append(f.readlines())
-
     vocab, spa_tokens = get_vocab_and_spa_tokens(lang_vocab, f"{prelim_string}{packet_idx}")
 
     # Create translation sheet

@@ -5150,3 +5150,348 @@ INFO : 2026-05-07 16:06:40,841 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-05-07 16:06:42,410 Checking vocabulary spreadsheet for updates for lang 'mam'.
 INFO : 2026-05-07 16:06:44,020 Checking vocabulary spreadsheet for updates for lang 'kek'.
 INFO : 2026-05-07 16:06:45,504 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:15:09,677 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:15:11,161 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:15:12,372 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:15:13,913 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:15:14,773 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:15:15,737 Running update on language: sjn
+INFO : 2026-05-07 16:15:21,797 Running update on language: mam
+INFO : 2026-05-07 16:15:26,608 Packet 'mam_2': First translation complete by user 'ixkikap@gmail.com'. Submitting for revision.
+INFO : 2026-05-07 16:15:38,482 Running update on language: kek
+INFO : 2026-05-07 16:15:47,148 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 16:15:47,148 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 16:30:12,561 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:30:14,218 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:30:16,163 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:30:17,843 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:30:19,293 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:30:20,824 Running update on language: sjn
+INFO : 2026-05-07 16:30:28,337 Running update on language: mam
+INFO : 2026-05-07 16:30:34,558 Running update on language: kek
+INFO : 2026-05-07 16:30:38,529 Running update on language: cak
+INFO : 2026-05-07 16:30:45,550 Running update on language: quc
+INFO : 2026-05-07 16:30:50,260 Saving state to file.
+INFO : 2026-05-07 16:37:13,948 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:37:14,984 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:37:16,724 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:37:17,648 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:37:18,843 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:37:19,754 Running update on language: sjn
+INFO : 2026-05-07 16:37:26,449 Running update on language: mam
+INFO : 2026-05-07 16:37:33,821 Running update on language: kek
+INFO : 2026-05-07 16:37:41,379 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 16:37:41,379 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 16:42:33,548 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:42:34,673 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:42:36,211 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:42:37,543 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:42:38,364 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:42:39,900 Running update on language: sjn
+INFO : 2026-05-07 16:42:47,066 Running update on language: mam
+INFO : 2026-05-07 16:42:54,243 Running update on language: kek
+INFO : 2026-05-07 16:43:01,498 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 16:43:01,498 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 16:48:08,706 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:48:10,269 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:48:11,764 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:48:13,504 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:48:14,238 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:48:15,345 Running update on language: sjn
+INFO : 2026-05-07 16:48:21,617 Running update on language: mam
+INFO : 2026-05-07 16:48:28,357 Running update on language: kek
+INFO : 2026-05-07 16:48:35,068 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 16:48:35,068 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 16:56:44,918 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:56:46,447 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:56:47,676 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:56:48,582 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 16:56:49,349 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 16:56:50,234 Running update on language: sjn
+INFO : 2026-05-07 16:56:55,529 Running update on language: mam
+INFO : 2026-05-07 16:57:02,172 Running update on language: kek
+INFO : 2026-05-07 16:57:10,035 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 16:57:10,036 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:05:27,066 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:05:28,342 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:05:29,988 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:05:31,556 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:05:33,125 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:05:34,112 Running update on language: sjn
+INFO : 2026-05-07 17:05:40,256 Running update on language: mam
+INFO : 2026-05-07 17:05:46,449 Running update on language: kek
+INFO : 2026-05-07 17:05:53,056 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:05:53,056 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:06:57,617 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:06:58,701 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:06:59,687 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:07:00,701 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:07:01,822 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:07:02,897 Running update on language: sjn
+INFO : 2026-05-07 17:07:07,754 Running update on language: mam
+INFO : 2026-05-07 17:07:14,260 Running update on language: kek
+INFO : 2026-05-07 17:07:21,321 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:07:21,322 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:25:27,092 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:25:28,342 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:25:29,434 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:25:30,369 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:25:31,127 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:25:32,132 Running update on language: sjn
+INFO : 2026-05-07 17:25:39,466 Running update on language: mam
+INFO : 2026-05-07 17:25:43,515 Running update on language: kek
+INFO : 2026-05-07 17:25:51,338 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:25:51,338 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:36:05,549 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:36:06,675 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:36:07,804 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:36:08,706 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:36:10,057 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:36:10,972 Running update on language: sjn
+INFO : 2026-05-07 17:36:18,893 Running update on language: mam
+INFO : 2026-05-07 17:36:24,109 Running update on language: kek
+INFO : 2026-05-07 17:36:30,888 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:36:30,889 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:38:35,176 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:38:35,700 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:38:36,206 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:38:37,135 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:38:38,086 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:38:38,565 Running update on language: sjn
+INFO : 2026-05-07 17:38:45,537 Running update on language: mam
+INFO : 2026-05-07 17:38:48,464 Running update on language: kek
+INFO : 2026-05-07 17:38:55,303 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:38:55,303 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:40:45,891 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:40:46,546 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:40:47,046 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:40:47,997 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:40:48,576 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:40:49,066 Running update on language: sjn
+INFO : 2026-05-07 17:40:55,249 Running update on language: mam
+INFO : 2026-05-07 17:40:59,902 Running update on language: kek
+INFO : 2026-05-07 17:41:05,456 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:41:05,457 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:43:30,316 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:43:31,199 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:43:31,912 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:43:32,675 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:43:33,430 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:43:34,258 Running update on language: sjn
+INFO : 2026-05-07 17:43:40,911 Running update on language: mam
+INFO : 2026-05-07 17:43:44,647 Running update on language: kek
+INFO : 2026-05-07 17:43:52,306 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:43:52,307 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:55:41,718 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:55:42,841 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:55:43,767 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:55:45,096 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:55:46,532 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:55:47,352 Running update on language: sjn
+INFO : 2026-05-07 17:55:54,823 Running update on language: mam
+INFO : 2026-05-07 17:56:02,125 Running update on language: kek
+INFO : 2026-05-07 17:56:09,366 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:56:09,366 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 17:57:12,699 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 17:57:13,206 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 17:57:13,658 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 17:57:14,818 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 17:57:15,286 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 17:57:15,799 Running update on language: sjn
+INFO : 2026-05-07 17:57:21,761 Running update on language: mam
+INFO : 2026-05-07 17:57:27,500 Running update on language: kek
+INFO : 2026-05-07 17:57:32,636 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 17:57:32,636 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:00:06,831 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:00:07,423 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:00:07,946 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:00:08,991 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:00:09,599 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:00:10,109 Running update on language: sjn
+INFO : 2026-05-07 18:00:16,055 Running update on language: mam
+INFO : 2026-05-07 18:00:21,100 Running update on language: kek
+INFO : 2026-05-07 18:00:26,951 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:00:26,951 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:01:51,484 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:01:52,298 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:01:52,958 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:01:53,661 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:01:54,348 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:01:55,013 Running update on language: sjn
+INFO : 2026-05-07 18:02:02,443 Running update on language: mam
+INFO : 2026-05-07 18:02:12,001 Running update on language: kek
+INFO : 2026-05-07 18:02:19,006 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:02:19,006 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:05:38,806 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:05:39,434 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:05:39,826 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:05:40,769 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:05:41,325 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:05:41,794 Running update on language: sjn
+INFO : 2026-05-07 18:05:48,068 Running update on language: mam
+INFO : 2026-05-07 18:05:53,574 Running update on language: kek
+INFO : 2026-05-07 18:05:58,826 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:05:58,826 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:08:06,402 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:08:07,200 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:08:07,840 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:08:09,000 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:08:09,726 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:08:10,677 Running update on language: sjn
+INFO : 2026-05-07 18:08:17,680 Running update on language: mam
+INFO : 2026-05-07 18:08:21,975 Running update on language: kek
+INFO : 2026-05-07 18:08:27,368 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:08:27,368 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:10:14,400 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:10:15,018 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:10:15,569 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:10:16,644 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:10:17,336 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:10:18,327 Running update on language: sjn
+INFO : 2026-05-07 18:10:25,229 Running update on language: mam
+INFO : 2026-05-07 18:10:29,982 Running update on language: kek
+INFO : 2026-05-07 18:10:34,483 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:10:34,483 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:21:03,688 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:21:04,931 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:21:05,949 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:21:07,492 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:21:08,292 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:21:09,531 Running update on language: sjn
+INFO : 2026-05-07 18:21:15,371 Running update on language: mam
+INFO : 2026-05-07 18:21:20,380 Running update on language: kek
+INFO : 2026-05-07 18:21:27,265 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:21:27,266 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:29:13,998 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:29:15,123 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:29:16,113 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:29:17,374 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:29:18,112 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:29:18,897 Running update on language: sjn
+INFO : 2026-05-07 18:29:25,745 Running update on language: mam
+INFO : 2026-05-07 18:29:31,243 Running update on language: kek
+INFO : 2026-05-07 18:29:37,744 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:29:37,744 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:39:17,099 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:39:18,199 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:39:19,176 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:39:20,617 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:39:21,842 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:39:22,688 Running update on language: sjn
+INFO : 2026-05-07 18:39:29,756 Running update on language: mam
+INFO : 2026-05-07 18:39:35,040 Running update on language: kek
+INFO : 2026-05-07 18:39:42,496 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:39:42,496 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:40:55,186 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:40:55,713 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:40:56,130 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:40:56,531 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:40:56,942 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:40:57,385 Running update on language: sjn
+INFO : 2026-05-07 18:41:02,318 Running update on language: mam
+INFO : 2026-05-07 18:41:06,211 Running update on language: kek
+INFO : 2026-05-07 18:41:11,635 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:41:11,636 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:46:12,375 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:46:13,392 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:46:14,317 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:46:15,643 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:46:17,185 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:46:18,000 Running update on language: sjn
+INFO : 2026-05-07 18:46:25,062 Running update on language: mam
+INFO : 2026-05-07 18:46:29,961 Running update on language: kek
+INFO : 2026-05-07 18:46:35,780 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:46:35,780 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:47:02,437 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:47:02,977 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:47:03,366 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:47:04,283 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:47:04,898 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:47:05,411 Running update on language: sjn
+INFO : 2026-05-07 18:47:53,841 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:47:54,364 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:47:54,859 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:47:55,387 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:47:55,956 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:47:56,395 Running update on language: sjn
+INFO : 2026-05-07 18:47:59,928 Running update on language: mam
+INFO : 2026-05-07 18:48:04,152 Running update on language: kek
+INFO : 2026-05-07 18:48:10,123 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:48:10,123 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:49:44,164 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:49:44,841 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:49:45,356 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:49:46,294 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:49:46,997 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:49:47,509 Running update on language: sjn
+INFO : 2026-05-07 18:49:53,139 Running update on language: mam
+INFO : 2026-05-07 18:49:57,489 Running update on language: kek
+INFO : 2026-05-07 18:50:03,481 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:50:03,481 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:51:39,417 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:51:40,389 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:51:41,197 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:51:42,167 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:51:43,439 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:51:44,334 Running update on language: sjn
+INFO : 2026-05-07 18:51:50,347 Running update on language: mam
+INFO : 2026-05-07 18:51:56,335 Running update on language: kek
+INFO : 2026-05-07 18:52:02,263 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:52:02,263 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:54:44,775 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:54:45,352 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:54:45,781 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:54:46,825 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:54:47,847 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:54:48,353 Running update on language: sjn
+INFO : 2026-05-07 18:54:53,037 Running update on language: mam
+INFO : 2026-05-07 18:54:57,625 Running update on language: kek
+INFO : 2026-05-07 18:55:02,080 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:55:02,080 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 18:58:33,679 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 18:58:34,567 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 18:58:35,590 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 18:58:36,252 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 18:58:36,805 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 18:58:37,512 Running update on language: sjn
+INFO : 2026-05-07 18:58:44,276 Running update on language: mam
+INFO : 2026-05-07 18:58:49,054 Running update on language: kek
+INFO : 2026-05-07 18:58:55,244 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 18:58:55,245 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 19:00:09,049 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 19:00:09,597 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 19:00:10,073 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 19:00:11,066 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 19:00:11,947 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 19:00:12,397 Running update on language: sjn
+INFO : 2026-05-07 19:00:17,257 Running update on language: mam
+INFO : 2026-05-07 19:00:21,071 Running update on language: kek
+INFO : 2026-05-07 19:00:26,371 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 19:00:26,371 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 19:01:37,347 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 19:01:37,850 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 19:01:38,358 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 19:01:38,787 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 19:01:39,397 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 19:01:39,910 Running update on language: sjn
+INFO : 2026-05-07 19:01:45,173 Running update on language: mam
+INFO : 2026-05-07 19:01:49,114 Running update on language: kek
+INFO : 2026-05-07 19:01:52,173 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 19:01:52,173 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 19:05:35,172 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 19:05:35,946 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 19:05:36,666 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 19:05:37,319 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-07 19:05:38,000 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-07 19:05:38,708 Running update on language: sjn
+INFO : 2026-05-07 19:05:43,621 Running update on language: mam
+INFO : 2026-05-07 19:05:48,352 Running update on language: kek
+INFO : 2026-05-07 19:05:53,852 Packet 'kek_7': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 19:05:53,852 Checking to see next available packet for user 'equidades@gmail.com.
+INFO : 2026-05-07 19:06:01,406 New packet 'kek_9' created for language 'kek' and assigned to translator 'equidades@gmail.com' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-05-07 19:06:09,197 Packet 'kek_8': First revision complete by user 'juan.tzoc@gmail.com'. No errors found. Translation complete.
+INFO : 2026-05-07 19:06:09,197 Checking to see next available packet for user 'poyanam@yahoo.es.
+INFO : 2026-05-07 19:06:19,358 New packet 'kek_10' created for language 'kek' and assigned to translator 'poyanam@yahoo.es' and revisor 'juan.tzoc@gmail.com'.
+INFO : 2026-05-07 19:06:19,358 Running update on language: cak
+INFO : 2026-05-07 19:06:25,226 Running update on language: quc
+INFO : 2026-05-07 19:06:28,918 Saving state to file.
