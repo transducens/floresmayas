@@ -5146,3 +5146,7 @@ INFO : 2026-05-06 23:18:43,314 Packet 'kek_8': First translation complete by use
 INFO : 2026-05-06 23:18:50,638 Running update on language: cak
 INFO : 2026-05-06 23:18:54,515 Running update on language: quc
 INFO : 2026-05-06 23:18:57,071 Saving state to file.
+INFO : 2026-05-07 16:06:40,841 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-07 16:06:42,410 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-07 16:06:44,020 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-07 16:06:45,504 Checking vocabulary spreadsheet for updates for lang 'cak'.
