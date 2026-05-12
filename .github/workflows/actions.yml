@@ -1,8 +1,8 @@
 name: update_packets
 
 on:
-  # schedule:
-  #   - cron: '0 14,18,23 * * *' 
+  schedule:
+    - cron: '0 14,18,23 * * *' 
   push:
 
 jobs:
