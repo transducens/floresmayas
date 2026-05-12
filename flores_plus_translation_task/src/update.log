@@ -5545,3 +5545,14 @@ INFO : 2026-05-12 15:07:59,854 Running update on language: kek
 INFO : 2026-05-12 15:08:02,481 Running update on language: cak
 INFO : 2026-05-12 15:08:04,885 Running update on language: quc
 INFO : 2026-05-12 15:08:06,916 Saving state to file.
+INFO : 2026-05-12 18:48:08,421 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-12 18:48:09,533 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-12 18:48:10,438 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-12 18:48:11,370 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-12 18:48:12,144 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-12 18:48:12,765 Running update on language: sjn
+INFO : 2026-05-12 18:48:16,849 Running update on language: mam
+INFO : 2026-05-12 18:48:19,777 Running update on language: kek
+INFO : 2026-05-12 18:48:21,958 Running update on language: cak
+INFO : 2026-05-12 18:48:25,130 Running update on language: quc
+INFO : 2026-05-12 18:48:27,304 Saving state to file.
