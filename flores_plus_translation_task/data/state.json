@@ -412,17 +412,7 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 3
       },
-      "4": {
-        "tra_id": "1IJcXf_goPgm_iurLp5pdb5C8lqKhqtW_GQm158z7yOw",
-        "rev_id": null,
-        "title": "mam_4",
-        "created": "May 12 2026 07:34AM",
-        "last_stage_update": "May 12 2026 07:34AM",
-        "translator": "ixkikap@gmail.com",
-        "revisor": "saqpom@gmail.com",
-        "stage": "FIRST_TRANSLATION",
-        "packet_idx": 4
-      },
+      "4": null,
       "5": null,
       "6": null,
       "7": null,
