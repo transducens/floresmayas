@@ -2298,10 +2298,10 @@
         "rev_id": "114dE0b_EoofboJEvcYVy7oBRBKCJLFdpdrRYJjkmAJE",
         "title": "cak_5",
         "created": "Apr 18 2026 06:14PM",
-        "last_stage_update": "May 12 2026 07:34AM",
+        "last_stage_update": "May 12 2026 11:30PM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 5
       },
       "6": {
@@ -2315,13 +2315,23 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 6
       },
-      "7": null,
+      "7": {
+        "tra_id": "1DUIsm00x5_XQ5NzeX96ARKVv-BvlExvDXdsgBN3VIHU",
+        "rev_id": null,
+        "title": "cak_7",
+        "created": "May 12 2026 11:30PM",
+        "last_stage_update": "May 12 2026 11:30PM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 7
+      },
       "8": null,
       "9": null,
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 79,
+    "spent_additional_revisions": 90,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
