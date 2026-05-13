@@ -35,7 +35,7 @@ with open("../data/flores.eng-spa.dev") as f:
     ]
 
 # Because of budget constraints, only a fraction of the dev set may be translated
-DEV_FRACTION = .1
+DEV_FRACTION = .045
 DEV = DEV[:floor(len(DEV) * DEV_FRACTION)]
 
 with open("../data/flores.eng-spa.devtest") as f:
