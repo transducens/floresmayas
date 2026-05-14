@@ -5627,3 +5627,14 @@ INFO : 2026-05-14 06:53:43,020 Running update on language: cak
 INFO : 2026-05-14 06:53:47,195 Packet 'cak_5': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
 INFO : 2026-05-14 06:53:50,048 Running update on language: quc
 INFO : 2026-05-14 06:53:52,257 Saving state to file.
+INFO : 2026-05-14 14:59:31,790 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-14 14:59:32,772 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-14 14:59:33,784 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-14 14:59:34,556 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-14 14:59:35,796 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-14 14:59:36,581 Running update on language: sjn
+INFO : 2026-05-14 14:59:40,177 Running update on language: mam
+INFO : 2026-05-14 14:59:43,967 Running update on language: kek
+INFO : 2026-05-14 14:59:45,907 Running update on language: cak
+INFO : 2026-05-14 14:59:48,418 Running update on language: quc
+INFO : 2026-05-14 14:59:50,911 Saving state to file.
