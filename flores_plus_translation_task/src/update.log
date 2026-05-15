@@ -5683,3 +5683,15 @@ INFO : 2026-05-15 18:42:37,617 Running update on language: kek
 INFO : 2026-05-15 18:42:39,978 Running update on language: cak
 INFO : 2026-05-15 18:42:42,174 Running update on language: quc
 INFO : 2026-05-15 18:42:44,684 Saving state to file.
+INFO : 2026-05-15 23:25:20,627 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-15 23:25:21,787 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-15 23:25:22,773 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-15 23:25:23,676 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-15 23:25:24,510 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-15 23:25:25,180 Running update on language: sjn
+INFO : 2026-05-15 23:25:30,640 Running update on language: mam
+INFO : 2026-05-15 23:25:33,638 Packet 'mam_0': Second revision complete by user 'saqpom@gmail.com'. Translation complete.
+INFO : 2026-05-15 23:25:36,661 Running update on language: kek
+INFO : 2026-05-15 23:25:38,733 Running update on language: cak
+INFO : 2026-05-15 23:25:41,131 Running update on language: quc
+INFO : 2026-05-15 23:25:43,449 Saving state to file.
