@@ -5672,3 +5672,14 @@ INFO : 2026-05-15 14:56:25,007 Running update on language: cak
 INFO : 2026-05-15 14:56:26,209 Packet 'cak_6': First translation complete by user 'svasquezv7@miumg.edu.gt'. Submitting for revision.
 INFO : 2026-05-15 14:56:35,823 Running update on language: quc
 INFO : 2026-05-15 14:56:38,234 Saving state to file.
+INFO : 2026-05-15 18:42:25,681 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-15 18:42:26,626 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-15 18:42:27,674 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-15 18:42:28,480 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-15 18:42:29,361 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-15 18:42:30,052 Running update on language: sjn
+INFO : 2026-05-15 18:42:34,243 Running update on language: mam
+INFO : 2026-05-15 18:42:37,617 Running update on language: kek
+INFO : 2026-05-15 18:42:39,978 Running update on language: cak
+INFO : 2026-05-15 18:42:42,174 Running update on language: quc
+INFO : 2026-05-15 18:42:44,684 Saving state to file.
