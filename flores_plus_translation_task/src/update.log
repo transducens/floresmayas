@@ -5741,3 +5741,14 @@ INFO : 2026-05-17 14:37:20,728 Running update on language: cak
 INFO : 2026-05-17 14:37:23,843 Running update on language: quc
 INFO : 2026-05-17 14:37:25,176 Packet 'quc_6': First translation complete by user 'josefinapos070@gmail.com'. Submitting for revision.
 INFO : 2026-05-17 14:37:35,774 Saving state to file.
+INFO : 2026-05-17 18:31:15,524 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-17 18:31:17,009 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-17 18:31:18,065 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-17 18:31:18,998 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-17 18:31:19,801 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-17 18:31:20,610 Running update on language: sjn
+INFO : 2026-05-17 18:31:24,790 Running update on language: mam
+INFO : 2026-05-17 18:31:27,464 Running update on language: kek
+INFO : 2026-05-17 18:31:29,545 Running update on language: cak
+INFO : 2026-05-17 18:31:32,117 Running update on language: quc
+INFO : 2026-05-17 18:31:34,451 Saving state to file.
