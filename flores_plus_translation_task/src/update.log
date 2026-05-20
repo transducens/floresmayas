@@ -5846,3 +5846,14 @@ INFO : 2026-05-20 15:12:51,915 Packet 'quc_6': Second translation complete by us
 INFO : 2026-05-20 15:12:57,686 Checking to see next available packet for user 'josefinapos070@gmail.com
 INFO : 2026-05-20 15:13:07,688 New packet 'quc_8' created for language 'quc' and assigned to translator 'josefinapos070@gmail.com' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-05-20 15:13:09,024 Saving state to file.
+INFO : 2026-05-20 18:58:11,325 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-20 18:58:12,267 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-20 18:58:13,309 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-20 18:58:13,974 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-20 18:58:14,626 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-20 18:58:15,281 Running update on language: sjn
+INFO : 2026-05-20 18:58:19,406 Running update on language: mam
+INFO : 2026-05-20 18:58:21,846 Running update on language: kek
+INFO : 2026-05-20 18:58:24,238 Running update on language: cak
+INFO : 2026-05-20 18:58:26,810 Running update on language: quc
+INFO : 2026-05-20 18:58:31,425 Saving state to file.
