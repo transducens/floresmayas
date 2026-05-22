@@ -3587,7 +3587,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 8
       },
-      "9": null,
+      "9": {
+        "tra_id": "1WgmwwLHCDgq4C70gY3OhllTo-X7hZto-vQ4PpwmTEx8",
+        "rev_id": null,
+        "title": "quc_9",
+        "created": "May 22 2026 04:14PM",
+        "last_stage_update": "May 22 2026 04:14PM",
+        "translator": "felivicente@yahoo.es",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 9
+      },
       "10": null
     },
     "inactive_translators": {},
