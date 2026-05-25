@@ -6021,3 +6021,14 @@ INFO : 2026-05-25 15:02:45,937 Running update on language: kek
 INFO : 2026-05-25 15:02:48,419 Running update on language: cak
 INFO : 2026-05-25 15:02:53,559 Running update on language: quc
 INFO : 2026-05-25 15:02:55,861 Saving state to file.
+INFO : 2026-05-25 18:33:26,312 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-25 18:33:27,275 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-25 18:33:28,063 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-25 18:33:29,070 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-25 18:33:30,099 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-25 18:33:31,082 Running update on language: sjn
+INFO : 2026-05-25 18:33:34,757 Running update on language: mam
+INFO : 2026-05-25 18:33:37,429 Running update on language: kek
+INFO : 2026-05-25 18:33:39,727 Running update on language: cak
+INFO : 2026-05-25 18:33:43,268 Running update on language: quc
+INFO : 2026-05-25 18:33:45,589 Saving state to file.
