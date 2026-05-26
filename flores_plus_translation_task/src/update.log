@@ -6045,3 +6045,14 @@ INFO : 2026-05-26 07:11:45,007 Packet 'cak_6': Second revision complete by user 
 INFO : 2026-05-26 07:11:51,345 Packet 'cak_7': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
 INFO : 2026-05-26 07:11:55,542 Running update on language: quc
 INFO : 2026-05-26 07:11:57,673 Saving state to file.
+INFO : 2026-05-26 15:03:36,988 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-26 15:03:38,146 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-26 15:03:39,051 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-26 15:03:39,986 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-26 15:03:40,651 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-26 15:03:41,652 Running update on language: sjn
+INFO : 2026-05-26 15:03:45,693 Running update on language: mam
+INFO : 2026-05-26 15:03:48,133 Running update on language: kek
+INFO : 2026-05-26 15:03:50,343 Running update on language: cak
+INFO : 2026-05-26 15:03:52,672 Running update on language: quc
+INFO : 2026-05-26 15:03:54,952 Saving state to file.
