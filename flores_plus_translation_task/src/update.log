@@ -6098,3 +6098,14 @@ INFO : 2026-05-27 15:05:49,144 Running update on language: cak
 INFO : 2026-05-27 15:05:53,364 Packet 'cak_7': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
 INFO : 2026-05-27 15:05:57,625 Running update on language: quc
 INFO : 2026-05-27 15:05:59,898 Saving state to file.
+INFO : 2026-05-27 18:45:58,781 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-27 18:45:59,748 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-27 18:46:00,751 Checking vocabulary spreadsheet for updates for lang 'kek'.
+INFO : 2026-05-27 18:46:01,870 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-27 18:46:02,675 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-27 18:46:03,739 Running update on language: sjn
+INFO : 2026-05-27 18:46:07,882 Running update on language: mam
+INFO : 2026-05-27 18:46:10,190 Running update on language: kek
+INFO : 2026-05-27 18:46:12,609 Running update on language: cak
+INFO : 2026-05-27 18:46:15,201 Running update on language: quc
+INFO : 2026-05-27 18:46:18,408 Saving state to file.
