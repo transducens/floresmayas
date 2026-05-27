@@ -1672,10 +1672,10 @@
         "rev_id": "1QbDNfRaTKqhv4KNv2974sTmDdT9BigABOREv6At9RyU",
         "title": "kek_9",
         "created": "May 07 2026 07:06PM",
-        "last_stage_update": "May 23 2026 10:46AM",
+        "last_stage_update": "May 27 2026 07:25AM",
         "translator": "equidades@gmail.com",
         "revisor": "juan.tzoc@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 9
       },
       "10": {
@@ -2620,10 +2620,10 @@
         "rev_id": "13CaPscPTv7VpU8eV5l7X5kZA3H7FDnLqEFiwseoJbPk",
         "title": "cak_7",
         "created": "May 12 2026 11:30PM",
-        "last_stage_update": "May 26 2026 07:11AM",
+        "last_stage_update": "May 27 2026 07:25AM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 7
       },
       "8": {
@@ -2637,11 +2637,21 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 8
       },
-      "9": null,
+      "9": {
+        "tra_id": "1xCIIUWvXs1LtGONaes7l7UnGdWC58r_po8hQx_UFYLI",
+        "rev_id": null,
+        "title": "cak_9",
+        "created": "May 27 2026 07:25AM",
+        "last_stage_update": "May 27 2026 07:25AM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 9
+      },
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 100,
+    "spent_additional_revisions": 110,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
@@ -3689,13 +3699,13 @@
       },
       "9": {
         "tra_id": "1WgmwwLHCDgq4C70gY3OhllTo-X7hZto-vQ4PpwmTEx8",
-        "rev_id": null,
+        "rev_id": "1lKTR6RTOXllVil5aYicUSYmTnPR3ccbrVCGNQMffZ0w",
         "title": "quc_9",
         "created": "May 22 2026 04:14PM",
-        "last_stage_update": "May 22 2026 04:14PM",
+        "last_stage_update": "May 27 2026 07:26AM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 9
       },
       "10": null
