@@ -6138,3 +6138,12 @@ INFO : 2026-05-28 15:07:51,687 All packets of language 'kek' have been translate
 INFO : 2026-05-28 15:07:51,687 Running update on language: cak
 INFO : 2026-05-28 15:07:54,187 Running update on language: quc
 INFO : 2026-05-28 15:07:56,836 Saving state to file.
+INFO : 2026-05-28 18:51:42,736 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-28 18:51:43,863 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-28 18:51:44,736 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-28 18:51:45,486 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-28 18:51:46,169 Running update on language: sjn
+INFO : 2026-05-28 18:51:50,186 Running update on language: mam
+INFO : 2026-05-28 18:51:52,268 Running update on language: cak
+INFO : 2026-05-28 18:51:53,919 Running update on language: quc
+INFO : 2026-05-28 18:51:56,497 Saving state to file.
