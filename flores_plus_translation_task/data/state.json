@@ -3907,17 +3907,7 @@
         "stage": "SECOND_REVISION",
         "packet_idx": 9
       },
-      "10": {
-        "tra_id": "1VuQ3Z-5E_-I98HB-EfEQnUDHLWhUE0now55A-hz-gSY",
-        "rev_id": null,
-        "title": "quc_10",
-        "created": "May 29 2026 11:01AM",
-        "last_stage_update": "May 29 2026 11:01AM",
-        "translator": "felivicente@yahoo.es",
-        "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_TRANSLATION",
-        "packet_idx": 10
-      }
+      "10": null
     },
     "inactive_translators": {},
     "spent_additional_revisions": 120,
