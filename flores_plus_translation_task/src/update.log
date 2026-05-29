@@ -6220,3 +6220,12 @@ INFO : 2026-05-29 15:05:23,985 Running update on language: cak
 INFO : 2026-05-29 15:05:26,348 Running update on language: quc
 INFO : 2026-05-29 15:05:31,851 Packet 'quc_9': Second revision complete by user 'jrguarchaj@gmail.com'. Translation complete.
 INFO : 2026-05-29 15:05:36,550 Saving state to file.
+INFO : 2026-05-29 18:51:46,693 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-29 18:51:47,667 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-29 18:51:48,508 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-29 18:51:49,551 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-29 18:51:50,563 Running update on language: sjn
+INFO : 2026-05-29 18:51:54,549 Running update on language: mam
+INFO : 2026-05-29 18:51:57,001 Running update on language: cak
+INFO : 2026-05-29 18:51:59,246 Running update on language: quc
+INFO : 2026-05-29 18:52:01,210 Saving state to file.
