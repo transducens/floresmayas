@@ -3901,16 +3901,26 @@
         "rev_id": "1lKTR6RTOXllVil5aYicUSYmTnPR3ccbrVCGNQMffZ0w",
         "title": "quc_9",
         "created": "May 22 2026 04:14PM",
-        "last_stage_update": "May 28 2026 07:19AM",
+        "last_stage_update": "May 29 2026 11:01AM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 9
       },
-      "10": null
+      "10": {
+        "tra_id": "1VuQ3Z-5E_-I98HB-EfEQnUDHLWhUE0now55A-hz-gSY",
+        "rev_id": null,
+        "title": "quc_10",
+        "created": "May 29 2026 11:01AM",
+        "last_stage_update": "May 29 2026 11:01AM",
+        "translator": "felivicente@yahoo.es",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 10
+      }
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 100,
+    "spent_additional_revisions": 120,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
