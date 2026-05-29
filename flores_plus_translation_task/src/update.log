@@ -6198,3 +6198,15 @@ INFO : 2026-05-29 11:01:03,367 Packet 'quc_9': Second translation complete by us
 INFO : 2026-05-29 11:01:11,168 Checking to see next available packet for user 'felivicente@yahoo.es
 INFO : 2026-05-29 11:01:18,932 New packet 'quc_10' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'.
 INFO : 2026-05-29 11:01:18,932 Saving state to file.
+INFO : 2026-05-29 09:47:52,246 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-29 09:47:52,764 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-29 09:47:53,195 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-29 09:47:53,592 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-29 09:47:54,044 Running update on language: sjn
+INFO : 2026-05-29 09:47:56,979 Running update on language: mam
+INFO : 2026-05-29 09:47:58,843 Running update on language: cak
+INFO : 2026-05-29 09:48:00,458 Running update on language: quc
+INFO : 2026-05-29 09:48:02,298 Packet 'quc_9': Second translation complete by user 'felivicente@yahoo.es'. Submitting for second revision.
+INFO : 2026-05-29 09:48:10,445 Checking to see next available packet for user 'felivicente@yahoo.es
+INFO : 2026-05-29 09:48:18,142 New packet 'quc_10' created for language 'quc' and assigned to translator 'felivicente@yahoo.es' and revisor 'jrguarchaj@gmail.com'.
+INFO : 2026-05-29 09:48:18,142 Saving state to file.

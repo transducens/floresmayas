@@ -3901,13 +3901,23 @@
         "rev_id": "1lKTR6RTOXllVil5aYicUSYmTnPR3ccbrVCGNQMffZ0w",
         "title": "quc_9",
         "created": "May 22 2026 04:14PM",
-        "last_stage_update": "May 29 2026 11:01AM",
+        "last_stage_update": "May 29 2026 09:48AM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 9
       },
-      "10": null
+      "10": {
+        "tra_id": "17XcToYgUqQ_Zi3QMB3Pqykel--FcBJRq8T7XUOhAKuc",
+        "rev_id": null,
+        "title": "quc_10",
+        "created": "May 29 2026 09:48AM",
+        "last_stage_update": "May 29 2026 09:48AM",
+        "translator": "felivicente@yahoo.es",
+        "revisor": "jrguarchaj@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 10
+      }
     },
     "inactive_translators": {},
     "spent_additional_revisions": 120,
