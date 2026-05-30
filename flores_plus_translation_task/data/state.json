@@ -2838,13 +2838,13 @@
       },
       "9": {
         "tra_id": "1xCIIUWvXs1LtGONaes7l7UnGdWC58r_po8hQx_UFYLI",
-        "rev_id": null,
+        "rev_id": "1r8m6ciYJqdddUakAQP0W7QAZe7TGUu_o6FdH1HiFQvM",
         "title": "cak_9",
         "created": "May 27 2026 07:25AM",
-        "last_stage_update": "May 27 2026 07:25AM",
+        "last_stage_update": "May 30 2026 07:00AM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 9
       },
       "10": null
