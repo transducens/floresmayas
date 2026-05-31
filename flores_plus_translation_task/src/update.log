@@ -6272,3 +6272,12 @@ INFO : 2026-05-31 07:18:19,690 Checking to see next available packet for user 'g
 INFO : 2026-05-31 07:18:26,218 New packet 'cak_10' created for language 'cak' and assigned to translator 'gabrielpichiya@gmail.com' and revisor 'matuyuc@gmail.com'.
 INFO : 2026-05-31 07:18:26,218 Running update on language: quc
 INFO : 2026-05-31 07:18:29,032 Saving state to file.
+INFO : 2026-05-31 14:33:22,092 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-31 14:33:23,171 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-31 14:33:24,278 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-31 14:33:25,065 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-31 14:33:25,898 Running update on language: sjn
+INFO : 2026-05-31 14:33:30,038 Running update on language: mam
+INFO : 2026-05-31 14:33:32,182 Running update on language: cak
+INFO : 2026-05-31 14:33:35,298 Running update on language: quc
+INFO : 2026-05-31 14:33:37,730 Saving state to file.
