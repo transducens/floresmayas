@@ -6281,3 +6281,12 @@ INFO : 2026-05-31 14:33:30,038 Running update on language: mam
 INFO : 2026-05-31 14:33:32,182 Running update on language: cak
 INFO : 2026-05-31 14:33:35,298 Running update on language: quc
 INFO : 2026-05-31 14:33:37,730 Saving state to file.
+INFO : 2026-05-31 18:24:05,500 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-05-31 18:24:06,528 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-05-31 18:24:07,600 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-05-31 18:24:08,369 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-05-31 18:24:09,105 Running update on language: sjn
+INFO : 2026-05-31 18:24:13,782 Running update on language: mam
+INFO : 2026-05-31 18:24:16,089 Running update on language: cak
+INFO : 2026-05-31 18:24:19,033 Running update on language: quc
+INFO : 2026-05-31 18:24:22,336 Saving state to file.
