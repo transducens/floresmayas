@@ -2827,13 +2827,13 @@
       },
       "8": {
         "tra_id": "17GpFw1YASNm3YZai5avIYvDxA76Hs3QMsdmvJ7X4XUg",
-        "rev_id": null,
+        "rev_id": "1oVAcg8gLr8XXgwxBmeyIr93IgUXglpNm6caxdZmkPMo",
         "title": "cak_8",
         "created": "May 21 2026 03:16PM",
-        "last_stage_update": "May 21 2026 03:16PM",
+        "last_stage_update": "May 31 2026 07:18AM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 8
       },
       "9": {
@@ -2841,16 +2841,26 @@
         "rev_id": "1r8m6ciYJqdddUakAQP0W7QAZe7TGUu_o6FdH1HiFQvM",
         "title": "cak_9",
         "created": "May 27 2026 07:25AM",
-        "last_stage_update": "May 30 2026 06:23PM",
+        "last_stage_update": "May 31 2026 07:18AM",
         "translator": "gabrielpichiya@gmail.com",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 9
       },
-      "10": null
+      "10": {
+        "tra_id": "1lQfd2sbSgKRp64iaPGSfMf5hEN8wohunbEdloc9tz8w",
+        "rev_id": null,
+        "title": "cak_10",
+        "created": "May 31 2026 07:18AM",
+        "last_stage_update": "May 31 2026 07:18AM",
+        "translator": "gabrielpichiya@gmail.com",
+        "revisor": "matuyuc@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 10
+      }
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 110,
+    "spent_additional_revisions": 120,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
