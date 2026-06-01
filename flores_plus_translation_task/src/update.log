@@ -6308,3 +6308,13 @@ INFO : 2026-06-01 16:03:35,227 Running update on language: mam
 INFO : 2026-06-01 16:03:37,546 Running update on language: cak
 INFO : 2026-06-01 16:03:42,812 Running update on language: quc
 INFO : 2026-06-01 16:03:45,018 Saving state to file.
+INFO : 2026-06-01 19:38:22,389 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-01 19:38:23,462 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-01 19:38:24,376 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-01 19:38:25,443 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-01 19:38:26,460 Running update on language: sjn
+INFO : 2026-06-01 19:38:30,362 Running update on language: mam
+INFO : 2026-06-01 19:38:33,186 Running update on language: cak
+INFO : 2026-06-01 19:38:38,449 Packet 'cak_9': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
+INFO : 2026-06-01 19:38:41,096 Running update on language: quc
+INFO : 2026-06-01 19:38:43,296 Saving state to file.
