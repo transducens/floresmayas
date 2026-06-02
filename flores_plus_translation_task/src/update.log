@@ -6338,3 +6338,13 @@ INFO : 2026-06-02 15:24:06,004 Running update on language: mam
 INFO : 2026-06-02 15:24:08,531 Running update on language: cak
 INFO : 2026-06-02 15:24:10,921 Running update on language: quc
 INFO : 2026-06-02 15:24:13,469 Saving state to file.
+INFO : 2026-06-02 19:13:23,988 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-02 19:13:24,944 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-02 19:13:25,852 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-02 19:13:26,885 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-02 19:13:27,846 Running update on language: sjn
+INFO : 2026-06-02 19:13:31,299 Running update on language: mam
+INFO : 2026-06-02 19:13:33,625 Running update on language: cak
+INFO : 2026-06-02 19:13:36,057 Running update on language: quc
+INFO : 2026-06-02 19:13:38,712 Packet 'quc_10': First translation complete by user 'felivicente@yahoo.es'. Submitting for revision.
+INFO : 2026-06-02 19:13:47,731 Saving state to file.
