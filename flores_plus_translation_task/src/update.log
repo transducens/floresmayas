@@ -6329,3 +6329,12 @@ INFO : 2026-06-02 07:37:35,497 Packet 'cak_8': First revision complete by user '
 INFO : 2026-06-02 07:37:39,537 Running update on language: quc
 INFO : 2026-06-02 07:37:43,561 Packet 'quc_8': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
 INFO : 2026-06-02 07:37:46,413 Saving state to file.
+INFO : 2026-06-02 15:23:57,834 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-02 15:23:58,964 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-02 15:23:59,850 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-02 15:24:00,718 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-02 15:24:02,008 Running update on language: sjn
+INFO : 2026-06-02 15:24:06,004 Running update on language: mam
+INFO : 2026-06-02 15:24:08,531 Running update on language: cak
+INFO : 2026-06-02 15:24:10,921 Running update on language: quc
+INFO : 2026-06-02 15:24:13,469 Saving state to file.
