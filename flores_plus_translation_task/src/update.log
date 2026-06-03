@@ -6365,3 +6365,13 @@ INFO : 2026-06-03 07:40:57,117 Checking to see next available packet for user 'j
 INFO : 2026-06-03 07:40:57,117 Langage 'quc' has no unassigned packets left.
 INFO : 2026-06-03 07:41:02,501 Packet 'quc_10': First revision complete by user 'jrguarchaj@gmail.com'. Submitting for second translation.
 INFO : 2026-06-03 07:41:05,799 Saving state to file.
+INFO : 2026-06-03 15:34:21,778 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-03 15:34:22,749 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-03 15:34:23,769 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-03 15:34:24,509 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-03 15:34:25,564 Running update on language: sjn
+INFO : 2026-06-03 15:34:29,603 Running update on language: mam
+INFO : 2026-06-03 15:34:32,119 Running update on language: cak
+INFO : 2026-06-03 15:34:36,322 Packet 'cak_8': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
+INFO : 2026-06-03 15:34:39,267 Running update on language: quc
+INFO : 2026-06-03 15:34:41,683 Saving state to file.
