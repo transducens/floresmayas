@@ -495,10 +495,10 @@
         "rev_id": "1jkQRWEDdp1kwFyvcs25OzOnfISHmqintzEnH5q4wKWA",
         "title": "mam_2",
         "created": "Apr 21 2026 02:36PM",
-        "last_stage_update": "May 07 2026 05:13PM",
+        "last_stage_update": "Jun 03 2026 07:40AM",
         "translator": "ixkikap@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 2
       },
       "3": {
@@ -2884,10 +2884,10 @@
         "rev_id": "1oVAcg8gLr8XXgwxBmeyIr93IgUXglpNm6caxdZmkPMo",
         "title": "cak_8",
         "created": "May 21 2026 03:16PM",
-        "last_stage_update": "Jun 02 2026 07:37AM",
+        "last_stage_update": "Jun 03 2026 07:40AM",
         "translator": "svasquezv7@miumg.edu.gt",
         "revisor": "matuyuc@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 8
       },
       "9": {
@@ -4008,10 +4008,10 @@
         "rev_id": "1LHnb1RDRZDrZfVZMlBr2BaAmwmJMBNPndiaAViMdDaY",
         "title": "quc_8",
         "created": "May 20 2026 03:13PM",
-        "last_stage_update": "Jun 02 2026 07:37AM",
+        "last_stage_update": "Jun 03 2026 07:40AM",
         "translator": "josefinapos070@gmail.com",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 8
       },
       "9": {
@@ -4030,10 +4030,10 @@
         "rev_id": "1jjOSK0VAmUZxeWZ7aqx7_x_7bPkV1Uhcd2Zy0CG7rso",
         "title": "quc_10",
         "created": "May 29 2026 09:48AM",
-        "last_stage_update": "Jun 02 2026 07:13PM",
+        "last_stage_update": "Jun 03 2026 07:41AM",
         "translator": "felivicente@yahoo.es",
         "revisor": "jrguarchaj@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 10
       }
     },
