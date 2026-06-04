@@ -6407,3 +6407,15 @@ INFO : 2026-06-04 15:02:59,844 Checking to see next available packet for user 'g
 INFO : 2026-06-04 15:02:59,844 Langage 'cak' has no unassigned packets left.
 INFO : 2026-06-04 15:02:59,844 Running update on language: quc
 INFO : 2026-06-04 15:03:02,985 Saving state to file.
+INFO : 2026-06-04 18:45:51,331 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-04 18:45:52,492 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-04 18:45:53,675 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-04 18:45:54,652 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-04 18:45:55,358 Running update on language: sjn
+INFO : 2026-06-04 18:45:58,740 Running update on language: mam
+INFO : 2026-06-04 18:46:01,425 Running update on language: cak
+INFO : 2026-06-04 18:46:02,715 Running update on language: quc
+INFO : 2026-06-04 18:46:05,494 Packet 'quc_10': Second translation complete by user 'felivicente@yahoo.es'. Submitting for second revision.
+INFO : 2026-06-04 18:46:10,925 Checking to see next available packet for user 'felivicente@yahoo.es
+INFO : 2026-06-04 18:46:10,925 Langage 'quc' has no unassigned packets left.
+INFO : 2026-06-04 18:46:10,925 Saving state to file.
