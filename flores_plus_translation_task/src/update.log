@@ -6395,3 +6395,15 @@ INFO : 2026-06-04 07:37:02,874 Running update on language: cak
 INFO : 2026-06-04 07:37:07,063 Packet 'cak_10': First revision complete by user 'matuyuc@gmail.com'. Submitting for second translation.
 INFO : 2026-06-04 07:37:09,945 Running update on language: quc
 INFO : 2026-06-04 07:37:12,334 Saving state to file.
+INFO : 2026-06-04 15:02:39,618 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-04 15:02:40,899 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-04 15:02:41,679 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-04 15:02:42,382 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-04 15:02:43,045 Running update on language: sjn
+INFO : 2026-06-04 15:02:47,743 Running update on language: mam
+INFO : 2026-06-04 15:02:50,281 Running update on language: cak
+INFO : 2026-06-04 15:02:51,807 Packet 'cak_10': Second translation complete by user 'gabrielpichiya@gmail.com'. Submitting for second revision.
+INFO : 2026-06-04 15:02:59,844 Checking to see next available packet for user 'gabrielpichiya@gmail.com
+INFO : 2026-06-04 15:02:59,844 Langage 'cak' has no unassigned packets left.
+INFO : 2026-06-04 15:02:59,844 Running update on language: quc
+INFO : 2026-06-04 15:03:02,985 Saving state to file.
