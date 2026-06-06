@@ -6460,3 +6460,12 @@ INFO : 2026-06-06 07:04:16,505 Running update on language: cak
 INFO : 2026-06-06 07:04:19,858 Packet 'cak_10': Second revision complete by user 'matuyuc@gmail.com'. Translation complete.
 INFO : 2026-06-06 07:04:21,601 Running update on language: quc
 INFO : 2026-06-06 07:04:23,066 Saving state to file.
+INFO : 2026-06-06 14:32:42,712 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-06 14:32:43,756 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-06 14:32:44,863 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-06 14:32:45,825 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-06 14:32:46,977 Running update on language: sjn
+INFO : 2026-06-06 14:32:51,515 Running update on language: mam
+INFO : 2026-06-06 14:32:55,443 Running update on language: cak
+INFO : 2026-06-06 14:32:55,443 Running update on language: quc
+INFO : 2026-06-06 14:32:57,115 Saving state to file.
