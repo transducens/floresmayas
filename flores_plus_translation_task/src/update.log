@@ -6514,3 +6514,13 @@ INFO : 2026-06-08 07:40:24,610 Running update on language: mam
 INFO : 2026-06-08 07:40:27,935 Running update on language: cak
 INFO : 2026-06-08 07:40:27,935 Running update on language: quc
 INFO : 2026-06-08 07:40:29,277 Saving state to file.
+INFO : 2026-06-08 15:08:39,570 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-08 15:08:40,547 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-08 15:08:41,491 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-08 15:08:42,469 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-08 15:08:43,459 Running update on language: sjn
+INFO : 2026-06-08 15:08:46,600 Running update on language: mam
+INFO : 2026-06-08 15:08:50,799 Running update on language: cak
+INFO : 2026-06-08 15:08:50,799 Running update on language: quc
+INFO : 2026-06-08 15:08:55,128 Packet 'quc_8': Second revision complete by user 'jrguarchaj@gmail.com'. Translation complete.
+INFO : 2026-06-08 15:08:59,898 Saving state to file.
