@@ -6544,3 +6544,12 @@ INFO : 2026-06-09 18:43:22,545 Packet 'mam_3': First revision complete by user '
 INFO : 2026-06-09 18:43:26,662 Running update on language: cak
 INFO : 2026-06-09 18:43:26,663 Running update on language: quc
 INFO : 2026-06-09 18:43:26,663 Saving state to file.
+INFO : 2026-06-10 15:06:20,875 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-10 15:06:21,823 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-10 15:06:22,798 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-10 15:06:23,604 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-10 15:06:24,609 Running update on language: sjn
+INFO : 2026-06-10 15:06:28,645 Running update on language: mam
+INFO : 2026-06-10 15:06:30,900 Running update on language: cak
+INFO : 2026-06-10 15:06:30,900 Running update on language: quc
+INFO : 2026-06-10 15:06:30,900 Saving state to file.
