@@ -6553,3 +6553,12 @@ INFO : 2026-06-10 15:06:28,645 Running update on language: mam
 INFO : 2026-06-10 15:06:30,900 Running update on language: cak
 INFO : 2026-06-10 15:06:30,900 Running update on language: quc
 INFO : 2026-06-10 15:06:30,900 Saving state to file.
+INFO : 2026-06-10 18:51:04,879 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-10 18:51:05,788 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-10 18:51:06,666 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-10 18:51:07,629 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-10 18:51:08,592 Running update on language: sjn
+INFO : 2026-06-10 18:51:12,194 Running update on language: mam
+INFO : 2026-06-10 18:51:14,716 Running update on language: cak
+INFO : 2026-06-10 18:51:14,716 Running update on language: quc
+INFO : 2026-06-10 18:51:14,716 Saving state to file.
