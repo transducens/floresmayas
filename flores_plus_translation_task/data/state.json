@@ -606,10 +606,10 @@
         "rev_id": "1-R0VQYQJ_l0GQM3ysTNXKN_9v9O8mEWw-IRKXZintQk",
         "title": "mam_3",
         "created": "Apr 26 2026 02:17PM",
-        "last_stage_update": "Jun 09 2026 06:43PM",
+        "last_stage_update": "Jun 14 2026 07:33AM",
         "translator": "princesamam16@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 3
       },
       "4": {
@@ -623,7 +623,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 4
       },
-      "5": null,
+      "5": {
+        "tra_id": "16UaU-pmrsKQxKbR_10rOYmAfE1z0IxoAQUTp-EysWvs",
+        "rev_id": null,
+        "title": "mam_5",
+        "created": "Jun 14 2026 07:34AM",
+        "last_stage_update": "Jun 14 2026 07:34AM",
+        "translator": "princesamam16@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      },
       "6": null,
       "7": null,
       "8": null,
@@ -631,7 +641,7 @@
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 66,
+    "spent_additional_revisions": 77,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1RnGrMjRT9CVTopZFhoYhYh6bssAV2K6uXwdeLwjmtt4",
