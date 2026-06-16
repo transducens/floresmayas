@@ -6701,3 +6701,12 @@ INFO : 2026-06-16 07:54:29,349 Running update on language: mam
 INFO : 2026-06-16 07:54:33,000 Running update on language: cak
 INFO : 2026-06-16 07:54:33,000 Running update on language: quc
 INFO : 2026-06-16 07:54:33,000 Saving state to file.
+INFO : 2026-06-16 15:40:04,284 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-16 15:40:05,203 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-16 15:40:06,013 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-16 15:40:07,048 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-16 15:40:08,038 Running update on language: sjn
+INFO : 2026-06-16 15:40:11,590 Running update on language: mam
+INFO : 2026-06-16 15:40:13,941 Running update on language: cak
+INFO : 2026-06-16 15:40:13,941 Running update on language: quc
+INFO : 2026-06-16 15:40:13,941 Saving state to file.
