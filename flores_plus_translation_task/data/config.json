@@ -34,10 +34,17 @@
 		"josefinapos070@gmail.com"
             ],
             "revisor": "jrguarchaj@gmail.com"
+       },
+        "kjb": {
+            "translators": [
+                "antilesmarcos@gmail.com",
+		"sowlifand@gmail.com"
+            ],
+            "revisor": "rsaqjumay@gmail.com"
         }
     },
     "packet_size": 100,
     "prelim_packet_size": 10,
-    "start_translation": true,
+    "start_translation": false,
     "prelim_translation": true
 }

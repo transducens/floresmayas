@@ -1,133 +1,4 @@
 {
-  "sjn": {
-    "translators": {
-      "and_lou@ua.es": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10"
-      ],
-      "andres.lou@ua.es": [
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20"
-      ]
-    },
-    "revisors": {
-      "lourios.andres@gmail.com": []
-    },
-    "prelim_packets": {
-      "0": {
-        "tra_id": "1xfJIeOkJ7_BWnjcHusKiapmunbiZqDO5vTjYfWflHBc",
-        "rev_id": "1gC3VKHKHUKIyZ98rPBzWiTnsabVQiIynPhWEJqZ1nIY",
-        "title": "prelim_sjn_0",
-        "created": "Feb 16 2026 02:58PM",
-        "last_stage_update": "Feb 16 2026 08:35PM",
-        "translator": "and_lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "TRANSLATION_COMPLETE",
-        "packet_idx": 0
-      },
-      "1": {
-        "tra_id": "1HLO84CCHoby3lYrp_MFLgKJiYE2p0CRN1wyEhKWNRFI",
-        "rev_id": "1KvNQbuEHNGdkubYDWaKLVOCWVo4mqswOsYMsR5ubdFk",
-        "title": "prelim_sjn_1",
-        "created": "Feb 16 2026 02:58PM",
-        "last_stage_update": "Feb 16 2026 08:35PM",
-        "translator": "andres.lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "TRANSLATION_COMPLETE",
-        "packet_idx": 1
-      },
-      "2": {
-        "tra_id": "1Ll8fHBBsFV-PGs4NuY5DBacV708uTmobfLiTZOAuGnU",
-        "rev_id": "1JIpSUUEoft6vpTdFsCeYHbNEQz55nB1a2AANCRUibi0",
-        "title": "prelim_sjn_2",
-        "created": "Feb 16 2026 08:35PM",
-        "last_stage_update": "Feb 16 2026 10:16PM",
-        "translator": "and_lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
-        "packet_idx": 2
-      },
-      "3": {
-        "tra_id": "1oiMana8A8N2fV7hQy6SVZUc3LdIQFlxZmyfzifShBg0",
-        "rev_id": null,
-        "title": "prelim_sjn_3",
-        "created": "Feb 16 2026 08:35PM",
-        "last_stage_update": "Feb 16 2026 08:35PM",
-        "translator": "andres.lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_TRANSLATION",
-        "packet_idx": 3
-      },
-      "4": null,
-      "5": null
-    },
-    "packets": {
-      "0": {
-        "tra_id": "1uI5adq13sdIEl25GrJSm5j1Wd3CDTnAvHr8YhFgzy-c",
-        "rev_id": "1qmTYYIgm-viiFQaJqZVQO9pQbNKIEi0do8r9Ft9STFg",
-        "title": "sjn_0",
-        "created": "Feb 16 2026 10:23PM",
-        "last_stage_update": "Mar 31 2026 09:49AM",
-        "translator": "and_lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "SECOND_REVISION",
-        "packet_idx": 0
-      },
-      "1": {
-        "tra_id": "1XTsj7vSRO2pQQe6FYrpwVuNawatmyX6byDrLLZIh9oU",
-        "rev_id": null,
-        "title": "sjn_1",
-        "created": "Feb 16 2026 10:23PM",
-        "last_stage_update": "Feb 16 2026 10:23PM",
-        "translator": "andres.lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_TRANSLATION",
-        "packet_idx": 1
-      },
-      "2": {
-        "tra_id": "1WRQsVWbzGrWEKB_6zRpVFu_aoHnbBsuLV37lO1E-QBs",
-        "rev_id": "1JXSNDmgp_93UI-uftfeUmiIHmYfOtHEvUfC2MpCB8F0",
-        "title": "sjn_2",
-        "created": "Mar 31 2026 09:49AM",
-        "last_stage_update": "Mar 31 2026 09:57AM",
-        "translator": "and_lou@ua.es",
-        "revisor": "lourios.andres@gmail.com",
-        "stage": "FIRST_REVISION",
-        "packet_idx": 2
-      },
-      "3": null,
-      "4": null,
-      "5": null,
-      "6": null,
-      "7": null,
-      "8": null,
-      "9": null,
-      "10": null
-    },
-    "inactive_translators": {},
-    "spent_additional_revisions": 2,
-    "translation_complete": false,
-    "prelim_translation": false,
-    "translation_guide": "blala",
-    "vocab_id": "1tajVnO3LZp3xUlRQjoBALHIWa6IGEcJTU2M_htPIFrU",
-    "report": "1pC38_Db_RJKF4RJZ8Mn5ug8vDg7bjdFC1J7nYEbYPGg"
-  },
   "mam": {
     "translators": {
       "ixkikap@gmail.com": [
@@ -4556,5 +4427,77 @@
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
     "vocab_id": "1Dgu09VnsWu4zeGN1UCdOVPO8m_BabRcQkV9Sd85NSbo",
     "report": "1QNE737uKPOSUlnPtJHmeiCvxj3-bOQXm_QeMC_qKJqY"
+  },
+  "sjn": {
+    "translators": {
+      "and_lou@ua.es": [],
+      "andres.lou@ua.es": []
+    },
+    "revisors": {
+      "lourios.andres@gmail.com": []
+    },
+    "packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "prelim_packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "prelim_translation": true,
+    "translation_guide": null,
+    "vocab_id": "1VmFz3WYfFM2-GimmiRqE6LYQzybjcPEnClH0uSzh0T8"
+  },
+  "kjb": {
+    "translators": {
+      "antilesmarcos@gmail.com": [],
+      "sowlifand@gmail.com": []
+    },
+    "revisors": {
+      "rsaqjumay@gmail.com": []
+    },
+    "packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "prelim_packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "prelim_translation": true,
+    "translation_guide": null,
+    "vocab_id": "1PWfikb0AylupIEb377uRT6dMlv3imovZB-79zg5qGmA"
   }
 }

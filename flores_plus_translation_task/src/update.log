@@ -6719,3 +6719,39 @@ INFO : 2026-06-16 19:12:15,899 Running update on language: mam
 INFO : 2026-06-16 19:12:20,186 Running update on language: cak
 INFO : 2026-06-16 19:12:20,186 Running update on language: quc
 INFO : 2026-06-16 19:12:20,186 Saving state to file.
+WARNING : 2026-06-16 23:39:24,402 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-06-16 23:39:25,294 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-06-16 23:39:30,398 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-16 23:39:31,676 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-16 23:39:32,440 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-06-16 23:39:33,176 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-06-16 23:39:42,007 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-06-16 23:39:43,066 Language 'sjn' has no packages ready to work on.
+INFO : 2026-06-16 23:39:50,749 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-06-16 23:39:57,222 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-06-16 23:39:57,222 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-06-16 23:40:01,354 Running update on language: mam
+INFO : 2026-06-16 23:40:05,283 Running update on language: cak
+INFO : 2026-06-16 23:40:05,283 Running update on language: quc
+INFO : 2026-06-16 23:40:05,284 Running update on language: sjn
+INFO : 2026-06-16 23:40:09,260 Saving state to file.
+WARNING : 2026-06-16 23:46:44,320 No folder associated to language 'sjn'. Creating.
+WARNING : 2026-06-16 23:46:45,241 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-06-16 23:46:50,465 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-16 23:46:51,704 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-16 23:46:53,156 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-06-16 23:46:53,925 No vocabulary spreadsheet associated to language 'sjn'. Creating.
+INFO : 2026-06-16 23:47:05,613 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-16 23:47:06,239 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-06-16 23:47:06,240 Update complete.
+WARNING : 2026-06-17 05:26:36,689 No folder associated to language 'kjb'. Creating.
+WARNING : 2026-06-17 05:26:37,495 No translation guide associated to language 'sjn'. Creating.
+WARNING : 2026-06-17 05:26:43,230 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-17 05:26:48,196 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-17 05:26:49,401 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-17 05:26:52,036 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-17 05:26:53,281 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-06-17 05:26:54,084 No vocabulary spreadsheet associated to language 'kjb'. Creating.
+INFO : 2026-06-17 05:27:00,880 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-17 05:27:01,391 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-06-17 05:27:01,391 Update complete.
