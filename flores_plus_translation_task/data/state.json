@@ -585,13 +585,13 @@
       },
       "4": {
         "tra_id": "1JjopUT16BmLtpLEE6aaRyuLl-AkB95Hc7ernLDB4naE",
-        "rev_id": null,
+        "rev_id": "1jo2EH0I3yHe8Ox1sF7sC_Uu0xdajGzeTDA2HQp4PmM8",
         "title": "mam_4",
         "created": "Jun 05 2026 06:39PM",
         "last_stage_update": "Jun 05 2026 06:39PM",
         "translator": "ixkikap@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 4
       },
       "5": {
@@ -4427,42 +4427,6 @@
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
     "vocab_id": "1Dgu09VnsWu4zeGN1UCdOVPO8m_BabRcQkV9Sd85NSbo",
     "report": "1QNE737uKPOSUlnPtJHmeiCvxj3-bOQXm_QeMC_qKJqY"
-  },
-  "sjn": {
-    "translators": {
-      "and_lou@ua.es": [],
-      "andres.lou@ua.es": []
-    },
-    "revisors": {
-      "lourios.andres@gmail.com": []
-    },
-    "packets": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null,
-      "5": null,
-      "6": null,
-      "7": null,
-      "8": null,
-      "9": null,
-      "10": null
-    },
-    "prelim_packets": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null,
-      "5": null
-    },
-    "inactive_translators": {},
-    "spent_additional_revisions": 0,
-    "translation_complete": false,
-    "prelim_translation": true,
-    "translation_guide": null,
-    "vocab_id": "1VmFz3WYfFM2-GimmiRqE6LYQzybjcPEnClH0uSzh0T8"
   },
   "kjb": {
     "translators": {
