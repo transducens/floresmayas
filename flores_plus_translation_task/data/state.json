@@ -4431,7 +4431,18 @@
   "kjb": {
     "translators": {
       "antilesmarcos@gmail.com": [],
-      "sowlifand@gmail.com": []
+      "sowlifand@gmail.com": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
     },
     "revisors": {
       "rsaqjumay@gmail.com": []
@@ -4466,10 +4477,10 @@
         "rev_id": "1RMmrhh_8rOFXvNpKM4-czyoAA9BK_ISPX812M6DXHBs",
         "title": "prelim_kjb_1",
         "created": "Jun 22 2026 04:07PM",
-        "last_stage_update": "Jun 24 2026 10:17PM",
+        "last_stage_update": "Jun 24 2026 10:54PM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 1
       },
       "2": {
