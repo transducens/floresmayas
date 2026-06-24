@@ -9,6 +9,6 @@ with open("../data/config.json") as f:
 creds = authenticate()
 with open("../data/state.json") as f:
     state = json.loads(f.read())
-
-for lang in state.keys():
+langs = [lang for lang in state.keys() if state[lang]['translation_complete'] is False]
+for lang in langs:
     update_report_spreadsheet(creds, state, lang)

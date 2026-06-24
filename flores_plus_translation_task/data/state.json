@@ -3152,7 +3152,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 120,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": false,
     "translation_guide": "14n74U3yprcUlGh4ilU71RhhUWzIQQEGTuVEkGJT9u6g",
     "vocab_id": "1HQ4_JDszuJhzxHlf-68Zr7NVAbXIDnUdwf2lKpIgC-w",
@@ -4422,7 +4422,7 @@
     },
     "inactive_translators": {},
     "spent_additional_revisions": 120,
-    "translation_complete": false,
+    "translation_complete": true,
     "prelim_translation": false,
     "translation_guide": "1f7-W1B3scWTxk1ZdWKZHYHFKdDALSveesHizm7bmbYg",
     "vocab_id": "1Dgu09VnsWu4zeGN1UCdOVPO8m_BabRcQkV9Sd85NSbo",
@@ -4450,8 +4450,28 @@
       "10": null
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1H66j9ilRH7UGGLvHAPoy5_7oZjiojtXlro2MIUQBVVc",
+        "rev_id": null,
+        "title": "prelim_kjb_0",
+        "created": "Jun 22 2026 04:07PM",
+        "last_stage_update": "Jun 22 2026 04:07PM",
+        "translator": "antilesmarcos@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "19l3x5cwr-67w0qFKp2Gb178bdl5GaUmJnAObaPANwB4",
+        "rev_id": "1RMmrhh_8rOFXvNpKM4-czyoAA9BK_ISPX812M6DXHBs",
+        "title": "prelim_kjb_1",
+        "created": "Jun 22 2026 04:07PM",
+        "last_stage_update": "Jun 24 2026 02:07PM",
+        "translator": "sowlifand@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "SECOND_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -4461,7 +4481,8 @@
     "spent_additional_revisions": 0,
     "translation_complete": false,
     "prelim_translation": true,
-    "translation_guide": null,
-    "vocab_id": "1PWfikb0AylupIEb377uRT6dMlv3imovZB-79zg5qGmA"
+    "translation_guide": "19FEjtQerVesbQrEogNla9eDEtAWrdtSO9cunFQEtrWk",
+    "vocab_id": "1PWfikb0AylupIEb377uRT6dMlv3imovZB-79zg5qGmA",
+    "report": "1FjSr8XHvk2tXV4Sq8waLXZ8WoDrQD7eKt5e-B6PMn1c"
   }
 }

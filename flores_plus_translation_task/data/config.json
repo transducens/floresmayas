@@ -1,6 +1,7 @@
 {
     "langs": {
         "mam": {
+	    "prelim_translation": false,
             "translators": [
                 "ixkikap@gmail.com",
                 "princesamam16@gmail.com"
@@ -8,6 +9,7 @@
             "revisor": "saqpom@gmail.com"
         },
         "kek": {
+	    "prelim_translation": false,
             "translators": [
                 "poyanam@yahoo.es",
                 "equidades@gmail.com"
@@ -15,6 +17,7 @@
             "revisor": "juan.tzoc@gmail.com"
         },
         "cak": {
+	    "prelim_translation": false,
             "translators": [
                 "svasquezv7@miumg.edu.gt",
                 "gabrielpichiya@gmail.com"
@@ -22,6 +25,7 @@
             "revisor": "matuyuc@gmail.com"
         },
         "quc": {
+	    "prelim_translation": false,
             "translators": [
                 "felivicente@yahoo.es",
 		"josefinapos070@gmail.com"
@@ -29,6 +33,7 @@
             "revisor": "jrguarchaj@gmail.com"
        },
         "kjb": {
+	    "prelim_translation": true,
             "translators": [
                 "antilesmarcos@gmail.com",
 		"sowlifand@gmail.com"
@@ -38,6 +43,5 @@
     },
     "packet_size": 100,
     "prelim_packet_size": 10,
-    "start_translation": false,
-    "prelim_translation": true
+    "start_translation": true
 }

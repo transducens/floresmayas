@@ -6755,3 +6755,84 @@ WARNING : 2026-06-17 05:26:54,084 No vocabulary spreadsheet associated to langua
 INFO : 2026-06-17 05:27:00,880 Checking vocabulary spreadsheet for updates for lang 'kjb'.
 INFO : 2026-06-17 05:27:01,391 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-06-17 05:27:01,391 Update complete.
+WARNING : 2026-06-21 14:52:59,670 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-06-21 14:53:04,855 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-21 14:53:06,871 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-21 14:53:07,759 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-21 14:53:09,310 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+INFO : 2026-06-21 14:53:11,161 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-06-21 14:53:11,161 Update complete.
+WARNING : 2026-06-21 14:53:54,977 No translation guide associated to language 'sjn'. Creating.
+INFO : 2026-06-21 14:54:00,089 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-21 14:54:01,179 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-21 14:54:02,268 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-21 14:54:02,795 Checking vocabulary spreadsheet for updates for lang 'sjn'.
+WARNING : 2026-06-21 14:54:03,815 Language 'sjn' has no packages ready to work on.
+INFO : 2026-06-21 14:54:09,651 New packet 'sjn_0' created for language 'sjn' and assigned to translator 'and_lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-06-21 14:54:16,494 New packet 'sjn_1' created for language 'sjn' and assigned to translator 'andres.lou@ua.es' and revisor 'lourios.andres@gmail.com'
+INFO : 2026-06-21 14:54:16,495 Creating report spreadsheet for lang 'sjn.'
+INFO : 2026-06-21 14:54:20,545 Running update on language: mam
+INFO : 2026-06-21 14:54:22,423 Packet 'mam_4': First translation complete by user 'ixkikap@gmail.com'. Submitting for revision.
+INFO : 2026-06-21 14:54:31,798 Running update on language: cak
+INFO : 2026-06-21 14:54:31,798 Running update on language: quc
+INFO : 2026-06-21 14:54:31,798 Running update on language: sjn
+INFO : 2026-06-21 14:54:35,819 Saving state to file.
+WARNING : 2026-06-22 16:05:47,036 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-22 16:05:52,628 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-22 16:05:53,932 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-22 16:05:54,996 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-22 16:05:56,018 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+WARNING : 2026-06-22 16:07:26,364 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-22 16:07:31,357 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-22 16:07:32,441 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-22 16:07:32,960 Checking vocabulary spreadsheet for updates for lang 'quc'.
+WARNING : 2026-06-22 16:07:33,545 No vocabulary spreadsheet associated to language 'kjb'. Creating.
+INFO : 2026-06-22 16:07:42,923 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+WARNING : 2026-06-22 16:07:43,516 Language 'kjb' has no packages ready to work on.
+INFO : 2026-06-22 16:07:48,859 New packet 'kjb_0' created for language 'kjb' and assigned to translator 'antilesmarcos@gmail.com' and revisor 'rsaqjumay@gmail.com'
+INFO : 2026-06-22 16:07:54,295 New packet 'kjb_1' created for language 'kjb' and assigned to translator 'sowlifand@gmail.com' and revisor 'rsaqjumay@gmail.com'
+INFO : 2026-06-22 16:07:54,295 Creating report spreadsheet for lang 'kjb.'
+INFO : 2026-06-22 16:07:57,248 Running update on language: mam
+INFO : 2026-06-22 16:08:00,950 Running update on language: cak
+INFO : 2026-06-22 16:08:00,950 Running update on language: quc
+INFO : 2026-06-22 16:08:00,950 Running update on language: kjb
+INFO : 2026-06-22 16:08:04,010 Saving state to file.
+WARNING : 2026-06-22 16:10:48,015 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-22 16:10:53,137 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-22 16:10:53,987 Checking vocabulary spreadsheet for updates for lang 'cak'.
+INFO : 2026-06-22 16:10:54,521 Checking vocabulary spreadsheet for updates for lang 'quc'.
+INFO : 2026-06-22 16:10:55,082 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-22 16:10:55,787 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-06-22 16:10:55,840 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-06-22 16:10:58,418 Running update on language: mam
+INFO : 2026-06-22 16:11:01,483 Running update on language: cak
+INFO : 2026-06-22 16:11:01,484 Running update on language: quc
+INFO : 2026-06-22 16:11:01,484 Running update on language: kjb
+INFO : 2026-06-22 16:11:03,982 Saving state to file.
+WARNING : 2026-06-22 19:03:39,100 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-22 19:03:45,010 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-22 19:03:46,217 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-22 19:03:46,966 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-06-22 19:03:47,034 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-06-22 19:03:49,838 Running update on language: mam
+INFO : 2026-06-22 19:03:52,995 Running update on language: kjb
+INFO : 2026-06-22 19:03:55,458 Packet 'prelim_kjb_1': First translation complete by user 'sowlifand@gmail.com'. Submitting for revision.
+INFO : 2026-06-22 19:04:05,400 Saving state to file.
+WARNING : 2026-06-24 14:07:24,001 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-24 14:07:29,104 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-24 14:07:30,683 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-24 14:07:32,053 Running update on language: mam
+INFO : 2026-06-24 14:07:35,018 Running update on language: kjb
+INFO : 2026-06-24 14:07:45,376 Packet 'prelim_kjb_1': First revision complete by user 'rsaqjumay@gmail.com'. Submitting for second translation.
+INFO : 2026-06-24 14:07:45,945 Saving state to file.
+WARNING : 2026-06-24 15:48:24,079 No translation guide associated to language 'kjb'. Creating.
+INFO : 2026-06-24 15:48:29,436 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-24 15:48:32,944 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-24 15:48:34,126 Running update on language: mam
+INFO : 2026-06-24 15:48:38,780 Running update on language: kjb
+INFO : 2026-06-24 15:48:44,368 Saving state to file.
+INFO : 2026-06-24 16:23:05,681 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-24 16:23:06,909 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-24 16:23:08,522 Running update on language: mam
+INFO : 2026-06-24 16:23:11,838 Running update on language: kjb
+INFO : 2026-06-24 16:23:15,596 Saving state to file.

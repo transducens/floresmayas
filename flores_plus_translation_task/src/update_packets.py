@@ -67,7 +67,7 @@ if __name__ == "__main__":
                 "inactive_translators": {},
                 "spent_additional_revisions": 0,
                 "translation_complete": False,
-                "prelim_translation": config['prelim_translation']
+                "prelim_translation": config[lang]['prelim_translation']
             }
         for translator in config['langs'][lang]['translators']:
             if state[lang]['translators'].get(translator) is None:
