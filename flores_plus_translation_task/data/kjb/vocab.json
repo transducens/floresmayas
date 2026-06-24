@@ -468,7 +468,7 @@
     "notes": ""
   },
   "dispositivo": {
-    "def": "",
+    "def": "Yamk'ulal",
     "notes": ""
   },
   "deceso": {
@@ -536,7 +536,7 @@
     "notes": ""
   },
   "subsistencia": {
-    "def": "",
+    "def": "Iqk'ulal",
     "notes": ""
   },
   "siglo xv": {
@@ -548,7 +548,7 @@
     "notes": ""
   },
   "resonancia": {
-    "def": "",
+    "def": "Ilb'ali yul k'ul",
     "notes": ""
   },
   "recurrir": {
@@ -724,7 +724,7 @@
     "notes": ""
   },
   "correo electrónico": {
-    "def": "",
+    "def": "Ch’en tz’ib’wal",
     "notes": ""
   },
   "conexión": {
@@ -912,7 +912,7 @@
     "notes": ""
   },
   "portátil": {
-    "def": "",
+    "def": "Iqb'alil",
     "notes": ""
   },
   "por separado": {
@@ -920,8 +920,8 @@
     "notes": ""
   },
   "póliza": {
-    "def": "",
-    "notes": ""
+    "def": "Tz'ib’il kolwalil",
+    "notes": "Descriptivo"
   },
   "ph": {
     "def": "",
@@ -992,7 +992,7 @@
     "notes": ""
   },
   "ilegal": {
-    "def": "",
+    "def": "Man iqelal / Man watx'ok",
     "notes": ""
   },
   "hostil": {
@@ -1000,11 +1000,11 @@
     "notes": ""
   },
   "gerente": {
-    "def": "",
+    "def": "Yajaw",
     "notes": ""
   },
   "genético": {
-    "def": "",
+    "def": "inatb'al schik'il",
     "notes": ""
   },
   "galaxia": {
