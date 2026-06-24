@@ -4466,13 +4466,23 @@
         "rev_id": "1RMmrhh_8rOFXvNpKM4-czyoAA9BK_ISPX812M6DXHBs",
         "title": "prelim_kjb_1",
         "created": "Jun 22 2026 04:07PM",
-        "last_stage_update": "Jun 24 2026 02:07PM",
+        "last_stage_update": "Jun 24 2026 10:17PM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "1mdLOzzrItAOhXJCa69hjamRrWO_o4izUfeukZ3mWUCk",
+        "rev_id": null,
+        "title": "prelim_kjb_2",
+        "created": "Jun 24 2026 10:17PM",
+        "last_stage_update": "Jun 24 2026 10:17PM",
+        "translator": "sowlifand@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null
