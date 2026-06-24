@@ -4452,13 +4452,13 @@
     "prelim_packets": {
       "0": {
         "tra_id": "1H66j9ilRH7UGGLvHAPoy5_7oZjiojtXlro2MIUQBVVc",
-        "rev_id": null,
+        "rev_id": "1eyd2HRXZIy597NFm5JH0MAkLc7zypXPULGRfd8GhMf8",
         "title": "prelim_kjb_0",
         "created": "Jun 22 2026 04:07PM",
-        "last_stage_update": "Jun 22 2026 04:07PM",
+        "last_stage_update": "Jun 24 2026 06:43PM",
         "translator": "antilesmarcos@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {

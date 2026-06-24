@@ -6841,3 +6841,9 @@ INFO : 2026-06-24 14:42:44,346 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-06-24 14:42:45,159 Running update on language: mam
 INFO : 2026-06-24 14:42:47,484 Running update on language: kjb
 INFO : 2026-06-24 14:42:50,057 Saving state to file.
+INFO : 2026-06-24 18:43:40,853 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-06-24 18:43:41,819 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-06-24 18:43:42,898 Running update on language: mam
+INFO : 2026-06-24 18:43:45,134 Running update on language: kjb
+INFO : 2026-06-24 18:43:46,308 Packet 'prelim_kjb_0': First translation complete by user 'antilesmarcos@gmail.com'. Submitting for revision.
+INFO : 2026-06-24 18:43:57,803 Saving state to file.
