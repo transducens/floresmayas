@@ -6962,3 +6962,8 @@ INFO : 2026-07-01 07:43:24,696 Packet 'mam_4': First revision complete by user '
 INFO : 2026-07-01 07:43:27,541 Packet 'mam_5': First translation complete by user 'princesamam16@gmail.com'. Submitting for revision.
 INFO : 2026-07-01 07:43:33,144 Running update on language: kjb
 INFO : 2026-07-01 07:43:34,960 Saving state to file.
+INFO : 2026-07-01 15:06:41,333 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-01 15:06:42,407 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-01 15:06:43,200 Running update on language: mam
+INFO : 2026-07-01 15:06:45,909 Running update on language: kjb
+INFO : 2026-07-01 15:06:48,547 Saving state to file.
