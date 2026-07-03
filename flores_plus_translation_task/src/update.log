@@ -6995,3 +6995,8 @@ INFO : 2026-07-03 07:15:11,679 Checking to see next available packet for user 'i
 INFO : 2026-07-03 07:15:22,058 New packet 'mam_6' created for language 'mam' and assigned to translator 'ixkikap@gmail.com' and revisor 'saqpom@gmail.com'.
 INFO : 2026-07-03 07:15:23,137 Running update on language: kjb
 INFO : 2026-07-03 07:15:25,657 Saving state to file.
+INFO : 2026-07-03 14:50:37,961 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-03 14:50:38,846 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-03 14:50:39,679 Running update on language: mam
+INFO : 2026-07-03 14:50:42,707 Running update on language: kjb
+INFO : 2026-07-03 14:50:44,692 Saving state to file.
