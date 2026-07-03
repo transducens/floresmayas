@@ -1,7 +1,5 @@
-Por ejemplo
-todo
-el
-año
+"Por ejemplo
+cada año
 el
 alumno
 de
@@ -13,7 +11,7 @@ Carolina del Norte
 diseñar
 uno
 página# web
-acerca de
+sobre
 suyo
 viaje
 a
@@ -21,24 +19,23 @@ el
 capital
 de+el
 Estado
-y
+;
 cada año
 el
-página
+sitio# web
 se
-actualizar
+rediseña
 pero
+el
+versión
+antiguo
 se
 conservar
 en línea
-el
-versión
-previo
-que
-en
-el
-forma
+a
+modo
 de
 álbum
 de
 recuerdo
+"

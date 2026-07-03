@@ -1,17 +1,20 @@
-Ejemplo
+"Ejemplo
 de
 ello
 ser
 entre otros
 el
-monitoreo
+control
+el
 planificación
 y
+el
 programación
 el
 capacidad
 para
 responder
+a
 diagnóstico
 y
 consulta
@@ -24,5 +27,7 @@ reconocimiento
 facial
 de
 escritura
+y
 de
 voz
+"
