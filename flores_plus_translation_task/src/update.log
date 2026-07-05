@@ -7031,3 +7031,8 @@ INFO : 2026-07-05 14:36:30,079 Running update on language: mam
 INFO : 2026-07-05 14:36:33,112 Packet 'mam_4': Second revision complete by user 'saqpom@gmail.com'. Translation complete.
 INFO : 2026-07-05 14:36:36,689 Running update on language: kjb
 INFO : 2026-07-05 14:36:38,684 Saving state to file.
+INFO : 2026-07-05 18:29:25,571 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-05 18:29:26,620 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-05 18:29:27,685 Running update on language: mam
+INFO : 2026-07-05 18:29:30,079 Running update on language: kjb
+INFO : 2026-07-05 18:29:32,098 Saving state to file.
