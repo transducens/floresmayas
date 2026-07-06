@@ -7041,3 +7041,10 @@ INFO : 2026-07-06 07:46:02,294 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-07-06 07:46:03,056 Running update on language: mam
 INFO : 2026-07-06 07:46:06,142 Running update on language: kjb
 INFO : 2026-07-06 07:46:08,963 Saving state to file.
+INFO : 2026-07-06 15:10:53,104 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-06 15:10:54,096 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-06 15:10:54,992 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-07-06 15:10:54,996 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-07-06 15:10:57,351 Running update on language: mam
+INFO : 2026-07-06 15:11:00,471 Running update on language: kjb
+INFO : 2026-07-06 15:11:02,159 Saving state to file.
