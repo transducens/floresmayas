@@ -1,4 +1,4 @@
-Hundir
+"Hundir
 todo
 el
 embarcación
@@ -10,7 +10,8 @@ Morir
 cerca
 de
 doscientos
-individuo
+persona
 estadounidense
 y
 alemán
+"

@@ -14,13 +14,15 @@ el
 rincón
 de+el
 globo
-constantemente
-delimitar
+trazar
 nuevo
-camino
-entre
-suyo
-muro
+ruta
 de
-potencial
-infinito
+forma
+constante
+a lo largo de+el
+número
+ilimitado
+de
+posible
+muro

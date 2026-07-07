@@ -1,7 +1,7 @@
-Normalmente
+"Normalmente
 el
 casino
-realizar
+hacer
 grande
 esfuerzo
 para
@@ -9,6 +9,7 @@ maximizar
 el
 tiempo
 y
+el
 dinero
 que
 gastar
@@ -28,3 +29,4 @@ ser
 difícil
 de
 encontrar
+"
