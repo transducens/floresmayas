@@ -4561,11 +4561,22 @@
         "17",
         "18",
         "19",
-        "20"
+        "20",
+        "21",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
       ]
     },
     "revisors": {
-      "rsaqjumay@gmail.com": []
+      "rsaqjumay@gmail.com": [
+        "22",
+        "30"
+      ]
     },
     "packets": {
       "0": null,
@@ -4608,10 +4619,10 @@
         "rev_id": "1_7fXTVWxkLlhGL_68fBCevi-zzXqh056ak_o9ExuIj8",
         "title": "prelim_kjb_2",
         "created": "Jun 24 2026 10:17PM",
-        "last_stage_update": "Jul 08 2026 06:59AM",
+        "last_stage_update": "Jul 08 2026 02:52PM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 2
       },
       "3": {
