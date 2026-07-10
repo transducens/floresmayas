@@ -7110,3 +7110,8 @@ INFO : 2026-07-10 07:20:31,350 Packet 'prelim_kjb_0': Second translation complet
 INFO : 2026-07-10 07:20:38,128 Checking to see next available packet for user 'antilesmarcos@gmail.com
 INFO : 2026-07-10 07:20:44,972 New packet 'kjb_4' created for language 'kjb' and assigned to translator 'antilesmarcos@gmail.com' and revisor 'rsaqjumay@gmail.com'.
 INFO : 2026-07-10 07:20:45,894 Saving state to file.
+INFO : 2026-07-10 15:00:34,244 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-10 15:00:35,289 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-10 15:00:36,512 Running update on language: mam
+INFO : 2026-07-10 15:00:40,951 Running update on language: kjb
+INFO : 2026-07-10 15:00:45,215 Saving state to file.
