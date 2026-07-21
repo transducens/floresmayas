@@ -4690,7 +4690,17 @@
         "26",
         "27",
         "28",
-        "29"
+        "29",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ]
     },
     "revisors": {
@@ -4751,10 +4761,10 @@
         "rev_id": "15UO8H08CPsnr_8lTkwGtdE8qWotjJ3_gSe_mwiPgk_s",
         "title": "prelim_kjb_3",
         "created": "Jul 08 2026 06:59AM",
-        "last_stage_update": "Jul 21 2026 07:00AM",
+        "last_stage_update": "Jul 21 2026 02:46PM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 3
       },
       "4": {
