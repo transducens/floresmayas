@@ -7397,3 +7397,8 @@ INFO : 2026-07-28 07:01:45,688 Running update on language: mam
 INFO : 2026-07-28 07:01:48,409 Running update on language: kjb
 INFO : 2026-07-28 07:01:50,378 Packet 'prelim_kjb_5': First translation complete by user 'antilesmarcos@gmail.com'. Submitting for revision.
 INFO : 2026-07-28 07:01:58,893 Saving state to file.
+INFO : 2026-07-28 14:53:41,418 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-28 14:53:42,513 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-28 14:53:43,475 Running update on language: mam
+INFO : 2026-07-28 14:53:46,167 Running update on language: kjb
+INFO : 2026-07-28 14:53:47,012 Saving state to file.
