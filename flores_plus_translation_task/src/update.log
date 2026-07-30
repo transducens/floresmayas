@@ -7440,3 +7440,9 @@ INFO : 2026-07-30 14:50:12,226 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-07-30 14:50:13,976 Running update on language: mam
 INFO : 2026-07-30 14:50:18,433 Running update on language: kjb
 INFO : 2026-07-30 14:50:18,433 Saving state to file.
+INFO : 2026-07-30 18:36:41,962 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-07-30 18:36:42,906 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-07-30 18:36:44,074 Running update on language: mam
+INFO : 2026-07-30 18:36:49,633 Packet 'mam_6': Second revision complete by user 'saqpom@gmail.com'. Translation complete.
+INFO : 2026-07-30 18:36:54,595 Running update on language: kjb
+INFO : 2026-07-30 18:36:54,595 Saving state to file.
