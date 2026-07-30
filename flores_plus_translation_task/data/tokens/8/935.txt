@@ -1,4 +1,4 @@
-Pero
+"Pero
 esto
 tener
 uno
@@ -23,4 +23,6 @@ y
 hasta
 once
 en
+primer
 clase
+"

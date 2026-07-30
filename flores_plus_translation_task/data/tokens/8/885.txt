@@ -10,7 +10,6 @@ el
 posibilidad
 de
 emitir
-de
 pasaporte
 sin
 declaración

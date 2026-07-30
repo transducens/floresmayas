@@ -810,10 +810,10 @@
         "rev_id": "19MeyHZCbZPhyk6nVuqecA4SIrOTb58xPJ_IiNMmxj5c",
         "title": "mam_6",
         "created": "Jul 03 2026 07:15AM",
-        "last_stage_update": "Jul 26 2026 07:02AM",
+        "last_stage_update": "Jul 30 2026 07:02AM",
         "translator": "ixkikap@gmail.com",
         "revisor": "saqpom@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 6
       },
       "7": {
@@ -827,12 +827,22 @@
         "stage": "SECOND_TRANSLATION",
         "packet_idx": 7
       },
-      "8": null,
+      "8": {
+        "tra_id": "1fsagbQ1ZYxGmIf8l551F6tmuhvdXGIj78xnx_1oIH7o",
+        "rev_id": null,
+        "title": "mam_8",
+        "created": "Jul 30 2026 07:02AM",
+        "last_stage_update": "Jul 30 2026 07:02AM",
+        "translator": "ixkikap@gmail.com",
+        "revisor": "saqpom@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 8
+      },
       "9": null,
       "10": null
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 96,
+    "spent_additional_revisions": 104,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "1RnGrMjRT9CVTopZFhoYhYh6bssAV2K6uXwdeLwjmtt4",
@@ -4670,7 +4680,17 @@
         "47",
         "48",
         "49",
-        "50"
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
       ],
       "sowlifand@gmail.com": [
         "11",
@@ -4783,10 +4803,10 @@
         "rev_id": "1ZN9VFZ7uuk2O3YKWV6hAPvoNyhwr30KBs7ikeu55icc",
         "title": "prelim_kjb_5",
         "created": "Jul 14 2026 06:31PM",
-        "last_stage_update": "Jul 29 2026 06:26PM",
+        "last_stage_update": "Jul 30 2026 07:02AM",
         "translator": "antilesmarcos@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },

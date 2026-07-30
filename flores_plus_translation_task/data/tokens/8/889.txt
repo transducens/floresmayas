@@ -1,12 +1,12 @@
-El
+"El
 corriente
 de
-retorno
+resaca
 ser
 el
 flujo
-que
-retroceder
+de
+retorno
 de
 el
 ola
@@ -15,9 +15,10 @@ romper
 en
 el
 orilla
-frecuentemente
+a menudo
 en
 uno
 arrecife
 o
 similar
+"

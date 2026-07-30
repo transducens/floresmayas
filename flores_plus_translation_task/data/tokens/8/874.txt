@@ -1,18 +1,17 @@
-El
+"El
 término
 clima
 severo
+se
 referir
 en general
 a
 cualquier
 fenómeno
-climático
-riesgoso
+meteorológico
+peligroso
 que
-ser
-capaz
-de
+poder
 provocar
 daño
 alteración
@@ -20,6 +19,8 @@ social
 graves
 o
 el
-muerte
+pérdida
 de
-persona
+vida
+humano
+"
