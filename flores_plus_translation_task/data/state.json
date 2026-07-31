@@ -4923,7 +4923,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 0,
     "translation_complete": false,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "translation_guide": "19FEjtQerVesbQrEogNla9eDEtAWrdtSO9cunFQEtrWk",
     "vocab_id": "1PWfikb0AylupIEb377uRT6dMlv3imovZB-79zg5qGmA",
     "report": "1FjSr8XHvk2tXV4Sq8waLXZ8WoDrQD7eKt5e-B6PMn1c"
