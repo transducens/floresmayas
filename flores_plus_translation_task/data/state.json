@@ -4840,8 +4840,28 @@
       ]
     },
     "packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1MEqtI7j7lpsCSd64g1sph0mzu8ZINUUUxI1qKUBfUr8",
+        "rev_id": null,
+        "title": "kjb_0",
+        "created": "Jul 31 2026 01:57AM",
+        "last_stage_update": "Jul 31 2026 01:57AM",
+        "translator": "antilesmarcos@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1D8mizjjNRA13zSJzy6buF7s3-3Oep2qJr6t7w9S13JY",
+        "rev_id": null,
+        "title": "kjb_1",
+        "created": "Jul 31 2026 01:57AM",
+        "last_stage_update": "Jul 31 2026 01:57AM",
+        "translator": "sowlifand@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
