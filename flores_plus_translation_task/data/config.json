@@ -33,7 +33,7 @@
             "revisor": "jrguarchaj@gmail.com"
        },
         "kjb": {
-	    "prelim_translation": true,
+	    "prelim_translation": false,
             "translators": [
                 "antilesmarcos@gmail.com",
 		"sowlifand@gmail.com"
