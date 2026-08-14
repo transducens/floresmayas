@@ -7685,3 +7685,8 @@ INFO : 2026-08-14 14:26:18,050 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-08-14 14:26:18,894 Running update on language: mam
 INFO : 2026-08-14 14:26:21,203 Running update on language: kjb
 INFO : 2026-08-14 14:26:23,310 Saving state to file.
+INFO : 2026-08-14 18:22:07,386 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-08-14 18:22:08,394 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-08-14 18:22:09,183 Running update on language: mam
+INFO : 2026-08-14 18:22:12,078 Running update on language: kjb
+INFO : 2026-08-14 18:22:15,042 Saving state to file.
