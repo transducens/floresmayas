@@ -5006,13 +5006,13 @@
     "packets": {
       "0": {
         "tra_id": "1MEqtI7j7lpsCSd64g1sph0mzu8ZINUUUxI1qKUBfUr8",
-        "rev_id": null,
+        "rev_id": "1CsrXIAkCafeMjBLVR2Pcgn_4KkWhgpVaUPE8uyepNSI",
         "title": "kjb_0",
         "created": "Jul 31 2026 01:57AM",
-        "last_stage_update": "Jul 31 2026 01:57AM",
+        "last_stage_update": "Aug 18 2026 06:13AM",
         "translator": "antilesmarcos@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
@@ -5020,13 +5020,23 @@
         "rev_id": "1r_CllPuVlK_zitHKvR6Vhc0sVweMtHfW0fMRJb8ZX24",
         "title": "kjb_1",
         "created": "Jul 31 2026 01:57AM",
-        "last_stage_update": "Aug 17 2026 06:13PM",
+        "last_stage_update": "Aug 18 2026 06:14AM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 1
       },
-      "2": null,
+      "2": {
+        "tra_id": "1ckUge74MQ2r9kFrB2xP9K17sZADsbskL1SwqKVCQRDE",
+        "rev_id": null,
+        "title": "kjb_2",
+        "created": "Aug 18 2026 06:14AM",
+        "last_stage_update": "Aug 18 2026 06:14AM",
+        "translator": "sowlifand@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 2
+      },
       "3": null,
       "4": null,
       "5": null,
@@ -5105,7 +5115,7 @@
       }
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 0,
+    "spent_additional_revisions": 13,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "19FEjtQerVesbQrEogNla9eDEtAWrdtSO9cunFQEtrWk",
