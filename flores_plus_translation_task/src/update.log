@@ -7859,3 +7859,8 @@ INFO : 2026-08-25 06:14:54,964 Running update on language: mam
 INFO : 2026-08-25 06:14:57,545 Running update on language: kjb
 INFO : 2026-08-25 06:14:58,698 Packet 'kjb_2': First translation complete by user 'sowlifand@gmail.com'. Submitting for revision.
 INFO : 2026-08-25 06:15:10,506 Saving state to file.
+INFO : 2026-08-25 14:19:35,932 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-08-25 14:19:37,030 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-08-25 14:19:37,942 Running update on language: mam
+INFO : 2026-08-25 14:19:40,485 Running update on language: kjb
+INFO : 2026-08-25 14:19:42,767 Saving state to file.
