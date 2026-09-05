@@ -8000,3 +8000,8 @@ INFO : 2026-09-05 06:25:36,670 Running update on language: mam
 INFO : 2026-09-05 06:25:40,378 Packet 'mam_8': First revision complete by user 'saqpom@gmail.com'. Submitting for second translation.
 INFO : 2026-09-05 06:25:44,434 Running update on language: kjb
 INFO : 2026-09-05 06:25:46,741 Saving state to file.
+INFO : 2026-09-05 14:13:59,933 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-09-05 14:14:00,784 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-09-05 14:14:01,949 Running update on language: mam
+INFO : 2026-09-05 14:14:04,677 Running update on language: kjb
+INFO : 2026-09-05 14:14:06,980 Saving state to file.
