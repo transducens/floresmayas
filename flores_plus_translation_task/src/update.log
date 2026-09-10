@@ -8084,3 +8084,8 @@ INFO : 2026-09-10 14:16:13,317 Checking to see next available packet for user 'p
 INFO : 2026-09-10 14:16:13,317 Langage 'mam' has no unassigned packets left.
 INFO : 2026-09-10 14:16:13,317 Running update on language: kjb
 INFO : 2026-09-10 14:16:15,917 Saving state to file.
+INFO : 2026-09-10 18:19:28,159 Checking vocabulary spreadsheet for updates for lang 'mam'.
+INFO : 2026-09-10 18:19:29,082 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-09-10 18:19:30,151 Running update on language: mam
+INFO : 2026-09-10 18:19:31,635 Running update on language: kjb
+INFO : 2026-09-10 18:19:34,161 Saving state to file.
