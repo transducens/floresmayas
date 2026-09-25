@@ -8266,3 +8266,6 @@ INFO : 2026-09-25 06:30:14,274 Packet 'kjb_3': Second translation complete by us
 INFO : 2026-09-25 06:30:20,520 Checking to see next available packet for user 'antilesmarcos@gmail.com
 INFO : 2026-09-25 06:30:29,962 New packet 'kjb_6' created for language 'kjb' and assigned to translator 'antilesmarcos@gmail.com' and revisor 'rsaqjumay@gmail.com'.
 INFO : 2026-09-25 06:30:30,981 Saving state to file.
+INFO : 2026-09-25 14:19:07,639 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-09-25 14:19:08,581 Running update on language: kjb
+INFO : 2026-09-25 14:19:12,525 Saving state to file.
