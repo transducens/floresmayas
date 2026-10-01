@@ -39,9 +39,17 @@
 		"sowlifand@gmail.com"
             ],
             "revisor": "rsaqjumay@gmail.com"
+        },
+        "cac": {
+	    "prelim_translation": true,
+            "translators": [
+                "catarinacarmelo796@gmail.com",
+		"rsantizogomez@gmail.com"
+            ],
+            "revisor": "petulisat24@gmail.com"
         }
     },
     "packet_size": 100,
     "prelim_packet_size": 10,
-    "start_translation": true
+    "start_translation": false
 }
