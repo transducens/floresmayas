@@ -51,5 +51,5 @@
     },
     "packet_size": 100,
     "prelim_packet_size": 10,
-    "start_translation": false
+    "start_translation": true
 }
