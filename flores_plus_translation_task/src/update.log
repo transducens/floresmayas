@@ -8325,3 +8325,9 @@ INFO : 2026-10-01 06:32:22,326 Saving state to file.
 INFO : 2026-10-01 14:19:52,157 Checking vocabulary spreadsheet for updates for lang 'kjb'.
 INFO : 2026-10-01 14:19:53,285 Running update on language: kjb
 INFO : 2026-10-01 14:19:56,078 Saving state to file.
+WARNING : 2026-10-01 20:28:34,927 No translation guide associated to language 'cac'. Creating.
+INFO : 2026-10-01 20:28:41,277 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+WARNING : 2026-10-01 20:28:42,210 No vocabulary spreadsheet associated to language 'cac'. Creating.
+INFO : 2026-10-01 20:29:03,599 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-01 20:29:04,197 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-10-01 20:29:04,197 Update complete.

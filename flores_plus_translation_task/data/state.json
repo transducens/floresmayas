@@ -5807,5 +5807,41 @@
     "translation_guide": "19FEjtQerVesbQrEogNla9eDEtAWrdtSO9cunFQEtrWk",
     "vocab_id": "1PWfikb0AylupIEb377uRT6dMlv3imovZB-79zg5qGmA",
     "report": "1FjSr8XHvk2tXV4Sq8waLXZ8WoDrQD7eKt5e-B6PMn1c"
+  },
+  "cac": {
+    "translators": {
+      "catarinacarmelo796@gmail.com": [],
+      "rsantizogomez@gmail.com": []
+    },
+    "revisors": {
+      "petulisat24@gmail.com": []
+    },
+    "packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null
+    },
+    "prelim_packets": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "inactive_translators": {},
+    "spent_additional_revisions": 0,
+    "translation_complete": false,
+    "prelim_translation": true,
+    "translation_guide": "1_Yy3PX3s1N03S8c23oSL10YuqR8Q8OS_E8mwNr1WJx8",
+    "vocab_id": "1S7TvTip5xVDwMPn9O7RJ01sWbuOIL91eC8W_hPMptvI"
   }
 }
