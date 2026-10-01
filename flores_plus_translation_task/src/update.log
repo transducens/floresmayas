@@ -8341,3 +8341,12 @@ INFO : 2026-10-01 18:46:28,483 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-01 18:46:29,074 Checking vocabulary spreadsheet for updates for lang 'cac'.
 INFO : 2026-10-01 18:46:29,821 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-10-01 18:46:29,821 Update complete.
+INFO : 2026-10-01 19:26:24,921 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-01 19:26:26,148 Checking vocabulary spreadsheet for updates for lang 'cac'.
+WARNING : 2026-10-01 19:26:27,427 Language 'cac' has no packages ready to work on.
+INFO : 2026-10-01 19:26:32,681 New packet 'cac_0' created for language 'cac' and assigned to translator 'catarinacarmelo796@gmail.com' and revisor 'petulisat24@gmail.com'
+INFO : 2026-10-01 19:26:38,242 New packet 'cac_1' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'
+INFO : 2026-10-01 19:26:38,242 Creating report spreadsheet for lang 'cac.'
+INFO : 2026-10-01 19:26:41,553 Running update on language: kjb
+INFO : 2026-10-01 19:26:44,182 Running update on language: cac
+INFO : 2026-10-01 19:26:45,758 Saving state to file.

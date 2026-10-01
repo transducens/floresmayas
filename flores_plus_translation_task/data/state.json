@@ -5830,8 +5830,28 @@
       "10": null
     },
     "prelim_packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1o-aFRHzdpmuWPH5SElOTJpgDOayzvoObrxfbIs6uNic",
+        "rev_id": null,
+        "title": "prelim_cac_0",
+        "created": "Oct 01 2026 07:26PM",
+        "last_stage_update": "Oct 01 2026 07:26PM",
+        "translator": "catarinacarmelo796@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1G2dlFJs2b_Dr-HcsTNMUjGKCmEPGMm4qRNOg1hiTgd0",
+        "rev_id": null,
+        "title": "prelim_cac_1",
+        "created": "Oct 01 2026 07:26PM",
+        "last_stage_update": "Oct 01 2026 07:26PM",
+        "translator": "rsantizogomez@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
@@ -5842,6 +5862,7 @@
     "translation_complete": false,
     "prelim_translation": true,
     "translation_guide": "1_Yy3PX3s1N03S8c23oSL10YuqR8Q8OS_E8mwNr1WJx8",
-    "vocab_id": "1S7TvTip5xVDwMPn9O7RJ01sWbuOIL91eC8W_hPMptvI"
+    "vocab_id": "1S7TvTip5xVDwMPn9O7RJ01sWbuOIL91eC8W_hPMptvI",
+    "report": "1-nfTwoIyMc-FLSGsxy2pu6XEyKT1tezEhzpl5jTVKFw"
   }
 }
