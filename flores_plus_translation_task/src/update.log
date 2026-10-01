@@ -8331,3 +8331,9 @@ WARNING : 2026-10-01 20:28:42,210 No vocabulary spreadsheet associated to langua
 INFO : 2026-10-01 20:29:03,599 Checking vocabulary spreadsheet for updates for lang 'cac'.
 INFO : 2026-10-01 20:29:04,197 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-10-01 20:29:04,197 Update complete.
+INFO : 2026-10-01 20:37:02,218 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-01 20:37:03,561 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-01 20:37:04,684 Updating vocabulary file for lang 'cac'.
+INFO : 2026-10-01 20:37:04,690 Updating current packets with new vocabulary for language 'cac'.
+INFO : 2026-10-01 20:37:04,703 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-10-01 20:37:04,703 Update complete.
