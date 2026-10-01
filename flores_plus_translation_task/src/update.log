@@ -8337,3 +8337,7 @@ INFO : 2026-10-01 20:37:04,684 Updating vocabulary file for lang 'cac'.
 INFO : 2026-10-01 20:37:04,690 Updating current packets with new vocabulary for language 'cac'.
 INFO : 2026-10-01 20:37:04,703 Translation update task not ready yet. Modify config file to launch.
 INFO : 2026-10-01 20:37:04,703 Update complete.
+INFO : 2026-10-01 18:46:28,483 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-01 18:46:29,074 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-01 18:46:29,821 Translation update task not ready yet. Modify config file to launch.
+INFO : 2026-10-01 18:46:29,821 Update complete.
