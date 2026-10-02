@@ -213,7 +213,6 @@
   },
   "h": {
     "def": "",
-    "freq": "",
     "notes": ""
   },
   "excursión": {
@@ -525,19 +524,19 @@
     "notes": ""
   },
   "tribu": {
-    "def": "",
+    "def": "yinhtil anima",
     "notes": ""
   },
   "suministro": {
-    "def": "",
+    "def": "k'a'el",
     "notes": ""
   },
   "sugerir": {
-    "def": "",
+    "def": "spak'i",
     "notes": ""
   },
   "subsistencia": {
-    "def": "",
+    "def": "spitzanil",
     "notes": ""
   },
   "siglo xv": {
@@ -545,75 +544,75 @@
     "notes": ""
   },
   "ruso": {
-    "def": "",
+    "def": "aj ruso",
     "notes": ""
   },
   "resonancia": {
-    "def": "",
+    "def": "yamk'ab' es ip",
     "notes": ""
   },
   "recurrir": {
-    "def": "",
+    "def": "k'anlaj kolwal",
     "notes": ""
   },
   "publicación": {
-    "def": "",
+    "def": "Yab'ixal",
     "notes": ""
   },
   "provincia": {
-    "def": "",
+    "def": "Chonhab'",
     "notes": ""
   },
   "protón": {
-    "def": "",
+    "def": "stz'olal",
     "notes": ""
   },
   "presión": {
-    "def": "",
+    "def": "yipal sb'anul",
     "notes": ""
   },
   "potencial": {
-    "def": "",
+    "def": "yipal sjelanil",
     "notes": ""
   },
   "posibilitar": {
-    "def": "",
+    "def": "syal sb'o'an",
     "notes": ""
   },
   "perspectiva": {
-    "def": "",
+    "def": "Stz'olal yilji",
     "notes": ""
   },
   "patrimonio": {
-    "def": "",
+    "def": "Yikwal",
     "notes": ""
   },
   "participación": {
-    "def": "",
+    "def": "Slokanb'il",
     "notes": ""
   },
   "otorgar": {
-    "def": "",
+    "def": "Syak'a'",
     "notes": ""
   },
   "operación": {
-    "def": "",
+    "def": "stzolal munlajel",
     "notes": ""
   },
   "occidental": {
-    "def": "",
+    "def": "sb'atub' k'u",
     "notes": ""
   },
   "nave": {
-    "def": "",
+    "def": "nave",
     "notes": ""
   },
   "modificación": {
-    "def": "",
+    "def": "sk'exwi",
     "notes": ""
   },
   "medalla": {
-    "def": "",
+    "def": "tonh yik jelanil",
     "notes": ""
   },
   "masivo": {
@@ -621,11 +620,11 @@
     "notes": ""
   },
   "japonés": {
-    "def": "",
+    "def": "japones",
     "notes": ""
   },
   "informático": {
-    "def": "",
+    "def": "esk'ak' k'en",
     "notes": ""
   },
   "índole": {
@@ -633,15 +632,15 @@
     "notes": ""
   },
   "individual": {
-    "def": "",
+    "def": "sch'okoj",
     "notes": ""
   },
   "indicador": {
-    "def": "",
+    "def": "yalnab'il",
     "notes": ""
   },
   "ilustrar": {
-    "def": "",
+    "def": "sch'oxnab'il",
     "notes": ""
   },
   "hidrógeno": {
@@ -649,23 +648,23 @@
     "notes": ""
   },
   "geológico": {
-    "def": "",
+    "def": "yib'uchal lu'um",
     "notes": ""
   },
   "generalizar": {
-    "def": "",
+    "def": "smasanil",
     "notes": ""
   },
   "gastronomía": {
-    "def": "",
+    "def": "wa'el 'uk'el ",
     "notes": ""
   },
   "garantizar": {
-    "def": "",
+    "def": "tak'woj ti'al",
     "notes": ""
   },
   "formación": {
-    "def": "",
+    "def": "Kuywal",
     "notes": ""
   },
   "financiero": {
@@ -673,7 +672,7 @@
     "notes": ""
   },
   "finalmente": {
-    "def": "",
+    "def": "slajwub'al",
     "notes": ""
   },
   "ferrocarril": {
@@ -681,39 +680,39 @@
     "notes": ""
   },
   "facultad": {
-    "def": "",
+    "def": "yalanyik, Spatil sloknab'il",
     "notes": ""
   },
   "establecimiento": {
-    "def": "",
+    "def": "spatil",
     "notes": ""
   },
   "enfocar": {
-    "def": "",
+    "def": "tz'ochschum",
     "notes": ""
   },
   "edición": {
-    "def": "",
+    "def": "sb'o sk'ex",
     "notes": ""
   },
   "duración": {
-    "def": "",
+    "def": "jantak tzuji",
     "notes": ""
   },
   "dominio": {
-    "def": "",
+    "def": "jelan t'ay",
     "notes": ""
   },
   "diplomático": {
-    "def": "",
+    "def": "yajal sch'onal el sch'onhab'",
     "notes": ""
   },
   "dinastía": {
-    "def": "",
+    "def": "yinhtilal yajal",
     "notes": ""
   },
   "delimitar": {
-    "def": "",
+    "def": "smaknub'al",
     "notes": ""
   },
   "datar": {
@@ -721,27 +720,27 @@
     "notes": ""
   },
   "crisis": {
-    "def": "",
+    "def": "schukal sk'axanhil",
     "notes": ""
   },
   "correo electrónico": {
-    "def": "",
+    "def": "Ch'alxim ab'ix yik b'i",
     "notes": ""
   },
   "conexión": {
-    "def": "",
+    "def": "syillej sb'a",
     "notes": ""
   },
   "comunicado": {
-    "def": "",
+    "def": "yab'ixal",
     "notes": ""
   },
   "climático": {
-    "def": "",
+    "def": "k'exanhil yolyib'anh k'inal",
     "notes": ""
   },
   "catalogar": {
-    "def": "",
+    "def": "sb'o stzolal hu'um",
     "notes": ""
   },
   "catalán": {
@@ -761,7 +760,7 @@
     "notes": ""
   },
   "atractivo": {
-    "def": "",
+    "def": "smontub'alil",
     "notes": ""
   },
   "albergue": {

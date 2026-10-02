@@ -8350,3 +8350,10 @@ INFO : 2026-10-01 19:26:38,242 Creating report spreadsheet for lang 'cac.'
 INFO : 2026-10-01 19:26:41,553 Running update on language: kjb
 INFO : 2026-10-01 19:26:44,182 Running update on language: cac
 INFO : 2026-10-01 19:26:45,758 Saving state to file.
+INFO : 2026-10-02 06:12:39,357 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-02 06:12:40,523 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-02 06:12:41,755 Updating vocabulary file for lang 'cac'.
+INFO : 2026-10-02 06:12:41,758 Updating current packets with new vocabulary for language 'cac'.
+INFO : 2026-10-02 06:12:45,594 Running update on language: kjb
+INFO : 2026-10-02 06:12:48,349 Running update on language: cac
+INFO : 2026-10-02 06:12:52,233 Saving state to file.
