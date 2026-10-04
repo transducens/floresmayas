@@ -5832,24 +5832,24 @@
     "prelim_packets": {
       "0": {
         "tra_id": "1o-aFRHzdpmuWPH5SElOTJpgDOayzvoObrxfbIs6uNic",
-        "rev_id": null,
+        "rev_id": "1lxsN1-s_c75EK52sHJRXOZIyLiRwrzXoj_oR9y0yKuY",
         "title": "prelim_cac_0",
         "created": "Oct 01 2026 07:26PM",
-        "last_stage_update": "Oct 01 2026 07:26PM",
+        "last_stage_update": "Oct 04 2026 08:01AM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
         "tra_id": "1G2dlFJs2b_Dr-HcsTNMUjGKCmEPGMm4qRNOg1hiTgd0",
-        "rev_id": null,
+        "rev_id": "10329tlNFUu2dDuXVcK8oh-A76OnUPCEY_gdisjR046o",
         "title": "prelim_cac_1",
         "created": "Oct 01 2026 07:26PM",
-        "last_stage_update": "Oct 01 2026 07:26PM",
+        "last_stage_update": "Oct 04 2026 08:02AM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 1
       },
       "2": null,
