@@ -8409,3 +8409,9 @@ INFO : 2026-10-05 06:21:01,487 Packet 'prelim_cac_1': Second translation complet
 INFO : 2026-10-05 06:21:07,997 Checking to see next available packet for user 'rsantizogomez@gmail.com
 INFO : 2026-10-05 06:21:12,589 New packet 'cac_2' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-10-05 06:21:12,589 Saving state to file.
+INFO : 2026-10-05 14:10:39,575 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-05 14:10:40,470 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-05 14:10:41,791 Running update on language: kjb
+INFO : 2026-10-05 14:10:44,560 Running update on language: cac
+INFO : 2026-10-05 14:10:50,224 Packet 'prelim_cac_1': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-10-05 14:10:53,424 Saving state to file.
