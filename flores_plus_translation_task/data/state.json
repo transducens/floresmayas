@@ -5810,7 +5810,18 @@
   },
   "cac": {
     "translators": {
-      "catarinacarmelo796@gmail.com": [],
+      "catarinacarmelo796@gmail.com": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "rsantizogomez@gmail.com": [
         "11",
         "12",
@@ -5846,10 +5857,10 @@
         "rev_id": "1lxsN1-s_c75EK52sHJRXOZIyLiRwrzXoj_oR9y0yKuY",
         "title": "prelim_cac_0",
         "created": "Oct 01 2026 07:26PM",
-        "last_stage_update": "Oct 05 2026 08:42PM",
+        "last_stage_update": "Oct 06 2026 06:13AM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 0
       },
       "1": {

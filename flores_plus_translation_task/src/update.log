@@ -8430,3 +8430,11 @@ INFO : 2026-10-05 20:42:45,822 Packet 'prelim_cac_0': Second translation complet
 INFO : 2026-10-05 20:42:52,733 Checking to see next available packet for user 'catarinacarmelo796@gmail.com
 INFO : 2026-10-05 20:42:57,634 New packet 'cac_3' created for language 'cac' and assigned to translator 'catarinacarmelo796@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-10-05 20:42:58,923 Saving state to file.
+INFO : 2026-10-06 06:13:03,018 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-06 06:13:03,951 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-06 06:13:04,950 Updating vocabulary file for lang 'cac'.
+INFO : 2026-10-06 06:13:05,070 Updating current packets with new vocabulary for language 'cac'.
+INFO : 2026-10-06 06:13:09,135 Running update on language: kjb
+INFO : 2026-10-06 06:13:11,107 Running update on language: cac
+INFO : 2026-10-06 06:13:14,416 Packet 'prelim_cac_0': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-10-06 06:13:16,673 Saving state to file.
