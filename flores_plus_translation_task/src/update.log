@@ -8491,3 +8491,8 @@ INFO : 2026-10-09 14:08:52,982 Running update on language: kjb
 INFO : 2026-10-09 14:08:55,586 Running update on language: cac
 INFO : 2026-10-09 14:08:59,926 Packet 'prelim_cac_2': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
 INFO : 2026-10-09 14:09:09,291 Saving state to file.
+INFO : 2026-10-09 18:09:22,447 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-09 18:09:23,629 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-09 18:09:24,668 Running update on language: kjb
+INFO : 2026-10-09 18:09:27,203 Running update on language: cac
+INFO : 2026-10-09 18:09:29,841 Saving state to file.
