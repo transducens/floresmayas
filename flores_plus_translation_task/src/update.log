@@ -8485,3 +8485,9 @@ INFO : 2026-10-09 06:13:18,595 Running update on language: kjb
 INFO : 2026-10-09 06:13:21,724 Running update on language: cac
 INFO : 2026-10-09 06:13:24,289 Packet 'prelim_cac_3': First translation complete by user 'catarinacarmelo796@gmail.com'. Submitting for revision.
 INFO : 2026-10-09 06:13:35,835 Saving state to file.
+INFO : 2026-10-09 14:08:50,608 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-09 14:08:52,076 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-09 14:08:52,982 Running update on language: kjb
+INFO : 2026-10-09 14:08:55,586 Running update on language: cac
+INFO : 2026-10-09 14:08:59,926 Packet 'prelim_cac_2': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
+INFO : 2026-10-09 14:09:09,291 Saving state to file.
