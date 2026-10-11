@@ -5879,10 +5879,10 @@
         "rev_id": "1oeFYQpAg4Up1E0mIL9dx4R_g4CXQDwn3BjznnbXG-M8",
         "title": "prelim_cac_2",
         "created": "Oct 05 2026 06:21AM",
-        "last_stage_update": "Oct 09 2026 02:08PM",
+        "last_stage_update": "Oct 11 2026 06:12AM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 2
       },
       "3": {
@@ -5896,7 +5896,17 @@
         "stage": "FIRST_REVISION",
         "packet_idx": 3
       },
-      "4": null,
+      "4": {
+        "tra_id": "1oJepfG8zhBZvVXGf3lPpA6CJEE2gyov-Sk-6u7kqYTg",
+        "rev_id": null,
+        "title": "prelim_cac_4",
+        "created": "Oct 11 2026 06:12AM",
+        "last_stage_update": "Oct 11 2026 06:12AM",
+        "translator": "rsantizogomez@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 4
+      },
       "5": null
     },
     "inactive_translators": {},
