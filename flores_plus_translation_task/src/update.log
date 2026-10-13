@@ -8552,3 +8552,8 @@ INFO : 2026-10-13 06:15:20,046 Packet 'kjb_5': First revision complete by user '
 INFO : 2026-10-13 06:15:26,310 Packet 'kjb_6': First translation complete by user 'antilesmarcos@gmail.com'. Submitting for revision.
 INFO : 2026-10-13 06:15:39,620 Running update on language: cac
 INFO : 2026-10-13 06:15:43,422 Saving state to file.
+INFO : 2026-10-13 14:10:00,165 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-13 14:10:01,602 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-13 14:10:02,738 Running update on language: kjb
+INFO : 2026-10-13 14:10:05,392 Running update on language: cac
+INFO : 2026-10-13 14:10:10,489 Saving state to file.
