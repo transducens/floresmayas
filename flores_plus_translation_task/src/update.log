@@ -8571,3 +8571,9 @@ INFO : 2026-10-14 06:12:02,380 Running update on language: kjb
 INFO : 2026-10-14 06:12:06,492 Packet 'kjb_5': Second revision complete by user 'rsaqjumay@gmail.com'. Translation complete.
 INFO : 2026-10-14 06:12:12,254 Running update on language: cac
 INFO : 2026-10-14 06:12:17,384 Saving state to file.
+INFO : 2026-10-14 14:07:40,069 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-14 14:07:41,424 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-14 14:07:43,557 Running update on language: kjb
+INFO : 2026-10-14 14:07:46,117 Running update on language: cac
+INFO : 2026-10-14 14:07:50,183 Packet 'prelim_cac_2': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-10-14 14:07:54,147 Saving state to file.

@@ -5942,7 +5942,17 @@
         "17",
         "18",
         "19",
-        "20"
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
       ]
     },
     "revisors": {
@@ -5989,10 +5999,10 @@
         "rev_id": "1oeFYQpAg4Up1E0mIL9dx4R_g4CXQDwn3BjznnbXG-M8",
         "title": "prelim_cac_2",
         "created": "Oct 05 2026 06:21AM",
-        "last_stage_update": "Oct 11 2026 06:12AM",
+        "last_stage_update": "Oct 14 2026 02:07PM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 2
       },
       "3": {
