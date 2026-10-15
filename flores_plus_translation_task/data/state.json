@@ -6010,10 +6010,10 @@
         "rev_id": "1A1QreFW5x4YS_V-GyWUmae3Lm8ogDeTgj-9PdUZTZrI",
         "title": "prelim_cac_3",
         "created": "Oct 05 2026 08:42PM",
-        "last_stage_update": "Oct 14 2026 06:09PM",
+        "last_stage_update": "Oct 15 2026 06:12AM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 3
       },
       "4": {
@@ -6027,7 +6027,17 @@
         "stage": "FIRST_REVISION",
         "packet_idx": 4
       },
-      "5": null
+      "5": {
+        "tra_id": "1gadTzKNIt6T7R15qBcbQNIVVKKvhxa6yra7z26o7cFA",
+        "rev_id": null,
+        "title": "prelim_cac_5",
+        "created": "Oct 15 2026 06:12AM",
+        "last_stage_update": "Oct 15 2026 06:12AM",
+        "translator": "catarinacarmelo796@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 5
+      }
     },
     "inactive_translators": {},
     "spent_additional_revisions": 0,
