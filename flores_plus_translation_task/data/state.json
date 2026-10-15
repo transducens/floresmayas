@@ -5930,7 +5930,17 @@
         "7",
         "8",
         "9",
-        "10"
+        "10",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ],
       "rsantizogomez@gmail.com": [
         "11",
@@ -6010,10 +6020,10 @@
         "rev_id": "1A1QreFW5x4YS_V-GyWUmae3Lm8ogDeTgj-9PdUZTZrI",
         "title": "prelim_cac_3",
         "created": "Oct 05 2026 08:42PM",
-        "last_stage_update": "Oct 15 2026 06:12AM",
+        "last_stage_update": "Oct 15 2026 02:08PM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 3
       },
       "4": {
@@ -6021,10 +6031,10 @@
         "rev_id": "18Gh76Chp0eQ5btppY_VZjl2h2mIQ-LVTZzETJnKPsww",
         "title": "prelim_cac_4",
         "created": "Oct 11 2026 06:12AM",
-        "last_stage_update": "Oct 12 2026 06:20AM",
+        "last_stage_update": "Oct 15 2026 02:08PM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_REVISION",
+        "stage": "SECOND_TRANSLATION",
         "packet_idx": 4
       },
       "5": {

@@ -8591,3 +8591,10 @@ INFO : 2026-10-15 06:12:37,143 Packet 'prelim_cac_3': Second translation complet
 INFO : 2026-10-15 06:12:43,959 Checking to see next available packet for user 'catarinacarmelo796@gmail.com
 INFO : 2026-10-15 06:12:51,572 New packet 'cac_5' created for language 'cac' and assigned to translator 'catarinacarmelo796@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-10-15 06:12:52,523 Saving state to file.
+INFO : 2026-10-15 14:08:08,894 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-15 14:08:10,020 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-15 14:08:10,934 Running update on language: kjb
+INFO : 2026-10-15 14:08:13,695 Running update on language: cac
+INFO : 2026-10-15 14:08:18,441 Packet 'prelim_cac_3': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-10-15 14:08:26,161 Packet 'prelim_cac_4': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
+INFO : 2026-10-15 14:08:30,819 Saving state to file.
