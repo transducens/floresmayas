@@ -8603,3 +8603,8 @@ INFO : 2026-10-15 18:09:44,048 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-15 18:09:44,839 Running update on language: kjb
 INFO : 2026-10-15 18:09:47,445 Running update on language: cac
 INFO : 2026-10-15 18:09:50,358 Saving state to file.
+INFO : 2026-10-16 06:12:15,037 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-16 06:12:16,318 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-16 06:12:17,263 Running update on language: kjb
+INFO : 2026-10-16 06:12:19,563 Running update on language: cac
+INFO : 2026-10-16 06:12:21,742 Saving state to file.
