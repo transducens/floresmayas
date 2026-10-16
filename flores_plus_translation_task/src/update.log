@@ -8608,3 +8608,13 @@ INFO : 2026-10-16 06:12:16,318 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-16 06:12:17,263 Running update on language: kjb
 INFO : 2026-10-16 06:12:19,563 Running update on language: cac
 INFO : 2026-10-16 06:12:21,742 Saving state to file.
+INFO : 2026-10-16 14:08:04,368 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-16 14:08:05,395 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-16 14:08:05,400 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-16 14:08:08,903 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-16 14:08:10,056 Running update on language: kjb
+INFO : 2026-10-16 14:08:11,680 Running update on language: cac
+INFO : 2026-10-16 14:08:13,258 Packet 'prelim_cac_4': Second translation complete by user 'rsantizogomez@gmail.com'. Submitting for second revision.
+INFO : 2026-10-16 14:08:23,769 Checking to see next available packet for user 'rsantizogomez@gmail.com
+INFO : 2026-10-16 14:08:23,769 Langage 'cac' has no unassigned packets left.
+INFO : 2026-10-16 14:08:25,294 Saving state to file.

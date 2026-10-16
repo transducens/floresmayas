@@ -4,7 +4,7 @@
     "notes": ""
   },
   "por lo general": {
-    "def": " masantak'a'",
+    "def": "yut sb'a / kay k'al",
     "notes": ""
   },
   "incluso": {
@@ -24,7 +24,7 @@
     "notes": ""
   },
   "popular": {
-    "def": "ojtaqb'il ",
+    "def": "ojtaqb'il",
     "notes": ""
   },
   "opción": {
@@ -52,7 +52,7 @@
     "notes": ""
   },
   "en particular": {
-    "def": "asan okoq",
+    "def": "mawal/asan okoq",
     "notes": ""
   },
   "método": {
@@ -72,7 +72,7 @@
     "notes": ""
   },
   "teoría": {
-    "def": "na'b'al ",
+    "def": "na'b'al",
     "notes": ""
   },
   "reserva": {
@@ -156,7 +156,7 @@
     "notes": ""
   },
   "entorno": {
-    "def": "oyanil ",
+    "def": "oyanil",
     "notes": ""
   },
   "en especial": {
@@ -168,7 +168,7 @@
     "notes": ""
   },
   "civilización": {
-    "def": "b'eyb'alej",
+    "def": "wajan konob' / b'eyb'alej",
     "notes": ""
   },
   "asimismo": {
@@ -181,22 +181,22 @@
   },
   "acceder": {
     "def": "oktoq/ jaqa'/ b'eqa' / cha'",
-    "notes": "Estas opciones van a depender del contexto. En la entrada 500 se refiere a dejar entra."
+    "notes": ""
   },
   "submarino": {
-    "def": "jukub' a'ej ",
+    "def": "jukub' a'ej",
     "notes": ""
   },
   "referir": {
     "def": "alb'anil",
-    "notes": "Se deja sb'ab'el yajawil, tomando en cuenta que posterior al yawaw va especificado a qué autoridad o ministro se refiere."
+    "notes": ""
   },
   "primer ministro": {
     "def": "sb'ab'el yajawil",
     "notes": ""
   },
   "positivo": {
-    "def": "watx'il/ yel",
+    "def": "watx'",
     "notes": ""
   },
   "policial": {
@@ -208,7 +208,7 @@
     "notes": ""
   },
   "impacto": {
-    "def": "chok'lejwal/ ",
+    "def": "chok'lejwal",
     "notes": ""
   },
   "h": {
@@ -236,7 +236,7 @@
     "notes": ""
   },
   "asumir": {
-    "def": "iqon okoq",
+    "def": "cha' /iqon okoq",
     "notes": ""
   },
   "tropa": {
@@ -280,7 +280,7 @@
     "notes": ""
   },
   "estadounidense": {
-    "def": "Aj estados unidos",
+    "def": "Aj'estados unidos",
     "notes": ""
   },
   "estadía": {
@@ -300,7 +300,7 @@
     "notes": ""
   },
   "anfitrión": {
-    "def": "ajna/ajq'in/aj'et",
+    "def": "b'ay chi apni /ajna/ajq'in/aj'et",
     "notes": ""
   },
   "virus": {
@@ -329,14 +329,14 @@
   },
   "siglo": {
     "def": "ok'al winaq",
-    "notes": "El conteo del tiempo se usa el winaq, queda como o'k'al winaq"
+    "notes": ""
   },
   "revolución": {
-    "def": "ajwanil",
+    "def": "k'exwal konob'/ajwanil",
     "notes": ""
   },
   "prácticamente": {
-    "def": "a' ta' xin",
+    "def": "yel k'alta'a/a' ta' xin",
     "notes": ""
   },
   "olímpico": {
@@ -392,7 +392,7 @@
     "notes": ""
   },
   "televisivo": {
-    "def": "matz'ewal pojb'al matz'elaw",
+    "def": "matz'ewal/pojb'al matz'elaw",
     "notes": ""
   },
   "sociedad": {
@@ -416,7 +416,7 @@
     "notes": ""
   },
   "reacción": {
-    "def": "aj juknajoq",
+    "def": "k'expojtoq/aj juknajoq",
     "notes": ""
   },
   "península": {
@@ -448,7 +448,7 @@
     "notes": ""
   },
   "invasión": {
-    "def": "oktoq sb'ahil",
+    "def": "ipnen ok sb'a/oktoq sb'ahil",
     "notes": ""
   },
   "intento": {
@@ -708,7 +708,7 @@
     "notes": ""
   },
   "dinastía": {
-    "def": "yichb'anil ",
+    "def": "yichb'anil",
     "notes": ""
   },
   "delimitar": {
@@ -812,7 +812,7 @@
     "notes": ""
   },
   "sofisticado": {
-    "def": "watx'il yili",
+    "def": "watx' kawxi/watx'il yili",
     "notes": ""
   },
   "sísmico": {
@@ -921,7 +921,7 @@
   },
   "póliza": {
     "def": "Tz'ib’il kolwalil",
-    "notes": "Descriptivo"
+    "notes": ""
   },
   "ph": {
     "def": "",
@@ -1181,14 +1181,14 @@
   },
   "alojar": {
     "def": "",
-    "notes": ""
+    "notes": "El conteo del tiempo se usa el winaq, queda como o'k'al winaq"
   },
   "alianza": {
     "def": "",
     "notes": ""
   },
   "aliado": {
-    "def": "",
+    "def": "ayok yetoq",
     "notes": ""
   },
   "afgano": {
@@ -1197,7 +1197,7 @@
   },
   "adn": {
     "def": "",
-    "notes": ""
+    "notes": "Estas opciones van a depender del contexto. En la entrada 500 se refiere a dejar entra."
   },
   "administración": {
     "def": "",
@@ -1556,7 +1556,7 @@
     "notes": ""
   },
   "genérico": {
-    "def": "",
+    "def": "komon",
     "notes": ""
   },
   "frustrar": {
@@ -1600,7 +1600,7 @@
     "notes": ""
   },
   "evolución": {
-    "def": "",
+    "def": "k'expojtoq",
     "notes": ""
   },
   "evocar": {
@@ -1608,7 +1608,7 @@
     "notes": ""
   },
   "esquiador": {
-    "def": "",
+    "def": "saqachwom chew",
     "notes": ""
   },
   "específicamente": {
@@ -1860,7 +1860,7 @@
     "notes": ""
   },
   "urna": {
-    "def": "",
+    "def": "k'ub'b'al sik'wal",
     "notes": ""
   },
   "tridimensional": {
@@ -2380,7 +2380,7 @@
     "notes": ""
   },
   "innovación": {
-    "def": "",
+    "def": "akaw mulnajil / ak' mulnajil",
     "notes": ""
   },
   "ingeniería": {
@@ -2520,7 +2520,7 @@
     "notes": ""
   },
   "filósofo": {
-    "def": "",
+    "def": "ajna'b'alej yib'an q'inal",
     "notes": ""
   },
   "filosófico": {
@@ -2548,7 +2548,7 @@
     "notes": ""
   },
   "extravagante": {
-    "def": "",
+    "def": "tx'oq yili",
     "notes": ""
   },
   "extraordinario": {
@@ -2616,7 +2616,7 @@
     "notes": ""
   },
   "estafa": {
-    "def": "",
+    "def": "eb'an elq'an",
     "notes": ""
   },
   "estacional": {
@@ -2676,7 +2676,7 @@
     "notes": ""
   },
   "entretenimiento": {
-    "def": "",
+    "def": "mitz' abix",
     "notes": ""
   },
   "enmienda": {
@@ -2925,7 +2925,7 @@
   },
   "bizantino": {
     "def": "",
-    "notes": ""
+    "notes": "Descriptivo"
   },
   "bíblico": {
     "def": "",
@@ -2960,7 +2960,7 @@
     "notes": ""
   },
   "arresto": {
-    "def": "",
+    "def": "mitx'b'al ayoq",
     "notes": ""
   },
   "arrecife": {
@@ -2972,7 +2972,7 @@
     "notes": ""
   },
   "arancel": {
-    "def": "",
+    "def": "tojb'al yok txon",
     "notes": ""
   },
   "aprobación": {
@@ -3012,11 +3012,11 @@
     "notes": ""
   },
   "aleación": {
-    "def": "",
+    "def": "somb'al sb'a",
     "notes": ""
   },
   "aislar": {
-    "def": "",
+    "def": "yel sk'atan",
     "notes": ""
   },
   "aislamiento": {
@@ -3684,7 +3684,7 @@
     "notes": ""
   },
   "repatriación": {
-    "def": "",
+    "def": "meltzojb'al b'ay skonob'",
     "notes": ""
   },
   "reparo": {
@@ -3856,7 +3856,7 @@
     "notes": ""
   },
   "provisional": {
-    "def": "",
+    "def": "junoq sb'eqanil",
     "notes": ""
   },
   "proverbial": {
@@ -4020,7 +4020,7 @@
     "notes": ""
   },
   "por fortuna": {
-    "def": "",
+    "def": "palta swatx'ilal",
     "notes": ""
   },
   "por definición": {
@@ -4184,7 +4184,7 @@
     "notes": ""
   },
   "ópera": {
-    "def": "",
+    "def": "matz' b'it",
     "notes": ""
   },
   "opep": {
@@ -4328,7 +4328,7 @@
     "notes": ""
   },
   "naturalista": {
-    "def": "",
+    "def": "ajna'b'alej yib'an yaxilal",
     "notes": ""
   },
   "nasa": {
@@ -4844,7 +4844,7 @@
     "notes": ""
   },
   "imprenta": {
-    "def": "",
+    "def": "chemb'al un",
     "notes": ""
   },
   "imposibilidad": {
@@ -5052,7 +5052,7 @@
     "notes": ""
   },
   "gabinete": {
-    "def": "",
+    "def": "b'ulan yajaw",
     "notes": ""
   },
   "g": {
@@ -5184,7 +5184,7 @@
     "notes": ""
   },
   "fármaco": {
-    "def": "",
+    "def": "anb'al",
     "notes": ""
   },
   "fantástico": {
@@ -5416,7 +5416,7 @@
     "notes": ""
   },
   "entrevista": {
-    "def": "",
+    "def": "q'anleb'a b'ay",
     "notes": ""
   },
   "enormemente": {
@@ -6008,7 +6008,7 @@
     "notes": ""
   },
   "concretamente": {
-    "def": "",
+    "def": "wal yin yelalil",
     "notes": ""
   },
   "conciso": {
@@ -6108,7 +6108,7 @@
     "notes": ""
   },
   "cinematografía": {
-    "def": "",
+    "def": "i'om echelej",
     "notes": ""
   },
   "choque": {
@@ -6388,7 +6388,7 @@
     "notes": ""
   },
   "asesorar": {
-    "def": "",
+    "def": "aq'b'al ok na'b'alej",
     "notes": ""
   },
   "asentamiento": {
@@ -6528,7 +6528,7 @@
     "notes": ""
   },
   "analítico": {
-    "def": "",
+    "def": "na'b'al eloq",
     "notes": ""
   },
   "amputación": {
@@ -6596,7 +6596,7 @@
     "notes": ""
   },
   "algo": {
-    "def": "",
+    "def": "janik'oq",
     "notes": ""
   },
   "alfa": {
@@ -6649,7 +6649,7 @@
   },
   "adoquinar": {
     "def": "",
-    "notes": ""
+    "notes": "Se deja sb'ab'el yajawil, tomando en cuenta que posterior al yawaw va especificado a qué autoridad o ministro se refiere."
   },
   "admisión": {
     "def": "",
@@ -6708,7 +6708,7 @@
     "notes": ""
   },
   "acercamiento": {
-    "def": "",
+    "def": "jitz'b'altoq sb'a",
     "notes": ""
   },
   "acantilado": {
@@ -6757,6 +6757,614 @@
   },
   "fármaco ": {
     "def": "anb'al",
+    "notes": ""
+  },
+  "actualmente": {
+    "def": "ti' nani",
+    "notes": ""
+  },
+  "acuerdo": {
+    "def": "lajq'anej",
+    "notes": ""
+  },
+  "agnostico": {
+    "def": "k'am dyosal",
+    "notes": ""
+  },
+  "agricultura de subsistencia": {
+    "def": "awtz'un yet iqk'ulal",
+    "notes": ""
+  },
+  "alega": {
+    "def": "teyejal/teyejwal/yalob'tanej",
+    "notes": ""
+  },
+  "anarquia": {
+    "def": "k'am yajawil",
+    "notes": ""
+  },
+  "antilope": {
+    "def": "txek'tx'ukchej",
+    "notes": ""
+  },
+  "aprendizaje": {
+    "def": "yok kuyoj",
+    "notes": ""
+  },
+  "artista (cantante)": {
+    "def": "b'itwom",
+    "notes": ""
+  },
+  "asesor": {
+    "def": "aq'om ok na'b'alej",
+    "notes": ""
+  },
+  "así mismo": {
+    "def": "axka ton tu' / axka k'apax tu'",
+    "notes": ""
+  },
+  "asimismo / a su vez": {
+    "def": "k'apaxoq",
+    "notes": ""
+  },
+  "audición (cine)/prueba ante director": {
+    "def": "tx'oxb'anil",
+    "notes": ""
+  },
+  "audiencia (público)": {
+    "def": "konob' chi iloni / ab'eni/ ilwajwom",
+    "notes": ""
+  },
+  "audiencia (legal)": {
+    "def": "cha'lej sb'ahil",
+    "notes": ""
+  },
+  "aúnque": {
+    "def": "kaxk'al mi",
+    "notes": ""
+  },
+  "bacteria": {
+    "def": "owal tz'il",
+    "notes": ""
+  },
+  "banco": {
+    "def": "snahil tuminej",
+    "notes": ""
+  },
+  "bíblia": {
+    "def": "txajul un",
+    "notes": ""
+  },
+  "bipedestación": {
+    "def": "b'ey yin kab' aqan",
+    "notes": ""
+  },
+  "buena relación": {
+    "def": "watx' q'anej",
+    "notes": ""
+  },
+  "camara de seguridad": {
+    "def": "ilwajwom ch'en",
+    "notes": ""
+  },
+  "canceló": {
+    "def": "tenlajwoq",
+    "notes": ""
+  },
+  "carrera (autos)": {
+    "def": "anejwal",
+    "notes": ""
+  },
+  "castaño": {
+    "def": "q'anjitz'inaq",
+    "notes": ""
+  },
+  "categoría": {
+    "def": "b'ulan",
+    "notes": ""
+  },
+  "caza": {
+    "def": "uqtewal no' / uqtej no'",
+    "notes": ""
+  },
+  "ciencia ficción": {
+    "def": "leq'ti' na'b'alej",
+    "notes": ""
+  },
+  "científicos": {
+    "def": "itz'at kuywom",
+    "notes": ""
+  },
+  "cirugía": {
+    "def": "k'uplay",
+    "notes": ""
+  },
+  "combustible": {
+    "def": "yuk'a' ch'en iqtzom",
+    "notes": ""
+  },
+  "computadora": {
+    "def": "txaltz'ib'",
+    "notes": ""
+  },
+  "con frecuencia": {
+    "def": "xiwilxa el / kok'taqil",
+    "notes": ""
+  },
+  "concentrar (reunir)": {
+    "def": "waj sb'a",
+    "notes": ""
+  },
+  "concentrar (mente)": {
+    "def": "snab'alejal yin",
+    "notes": ""
+  },
+  "conducido por (liderar)": {
+    "def": "sjolomb'il yuj",
+    "notes": ""
+  },
+  "cooperación": {
+    "def": "wajmulnajil",
+    "notes": ""
+  },
+  "copias": {
+    "def": "yechel/echel",
+    "notes": ""
+  },
+  "corteza": {
+    "def": "pimal joyil",
+    "notes": ""
+  },
+  "corvidae": {
+    "def": "kaqjulinaq",
+    "notes": ""
+  },
+  "deidad": {
+    "def": "deidad",
+    "notes": ""
+  },
+  "demanda /denuncia": {
+    "def": "alb'alb'a /alwal sb'ahil",
+    "notes": ""
+  },
+  "determinismo cultural": {
+    "def": "yelapnoq b'eyb'alej",
+    "notes": ""
+  },
+  "determinismo tecnológico": {
+    "def": "yelapnoq ak' na'b'alej ch'en",
+    "notes": ""
+  },
+  "diplomatico": {
+    "def": "yin swatx'il/tx'oxq'ab'nen el yajaw",
+    "notes": ""
+  },
+  "director": {
+    "def": "ajnab'al /yajawil",
+    "notes": ""
+  },
+  "drogas": {
+    "def": "owal ak'un",
+    "notes": ""
+  },
+  "en definitiva": {
+    "def": "kaytu' yili",
+    "notes": ""
+  },
+  "endeble": {
+    "def": "komon",
+    "notes": ""
+  },
+  "energía de ilumunación": {
+    "def": "yipalil swatx'ilal",
+    "notes": ""
+  },
+  "ensayo/probar": {
+    "def": "aq'lej/aq'leb'al",
+    "notes": ""
+  },
+  "Erectus": {
+    "def": "k'etan",
+    "notes": ""
+  },
+  "escritores,autores": {
+    "def": "ajna'b'alej",
+    "notes": ""
+  },
+  "espacio exterior": {
+    "def": "yineltoq satkan",
+    "notes": ""
+  },
+  "estación (bus)": {
+    "def": "maqb'al iqtz'om ch'en",
+    "notes": ""
+  },
+  "estado (fase de la materia)": {
+    "def": "muq'uq'i",
+    "notes": ""
+  },
+  "estrellarse (vehículo)": {
+    "def": "pok'najoq",
+    "notes": ""
+  },
+  "estudio": {
+    "def": "kuyb'al/yatutal/kuyoj/snahil mulnajil",
+    "notes": ""
+  },
+  "eventualmente": {
+    "def": "jab'jab'il/ojank'ulal",
+    "notes": ""
+  },
+  "expertos": {
+    "def": "mimeq kuywom",
+    "notes": ""
+  },
+  "familia olimpica": {
+    "def": "mochanil",
+    "notes": ""
+  },
+  "film/película": {
+    "def": "echel elaw",
+    "notes": ""
+  },
+  "firma": {
+    "def": "jotz'b'i",
+    "notes": ""
+  },
+  "flujo de trafico (vehículo)": {
+    "def": "kuyojal wajon sb'a yek' iqtzom ch'en",
+    "notes": ""
+  },
+  "frontera": {
+    "def": "st'inil konob'",
+    "notes": ""
+  },
+  "fosiles": {
+    "def": "sb'aqil",
+    "notes": ""
+  },
+  "fuerza aería": {
+    "def": "taynom konob' ssatkan",
+    "notes": ""
+  },
+  "funcionario": {
+    "def": "mimeq yawaj",
+    "notes": ""
+  },
+  "gasolina": {
+    "def": "uk'a' ch'en",
+    "notes": ""
+  },
+  "gobierno": {
+    "def": "yajawil konob'",
+    "notes": ""
+  },
+  "grandes cuevas": {
+    "def": "xab' olan",
+    "notes": ""
+  },
+  "gruñidos (felinos)": {
+    "def": "myawxi",
+    "notes": ""
+  },
+  "guarda bosques": {
+    "def": "taynom te'ej",
+    "notes": ""
+  },
+  "guerra fría": {
+    "def": "kusil owal",
+    "notes": ""
+  },
+  "guiones": {
+    "def": "stxolilal yi'on sb'a",
+    "notes": ""
+  },
+  "huracan": {
+    "def": "kaqxuchum",
+    "notes": ""
+  },
+  "imperioso/arrogante": {
+    "def": "maynej sb'a",
+    "notes": ""
+  },
+  "impuesto": {
+    "def": "stojlob'al yok txon",
+    "notes": ""
+  },
+  "informatica": {
+    "def": "xe'al ak' na'b'alej ch'en",
+    "notes": ""
+  },
+  "insecto": {
+    "def": "k'ajno'",
+    "notes": ""
+  },
+  "internet": {
+    "def": "internet",
+    "notes": ""
+  },
+  "jaguar": {
+    "def": "b'alam",
+    "notes": ""
+  },
+  "la sabana": {
+    "def": "taqin panan te'laq",
+    "notes": ""
+  },
+  "lava": {
+    "def": "q'aq' ch'en",
+    "notes": ""
+  },
+  "leones": {
+    "def": "mimeq koj",
+    "notes": ""
+  },
+  "leopardo": {
+    "def": "tururi tz'ib'koj",
+    "notes": ""
+  },
+  "lider": {
+    "def": "ajb'e/ajsat",
+    "notes": ""
+  },
+  "manifestación": {
+    "def": "allej sb'ahil",
+    "notes": ""
+  },
+  "maquina": {
+    "def": "mitx'q'ab' ch'en",
+    "notes": ""
+  },
+  "mejor": {
+    "def": "akaw",
+    "notes": ""
+  },
+  "mientras que": {
+    "def": "yaqb'an",
+    "notes": ""
+  },
+  "militares": {
+    "def": "aq'om owal",
+    "notes": ""
+  },
+  "mimetizandose/esconderse/camuflarse": {
+    "def": "k'ub'on el sb'a",
+    "notes": ""
+  },
+  "museo": {
+    "def": "payxahil kwamb'al",
+    "notes": ""
+  },
+  "ni (ej. ni así)": {
+    "def": "tamwal",
+    "notes": ""
+  },
+  "nidícolas": {
+    "def": "tz'un swayub'",
+    "notes": ""
+  },
+  "nominado/reconocer": {
+    "def": "b'inajb'i/tx'oxlayi",
+    "notes": ""
+  },
+  "observadores (en elecciones partidarias)": {
+    "def": "ilon sik'wal",
+    "notes": ""
+  },
+  "orangutanes": {
+    "def": "patzik maltin",
+    "notes": ""
+  },
+  "paises": {
+    "def": "mimeq konob'",
+    "notes": ""
+  },
+  "pantano": {
+    "def": "soq'om",
+    "notes": ""
+  },
+  "pareja": {
+    "def": "yetb'i sb'a",
+    "notes": ""
+  },
+  "parque": {
+    "def": "amaq'matz'",
+    "notes": ""
+  },
+  "participantes": {
+    "def": "ayok sxol/ok stz'aqiloq",
+    "notes": ""
+  },
+  "partitura (música)": {
+    "def": "nuq'ejal b'it",
+    "notes": ""
+  },
+  "pescador": {
+    "def": "txaywom",
+    "notes": ""
+  },
+  "pezca": {
+    "def": "mitx'oj txay",
+    "notes": ""
+  },
+  "piedras en los riñones /cristales": {
+    "def": "ch'en",
+    "notes": ""
+  },
+  "piloto": {
+    "def": "tx'umwajwom",
+    "notes": ""
+  },
+  "pistola": {
+    "def": "q'aq' julwal",
+    "notes": ""
+  },
+  "planeta": {
+    "def": "miman puj",
+    "notes": ""
+  },
+  "pluniferos": {
+    "def": "ay stz'upal/sxil",
+    "notes": ""
+  },
+  "policia/policial": {
+    "def": "letxk'ox",
+    "notes": ""
+  },
+  "politica": {
+    "def": "mulnajil",
+    "notes": ""
+  },
+  "por ello,": {
+    "def": "yuj tu' xan",
+    "notes": ""
+  },
+  "por su puesto": {
+    "def": "kay k'apax tu'",
+    "notes": ""
+  },
+  "posición": {
+    "def": "jit'il",
+    "notes": ""
+  },
+  "prensa": {
+    "def": "ab'ix tz'ib'",
+    "notes": ""
+  },
+  "probablemente": {
+    "def": "teqan",
+    "notes": ""
+  },
+  "programa (tv)": {
+    "def": "echel matz'",
+    "notes": ""
+  },
+  "prueba": {
+    "def": "tx'oxb'anil",
+    "notes": ""
+  },
+  "quejarse": {
+    "def": "awji k'al / yal sb'a",
+    "notes": ""
+  },
+  "relevos": {
+    "def": "t'uqwal",
+    "notes": ""
+  },
+  "remolino": {
+    "def": "oyoy kaqxuchum",
+    "notes": ""
+  },
+  "resultado": {
+    "def": "paqtzeb'al",
+    "notes": ""
+  },
+  "ruedad de vagón": {
+    "def": "suyuy aqan iqtzom",
+    "notes": ""
+  },
+  "secretario": {
+    "def": "ajtz'ib'",
+    "notes": ""
+  },
+  "seguridad nacional": {
+    "def": "taynelay konob'",
+    "notes": ""
+  },
+  "semana": {
+    "def": "semana",
+    "notes": ""
+  },
+  "si bien": {
+    "def": "ta yelta'a / ta yel xin",
+    "notes": ""
+  },
+  "significativo": {
+    "def": "akaw",
+    "notes": ""
+  },
+  "simulación": {
+    "def": "etz'ewal",
+    "notes": ""
+  },
+  "sin embargo/no obstante": {
+    "def": "palta xin",
+    "notes": ""
+  },
+  "síntomas": {
+    "def": "tx'oxil sb'a",
+    "notes": ""
+  },
+  "sistema de acogio familiar": {
+    "def": "snahil sik'wajwom yet ajnahil",
+    "notes": ""
+  },
+  "sistema de crianza acogida": {
+    "def": "snahil sik'om aj unin",
+    "notes": ""
+  },
+  "sobrevivientes": {
+    "def": "ikiswom",
+    "notes": ""
+  },
+  "socialización": {
+    "def": "yallay ab'ej",
+    "notes": ""
+  },
+  "sotio de internet": {
+    "def": "spojkixhtaqil internet",
+    "notes": ""
+  },
+  "sustancia": {
+    "def": "stz'aqilb'a",
+    "notes": ""
+  },
+  "teclado (pc)": {
+    "def": "b'elsatb'al tz'ib'",
+    "notes": ""
+  },
+  "tecnología / IA": {
+    "def": "ak' na'b'alej ch'en",
+    "notes": ""
+  },
+  "televisor": {
+    "def": "matz'eb'al ch'en",
+    "notes": ""
+  },
+  "temblor": {
+    "def": "kixkab'",
+    "notes": ""
+  },
+  "temperatura": {
+    "def": "sxob'ob'ihal",
+    "notes": ""
+  },
+  "terremoto": {
+    "def": "mimeq kixkab'",
+    "notes": ""
+  },
+  "terror": {
+    "def": "xiwk'ulal",
+    "notes": ""
+  },
+  "tigre": {
+    "def": "patzik tz'ib'koj",
+    "notes": ""
+  },
+  "turista": {
+    "def": "ek'jab'wom",
+    "notes": ""
+  },
+  "vagonetas": {
+    "def": "yal iqtzom",
+    "notes": ""
+  },
+  "vencer": {
+    "def": "potx'chaji",
+    "notes": ""
+  },
+  "video": {
+    "def": "echel matz'",
     "notes": ""
   }
 }
