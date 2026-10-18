@@ -109,7 +109,9 @@ if __name__ == "__main__":
             vocab = json.loads(f.read())
 
         for key in vocab.keys():
-            if vocab.get(key) is None or vocab[key]['def'] != new_vocab[key]['def'] or vocab[key]['notes'] != new_vocab[key]['notes']:
+            if vocab[key]['def'] != new_vocab[key]['def'] \
+                    or new_vocab.get(key) is None \
+                    or vocab[key]['notes'] != new_vocab[key]['notes']:
                 vocab.update(new_vocab)
                 logger.info(f"Updating vocabulary file for lang '{lang}'.")
                 with open(f"../data/{lang}/vocab.json", "w") as f:
