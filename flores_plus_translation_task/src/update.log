@@ -8618,3 +8618,11 @@ INFO : 2026-10-16 14:08:13,258 Packet 'prelim_cac_4': Second translation complet
 INFO : 2026-10-16 14:08:23,769 Checking to see next available packet for user 'rsantizogomez@gmail.com
 INFO : 2026-10-16 14:08:23,769 Langage 'cac' has no unassigned packets left.
 INFO : 2026-10-16 14:08:25,294 Saving state to file.
+INFO : 2026-10-18 22:58:02,881 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-18 22:58:03,286 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-18 22:58:03,290 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-18 22:58:06,346 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-18 22:58:07,506 Running update on language: kjb
+INFO : 2026-10-18 22:58:08,997 Running update on language: cac
+INFO : 2026-10-18 22:58:15,212 Packet 'prelim_cac_5': First translation complete by user 'catarinacarmelo796@gmail.com'. Submitting for revision.
+INFO : 2026-10-18 22:58:22,301 Saving state to file.
