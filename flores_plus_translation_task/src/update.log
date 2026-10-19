@@ -8626,3 +8626,10 @@ INFO : 2026-10-18 22:58:07,506 Running update on language: kjb
 INFO : 2026-10-18 22:58:08,997 Running update on language: cac
 INFO : 2026-10-18 22:58:15,212 Packet 'prelim_cac_5': First translation complete by user 'catarinacarmelo796@gmail.com'. Submitting for revision.
 INFO : 2026-10-18 22:58:22,301 Saving state to file.
+INFO : 2026-10-19 06:15:53,169 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-19 06:15:54,007 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-19 06:15:54,010 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-19 06:15:56,880 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-19 06:15:57,810 Running update on language: kjb
+INFO : 2026-10-19 06:16:00,177 Running update on language: cac
+INFO : 2026-10-19 06:16:02,655 Saving state to file.
