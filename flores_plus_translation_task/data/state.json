@@ -5962,7 +5962,17 @@
         "27",
         "28",
         "29",
-        "30"
+        "30",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
       ]
     },
     "revisors": {
@@ -6031,10 +6041,10 @@
         "rev_id": "18Gh76Chp0eQ5btppY_VZjl2h2mIQ-LVTZzETJnKPsww",
         "title": "prelim_cac_4",
         "created": "Oct 11 2026 06:12AM",
-        "last_stage_update": "Oct 16 2026 02:08PM",
+        "last_stage_update": "Oct 19 2026 06:09PM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 4
       },
       "5": {
