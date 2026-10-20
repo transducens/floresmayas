@@ -8663,3 +8663,10 @@ INFO : 2026-10-20 14:08:04,709 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-20 14:08:05,647 Running update on language: kjb
 INFO : 2026-10-20 14:08:06,642 Running update on language: cac
 INFO : 2026-10-20 14:08:07,401 Saving state to file.
+INFO : 2026-10-20 18:09:22,718 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-20 18:09:23,782 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-20 18:09:23,785 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-20 18:09:27,035 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-20 18:09:27,863 Running update on language: kjb
+INFO : 2026-10-20 18:09:29,255 Running update on language: cac
+INFO : 2026-10-20 18:09:30,658 Saving state to file.
