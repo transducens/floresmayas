@@ -8656,3 +8656,10 @@ INFO : 2026-10-20 06:12:00,674 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-20 06:12:01,594 Running update on language: kjb
 INFO : 2026-10-20 06:12:02,925 Running update on language: cac
 INFO : 2026-10-20 06:12:04,227 Saving state to file.
+INFO : 2026-10-20 14:08:00,736 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-20 14:08:01,886 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-20 14:08:01,889 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-20 14:08:04,709 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-20 14:08:05,647 Running update on language: kjb
+INFO : 2026-10-20 14:08:06,642 Running update on language: cac
+INFO : 2026-10-20 14:08:07,401 Saving state to file.
