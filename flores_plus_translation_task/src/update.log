@@ -8681,3 +8681,10 @@ INFO : 2026-10-21 06:12:51,036 New packet 'kjb_8' created for language 'kjb' and
 INFO : 2026-10-21 06:12:51,814 Running update on language: cac
 INFO : 2026-10-21 06:12:56,152 Packet 'prelim_cac_5': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
 INFO : 2026-10-21 06:12:58,496 Saving state to file.
+INFO : 2026-10-21 18:09:24,315 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-21 18:09:25,450 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-21 18:09:25,455 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-21 18:09:30,109 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-21 18:09:31,200 Running update on language: kjb
+INFO : 2026-10-21 18:09:33,929 Running update on language: cac
+INFO : 2026-10-21 18:09:35,049 Saving state to file.
