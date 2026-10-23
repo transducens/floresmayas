@@ -8721,3 +8721,10 @@ INFO : 2026-10-23 06:12:46,785 Packet 'prelim_cac_5': Second translation complet
 INFO : 2026-10-23 06:12:54,011 Checking to see next available packet for user 'catarinacarmelo796@gmail.com
 INFO : 2026-10-23 06:12:54,011 Langage 'cac' has no unassigned packets left.
 INFO : 2026-10-23 06:12:54,011 Saving state to file.
+INFO : 2026-10-23 14:09:36,676 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-23 14:09:37,713 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-23 14:09:37,717 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-23 14:09:42,151 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-23 14:09:43,035 Running update on language: kjb
+INFO : 2026-10-23 14:09:45,106 Running update on language: cac
+INFO : 2026-10-23 14:09:46,801 Saving state to file.
