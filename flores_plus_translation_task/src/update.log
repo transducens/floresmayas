@@ -8743,3 +8743,10 @@ INFO : 2026-10-24 06:11:02,770 Running update on language: kjb
 INFO : 2026-10-24 06:11:04,339 Running update on language: cac
 INFO : 2026-10-24 06:11:07,658 Packet 'prelim_cac_5': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
 INFO : 2026-10-24 06:11:09,320 Saving state to file.
+INFO : 2026-10-24 14:06:19,631 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-24 14:06:20,789 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-24 14:06:20,794 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-24 14:06:23,694 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-24 14:06:24,763 Running update on language: kjb
+INFO : 2026-10-24 14:06:26,343 Running update on language: cac
+INFO : 2026-10-24 14:06:26,343 Saving state to file.
