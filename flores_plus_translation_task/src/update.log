@@ -8750,3 +8750,10 @@ INFO : 2026-10-24 14:06:23,694 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-24 14:06:24,763 Running update on language: kjb
 INFO : 2026-10-24 14:06:26,343 Running update on language: cac
 INFO : 2026-10-24 14:06:26,343 Saving state to file.
+INFO : 2026-10-24 18:07:59,444 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-24 18:08:00,386 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-24 18:08:00,391 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-24 18:08:04,752 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-24 18:08:05,524 Running update on language: kjb
+INFO : 2026-10-24 18:08:07,310 Running update on language: cac
+INFO : 2026-10-24 18:08:07,310 Saving state to file.
