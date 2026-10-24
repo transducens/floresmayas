@@ -6050,7 +6050,17 @@
         "37",
         "38",
         "39",
-        "40"
+        "40",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
       ],
       "rsantizogomez@gmail.com": [
         "11",
@@ -6162,10 +6172,10 @@
         "rev_id": "1XIHEbpMcTBajhP2goh9J9uoJp07Y7ZUa0_JGgqpdEmg",
         "title": "prelim_cac_5",
         "created": "Oct 15 2026 06:12AM",
-        "last_stage_update": "Oct 23 2026 06:12AM",
+        "last_stage_update": "Oct 24 2026 06:11AM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "SECOND_REVISION",
+        "stage": "TRANSLATION_COMPLETE",
         "packet_idx": 5
       }
     },
