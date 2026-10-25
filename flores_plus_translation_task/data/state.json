@@ -6182,7 +6182,7 @@
     "inactive_translators": {},
     "spent_additional_revisions": 0,
     "translation_complete": false,
-    "prelim_translation": true,
+    "prelim_translation": false,
     "translation_guide": "1_Yy3PX3s1N03S8c23oSL10YuqR8Q8OS_E8mwNr1WJx8",
     "vocab_id": "1S7TvTip5xVDwMPn9O7RJ01sWbuOIL91eC8W_hPMptvI",
     "report": "1-nfTwoIyMc-FLSGsxy2pu6XEyKT1tezEhzpl5jTVKFw"
