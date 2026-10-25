@@ -8785,3 +8785,13 @@ INFO : 2026-10-25 18:08:16,112 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-25 18:08:16,863 Running update on language: kjb
 INFO : 2026-10-25 18:08:18,779 Running update on language: cac
 INFO : 2026-10-25 18:08:18,779 Saving state to file.
+INFO : 2026-10-25 19:10:18,668 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-25 19:10:19,572 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-25 19:10:19,576 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-25 19:10:23,426 Checking vocabulary spreadsheet for updates for lang 'cac'.
+WARNING : 2026-10-25 19:10:24,179 Language 'cac' has no packages ready to work on.
+INFO : 2026-10-25 19:10:32,574 New packet 'cac_0' created for language 'cac' and assigned to translator 'catarinacarmelo796@gmail.com' and revisor 'petulisat24@gmail.com'
+INFO : 2026-10-25 19:10:41,876 New packet 'cac_1' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'
+INFO : 2026-10-25 19:10:41,876 Running update on language: kjb
+INFO : 2026-10-25 19:10:43,870 Running update on language: cac
+INFO : 2026-10-25 19:10:45,674 Saving state to file.

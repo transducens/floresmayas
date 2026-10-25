@@ -6099,8 +6099,28 @@
       "petulisat24@gmail.com": []
     },
     "packets": {
-      "0": null,
-      "1": null,
+      "0": {
+        "tra_id": "1sfwNNwfozIWIqLvuQ-oty5RcVt7pZbmTUdp71-H924w",
+        "rev_id": null,
+        "title": "cac_0",
+        "created": "Oct 25 2026 07:10PM",
+        "last_stage_update": "Oct 25 2026 07:10PM",
+        "translator": "catarinacarmelo796@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 0
+      },
+      "1": {
+        "tra_id": "1zBUKpsrh5g15MZY_qdPHJjdDJ9hsx9hiqTjg1IsWv-A",
+        "rev_id": null,
+        "title": "cac_1",
+        "created": "Oct 25 2026 07:10PM",
+        "last_stage_update": "Oct 25 2026 07:10PM",
+        "translator": "rsantizogomez@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 1
+      },
       "2": null,
       "3": null,
       "4": null,
