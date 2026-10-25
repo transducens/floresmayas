@@ -8757,3 +8757,10 @@ INFO : 2026-10-24 18:08:04,752 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-24 18:08:05,524 Running update on language: kjb
 INFO : 2026-10-24 18:08:07,310 Running update on language: cac
 INFO : 2026-10-24 18:08:07,310 Saving state to file.
+INFO : 2026-10-25 06:11:02,913 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-25 06:11:04,033 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-25 06:11:04,038 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-25 06:11:07,952 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-25 06:11:08,843 Running update on language: kjb
+INFO : 2026-10-25 06:11:10,776 Running update on language: cac
+INFO : 2026-10-25 06:11:10,776 Saving state to file.
