@@ -41,7 +41,7 @@
             "revisor": "rsaqjumay@gmail.com"
         },
         "cac": {
-	    "prelim_translation": true,
+	    "prelim_translation": false,
             "translators": [
                 "catarinacarmelo796@gmail.com",
 		"rsantizogomez@gmail.com"
