@@ -8803,3 +8803,13 @@ INFO : 2026-10-26 06:15:28,696 Running update on language: kjb
 INFO : 2026-10-26 06:15:31,615 Packet 'kjb_7': First revision complete by user 'rsaqjumay@gmail.com'. Submitting for second translation.
 INFO : 2026-10-26 06:15:40,328 Running update on language: cac
 INFO : 2026-10-26 06:15:42,553 Saving state to file.
+INFO : 2026-10-26 14:56:37,356 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-26 14:56:38,711 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-26 14:56:38,717 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-26 14:56:42,732 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-26 14:56:43,786 Running update on language: kjb
+INFO : 2026-10-26 14:56:44,406 Packet 'kjb_7': Second translation complete by user 'sowlifand@gmail.com'. Submitting for second revision.
+INFO : 2026-10-26 14:56:52,641 Checking to see next available packet for user 'sowlifand@gmail.com
+INFO : 2026-10-26 14:57:00,183 New packet 'kjb_9' created for language 'kjb' and assigned to translator 'sowlifand@gmail.com' and revisor 'rsaqjumay@gmail.com'.
+INFO : 2026-10-26 14:57:00,775 Running update on language: cac
+INFO : 2026-10-26 14:57:02,925 Saving state to file.
