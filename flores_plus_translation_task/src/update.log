@@ -8828,3 +8828,10 @@ INFO : 2026-10-27 06:12:55,823 Running update on language: kjb
 INFO : 2026-10-27 06:12:59,687 Packet 'kjb_7': Second revision complete by user 'rsaqjumay@gmail.com'. Translation complete.
 INFO : 2026-10-27 06:13:02,991 Running update on language: cac
 INFO : 2026-10-27 06:13:05,477 Saving state to file.
+INFO : 2026-10-27 14:08:46,099 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-27 14:08:47,352 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-27 14:08:47,357 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-27 14:08:50,498 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-27 14:08:51,700 Running update on language: kjb
+INFO : 2026-10-27 14:08:53,482 Running update on language: cac
+INFO : 2026-10-27 14:08:55,680 Saving state to file.
