@@ -8856,3 +8856,11 @@ INFO : 2026-10-28 14:05:50,406 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-28 14:05:51,806 Running update on language: kjb
 INFO : 2026-10-28 14:05:53,216 Running update on language: cac
 INFO : 2026-10-28 14:05:55,405 Saving state to file.
+INFO : 2026-10-28 18:07:31,791 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-28 18:07:32,823 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-28 18:07:32,828 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-28 18:07:36,462 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-28 18:07:37,967 Running update on language: kjb
+INFO : 2026-10-28 18:07:39,114 Packet 'kjb_9': First translation complete by user 'sowlifand@gmail.com'. Submitting for revision.
+INFO : 2026-10-28 18:07:49,744 Running update on language: cac
+INFO : 2026-10-28 18:07:52,563 Saving state to file.
