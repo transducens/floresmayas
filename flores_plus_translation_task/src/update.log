@@ -8849,3 +8849,10 @@ INFO : 2026-10-28 06:09:36,188 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-10-28 06:09:37,130 Running update on language: kjb
 INFO : 2026-10-28 06:09:38,109 Running update on language: cac
 INFO : 2026-10-28 06:09:40,149 Saving state to file.
+INFO : 2026-10-28 14:05:44,792 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-28 14:05:46,229 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-28 14:05:46,234 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-28 14:05:50,406 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-28 14:05:51,806 Running update on language: kjb
+INFO : 2026-10-28 14:05:53,216 Running update on language: cac
+INFO : 2026-10-28 14:05:55,405 Saving state to file.
