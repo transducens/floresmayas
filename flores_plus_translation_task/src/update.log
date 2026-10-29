@@ -8864,3 +8864,10 @@ INFO : 2026-10-28 18:07:37,967 Running update on language: kjb
 INFO : 2026-10-28 18:07:39,114 Packet 'kjb_9': First translation complete by user 'sowlifand@gmail.com'. Submitting for revision.
 INFO : 2026-10-28 18:07:49,744 Running update on language: cac
 INFO : 2026-10-28 18:07:52,563 Saving state to file.
+INFO : 2026-10-29 06:09:35,722 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-10-29 06:09:36,665 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-10-29 06:09:36,670 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-10-29 06:09:40,126 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-10-29 06:09:41,030 Running update on language: kjb
+INFO : 2026-10-29 06:09:43,085 Running update on language: cac
+INFO : 2026-10-29 06:09:45,957 Saving state to file.
