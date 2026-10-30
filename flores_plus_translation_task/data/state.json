@@ -6054,13 +6054,23 @@
         "rev_id": "1AHIsv4DtrhMfp_rL4uzQV6oPSsaIBElEAGs18fCDgS4",
         "title": "kjb_9",
         "created": "Oct 26 2026 02:57PM",
-        "last_stage_update": "Oct 30 2026 06:09AM",
+        "last_stage_update": "Oct 30 2026 02:06PM",
         "translator": "sowlifand@gmail.com",
         "revisor": "rsaqjumay@gmail.com",
-        "stage": "SECOND_TRANSLATION",
+        "stage": "SECOND_REVISION",
         "packet_idx": 9
       },
-      "10": null
+      "10": {
+        "tra_id": "1VjfZ_2xA0AtAttbyDgy1_m1lNjDrBgzHxzB2WezKUF4",
+        "rev_id": null,
+        "title": "kjb_10",
+        "created": "Oct 30 2026 02:06PM",
+        "last_stage_update": "Oct 30 2026 02:06PM",
+        "translator": "sowlifand@gmail.com",
+        "revisor": "rsaqjumay@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 10
+      }
     },
     "prelim_packets": {
       "0": {
@@ -6131,7 +6141,7 @@
       }
     },
     "inactive_translators": {},
-    "spent_additional_revisions": 97,
+    "spent_additional_revisions": 99,
     "translation_complete": false,
     "prelim_translation": false,
     "translation_guide": "19FEjtQerVesbQrEogNla9eDEtAWrdtSO9cunFQEtrWk",
