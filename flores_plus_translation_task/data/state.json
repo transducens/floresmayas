@@ -6275,13 +6275,13 @@
     "packets": {
       "0": {
         "tra_id": "1sfwNNwfozIWIqLvuQ-oty5RcVt7pZbmTUdp71-H924w",
-        "rev_id": null,
+        "rev_id": "1k0HOFIZC_sBD-IgvrjtZ-t_gLePfeQutn0hF14JwiWE",
         "title": "cac_0",
         "created": "Oct 25 2026 07:10PM",
-        "last_stage_update": "Oct 25 2026 07:10PM",
+        "last_stage_update": "Nov 01 2026 06:07AM",
         "translator": "catarinacarmelo796@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 0
       },
       "1": {
