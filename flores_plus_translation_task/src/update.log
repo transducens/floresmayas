@@ -8940,3 +8940,10 @@ INFO : 2026-11-01 06:07:44,349 Running update on language: kjb
 INFO : 2026-11-01 06:07:45,654 Running update on language: cac
 INFO : 2026-11-01 06:07:46,648 Packet 'cac_0': First translation complete by user 'catarinacarmelo796@gmail.com'. Submitting for revision.
 INFO : 2026-11-01 06:07:59,652 Saving state to file.
+INFO : 2026-11-01 14:04:40,552 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-01 14:04:41,581 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-01 14:04:41,586 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-01 14:04:45,095 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-01 14:04:45,934 Running update on language: kjb
+INFO : 2026-11-01 14:04:46,966 Running update on language: cac
+INFO : 2026-11-01 14:04:49,236 Saving state to file.
