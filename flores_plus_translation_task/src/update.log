@@ -8975,3 +8975,10 @@ INFO : 2026-11-02 18:06:35,540 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-02 18:06:36,410 Running update on language: kjb
 INFO : 2026-11-02 18:06:37,572 Running update on language: cac
 INFO : 2026-11-02 18:06:39,879 Saving state to file.
+INFO : 2026-11-03 06:08:30,592 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-03 06:08:31,519 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-03 06:08:31,523 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-03 06:08:35,336 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-03 06:08:36,186 Running update on language: kjb
+INFO : 2026-11-03 06:08:37,210 Running update on language: cac
+INFO : 2026-11-03 06:08:39,697 Saving state to file.
