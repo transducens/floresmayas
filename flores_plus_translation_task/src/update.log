@@ -9024,3 +9024,10 @@ INFO : 2026-11-05 06:08:57,235 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-05 06:08:58,118 Running update on language: kjb
 INFO : 2026-11-05 06:08:59,270 Running update on language: cac
 INFO : 2026-11-05 06:09:01,840 Saving state to file.
+INFO : 2026-11-05 14:07:33,935 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-05 14:07:35,299 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-05 14:07:35,303 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-05 14:07:39,342 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-05 14:07:40,236 Running update on language: kjb
+INFO : 2026-11-05 14:07:41,409 Running update on language: cac
+INFO : 2026-11-05 14:07:45,664 Saving state to file.
