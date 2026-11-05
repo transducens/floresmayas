@@ -9017,3 +9017,10 @@ INFO : 2026-11-04 18:06:30,186 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-04 18:06:31,234 Running update on language: kjb
 INFO : 2026-11-04 18:06:32,413 Running update on language: cac
 INFO : 2026-11-04 18:06:34,582 Saving state to file.
+INFO : 2026-11-05 06:08:52,212 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-05 06:08:53,350 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-05 06:08:53,357 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-05 06:08:57,235 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-05 06:08:58,118 Running update on language: kjb
+INFO : 2026-11-05 06:08:59,270 Running update on language: cac
+INFO : 2026-11-05 06:09:01,840 Saving state to file.
