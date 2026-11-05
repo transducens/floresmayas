@@ -9031,3 +9031,10 @@ INFO : 2026-11-05 14:07:39,342 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-05 14:07:40,236 Running update on language: kjb
 INFO : 2026-11-05 14:07:41,409 Running update on language: cac
 INFO : 2026-11-05 14:07:45,664 Saving state to file.
+INFO : 2026-11-05 18:05:42,513 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-05 18:05:43,659 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-05 18:05:43,664 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-05 18:05:46,565 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-05 18:05:47,607 Running update on language: kjb
+INFO : 2026-11-05 18:05:49,373 Running update on language: cac
+INFO : 2026-11-05 18:05:51,710 Saving state to file.
