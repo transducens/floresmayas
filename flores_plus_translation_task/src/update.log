@@ -9045,3 +9045,10 @@ INFO : 2026-11-06 06:09:26,116 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-06 06:09:27,103 Running update on language: kjb
 INFO : 2026-11-06 06:09:27,966 Running update on language: cac
 INFO : 2026-11-06 06:09:30,625 Saving state to file.
+INFO : 2026-11-06 14:05:47,606 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-06 14:05:48,643 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-06 14:05:48,647 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-06 14:05:52,479 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-06 14:05:53,521 Running update on language: kjb
+INFO : 2026-11-06 14:05:55,056 Running update on language: cac
+INFO : 2026-11-06 14:05:57,203 Saving state to file.
