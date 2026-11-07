@@ -9073,3 +9073,10 @@ INFO : 2026-11-07 14:04:36,552 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-07 14:04:37,516 Running update on language: kjb
 INFO : 2026-11-07 14:04:38,749 Running update on language: cac
 INFO : 2026-11-07 14:04:41,084 Saving state to file.
+INFO : 2026-11-07 18:05:45,461 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-07 18:05:46,628 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-07 18:05:46,633 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-07 18:05:51,701 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-07 18:05:52,627 Running update on language: kjb
+INFO : 2026-11-07 18:05:54,025 Running update on language: cac
+INFO : 2026-11-07 18:05:56,650 Saving state to file.
