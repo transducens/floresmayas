@@ -9137,3 +9137,10 @@ INFO : 2026-11-10 14:07:38,766 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-10 14:07:39,708 Running update on language: kjb
 INFO : 2026-11-10 14:07:40,972 Running update on language: cac
 INFO : 2026-11-10 14:07:43,699 Saving state to file.
+INFO : 2026-11-10 18:05:23,440 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-10 18:05:24,577 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-10 18:05:24,582 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-10 18:05:28,375 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-10 18:05:29,450 Running update on language: kjb
+INFO : 2026-11-10 18:05:31,172 Running update on language: cac
+INFO : 2026-11-10 18:05:33,548 Saving state to file.
