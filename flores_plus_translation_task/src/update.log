@@ -9144,3 +9144,10 @@ INFO : 2026-11-10 18:05:28,375 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-10 18:05:29,450 Running update on language: kjb
 INFO : 2026-11-10 18:05:31,172 Running update on language: cac
 INFO : 2026-11-10 18:05:33,548 Saving state to file.
+INFO : 2026-11-11 06:08:19,851 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-11 06:08:21,122 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-11 06:08:21,126 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-11 06:08:24,357 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-11 06:08:25,485 Running update on language: kjb
+INFO : 2026-11-11 06:08:26,532 Running update on language: cac
+INFO : 2026-11-11 06:08:28,806 Saving state to file.
