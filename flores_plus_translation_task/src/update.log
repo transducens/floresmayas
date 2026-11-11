@@ -9151,3 +9151,10 @@ INFO : 2026-11-11 06:08:24,357 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-11 06:08:25,485 Running update on language: kjb
 INFO : 2026-11-11 06:08:26,532 Running update on language: cac
 INFO : 2026-11-11 06:08:28,806 Saving state to file.
+INFO : 2026-11-11 18:06:05,096 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-11 18:06:06,334 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-11 18:06:06,339 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-11 18:06:09,542 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-11 18:06:10,571 Running update on language: kjb
+INFO : 2026-11-11 18:06:11,645 Running update on language: cac
+INFO : 2026-11-11 18:06:13,961 Saving state to file.
