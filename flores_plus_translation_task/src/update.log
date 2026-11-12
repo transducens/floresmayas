@@ -9165,3 +9165,10 @@ INFO : 2026-11-12 06:08:43,061 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-12 06:08:43,939 Running update on language: kjb
 INFO : 2026-11-12 06:08:44,837 Running update on language: cac
 INFO : 2026-11-12 06:08:47,038 Saving state to file.
+INFO : 2026-11-12 14:05:41,032 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-12 14:05:42,042 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-12 14:05:42,046 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-12 14:05:46,422 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-12 14:05:47,336 Running update on language: kjb
+INFO : 2026-11-12 14:05:48,966 Running update on language: cac
+INFO : 2026-11-12 14:05:51,469 Saving state to file.
