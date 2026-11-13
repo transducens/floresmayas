@@ -9179,3 +9179,10 @@ INFO : 2026-11-12 18:06:31,594 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-12 18:06:33,202 Running update on language: kjb
 INFO : 2026-11-12 18:06:34,535 Running update on language: cac
 INFO : 2026-11-12 18:06:36,856 Saving state to file.
+INFO : 2026-11-13 06:08:30,486 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-13 06:08:32,012 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-13 06:08:32,017 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-13 06:08:35,970 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-13 06:08:36,897 Running update on language: kjb
+INFO : 2026-11-13 06:08:38,314 Running update on language: cac
+INFO : 2026-11-13 06:08:40,647 Saving state to file.
