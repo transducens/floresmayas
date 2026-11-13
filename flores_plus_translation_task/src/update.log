@@ -9186,3 +9186,10 @@ INFO : 2026-11-13 06:08:35,970 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-13 06:08:36,897 Running update on language: kjb
 INFO : 2026-11-13 06:08:38,314 Running update on language: cac
 INFO : 2026-11-13 06:08:40,647 Saving state to file.
+INFO : 2026-11-13 18:06:05,069 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-13 18:06:06,303 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-13 18:06:06,308 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-13 18:06:09,558 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-13 18:06:10,523 Running update on language: kjb
+INFO : 2026-11-13 18:06:11,834 Running update on language: cac
+INFO : 2026-11-13 18:06:14,412 Saving state to file.
