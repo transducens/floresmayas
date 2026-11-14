@@ -9207,3 +9207,10 @@ INFO : 2026-11-14 14:04:21,341 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-14 14:04:22,420 Running update on language: kjb
 INFO : 2026-11-14 14:04:23,712 Running update on language: cac
 INFO : 2026-11-14 14:04:27,193 Saving state to file.
+INFO : 2026-11-14 18:05:57,597 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-14 18:05:58,808 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-14 18:05:58,811 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-14 18:06:02,189 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-14 18:06:03,288 Running update on language: kjb
+INFO : 2026-11-14 18:06:04,752 Running update on language: cac
+INFO : 2026-11-14 18:06:07,971 Saving state to file.
