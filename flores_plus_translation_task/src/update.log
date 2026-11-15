@@ -9229,3 +9229,10 @@ INFO : 2026-11-15 14:04:23,945 Running update on language: kjb
 INFO : 2026-11-15 14:04:25,535 Running update on language: cac
 INFO : 2026-11-15 14:04:29,410 Packet 'cac_0': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
 INFO : 2026-11-15 14:04:33,295 Saving state to file.
+INFO : 2026-11-15 18:05:46,273 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-15 18:05:47,561 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-15 18:05:47,565 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-15 18:05:50,870 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-15 18:05:51,904 Running update on language: kjb
+INFO : 2026-11-15 18:05:53,006 Running update on language: cac
+INFO : 2026-11-15 18:05:54,959 Saving state to file.
