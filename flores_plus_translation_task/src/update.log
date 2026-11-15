@@ -9214,3 +9214,10 @@ INFO : 2026-11-14 18:06:02,189 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-14 18:06:03,288 Running update on language: kjb
 INFO : 2026-11-14 18:06:04,752 Running update on language: cac
 INFO : 2026-11-14 18:06:07,971 Saving state to file.
+INFO : 2026-11-15 06:08:10,435 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-15 06:08:11,436 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-15 06:08:11,441 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-15 06:08:14,940 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-15 06:08:15,836 Running update on language: kjb
+INFO : 2026-11-15 06:08:16,926 Running update on language: cac
+INFO : 2026-11-15 06:08:19,135 Saving state to file.
