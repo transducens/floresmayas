@@ -9244,3 +9244,11 @@ INFO : 2026-11-16 06:12:48,798 Running update on language: kjb
 INFO : 2026-11-16 06:12:49,262 Packet 'kjb_8': First translation complete by user 'antilesmarcos@gmail.com'. Submitting for revision.
 INFO : 2026-11-16 06:12:57,663 Running update on language: cac
 INFO : 2026-11-16 06:12:59,496 Saving state to file.
+INFO : 2026-11-16 14:15:52,181 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-16 14:15:53,383 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-16 14:15:53,391 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-16 14:15:56,313 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-16 14:15:57,352 Running update on language: kjb
+INFO : 2026-11-16 14:15:59,253 Running update on language: cac
+INFO : 2026-11-16 14:16:04,666 Packet 'cac_1': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
+INFO : 2026-11-16 14:16:08,172 Saving state to file.
