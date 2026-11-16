@@ -9252,3 +9252,11 @@ INFO : 2026-11-16 14:15:57,352 Running update on language: kjb
 INFO : 2026-11-16 14:15:59,253 Running update on language: cac
 INFO : 2026-11-16 14:16:04,666 Packet 'cac_1': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
 INFO : 2026-11-16 14:16:08,172 Saving state to file.
+INFO : 2026-11-16 18:06:22,432 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-16 18:06:23,476 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-16 18:06:23,481 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-16 18:06:27,548 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-16 18:06:28,569 Running update on language: kjb
+INFO : 2026-11-16 18:06:30,148 Packet 'kjb_10': First translation complete by user 'sowlifand@gmail.com'. Submitting for revision.
+INFO : 2026-11-16 18:06:41,694 Running update on language: cac
+INFO : 2026-11-16 18:06:44,450 Saving state to file.
