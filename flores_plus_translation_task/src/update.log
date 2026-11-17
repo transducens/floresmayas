@@ -9273,3 +9273,10 @@ INFO : 2026-11-17 06:09:01,664 Packet 'cac_1': Second translation complete by us
 INFO : 2026-11-17 06:09:09,048 Checking to see next available packet for user 'rsantizogomez@gmail.com
 INFO : 2026-11-17 06:09:19,210 New packet 'cac_3' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-11-17 06:09:19,210 Saving state to file.
+INFO : 2026-11-17 14:05:51,588 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-17 14:05:53,193 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-17 14:05:53,197 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-17 14:05:56,277 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-17 14:05:57,039 Running update on language: kjb
+INFO : 2026-11-17 14:05:59,400 Running update on language: cac
+INFO : 2026-11-17 14:06:06,493 Saving state to file.
