@@ -9301,3 +9301,11 @@ INFO : 2026-11-18 14:05:24,124 Checking vocabulary spreadsheet for updates for l
 INFO : 2026-11-18 14:05:25,145 Running update on language: kjb
 INFO : 2026-11-18 14:05:28,766 Running update on language: cac
 INFO : 2026-11-18 14:05:34,819 Saving state to file.
+INFO : 2026-11-18 18:05:56,500 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-18 18:05:58,375 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-18 18:05:58,379 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-18 18:06:02,671 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-18 18:06:03,675 Running update on language: kjb
+INFO : 2026-11-18 18:06:06,766 Running update on language: cac
+INFO : 2026-11-18 18:06:10,212 Packet 'cac_0': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-11-18 18:06:15,666 Saving state to file.
