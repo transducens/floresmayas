@@ -6408,13 +6408,13 @@
       },
       "3": {
         "tra_id": "1Chsqm5R4qb-jCF3tepRgqsGlHEkawXgxeCQ3mfVgK7Y",
-        "rev_id": null,
+        "rev_id": "1q7K1hgyFztFH8t4IK2xvBWuS-074bAfUyIhK7JxvwCg",
         "title": "cac_3",
         "created": "Nov 17 2026 06:09AM",
-        "last_stage_update": "Nov 17 2026 06:09AM",
+        "last_stage_update": "Nov 19 2026 06:08AM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 3
       },
       "4": null,
