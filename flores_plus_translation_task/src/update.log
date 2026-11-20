@@ -9339,3 +9339,13 @@ INFO : 2026-11-20 06:08:44,267 Running update on language: kjb
 INFO : 2026-11-20 06:08:46,770 Running update on language: cac
 INFO : 2026-11-20 06:08:50,716 Packet 'cac_2': First translation complete by user 'catarinacarmelo796@gmail.com'. Submitting for revision.
 INFO : 2026-11-20 06:09:02,133 Saving state to file.
+INFO : 2026-11-20 14:05:32,576 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-20 14:05:33,564 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-20 14:05:33,569 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-20 14:05:37,627 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-20 14:05:38,519 Running update on language: kjb
+INFO : 2026-11-20 14:05:42,147 Packet 'kjb_8': First revision complete by user 'rsaqjumay@gmail.com'. Submitting for second translation.
+INFO : 2026-11-20 14:05:47,213 Packet 'kjb_10': First revision complete by user 'rsaqjumay@gmail.com'. Submitting for second translation.
+INFO : 2026-11-20 14:05:48,392 Running update on language: cac
+INFO : 2026-11-20 14:05:52,346 Packet 'cac_1': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
+INFO : 2026-11-20 14:05:55,482 Saving state to file.
