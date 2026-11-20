@@ -9349,3 +9349,16 @@ INFO : 2026-11-20 14:05:47,213 Packet 'kjb_10': First revision complete by user 
 INFO : 2026-11-20 14:05:48,392 Running update on language: cac
 INFO : 2026-11-20 14:05:52,346 Packet 'cac_1': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
 INFO : 2026-11-20 14:05:55,482 Saving state to file.
+INFO : 2026-11-20 18:06:22,354 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-20 18:06:23,565 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-20 18:06:23,569 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-20 18:06:28,124 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-20 18:06:29,066 Running update on language: kjb
+INFO : 2026-11-20 18:06:30,016 Packet 'kjb_8': Second translation complete by user 'antilesmarcos@gmail.com'. Submitting for second revision.
+INFO : 2026-11-20 18:06:36,144 Checking to see next available packet for user 'antilesmarcos@gmail.com
+INFO : 2026-11-20 18:06:36,144 Langage 'kjb' has no unassigned packets left.
+INFO : 2026-11-20 18:06:37,226 Packet 'kjb_10': Second translation complete by user 'sowlifand@gmail.com'. Submitting for second revision.
+INFO : 2026-11-20 18:06:41,246 Checking to see next available packet for user 'sowlifand@gmail.com
+INFO : 2026-11-20 18:06:41,246 Langage 'kjb' has no unassigned packets left.
+INFO : 2026-11-20 18:06:41,246 Running update on language: cac
+INFO : 2026-11-20 18:06:43,745 Saving state to file.
