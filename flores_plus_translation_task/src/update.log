@@ -9371,3 +9371,13 @@ INFO : 2026-11-21 06:07:44,022 Packet 'kjb_8': Second revision complete by user 
 INFO : 2026-11-21 06:07:47,956 Packet 'kjb_10': Second revision complete by user 'rsaqjumay@gmail.com'. Translation complete.
 INFO : 2026-11-21 06:07:49,399 Running update on language: cac
 INFO : 2026-11-21 06:07:51,935 Saving state to file.
+INFO : 2026-11-21 14:04:30,909 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-21 14:04:31,945 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-21 14:04:31,950 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-21 14:04:31,953 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-21 14:04:33,463 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-11-21 14:04:33,463 No unassigned packets lefts.
+INFO : 2026-11-21 14:04:33,463 Running update on language: kjb
+INFO : 2026-11-21 14:04:33,463 Running update on language: cac
+INFO : 2026-11-21 14:04:39,723 Packet 'cac_3': First revision complete by user 'petulisat24@gmail.com'. Submitting for second translation.
+INFO : 2026-11-21 14:04:41,635 Saving state to file.
