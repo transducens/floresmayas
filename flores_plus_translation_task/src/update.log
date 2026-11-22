@@ -9393,3 +9393,12 @@ INFO : 2026-11-21 18:05:34,222 Packet 'cac_3': Second translation complete by us
 INFO : 2026-11-21 18:05:41,179 Checking to see next available packet for user 'rsantizogomez@gmail.com
 INFO : 2026-11-21 18:05:51,847 New packet 'cac_4' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-11-21 18:05:51,847 Saving state to file.
+INFO : 2026-11-22 06:08:04,453 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-22 06:08:05,607 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-22 06:08:05,612 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-22 06:08:05,615 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-22 06:08:06,598 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-11-22 06:08:06,598 No unassigned packets lefts.
+INFO : 2026-11-22 06:08:06,598 Running update on language: kjb
+INFO : 2026-11-22 06:08:06,599 Running update on language: cac
+INFO : 2026-11-22 06:08:10,401 Saving state to file.
