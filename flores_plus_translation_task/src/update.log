@@ -9411,3 +9411,12 @@ INFO : 2026-11-22 14:04:44,275 No unassigned packets lefts.
 INFO : 2026-11-22 14:04:44,275 Running update on language: kjb
 INFO : 2026-11-22 14:04:44,275 Running update on language: cac
 INFO : 2026-11-22 14:04:47,873 Saving state to file.
+INFO : 2026-11-22 18:05:57,098 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-22 18:05:58,338 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-22 18:05:58,341 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-22 18:05:58,344 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-22 18:05:59,489 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-11-22 18:05:59,489 No unassigned packets lefts.
+INFO : 2026-11-22 18:05:59,489 Running update on language: kjb
+INFO : 2026-11-22 18:05:59,489 Running update on language: cac
+INFO : 2026-11-22 18:06:04,214 Saving state to file.
