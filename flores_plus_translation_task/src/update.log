@@ -9420,3 +9420,6 @@ INFO : 2026-11-22 18:05:59,489 No unassigned packets lefts.
 INFO : 2026-11-22 18:05:59,489 Running update on language: kjb
 INFO : 2026-11-22 18:05:59,489 Running update on language: cac
 INFO : 2026-11-22 18:06:04,214 Saving state to file.
+INFO : 2026-11-22 18:25:21,060 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-22 18:25:22,548 Running update on language: cac
+INFO : 2026-11-22 18:25:26,373 Saving state to file.
