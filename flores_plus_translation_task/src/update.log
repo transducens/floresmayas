@@ -9402,3 +9402,12 @@ INFO : 2026-11-22 06:08:06,598 No unassigned packets lefts.
 INFO : 2026-11-22 06:08:06,598 Running update on language: kjb
 INFO : 2026-11-22 06:08:06,599 Running update on language: cac
 INFO : 2026-11-22 06:08:10,401 Saving state to file.
+INFO : 2026-11-22 14:04:42,235 Checking vocabulary spreadsheet for updates for lang 'kjb'.
+INFO : 2026-11-22 14:04:43,221 Updating vocabulary file for lang 'kjb'.
+INFO : 2026-11-22 14:04:43,226 Updating current packets with new vocabulary for language 'kjb'.
+INFO : 2026-11-22 14:04:43,229 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-22 14:04:44,275 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-11-22 14:04:44,275 No unassigned packets lefts.
+INFO : 2026-11-22 14:04:44,275 Running update on language: kjb
+INFO : 2026-11-22 14:04:44,275 Running update on language: cac
+INFO : 2026-11-22 14:04:47,873 Saving state to file.
