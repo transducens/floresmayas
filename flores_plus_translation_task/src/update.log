@@ -9426,3 +9426,6 @@ INFO : 2026-11-22 18:25:26,373 Saving state to file.
 INFO : 2026-11-23 06:11:09,535 Checking vocabulary spreadsheet for updates for lang 'cac'.
 INFO : 2026-11-23 06:11:10,613 Running update on language: cac
 INFO : 2026-11-23 06:11:13,826 Saving state to file.
+INFO : 2026-11-23 14:06:23,101 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-23 14:06:24,355 Running update on language: cac
+INFO : 2026-11-23 14:06:28,015 Saving state to file.
