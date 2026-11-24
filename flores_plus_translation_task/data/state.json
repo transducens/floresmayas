@@ -6665,13 +6665,13 @@
       },
       "4": {
         "tra_id": "1uWnOMG7Q1Qjs6P9qvbJRBOJBhWY8oDtPUDm5zvFcO_4",
-        "rev_id": null,
+        "rev_id": "1_TtK2SCLDe0sUyR3S3P7f1JnPlzThyJ_3PAINUbYR2s",
         "title": "cac_4",
         "created": "Nov 21 2026 06:05PM",
-        "last_stage_update": "Nov 21 2026 06:05PM",
+        "last_stage_update": "Nov 24 2026 06:08AM",
         "translator": "rsantizogomez@gmail.com",
         "revisor": "petulisat24@gmail.com",
-        "stage": "FIRST_TRANSLATION",
+        "stage": "FIRST_REVISION",
         "packet_idx": 4
       },
       "5": null,
