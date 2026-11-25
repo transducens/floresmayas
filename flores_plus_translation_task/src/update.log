@@ -9446,3 +9446,6 @@ INFO : 2026-11-24 18:06:01,373 Packet 'cac_2': Second translation complete by us
 INFO : 2026-11-24 18:06:06,445 Checking to see next available packet for user 'catarinacarmelo796@gmail.com
 INFO : 2026-11-24 18:06:16,857 New packet 'cac_5' created for language 'cac' and assigned to translator 'catarinacarmelo796@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-11-24 18:06:18,913 Saving state to file.
+INFO : 2026-11-25 06:08:39,345 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-25 06:08:40,502 Running update on language: cac
+INFO : 2026-11-25 06:08:45,612 Saving state to file.
