@@ -9470,3 +9470,8 @@ INFO : 2026-11-27 11:53:44,740 Packet 'cac_2': Second revision complete by user 
 INFO : 2026-11-27 11:53:49,535 Packet 'cac_3': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
 INFO : 2026-11-27 11:53:54,286 Packet 'cac_4': Second revision complete by user 'petulisat24@gmail.com'. Translation complete.
 INFO : 2026-11-27 11:53:56,262 Saving state to file.
+INFO : 2026-11-27 12:00:01,047 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-27 12:00:02,002 Found 1 unassigned translator(s). Assigning them a packet to work on.
+INFO : 2026-11-27 12:00:13,827 New packet 'cac_6' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'.
+INFO : 2026-11-27 12:00:13,827 Running update on language: cac
+INFO : 2026-11-27 12:00:15,205 Saving state to file.

@@ -6985,7 +6985,17 @@
         "stage": "FIRST_TRANSLATION",
         "packet_idx": 5
       },
-      "6": null,
+      "6": {
+        "tra_id": "1BacUeXA5MzPR13IRw2-UsE2SZ5YAG5_Z9LN9snK30EM",
+        "rev_id": null,
+        "title": "cac_6",
+        "created": "Nov 27 2026 12:00PM",
+        "last_stage_update": "Nov 27 2026 12:00PM",
+        "translator": "rsantizogomez@gmail.com",
+        "revisor": "petulisat24@gmail.com",
+        "stage": "FIRST_TRANSLATION",
+        "packet_idx": 6
+      },
       "7": null,
       "8": null,
       "9": null,
