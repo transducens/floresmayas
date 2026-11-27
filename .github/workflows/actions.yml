@@ -45,7 +45,7 @@ jobs:
         run: |
           cd flores_plus_translation_task/src
           echo $AUTH_TOKEN > token.json
-          python update_packets.py 
+          python -u update_packets.py 
 
       - name: commit files
         run: |
