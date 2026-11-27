@@ -9475,3 +9475,6 @@ INFO : 2026-11-27 12:00:02,002 Found 1 unassigned translator(s). Assigning them 
 INFO : 2026-11-27 12:00:13,827 New packet 'cac_6' created for language 'cac' and assigned to translator 'rsantizogomez@gmail.com' and revisor 'petulisat24@gmail.com'.
 INFO : 2026-11-27 12:00:13,827 Running update on language: cac
 INFO : 2026-11-27 12:00:15,205 Saving state to file.
+INFO : 2026-11-27 14:05:32,944 Checking vocabulary spreadsheet for updates for lang 'cac'.
+INFO : 2026-11-27 14:05:33,893 Running update on language: cac
+INFO : 2026-11-27 14:05:36,151 Saving state to file.
